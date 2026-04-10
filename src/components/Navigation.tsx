@@ -7,11 +7,12 @@ import {
     FaYoutube,
     FaTiktok 
 } from "react-icons/fa6";
-import { FaHospital, FaUserDoctor, FaSyringe } from "react-icons/fa6";
+
+import NavForMobile from "./NavForMobile";
+import NavForDesktop from "./NavForDesktop";
 
 export default function Navigation() {
   const [open, setOpen] = useState(false);
-  const [megaOpen, setMegaOpen] = useState(false);
 
   return (
     <div className="nav-div">
@@ -54,57 +55,8 @@ export default function Navigation() {
 
         {/* MENU */}
         <ul className={`nav-menu ${open ? "active" : ""}`}>
-          {/* DROPDOWN ITEM */}
-          <li
-            className="mega-wrapper"
-            onMouseEnter={() => setMegaOpen(true)}
-            onMouseLeave={() => setMegaOpen(false)}
-            >
-            <a href="#" className="nav-link active">
-                Explore our network
-            </a>
-
-            {/* MEGA MENU */}
-            <div className={`mega-menu ${megaOpen ? "show" : ""}`}>
-
-                {/* arrow */}
-                <div className="mega-arrow"></div>
-
-                <div className="mega-grid">
-                    <strong>Explore our Network</strong>
-                    <div className="mega-item">
-                        <FaHospital className="social-icon" />
-                        <div>
-                        <h4>Our Hospitals & Other Facilities</h4>
-                        <p>Meet who make up our network.</p>
-                        </div>
-                    </div>
-
-                    <div className="mega-item">
-                        <FaUserDoctor className="social-icon" />
-                        <div>
-                        <h4>Find a Doctor</h4>
-                        <p>Find the doctor who fits your needs.</p>
-                        </div>
-                    </div>
-
-                    <div className="mega-item">
-                        <FaSyringe className="social-icon" />
-                        <div>
-                        <h4>Our Services</h4>
-                        <p>Browse the services offered by our partners.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </li>
-
-          <li><a href="#">Learn the latest on MPH</a></li>
-          <li><a href="#">Be part of the network</a></li>
-          <li><a href="#">Watch and scroll</a></li>
-          <li><a href="#">Grow with us</a></li>
-          <li><a href="#">Get in touch</a></li>
-
+          <NavForDesktop />
+          <NavForMobile />
         </ul>
       </nav>
     </div>

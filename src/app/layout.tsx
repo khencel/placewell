@@ -6,6 +6,8 @@ import Navigation from "@/components/Navigation";
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+import BootstrapClient from "@/components/bootstrap-client";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -29,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body style={{margin:"0px"}}>
+        <BootstrapClient />
         <CustomHR />
         <Navigation />
         
