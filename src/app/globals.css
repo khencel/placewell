@@ -88,6 +88,27 @@
 .forMobile{
     display: none;
 }
+
+/* width ng scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* background */
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+/* scroll thumb (yung gumagalaw) */
+::-webkit-scrollbar-thumb {
+  background: #448153;
+  border-radius: 10px;
+}
+
+/* hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 /* =====================
    MOBILE ONLY
 ===================== */
@@ -103,7 +124,7 @@
     }
 
     .nav-menu.active {
-        max-height: 500px;
+        max-height: 700px;
         padding: 10px 0;
         transform: translateY(0);
     }
