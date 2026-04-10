@@ -7,16 +7,14 @@ import Navigation from "@/components/Navigation";
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import BootstrapClient from "@/components/bootstrap-client";
+import { Montserrat } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const montserrat = Montserrat({
+        subsets: ["latin"]
+    });
+
+
 
 export const metadata: Metadata = {
   title: "Placewell International",
@@ -29,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body style={{margin:"0px"}}>
+    <html lang="en">
+      <body style={{margin:"0px"}} className={`${montserrat.className} font-sans`}>
         <BootstrapClient />
         <CustomHR />
         <Navigation />

@@ -2,9 +2,11 @@
 import { useState } from "react";
 import { FaHospital, FaUserDoctor, FaSyringe } from "react-icons/fa6";
 
+
 export default function NavForDesktop() {
     const [megaOpen, setMegaOpen] = useState(false);
     const [megaOpen2, setMegaOpen2] = useState(false);
+    
     return (
         <>
             <li className="d-none d-md-block"><a href="">Home</a></li>
