@@ -41,12 +41,18 @@
     list-style: none;
     /* font-family: Montserrat, sans-serif; */
     width: 100%;
+    
 }
 
 .nav-menu li a {
   text-decoration: none;
-  color: #333;
-  font-size: 18px;
+  color: #448153;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-menu li a:hover {
+  color: #8F6843;
 }
 
 .for-mobile{
@@ -177,6 +183,13 @@
     .forMobile{
         display: block;
         margin-left: 10px;
+        color: #448153;
+        font-weight: 600;
+    }
+
+    .forMobile:hover{
+        color: #8F6843;
+       
     }
     
 }
@@ -354,6 +367,11 @@
     padding: 0px !important;
     flex-direction: row-reverse;
     justify-content: flex-end;
+    color: #448153 !important;
+}
+
+.accordion-button:hover{
+    color: #8F6843 !important;
 }
 
 .accordion-button::after {

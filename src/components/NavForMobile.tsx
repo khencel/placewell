@@ -51,7 +51,7 @@ export default function navFormMobile() {
                     <div className="">
                     
                         <span className="accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                        Our Services
+                        Engage With Us
                         </span>
                     
                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -88,10 +88,10 @@ export default function navFormMobile() {
                     
                 </div>
             </li>
-            <li className="forMobile"><div className="ms-2">Grow with us</div></li>
-            <li className="forMobile"><div className="ms-2">Get in touch</div></li>
-            <li className="forMobile"><div className="ms-2">Get in touch</div></li>
-            <li className="forMobile"><div className="ms-2">Get in touch</div></li>
+            <li className="forMobile"><div className="ms-2">Our Training Centers</div></li>
+            <li className="forMobile"><div className="ms-2">Testimonials</div></li>
+            <li className="forMobile"><div className="ms-2">Gallery</div></li>
+            <li className="forMobile"><div className="ms-2">Contact Us</div></li>
         </>
     )
 }

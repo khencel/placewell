@@ -59,7 +59,7 @@ export default function NavForDesktop() {
                 onMouseLeave={() => setMegaOpen2(false)}
                 >
                 <a href="#" className="nav-link active">
-                    Our Services
+                    Engage With Us
                 </a>
 
                 <div className={`mega-menu ${megaOpen2 ? "show" : ""}`}>
@@ -96,10 +96,10 @@ export default function NavForDesktop() {
                 </div>
             </li>
 
-            <li className="d-none d-md-block"><a href="#">Grow with us</a></li>
-            <li className="d-none d-md-block"><a href="#">Get in touch</a></li>
-            <li className="d-none d-md-block"><a href="#">Get in touch</a></li>
-            <li className="d-none d-md-block"><a href="#">Get in touch</a></li>
+            <li className="d-none d-md-block"><a href="#">Our Training Centers</a></li>
+            <li className="d-none d-md-block"><a href="#">Testimonials</a></li>
+            <li className="d-none d-md-block"><a href="#">Gallery</a></li>
+            <li className="d-none d-md-block"><a href="#">Contact Us</a></li>
         </>
     )
 }
