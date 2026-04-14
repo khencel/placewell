@@ -91,8 +91,17 @@
     height: auto;
     min-height: 100vh;
     padding: 60px 20px;
+    min-height: 200px;
     text-align: center;
     justify-content: center;
+    background: none;
+  }
+
+  .heroRight{
+    height: auto;
+    min-height: 100vh;
+    padding: 60px 20px;
+    min-height: 200px;
     background: none;
   }
 
@@ -122,6 +131,10 @@
 
   .videoCard{
     height: 230px !important;
+  }
+
+  .swiper {
+    height: 337px;
   }
 }
 
