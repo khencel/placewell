@@ -9,7 +9,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import BootstrapClient from "@/components/bootstrap-client";
 import { Montserrat } from "next/font/google";
 
-
+import "../../node_modules/swiper/swiper-bundle.min.css";
 
 const montserrat = Montserrat({
         subsets: ["latin"]

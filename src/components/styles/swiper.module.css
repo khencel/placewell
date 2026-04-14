@@ -9,6 +9,18 @@
   color: #448153;
 }
 
+.heroRight {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url('/img/test5.png') center/contain no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 8%;
+  color: #448153;
+}
+
 /* content */
 .content {
   position: relative;
@@ -67,6 +79,9 @@
   color: white;
 }
 
+
+
+
 /* =========================
    MOBILE RESPONSIVE
 ========================= */
@@ -104,4 +119,11 @@
     width: 100%;
     max-width: 250px;
   }
+
+  .videoCard{
+    height: 230px !important;
+  }
 }
+
+
+

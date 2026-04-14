@@ -9,34 +9,41 @@ export default function navFormMobile() {
                     <div className="">
                     
                         <span className="accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        About Our Company
+                        About Us
                         </span>
                     
                         <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
                                 <div className="mega-grid">
-                                <strong>Explore our Network</strong>
+                                <strong>About Us</strong>
                                 <div className="mega-item">
                                     <FaHospital className="social-icon" />
                                     <div>
-                                    <h4>Our Hospitals & Other Facilities</h4>
-                                    <p>Meet who make up our network.</p>
+                                    <h4>Corporate Identity</h4>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
 
                                 <div className="mega-item">
                                     <FaUserDoctor className="social-icon" />
                                     <div>
-                                    <h4>Find a Doctor</h4>
-                                    <p>Find the doctor who fits your needs.</p>
+                                    <h4>Our Services</h4>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
 
                                 <div className="mega-item">
                                     <FaSyringe className="social-icon" />
                                     <div>
-                                    <h4>Our Services</h4>
-                                    <p>Browse the services offered by our partners.</p>
+                                    <h4>Branch Offices</h4>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div className="mega-item">
+                                    <FaSyringe className="social-icon" />
+                                    <div>
+                                    <h4>Worldwide Careers</h4>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
                             </div>
@@ -46,50 +53,103 @@ export default function navFormMobile() {
                     
                 </div>
             </li>
+
+            <li className="forMobile"><div className="ms-2">Engage with Us</div></li>
+
             <li className="forMobile">
                 <div className="accordion forMobile" id="accordionExample">
                     <div className="">
                     
                         <span className="accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                        Engage With Us
+                        Facilities and Divisions 
                         </span>
                     
                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
                                 <div className="mega-grid">
-                                <strong>Explore our Network</strong>
-                                <div className="mega-item">
-                                    <FaHospital className="social-icon" />
-                                    <div>
-                                    <h4>Our Hospitals & Other Facilities</h4>
-                                    <p>Meet who make up our network.</p>
+                                    <strong>Facilities and Divisions</strong>
+                                    <div className="mega-item">
+                                        <FaHospital className="social-icon" />
+                                        <div>
+                                        <h4>Main Office</h4>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div className="mega-item">
-                                    <FaUserDoctor className="social-icon" />
-                                    <div>
-                                    <h4>Find a Doctor</h4>
-                                    <p>Find the doctor who fits your needs.</p>
+                                    <div className="mega-item">
+                                        <FaUserDoctor className="social-icon" />
+                                        <div>
+                                        <h4>Branch Offices</h4>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div className="mega-item">
-                                    <FaSyringe className="social-icon" />
-                                    <div>
-                                    <h4>Our Services</h4>
-                                    <p>Browse the services offered by our partners.</p>
+                                    <div className="mega-item">
+                                        <FaSyringe className="social-icon" />
+                                        <div>
+                                        <h4>Dormitory</h4>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="mega-item">
+                                        <FaSyringe className="social-icon" />
+                                        <div>
+                                        <h4>Pro-Tech Skills</h4>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="mega-item">
+                                        <FaSyringe className="social-icon" />
+                                        <div>
+                                        <h4>Hashira Skills</h4>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
                             </div>
                         </div>
                     </div>
                     
                 </div>
             </li>
-            <li className="forMobile"><div className="ms-2">Our Training Centers</div></li>
-            <li className="forMobile"><div className="ms-2">Testimonials</div></li>
+            
+            <li className="forMobile">
+                <div className="accordion forMobile" id="accordionExample">
+                    <div className="">
+                    
+                        <span className="accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        TESTIMONIALS 
+                        </span>
+                    
+                        <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div className="accordion-body">
+                                <div className="mega-grid">
+                                    <strong>TESTIMONIALS</strong>
+                                    <div className="mega-item">
+                                        <FaHospital className="social-icon" />
+                                        <div>
+                                        <h4>Client TesDmonials</h4>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="mega-item">
+                                        <FaUserDoctor className="social-icon" />
+                                        <div>
+                                        <h4>OFW Testimonials</h4>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </li>
             <li className="forMobile"><div className="ms-2">Gallery</div></li>
             <li className="forMobile"><div className="ms-2">Contact Us</div></li>
         </>

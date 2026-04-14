@@ -189,10 +189,11 @@
 
     .forMobile:hover{
         color: #8F6843;
-       
     }
+
     
 }
+
 
 
 .brand-stripe {
@@ -381,4 +382,27 @@
 
 .accordion-button:not(.collapsed) {
     background-color: white !important;
+}
+
+.swiper {
+  z-index: 10 !important;
+}
+
+.swiper-button-next{
+    
+    color: #448153 !important;
+    
+}
+
+.swiper-button-prev{
+    
+    color: #448153 !important;
+    
+}
+
+.test{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 4.2%;
 }
