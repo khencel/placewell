@@ -1,0 +1,176 @@
+.footer {
+  background: #448153;
+  color: white;
+  padding: 60px 80px 30px;
+}
+
+/* TOP SECTION */
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* LOGO */
+.logo h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo span {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* LINKS */
+.links {
+  display: flex;
+  gap: 80px;
+}
+
+.links p {
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.links p:hover {
+  text-decoration: underline;
+}
+
+/* RIGHT SECTION */
+.right {
+  text-align: right;
+}
+
+.connect {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* SOCIAL ICONS (placeholder) */
+.socials {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.socials span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  /* border: 1px solid white; */
+  border-radius: 50%;
+}
+
+/* BADGE */
+.badge {
+  margin-top: 10px;
+}
+
+/* DIVIDER */
+.divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 40px 0 20px;
+}
+
+/* BOTTOM */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomLeft {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+}
+
+.bottomRight {
+  font-size: 14px;
+}
+
+/* =========================
+   RESPONSIVE (TABLET)
+========================= */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 50px 40px 25px;
+  }
+
+  .links {
+    gap: 40px;
+  }
+}
+
+/* =========================
+   RESPONSIVE (MOBILE)
+========================= */
+@media (max-width: 768px) {
+  .topSection {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .logo h2 {
+    font-size: 18px;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .links div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right {
+    width: 100%;
+    text-align: left;
+  }
+
+  .socials {
+    justify-content: flex-start;
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .bottomLeft {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+/* =========================
+   EXTRA SMALL DEVICES
+========================= */
+@media (max-width: 480px) {
+  .footer {
+    padding: 40px 20px 20px;
+  }
+
+  .links p {
+    font-size: 13px;
+  }
+
+  .bottomLeft p {
+    font-size: 13px;
+  }
+
+  .connect {
+    font-size: 11px;
+  }
+}
