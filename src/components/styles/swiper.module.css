@@ -80,6 +80,17 @@
 }
 
 
+.whyStyleDiv{
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.imgStyle{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+
 
 
 /* =========================

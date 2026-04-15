@@ -8,6 +8,8 @@ import { CSSProperties } from "react";
 import CustomHR from "@/components/CustomHR";
 import Rolling from "@/components/Rolling";
 import { getRollingData, getWhyHireFilipino } from "@/data/homepage";
+import WhyPlacewell from "@/components/WhyPlacewell";
+import WhyHire from "@/components/WhyHire";
 
 
 export default function Home() {
@@ -152,27 +154,13 @@ export default function Home() {
         
         
     </section>
+    
+    <WhyPlacewell />
+    <WhyHire />
 
     <section className="mt-5 mb-5">
       <div style={styles.header}>
-          <h2 style={styles.title}>Why Placewell</h2>
-          <p style={styles.subtitle}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          </p>
-        </div>
-        
-        <div className="row justify-content-center m-0">
-          <div className="col-md-10">
-              <Rolling data={rollingData} />
-              
-              <CustomHR />
-          </div>
-        </div>
-    </section>
-
-    <section className="mt-5 mb-5">
-      <div style={styles.header}>
-          <h2 style={styles.title}>Why Hire Filipino Workers</h2>
+          <h2 style={styles.title}>Gallery</h2>
           <p style={styles.subtitle}>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </p>
