@@ -57,3 +57,29 @@ export function getWhyHireFilipino() {
         },
     ]
 }
+
+export function getAllClient(){
+    return [
+        {
+            image:"img/client/1.jpg"
+        },
+        {
+            image:"img/client/2.jpg"
+        },
+        {
+            image:"img/client/3.jpg"
+        },
+        {
+            image:"img/client/4.jpg"
+        },
+        {
+            image:"img/client/5.jpg"
+        },
+        {
+            image:"img/client/1.jpg"
+        },
+        {
+            image:"img/client/2.jpg"
+        }
+    ]
+}

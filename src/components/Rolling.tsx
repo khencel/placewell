@@ -1,25 +1,27 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import s from "./styles/rolling.module.css"
 import { Navigation } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 interface RollingProps {
     data: any[]
+    perSlide?: number
+    isLoop?: boolean
+    isAutoplay?: boolean
 }
 
-export default function Rolling({ data }: RollingProps) {
+export default function Rolling({ data, perSlide, isLoop, isAutoplay }: RollingProps) {
     return (
         <Swiper
             spaceBetween={20}
-            slidesPerView={3}
-            loop={false}
-            // modules={[Autoplay]}
-            autoplay={{ delay: 2000 }}
+            loop={isLoop ?? false}
+            modules={[Autoplay, Navigation]}
+            autoplay={isAutoplay ? { delay: 2000 } : false}
             speed={800}
             navigation={true}   
-            modules={[Navigation]}
             breakpoints={{
                 0: {
-                slidesPerView: 1,
+                slidesPerView: perSlide ?? 3,
                 spaceBetween: 10,
                 },
                 576: {
@@ -30,7 +32,7 @@ export default function Rolling({ data }: RollingProps) {
                 spaceBetween: 15,
                 },
                 992: {
-                slidesPerView: 3,
+                slidesPerView: perSlide ?? 3,
                 spaceBetween: 20,
                 },
             }}
@@ -44,7 +46,7 @@ export default function Rolling({ data }: RollingProps) {
                             </div>
                             <div className="mt-3">
                                 <h4 style={{color:"#448153"}}>{item.title}</h4>
-                                <p>{item.description}</p>
+                                {/* <p>{item.description}</p> */}
                             </div>
                         </div>
                     </SwiperSlide>

@@ -7,7 +7,7 @@ import YouTube from "react-youtube";
 import { CSSProperties } from "react";
 import CustomHR from "@/components/CustomHR";
 import Rolling from "@/components/Rolling";
-import { getRollingData, getWhyHireFilipino } from "@/data/homepage";
+import { getRollingData, getWhyHireFilipino, getAllClient } from "@/data/homepage";
 import WhyPlacewell from "@/components/WhyPlacewell";
 import WhyHire from "@/components/WhyHire";
 
@@ -15,6 +15,7 @@ import WhyHire from "@/components/WhyHire";
 export default function Home() {
   const rollingData = getRollingData();
   const whyHireFilipino = getWhyHireFilipino();
+  const allClient = getAllClient();
   const styles: { section: CSSProperties; header: CSSProperties; title: CSSProperties; subtitle: CSSProperties; videoCard: CSSProperties; videoWrapper: CSSProperties; youtube: CSSProperties; gradientBg: CSSProperties } = {
   section: {
     padding: "60px 20px",
@@ -168,7 +169,25 @@ export default function Home() {
         
         <div className="row justify-content-center m-0">
           <div className="col-md-10">
-              <Rolling data={whyHireFilipino} />
+              <Rolling data={whyHireFilipino}  />
+              
+              <CustomHR />
+          </div>
+        </div>
+    </section>
+
+
+    <section className="mt-5 mb-5">
+      <div style={styles.header}>
+          <h2 style={styles.title}>Our Clients</h2>
+          <p style={styles.subtitle}>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        
+        <div className="row justify-content-center m-0">
+          <div className="col-md-10">
+              <Rolling data={allClient} perSlide={5} isLoop={true} isAutoplay={true} />
               
               <CustomHR />
           </div>
