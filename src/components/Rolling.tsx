@@ -21,7 +21,7 @@ export default function Rolling({ data, perSlide, isLoop, isAutoplay }: RollingP
             navigation={true}   
             breakpoints={{
                 0: {
-                slidesPerView: perSlide ?? 3,
+                slidesPerView: 4,
                 spaceBetween: 10,
                 },
                 576: {

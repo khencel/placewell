@@ -1,0 +1,89 @@
+.banner {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 8%;
+  color: white;
+}
+
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(255, 255, 255, 10) 100%
+  );
+}
+
+/* content */
+.content {
+  position: relative;
+  max-width: 600px;
+  z-index: 2;
+}
+
+/* small label */
+.tag {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+/* headline */
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.title span {
+  color: #448153;
+}
+
+/* description */
+.desc {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+/* buttons */
+.actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+}
+
+.primary {
+  background: #448153;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.primary:hover {
+  background: #2f5f3b;
+}
+
+.ghost {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.5);
+  padding: 14px 26px;
+  border-radius: 8px;
+  backdrop-filter: blur(6px);
+  color: white;
+}
+
+.ghost:hover {
+  background: rgba(255,255,255,0.1);
+}
+

@@ -1,0 +1,30 @@
+.customLine{
+    position: relative;
+    color: black;
+    bottom: -30px;
+}
+
+.badgeCont{
+    height: 30px;
+}
+.historyInfo{
+    padding: 10px;
+    border: 1px solid #94a3b8;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(10, 0, 10, 0.5);
+}
+
+
+.historyCont :global(.swiper) {
+    padding-bottom: 20px;
+}
+
+.missionVission{
+    box-shadow: 0px 4px 10px rgba(10, 0, 10, 0.5);
+    text-align: center;
+    border-radius: 16px;
+    padding: 20px;
+    
+}
+
+
