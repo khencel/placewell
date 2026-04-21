@@ -10,7 +10,12 @@ import MissionVision from "@/components/MissionVision";
 export default function About() {
     return (
       <>
-        <Banner />
+        <Banner
+          backgroundImage="/img/banner/japan1.jpg"
+          title="About Us"
+          subtitle="Corporate Identity"
+          description="Placewell International is a Filipino-owned, family-run manpower agency with over 50 years of experience in deploying Filipino workers overseas. Headquartered in Makati and supported by more than 15 branches nationwide, we recruit, train, and deploy Filipino workers to companies all over the world. Placewell is committed to providing its clients with dependable workers and service that is efficient, organized and highly responsive. At the same time, Placewell remains dedicated to empowering Filipinos by connecting them with employers that value them as people."
+        />
         <section className="mb-5">
             <div className="header">
               <h2 className="title">Board of Directors</h2>

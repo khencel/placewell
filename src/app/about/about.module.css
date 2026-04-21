@@ -1,0 +1,51 @@
+.imageStyle {
+    position: relative;
+    height: 230px;
+    overflow: hidden;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.imageStyle::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to right,
+        #ffffff 0%,
+        rgba(255,255,255,0.9) 10%,
+        rgba(255,255,255,0.6) 20%,
+        rgba(255,255,255,0.25) 30%,
+        rgba(255,255,255,0) 45%
+    );
+}
+
+.imageStyleLeft {
+    position: relative;
+    height: 230px;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.imageStyleLeft::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to left,
+        #ffffff 0%,
+        rgba(255,255,255,0.9) 10%,
+        rgba(255,255,255,0.6) 20%,
+        rgba(255,255,255,0.25) 30%,
+        rgba(255,255,255,0) 45%
+    );
+}
+
+.contSection{
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    /* border-bottom: 4px solid #448153 !important; */
+}

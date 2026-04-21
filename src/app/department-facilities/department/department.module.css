@@ -1,0 +1,19 @@
+.item {
+  gap: 12px;
+  /* background: #f7f8f5; */
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.item h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.item p {
+  margin: 3px 0 0;
+  font-size: 14px;
+  color: #666;
+  text-align: justify;
+  text-justify: inter-word;
+}

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { FaHospital, FaUserDoctor, FaSyringe } from "react-icons/fa6";
-
+import Link from "next/link";
 
 export default function NavForDesktop() {
     const [megaOpen, setMegaOpen] = useState(false);
@@ -10,7 +10,7 @@ export default function NavForDesktop() {
     
     return (
         <>
-            <li className="d-none d-md-block"><a href="">Home</a></li>
+            <li className="d-none d-md-block"><Link href="/">Home</Link></li>
             <li
                 className="mega-wrapper d-none d-md-block"
                 onMouseEnter={() => setMegaOpen(true)}
@@ -27,34 +27,42 @@ export default function NavForDesktop() {
 
                     <div className="mega-grid">
                         <strong>About Us</strong>
-                        <div className="mega-item">
+                        <Link href="/about/corporate-identity" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
                             <h4>Corporate Identity</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Know all about one of the Philippines’ leading manpower agencies</p>
                             </div>
-                        </div>
+                        </Link>
 
                         <div className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                            <h4>Our Services</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <Link href="/about">
+                                    <h4>Our Services</h4>
+                                </Link>
+                                <p>
+                                    From Skills and Language  
+                                    <a href="/training">Training</a> 
+                                     to  
+                                    <a href="/trade-testing">Trade Testing</a> 
+                                     – we do it all!
+                                </p>
                             </div>
                         </div>
 
-                        <div className="mega-item">
+                        <Link href="/about/branches" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Branch Offices</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>We have nationwide presence and recruit workers from all over the Philippines </p>
                             </div>
-                        </div>
+                        </Link>
                         <div className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Worldwide Careers</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Over 200,000 Filipinos deployed to more than 30 different countries </p>
                             </div>
                         </div>
                     </div>
@@ -69,7 +77,7 @@ export default function NavForDesktop() {
                 onMouseLeave={() => setMegaOpen2(false)}
                 >
                 <a href="#" className="nav-link active">
-                    Facilities and Divisions
+                    Departments and Facilities
                 </a>
 
                 <div className={`mega-menu ${megaOpen2 ? "show" : ""}`}>
@@ -78,22 +86,23 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>Facilities and Divisions</strong>
-                        <div className="mega-item">
+                        <strong>Departments and Facilities</strong>
+                        <Link href="/department-facilities/department" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
-                            <h4>Main Office</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h4>Departments</h4>
+                            <p>Discover how we deliver streamlined operations</p>
                             </div>
-                        </div>
+                        </Link>
+                        
 
-                        <div className="mega-item">
+                        <Link href="/department-facilities/main-office"className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                            <h4>Branch Offices</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h4>Main Office</h4>
+                            <p>Explore our five-storey headquarters in Makati </p>
                             </div>
-                        </div>
+                        </Link>
 
                         <div className="mega-item">
                             <FaSyringe className="social-icon" />
@@ -128,7 +137,7 @@ export default function NavForDesktop() {
                 onMouseLeave={() => setMegaOpen3(false)}
                 >
                 <a href="#" className="nav-link active">
-                    TESTIMONIALS
+                    Testimonials
                 </a>
 
                 <div className={`mega-menu ${megaOpen3 ? "show" : ""}`}>
@@ -137,7 +146,7 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>TESTIMONIALS</strong>
+                        <strong>Testimonials</strong>
                         <div className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
@@ -158,7 +167,7 @@ export default function NavForDesktop() {
                 </div>
             </li>
 
-            <li className="d-none d-md-block"><a href="#">GALLERY</a></li>
+            <li className="d-none d-md-block"><a href="#">Gallery</a></li>
             <li className="d-none d-md-block"><a href="#">Contact Us</a></li>
         </>
     )
