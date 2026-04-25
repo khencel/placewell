@@ -130,7 +130,8 @@
     }
 
     .nav-menu.active {
-        max-height: 700px;
+        max-height: 100vh;
+        padding: 10px px;
         padding: 10px 0;
         transform: translateY(0);
     }

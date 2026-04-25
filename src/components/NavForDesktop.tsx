@@ -58,7 +58,7 @@ export default function NavForDesktop() {
                             <p>We have nationwide presence and recruit workers from all over the Philippines </p>
                             </div>
                         </Link>
-                        <Link href="/worldwide-careers" className="mega-item">
+                        <Link href="/about/worldwide-careers" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Worldwide Careers</h4>
