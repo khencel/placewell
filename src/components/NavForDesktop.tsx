@@ -58,7 +58,7 @@ export default function NavForDesktop() {
                             <p>We have nationwide presence and recruit workers from all over the Philippines </p>
                             </div>
                         </Link>
-                        <Link href="/worldwide-careers"className="mega-item">
+                        <Link href="/worldwide-careers" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Worldwide Careers</h4>
@@ -96,7 +96,7 @@ export default function NavForDesktop() {
                         </Link>
                         
 
-                        <Link href="/department-facilities/main-office"className="mega-item">
+                        <Link href="/department-facilities/main-office" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
                             <h4>Main Office</h4>
@@ -104,7 +104,7 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
-                        <Link href="/department-facilities/branch-offices"className="mega-item">
+                        <Link href="/department-facilities/branch-offices" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Branch Offices</h4>
@@ -158,7 +158,7 @@ export default function NavForDesktop() {
                         <div className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
-                            <h4>Client TesDmonials</h4>
+                            <h4>Client Testimonials</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
