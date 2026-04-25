@@ -9,7 +9,7 @@ interface CustomSectionLightProps {
     headerTitle?: string;
     subtitle?: string;
     description?: React.ReactNode;
-    itemList?: { title: string; description: string }[];
+    itemList?: { title: string; description: string; icon?: React.ElementType }[];
     isList?: boolean;
 }
 
@@ -110,7 +110,14 @@ export default function CustomSectionLight({ headerTitle, subtitle, description,
                                     {itemList?.map((item, i) => (
                                     <div key={i} className={s.item}>
                                         <div >
-                                            <FaCircleCheck className={s.icon}/>
+                                            {
+                                                item.icon ? (
+                                                    <item.icon className={s.icon}/>
+                                                ):(
+                                                    <FaCircleCheck className={s.icon}/>
+                                                )
+                                            }
+                                            
                                         </div>
                                         <div>
                                             <h4>{item.title}</h4>

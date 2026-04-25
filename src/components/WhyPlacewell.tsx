@@ -29,19 +29,19 @@ export default function WhyPlacewell() {
                         
                         <MdGroups className={s.iconStat} />
                         
-                        <h3>10,000</h3>
-                        <p>Workers Deployed</p>
+                        <h3>200,000</h3>
+                        <p>Deployed OFWs</p>
                     </div>
                     <div className={s.stat}>
                         
                         <FaGlobe className={s.iconStat} />
                         
-                        <h3>20+</h3>
-                        <p>Countries Served</p>
+                        <h3>15+</h3>
+                        <p>Branch Offices</p>
                     </div>
                     <div className={s.stat}>
                         <FaCalendar className={s.iconStat} /> 
-                        <h3>15 Years</h3>
+                        <h3>50 Years</h3>
                         <p>Experience</p>
                     </div>
                 </div>

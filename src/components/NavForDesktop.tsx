@@ -58,13 +58,13 @@ export default function NavForDesktop() {
                             <p>We have nationwide presence and recruit workers from all over the Philippines </p>
                             </div>
                         </Link>
-                        <div className="mega-item">
+                        <Link href="/worldwide-careers"className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Worldwide Careers</h4>
                             <p>Over 200,000 Filipinos deployed to more than 30 different countries </p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </li>
@@ -104,11 +104,19 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
+                        <Link href="/department-facilities/branch-offices"className="mega-item">
+                            <FaSyringe className="social-icon" />
+                            <div>
+                            <h4>Branch Offices</h4>
+                            <p>Learn more about our nationwide locations </p>
+                            </div>
+                        </Link>
+
                         <div className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Dormitory</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>View our well-maintained housing facilities for selected workers</p>
                             </div>
                         </div>
 
@@ -116,7 +124,7 @@ export default function NavForDesktop() {
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Pro-Tech Skills</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Our TESDA accredited Hospitality and Caregiving Training Center</p>
                             </div>
                         </div>
 
@@ -124,7 +132,7 @@ export default function NavForDesktop() {
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Hashira Skills</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Our TESDA accredited Japanese Language and Construction Training Center</p>
                             </div>
                         </div>
                     </div>

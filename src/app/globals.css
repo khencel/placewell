@@ -429,3 +429,32 @@
     line-height: 1.7;
     margin: 0;
 }
+
+.btnprimary {
+  background: #709C6B;
+  border: none;
+  padding: 12px 24px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnprimary:hover {
+  background: #8F6843;
+}
+
+.btnoutline {
+  background: transparent;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid #709C6B;
+  color: #709C6B;
+}
+
+.btnoutline:hover {
+  background: #709C6B;
+  color: white;
+}

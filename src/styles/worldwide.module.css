@@ -1,0 +1,107 @@
+.iconStyle {
+    border-radius: 10px;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    gap: 8px;               
+}
+
+.secondaryIcon{
+    border-radius: 10px;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    flex-direction: column;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.rightImage{
+    border-radius: 10px;
+}
+
+.starIcon{
+    width:20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: calc(100% + 10px); /* slight gap from icon */
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: white;         /* dark bg para visible ang text */
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 999;             /* para hindi matakpan */
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+.iconStyle:hover .tooltip {
+    opacity: 1;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .tooltip {
+        font-size: 11px;
+        padding: 6px 10px;
+        white-space: normal;    /* mag-wrap na ang text */
+        width: max-content;
+        max-width: 160px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .tooltip {
+        /* I-reset ang centering */
+        left: 50%;
+        transform: translateX(-50%);
+
+        font-size: 10px;
+        padding: 5px 8px;
+        max-width: 120px;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .tooltip::after {
+        left: 50%;
+        transform: translateX(-50%); /* naka-center pa rin ang arrow */
+    }
+}
