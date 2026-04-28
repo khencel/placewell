@@ -1,0 +1,43 @@
+.imagstyle{
+    height: auto;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 320px;
+    border-radius: 16px;
+}
+
+.contentCont{
+    border: 0.5px solid #e0e0e0;
+    position: absolute;
+    width: 105%;
+    right: 10px !important;
+    background-color: white;
+    padding: 10px 16px;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.contentContRight{
+    border: 0.5px solid #e0e0e0;
+    position: absolute;
+    width: 105%;
+    left: 10px !important;
+    background-color: white;
+    padding: 10px 16px;
+    height: 100%;
+    border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+    .contentCont{
+        position:unset;
+        width: 100%;
+        
+    }
+
+    .contentContRight{
+        position: unset;
+        width: 100%;
+    }
+}

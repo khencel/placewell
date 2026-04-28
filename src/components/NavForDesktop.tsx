@@ -58,7 +58,7 @@ export default function NavForDesktop() {
                             <p>We have nationwide presence and recruit workers from all over the Philippines </p>
                             </div>
                         </Link>
-                        <Link href="/about/worldwide-careers" className="mega-item">
+                        <Link href="/worldwide-careers" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Worldwide Careers</h4>
@@ -69,7 +69,7 @@ export default function NavForDesktop() {
                 </div>
             </li>
 
-            <li className="d-none d-md-block"><a href="#">Engage with Us</a></li>
+            <li className="d-none d-md-block"><Link href="/engage-with-us">Engage with Us</Link></li>
 
             <li
                 className="mega-wrapper d-none d-md-block"

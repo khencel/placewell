@@ -189,15 +189,11 @@ export default function WorldWideCareers() {
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>Cleaners</span>
                                             <p className="subtitle">
-                                                We specialize in the recruitment
+                                                Our highest-volume job order is 
                                                 <br />
-                                                and training of welders across all
+                                                the deployment of on-call 
                                                 <br />
-                                                types of welding. We deploy skilled
-                                                <br />
-                                                welders to Saudi Arabia, Japan, Croatia,
-                                                <br />
-                                                Estonia,and Lithuania.
+                                                cleaners to Saudi Arabia.
                                             </p>
                                         </span>
                                     </div>
@@ -210,13 +206,15 @@ export default function WorldWideCareers() {
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>Domestic Helpers</span>
                                             <p className="subtitle">
-                                                We have deployed over a thousand shipyard 
-                                                <br />
-                                                workers to Japan, particularly in Imabari, 
-                                                <br />
-                                                Shin Kurushima,including placements at 
-                                                <br />
-                                                Imabari Zosen and Shin Kurushima Dock.
+                                               Placewell is recognized as a leading 
+                                               <br />
+                                               Philippine manpower agency for deploying 
+                                               <br />
+                                               domestic helpers to Hong Kong. We also 
+                                               <br />
+                                               deploy place domestic helpers in the Middle 
+                                               <br />
+                                               East, Singapore, Malaysia, Mongolia, and Italy.
                                             </p>
                                         </span>
                                     </div>
@@ -245,17 +243,11 @@ export default function WorldWideCareers() {
                                         {iconFlightGroundHandling()}
                                         <span className={s.label}>Flight Attendants and Ground Handling Staff</span>
                                         <span className={s.tooltip}>
-                                            <span className="title" style={{fontSize:"20px"}}>Flight Attendants and Ground Handling Staff</span>
+                                            <span className="title" style={{fontSize:"20px"}}>Flight Attendants and <br />Ground Handling Staff</span>
                                             <p className="subtitle">
-                                                We implement a specialized recruitment 
-                                                <br />
-                                                system for truck drivers bound for Lithuania. 
-                                                <br />
-                                                We maintain a ready pool of pre-documented 
-                                                <br />
-                                                candidates and provide mock immigration 
-                                                <br />
-                                                interviews, resulting in high passing rates.
+                                                 We are a provider of flight attendants 
+                                                 <br />
+                                                 and ground handling staff for Kuwait Airways.
                                             </p>
                                         </span>
                                     </div>
@@ -318,15 +310,17 @@ export default function WorldWideCareers() {
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>Nurses</span>
                                             <p className="subtitle">
-                                                We specialize in the recruitment
+                                                We have deployed numerous nurses to 
                                                 <br />
-                                                and training of welders across all
+                                                hospitals in Saudi Arabia, including 
                                                 <br />
-                                                types of welding. We deploy skilled
+                                                the Ministry of National Guard Health 
                                                 <br />
-                                                welders to Saudi Arabia, Japan, Croatia,
+                                                Affairs and Saudi German Hospital. 
                                                 <br />
-                                                Estonia,and Lithuania.
+                                                We have also placed hundreds of nurses 
+                                                <br />
+                                                in hospitals across the United States.
                                             </p>
                                         </span>
                                     </div>
@@ -339,15 +333,15 @@ export default function WorldWideCareers() {
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>Caregivers</span>
                                             <p className="subtitle">
-                                                We specialize in the recruitment
+                                                We were among the first manpower agencies 
                                                 <br />
-                                                and training of welders across all
+                                                to deploy caregivers to Japan under the 
                                                 <br />
-                                                types of welding. We deploy skilled
+                                                Technical Intern Training Program. 
                                                 <br />
-                                                welders to Saudi Arabia, Japan, Croatia,
+                                                We also deploy caregivers to Taiwan and 
                                                 <br />
-                                                Estonia,and Lithuania.
+                                                SingaporeSaudi Arabia.
                                             </p>
                                         </span>
                                     </div>
