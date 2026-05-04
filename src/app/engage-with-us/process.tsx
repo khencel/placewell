@@ -92,7 +92,7 @@ export default function Process(){
                     </div>
                 </div>
             </section>
-            <LeftImageContent
+            {/* <LeftImageContent
                 image="/img/process/polo.png"
                 title="POLO Verification and POEA Registration"
                 subtitle="Foreign companies seeking to hire Filipino workers must obtain accreditation from the Philippine Government to ensure compliance with international labor standards for employment contracts and working conditions. The company needs to have their documents verified by the Philippine Overseas Labor Office and apply for accreditation with the Philippine Overseas Employment Agency.
@@ -162,7 +162,7 @@ export default function Process(){
                         </p>
                     </>
                 }
-            />
+            /> */}
         </>
     )
 }

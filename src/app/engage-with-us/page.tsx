@@ -14,8 +14,20 @@ export default function EngageWithUs() {
                 subtitle="Engage With Us"
                 description="We understand that the accreditation process can be lengthy and complex, but our knowledgeable and responsive team will support you every step of the way to make it as smooth and manageable as possible.So please feel free to contact us. "
             />
-
             <Process />
+            <section>
+                <div className="row m-0 justify-content-center">
+                    <div className="col-md-10">
+                        <div className="header">
+                            <h2 className="title">Engage With Us</h2>
+                            <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, repellendus odit. Ipsam delectus totam vero. Adipisci illum, dolore laborum ad voluptatibus nam ratione exercitationem assumenda totam accusantium consequuntur. Magni, maxime?</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            
 
             <section>
                 <div className="row m-0 justify-content-center mt-5 mb-5">

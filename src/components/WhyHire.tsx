@@ -4,6 +4,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 import { getRollingData, getWhyHireFilipino  } from "@/data/homepage";
 
 
+
 export default function WhyHire() {
     const whyHire = getWhyHireFilipino()
     return (

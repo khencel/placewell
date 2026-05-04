@@ -42,11 +42,7 @@ export default function NavForDesktop() {
                                     <h4>Our Services</h4>
                                 </Link>
                                 <p>
-                                    From Skills and Language  
-                                    <a href="/training">Training</a> 
-                                     to  
-                                    <a href="/trade-testing">Trade Testing</a> 
-                                     – we do it all!
+                                    From Skills and Language <span>Training</span> to Trade Testing – we do it all!
                                 </p>
                             </div>
                         </div>
@@ -112,13 +108,13 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
-                        <div className="mega-item">
+                        <Link href="/department-facilities/dormitory" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Dormitory</h4>
                             <p>View our well-maintained housing facilities for selected workers</p>
                             </div>
-                        </div>
+                        </Link>
 
                         <div className="mega-item">
                             <FaSyringe className="social-icon" />
@@ -155,21 +151,21 @@ export default function NavForDesktop() {
 
                     <div className="mega-grid">
                         <strong>Testimonials</strong>
-                        <div className="mega-item">
+                        <Link href="/testimonials/client-testimonials" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
                             <h4>Client Testimonials</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
-                        </div>
+                        </Link>
 
-                        <div className="mega-item">
+                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
                             <h4>OFW Testimonials</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
-                        </div>
+                        </Link>
 
                     </div>
                 </div>
