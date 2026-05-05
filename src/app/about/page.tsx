@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import s from "./about.module.css";
+import Myra from "./myra";
 
 export default function About() {
     return (
@@ -189,27 +190,7 @@ export default function About() {
           </div>
         </section>
 
-        <section className="mb-5">
-          <div className="row m-0 justify-content-center">
-            <div className={`${s.contSection} col-md-10 border`}>
-              <div className="row justify-content-center align-items-center">
-                <div className="col-md-7 p-4">
-                  <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Myra (Manpower Database) </h2>
-                    <p className="subtitle">
-                      Myra is Placewell’s personalized manpower support system that ensures all selected workers’ relevant information and documents are properly organized, upholding an accurate and timely deployment process. It also maintains a readily available pool of candidates across various industries, with filters for quick and easy searching and sorting. Placewell also provides employers with their own personalized Myra accounts, offering customized features tailored to their specific industry needs.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-5 p-3 p-md-0">
-                    <div className={s.imageStyle} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
-
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Myra />
 
         <section className="mb-5">
           <div className="row m-0 justify-content-center">

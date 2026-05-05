@@ -172,7 +172,9 @@ export default function NavForDesktop() {
             </li>
 
             <li className="d-none d-md-block"><a href="#">Gallery</a></li>
-            <li className="d-none d-md-block"><a href="#">Contact Us</a></li>
+            <li className="d-none d-md-block">
+                <Link href="/contact-us">Contact Us</Link>
+            </li>
         </>
     )
 }

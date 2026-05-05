@@ -1,0 +1,137 @@
+.contactPage {
+  background: #f5f7fb;
+}
+
+/* HEADER */
+.contactHeader {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #eef2ff, #f8fbff);
+}
+
+.contactHeader h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.contactHeader p {
+  color: #64748b;
+  margin-top: 10px;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background: #2563eb;
+  margin: 15px auto 0;
+  border-radius: 10px;
+}
+
+/* SECTION */
+.contactSection {
+  position: relative;
+  z-index: 2;
+}
+/* CARD */
+.contactCard {
+  border-radius: 16px;
+  padding: 25px;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  background: #fff;
+}
+
+.contactCard h4 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+
+/* INFO */
+.infoItem {
+  display: flex;
+  align-items: flex-start; /* better kaysa center */
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.infoItem span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;      /* fixed width */
+  height: 40px;     /* fixed height */
+  min-width: 40px;  /* para di mag shrink */
+
+  font-size: 16px;
+  background: #eff6ff;
+  color: #2563eb;
+  border-radius: 50%;
+}
+.infoItem p {
+  margin: 0;
+  color: #64748b;
+  word-break: break-word; /* para di sumabog layout */
+}
+
+/* MAP */
+.map {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 12px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .map {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+
+  section.testimonialSection::before,
+  section.testimonialSection::after {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
+section.testimonialSection {
+  position: relative;
+  overflow: hidden;
+  background: #f8f9fb;
+  padding: 80px 0;
+  z-index: 0; /* base */
+}
+
+/* CIRCLES (background lang talaga) */
+section.testimonialSection::before,
+section.testimonialSection::after {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: #cbdec9;
+  border-radius: 50%;
+  z-index: -1; /* IMPORTANT: nasa likod */
+}
+
+/* TOP LEFT */
+section.testimonialSection::before {
+  top: -150px;
+  left: -150px;
+}
+
+/* BOTTOM RIGHT */
+section.testimonialSection::after {
+  bottom: -150px;
+  right: -150px;
+}
+
+/* content always above */
+section.testimonialSection > div {
+  position: relative;
+  z-index: 2;
+}

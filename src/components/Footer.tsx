@@ -29,8 +29,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <p>TESTIMONIALS</p>
-            <p>GALLERY</p>
+            <p>Testimonials</p>
+            <p>Gallery</p>
             <p>Contact Us</p>
             <p>FAQ</p>
           </div>
