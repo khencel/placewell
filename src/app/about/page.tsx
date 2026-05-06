@@ -1,6 +1,8 @@
 import Banner from "@/components/Banner";
 import s from "./about.module.css";
 import Myra from "./myra";
+import CustomHR from "@/components/CustomHR";
+
 
 export default function About() {
     return (
@@ -189,7 +191,11 @@ export default function About() {
             </div>
           </div>
         </section>
-
+        <div className="row m-0 justify-content-center">
+          <div className="col-md-11">
+            <CustomHR height="10px" />
+          </div>
+        </div>
         <Myra />
 
         <section className="mb-5">

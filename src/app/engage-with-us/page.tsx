@@ -86,7 +86,7 @@ export default function EngageWithUs() {
                                     <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>Company Profile - Placewell</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary"style={{fontSize:"12px"}} >Download <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >Download <FaDownload/></button>
                                 </div>
                             </div>
 
@@ -96,7 +96,7 @@ export default function EngageWithUs() {
                                     <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>Company Profile - Pro -Tech</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary"style={{fontSize:"12px"}} >Download <FaDownload/></button>
+                                    <button className="btnprimary"style={{fontSize:"12px",padding:"10px"}} >Download <FaDownload/></button>
                                 </div>
                             </div>
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
@@ -105,7 +105,7 @@ export default function EngageWithUs() {
                                     <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>Company Profile - Hashira</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary"style={{fontSize:"12px"}} >Download <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >Download <FaDownload/></button>
                                 </div>
                             </div>
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
@@ -114,7 +114,7 @@ export default function EngageWithUs() {
                                     <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>Guide to Accreditation Process</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary"style={{fontSize:"12px"}} >Download <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >Download <FaDownload/></button>
                                 </div>
                             </div>
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
@@ -125,7 +125,7 @@ export default function EngageWithUs() {
                                     <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>Important Information BLURRED</small>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary"style={{fontSize:"12px"}} >Download <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >Download <FaDownload/></button>
                                 </div>
                             </div>
                             <div className="d-flex">
