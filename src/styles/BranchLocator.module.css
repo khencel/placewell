@@ -1,0 +1,328 @@
+/* ── Wrapper ── */
+.wrapper {
+  font-family: "Plus Jakarta Sans", "DM Sans", sans-serif;
+  background: #f8faf8;
+  border-radius: 20px;
+  padding: 24px;
+  max-width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.07);
+}
+
+/* ── Top bar ── */
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 10px 14px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* ── Region tabs ── */
+.tabs {
+  display: flex;
+  gap: 8px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: #64748b;
+  font-family: inherit;
+  font-size: 0.93rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, transform 0.12s;
+}
+
+.tab:hover {
+  background: #f1f5f1;
+  color: #1a3a2a;
+}
+
+.tabActive {
+  color: #fff !important;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
+  transform: translateY(-1px);
+}
+
+/* ── Search ── */
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f1f5f1;
+  border-radius: 10px;
+  padding: 8px 14px;
+  min-width: 260px;
+  border: 1.5px solid #e2ebe2;
+  transition: border-color 0.15s;
+}
+
+.searchBox:focus-within {
+  border-color: #2d7a4f;
+  background: #fff;
+}
+
+.searchIcon {
+  color: #94a3b8;
+  flex-shrink: 0;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.88rem;
+  color: #1e293b;
+  outline: none;
+}
+
+.searchInput::placeholder {
+  color: #94a3b8;
+}
+
+.searchBtn {
+  background: #2d7a4f;
+  border: none;
+  border-radius: 7px;
+  padding: 6px 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background 0.15s;
+}
+
+.searchBtn:hover {
+  background: #1f5c39;
+}
+
+/* ── Content layout ── */
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Branch list ── */
+.listCol {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+}
+
+/* vertical connector line */
+.list::before {
+  content: "";
+  position: absolute;
+  left: 22px;
+  top: 36px;
+  bottom: 36px;
+  width: 2px;
+  background: linear-gradient(to bottom, #2d7a4f33, #2d7a4f11);
+  z-index: 0;
+}
+
+/* ── Branch card ── */
+.card {
+  display: grid;
+  grid-template-columns: 28px 40px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+  border: 1.5px solid transparent;
+  transition: border-color 0.18s, box-shadow 0.18s, transform 0.15s;
+  position: relative;
+  z-index: 1;
+}
+
+.cardActive {
+  border-color: #2d7a4f !important;
+  box-shadow: 0 4px 18px rgba(45, 122, 79, 0.18) !important;
+  transform: translateX(4px) !important;
+}
+
+.card:hover {
+  border-color: #2d7a4f55;
+  box-shadow: 0 4px 18px rgba(45, 122, 79, 0.12);
+  transform: translateX(3px);
+}
+
+.cardBadge {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #2d7a4f;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cardIcon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #f0f7f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cardBody {
+  min-width: 0;
+}
+
+.cardTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2d7a4f;
+  margin: 0 0 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardAddress {
+  font-size: 0.78rem;
+  color: #64748b;
+  margin: 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.addressIcon {
+  display: inline;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.mapBtn {
+  white-space: nowrap;
+  padding: 7px 14px;
+  border: 1.5px solid #2d7a4f;
+  border-radius: 8px;
+  background: transparent;
+  color: #2d7a4f;
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+
+.mapBtn:hover {
+  background: #2d7a4f;
+  color: #fff;
+}
+
+/* ── View all button ── */
+.viewAllBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 13px;
+  border: 1.5px solid #d1d9d1;
+  border-radius: 12px;
+  background: #fff;
+  color: #1e293b;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.viewAllBtn:hover {
+  border-color: #2d7a4f;
+  background: #f0f7f3;
+  color: #2d7a4f;
+}
+
+/* ── Empty state ── */
+.empty {
+  text-align: center;
+  padding: 48px 16px;
+  color: #94a3b8;
+  font-size: 0.92rem;
+}
+
+/* ── Map panel ── */
+.mapPanel {
+  position: sticky;
+  top: 20px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  background: #e8f0e8;
+}
+
+/* Real Leaflet map container */
+.mapContainer {
+  width: 100%;
+  height: 440px;
+}
+
+/* ── Legend ── */
+.mapLegend {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 12px 16px;
+  background: #fff;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.legendDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
