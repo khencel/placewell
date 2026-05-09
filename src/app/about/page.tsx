@@ -2,6 +2,8 @@ import Banner from "@/components/Banner";
 import s from "./about.module.css";
 import Myra from "./myra";
 import CustomHR from "@/components/CustomHR";
+import FacebookMarketing from "./facebook";
+import WhatsApp from "./whatsApp";
 
 
 export default function About() {
@@ -197,51 +199,9 @@ export default function About() {
           </div>
         </div>
         <Myra />
+        <FacebookMarketing />
 
-        <section className="mb-5">
-          <div className="row m-0 justify-content-center">
-            <div className={`${s.contSection} col-md-10 border`}>
-              <div className="row justify-content-center align-items-center">
-                <div className="col-md-5 p-3 order-2 order-md-1 p-md-0">
-                    <div className={s.imageStyleLeft} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
-
-                    </div>
-                </div>
-                <div className="col-md-7 p-4 order-1 order-md-2">
-                  <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Facebook Marketing</h2>
-                    <p className="subtitle">
-                      We have a Facebook page with nearly 500,000 followers, allowing us to attract hundreds of applicants from a single post. Our manpower support team carefully screens these candidates before presenting them to clients for interview.
-                    </p>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="mb-5">
-          <div className="row m-0 justify-content-center">
-            <div className={`${s.contSection} col-md-10 border`}>
-              <div className="row justify-content-center align-items-center">
-                <div className="col-md-7 p-4">
-                  <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>WhatsApp and Line Group Chat System </h2>
-                    <p className="subtitle">
-                      To ensure fast and efficient communication with all our partners and clients, we use a group chat system managed by our dedicated staff. We prioritize quick and accurate responses, recognizing the importance of time in the recruitment process.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-5 p-3 p-md-0">
-                    <div className={s.imageStyle} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
-
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <WhatsApp />
       </>
     );
 }

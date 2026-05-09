@@ -1,0 +1,24 @@
+.title {
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #11AE09;
+  margin: 0 0 0.6rem 0;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.divider {
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(90deg, #448153, #448153);
+  border-radius: 2px;
+  margin-bottom: 0.85rem;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 1.65;
+  margin: 0;
+  max-width: 340px;
+}
