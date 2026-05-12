@@ -21,24 +21,6 @@ export default function About() {
               <h2 className="title">Board of Directors</h2>
               <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div className="row m-0 justify-content-center">
-              <div className="col-md-3">
-                  <ImageStyle image="/img/identity/Parents-resized-600x599.jpg"/>
-              </div>
-              <div className="col-md-3 d-flex align-items-center">
-                <div>
-                  <h5 className="title" style={{fontSize:"24px"}} >Filemon P. Escueta Jr. (cross) and Aida H. Escueta</h5>
-                  <small>
-                      <strong>Chief Executive Officer and President</strong>
-                  </small>
-
-                  <p className="mt-3 cardText">
-                      They are the husband and wife team that founded Placewell International and are pioneers in the Philippine overseas employment industry. Aida continues to provide dedicated service to her long-standing clients in the Middle East, even into her 90s.
-                  </p>
-                </div>
-                
-              </div>
-            </div>
 
             <div className="row m-0 mt-5 pt-5 justify-content-center">
               <div className="col-md-5 p-3">
@@ -63,23 +45,47 @@ export default function About() {
 
               <div className="col-md-5 p-3">
                   <div className="row">
-                  <div className="col"><ImageStyle image="/img/identity/jolo.jpg"/></div>
-                  <div className="col d-flex align-items-center">
-                    <div>
-                      <h5 className="title" style={{fontSize:"24px"}} >Jose Lorenzo Escueta Beech  (Joelo)</h5>
-                      <small>
-                          <strong>Consultant</strong>
-                      </small>
+                    <div className="col"><ImageStyle image="/img/identity/Parents-resized-600x599.jpg"/></div>
+                    <div className="col d-flex align-items-center">
+                      <div>
+                        <h5 className="title" style={{fontSize:"24px"}} >Filemon P. Escueta Jr. (cross) and Aida H. Escueta</h5>
+                        <small>
+                            <strong>Chief Executive Officer and President</strong>
+                        </small>
 
-                      <p className="mt-3 cardText">
-                          Joelo is a licensed attorney and a JLPT N1 passer. He obtained his degree in International Business from Pepperdine University and his Juris Doctor from Ateneo De Manila School of Law. He is also the President of Hashira Skills and Language Academy and Pro-Tech Skills Development Center Corporation. He has been with Placewell since 2018. 
-                      </p>
+                        <p className="mt-3 cardText">
+                            They are the husband and wife team that founded Placewell International and are pioneers in the Philippine overseas employment industry. Aida continues to provide dedicated service to her long-standing clients in the Middle East, even into her 90s.
+                        </p>
+                      </div>
+                      
                     </div>
-                    
-                  </div>
                 </div>
               </div>
             </div>
+
+
+            <div className="row m-0 justify-content-center">
+              <div className="col-md-3">
+                  <div className="col"><ImageStyle image="/img/identity/jolo.jpg"/></div>
+                  
+              </div>
+              <div className="col-md-3 d-flex align-items-center">
+                <div>
+                  <h5 className="title" style={{fontSize:"24px"}} >Jose Lorenzo Escueta Beech  (Joelo)</h5>
+                  <small>
+                      <strong>Consultant</strong>
+                  </small>
+
+                  <p className="mt-3 cardText">
+                    Joelo is a licensed attorney and a JLPT N1 passer. He obtained his degree in International Business from Pepperdine University and his Juris Doctor from Ateneo De Manila School of Law. He is also the President of Hashira Skills and Language Academy and Pro-Tech Skills Development Center Corporation. He has been with Placewell since 2018.
+                      
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+
+            
 
             <div className="row m-0 mt-5 justify-content-center">
               <div className="col">

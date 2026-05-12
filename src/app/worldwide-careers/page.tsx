@@ -35,7 +35,7 @@ export default function WorldWideCareers() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/27532.jpg"
+                backgroundImage="/img/banner/construction.jpg"
                 title="About Us"
                 subtitle="Worldwide Careers"
                 description="Over 200,000 Filipinos deployed to more than 30 different countries"
@@ -46,7 +46,7 @@ export default function WorldWideCareers() {
                     <div className="col-md-10">
                         <div className="row">
                             <div className="col-md-2 p-3">
-                                <span className="title" style={{fontSize:"20px"}}>Build the World Around Us</span>
+                                <span className="title" style={{fontSize:"20px"}}>Construction Industry</span>
                                 <p  className="subtitle">
                                     From construction sites to shipyards and highways, the skilled professionals build, operate, and maintain the structures and systems that keep the wolrd moving forward.
                                 </p>
@@ -159,7 +159,7 @@ export default function WorldWideCareers() {
                             </div>
                             <div className="col-md-5 p-3">
                                 <div className="">
-                                    <img src="/img/165.jpg" className={`${s.rightImage} img-fluid`} alt="" />
+                                    <img src="/img/filipinoWorker.jpg" className={`${s.rightImage} img-fluid`} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -279,7 +279,7 @@ export default function WorldWideCareers() {
                             </div>
                             <div className="col-md-5 p-3">
                                 <div className="">
-                                    <img src="/img/2148095306.jpg" className={`${s.rightImage} img-fluid`} alt="" />
+                                    <img src="/img/19031.jpg" className={`${s.rightImage} img-fluid`} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -293,7 +293,7 @@ export default function WorldWideCareers() {
                     <div className="col-md-10">
                         <div className="row">
                             <div className="col-md-2 p-3">
-                                <span className="title" style={{fontSize:"20px"}}>Improve Lives. Every Day</span>
+                                <span className="title" style={{fontSize:"20px"}}>Medical Industry</span>
                                 <p  className="subtitle">
                                     These healthcare professionals provide essential medical care, support, and treatment --helping individuals live healthier, happier lives.
                                 </p>
@@ -369,7 +369,7 @@ export default function WorldWideCareers() {
                             </div>
                             <div className="col-md-5 p-3">
                                 <div className="">
-                                    <img src="/img/20723.jpg" className={`${s.rightImage} img-fluid`} alt="" />
+                                    <img src="/img/caregiver.jpg" className={`${s.rightImage} img-fluid`} alt="" />
                                 </div>
                             </div>
                         </div>

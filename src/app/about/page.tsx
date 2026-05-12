@@ -199,9 +199,10 @@ export default function About() {
           </div>
         </div>
         <Myra />
-        <FacebookMarketing />
+        
 
         <WhatsApp />
+        <FacebookMarketing />
       </>
     );
 }
