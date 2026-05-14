@@ -124,13 +124,13 @@ export default function NavForDesktop() {
                             </div>
                         </div>
 
-                        <div className="mega-item">
+                        <Link href="/department-facilities/hashira" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>Hashira Skills</h4>
                             <p>Our TESDA accredited Japanese Language and Construction Training Center</p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </li>

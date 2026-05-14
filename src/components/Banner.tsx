@@ -1,14 +1,16 @@
 import s from "../components/styles/Banner.module.css";
+import { FaGlobe } from "react-icons/fa";
 
 interface BannerProps {
     backgroundImage?: string;
     title?: string;
     subtitle?: string;
     description?: string;
+    haveBtnPrimary?:boolean
 
 }
 
-export default function Banner({ backgroundImage, title, subtitle, description }: BannerProps) {
+export default function Banner({ backgroundImage, title, subtitle, description, haveBtnPrimary }: BannerProps) {
   return (
     <section
       className={s.banner}
@@ -26,6 +28,14 @@ export default function Banner({ backgroundImage, title, subtitle, description }
         <p className={s.desc}>
           {description}
         </p>
+
+        {
+          haveBtnPrimary && (
+            <button className={`${s.btnprimary} rounded-4`}><FaGlobe /> Visit Hashira Website</button>
+          )
+        
+        }
+
 
       </div>
 
