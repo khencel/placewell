@@ -12,6 +12,8 @@ import { Montserrat } from "next/font/google";
 
 import "../../node_modules/swiper/swiper-bundle.min.css";
 
+import { LocaleProvider } from "@/i18n/LocaleContext";
+
 const montserrat = Montserrat({
         subsets: ["latin"]
     });
@@ -30,11 +32,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body style={{margin:"0px"}} className={`${montserrat.className} font-sans`}>
-        <BootstrapClient />
-        <CustomHR />
-        <Navigation />
-          {children}
-        <Footer />
+        <LocaleProvider>
+          <BootstrapClient />
+          <CustomHR />
+          <Navigation />
+            {children}
+          <Footer />
+        </LocaleProvider>
       </body>
     </html>
   );

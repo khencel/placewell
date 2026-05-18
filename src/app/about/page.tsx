@@ -4,6 +4,7 @@ import Myra from "./myra";
 import CustomHR from "@/components/CustomHR";
 import FacebookMarketing from "./facebook";
 import WhatsApp from "./whatsApp";
+import Link from "next/link";
 
 
 export default function About() {
@@ -89,7 +90,7 @@ export default function About() {
                 </div>
                 <div className="col-md-7 p-4 order-1 order-md-2">
                   <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Trade test</h2>
+                    <h2 className="title" style={{fontSize:"24px"}}><Link href="/trade-test" style={{color:"#448153"}}>Trade Test</Link></h2>
                     <p className="subtitle">
                       We conduct trade tests across various industries at our own in-house facility.
                     </p>

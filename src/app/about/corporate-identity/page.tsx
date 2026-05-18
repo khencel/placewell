@@ -11,7 +11,7 @@ export default function About() {
     return (
       <>
         <Banner
-          backgroundImage="/img/banner/japan1.jpg"
+          backgroundImage="/img/banner/meeting.jpg"
           title="About Us"
           subtitle="Corporate Identity"
           description="Placewell International is a Filipino-owned, family-run manpower agency with over 50 years of experience in deploying Filipino workers overseas. Headquartered in Makati and supported by more than 15 branches nationwide, we recruit, train, and deploy Filipino workers to companies all over the world. Placewell is committed to providing its clients with dependable workers and service that is efficient, organized and highly responsive. At the same time, Placewell remains dedicated to empowering Filipinos by connecting them with employers that value them as people."

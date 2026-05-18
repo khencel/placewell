@@ -11,11 +11,15 @@ import { getRollingData, getWhyHireFilipino, getAllClient } from "@/data/homepag
 import WhyPlacewell from "@/components/WhyPlacewell";
 import WhyHire from "@/components/WhyHire";
 
+import { useTranslations } from "next-intl";
+
 
 export default function Home() {
   const rollingData = getRollingData();
   const whyHireFilipino = getWhyHireFilipino();
   const allClient = getAllClient();
+
+  const t = useTranslations();
   const styles: { section: CSSProperties; header: CSSProperties; title: CSSProperties; subtitle: CSSProperties; videoCard: CSSProperties; videoWrapper: CSSProperties; youtube: CSSProperties; gradientBg: CSSProperties } = {
   section: {
     padding: "60px 20px",
@@ -82,6 +86,7 @@ export default function Home() {
     zIndex: 0,
     pointerEvents: "none",
   },
+  
 };
   return (
     <>
@@ -96,12 +101,12 @@ export default function Home() {
         <SwiperSlide>
           <div className={s.hero}>
               <div className={s.content}>
-                <h1 className={s.bannerTitle}>The World's Most Trusted Filipino Manpower Company</h1>
-                <p>Inspiring customers & supporting through experience</p>
+                <h1 className={s.bannerTitle}>{t("home.bannerTitle")}</h1>
+                <p>{t("home.bannerSubtitle")}</p>
                 
                 <div className={s.buttons}>
-                  <button className={s.btnprimary}>Contact Us</button>
-                  <button className={s.btnoutline}>Learn More</button>
+                  <button className={s.btnprimary}>{t("home.bannerPrimaryBtn")}</button>
+                  {/* <button className={s.btnoutline}>Learn More</button> */}
                 </div>
               </div>
           </div>
@@ -125,9 +130,9 @@ export default function Home() {
       <section style={styles.section}>
         <div style={styles.gradientBg}></div>
         <div style={styles.header}>
-          <h2 style={styles.title}>Featured Video</h2>
+          <h2 style={styles.title}>{t("home.videoTitle")}</h2>
           <p style={styles.subtitle}>
-            Watch our latest highlight and updates
+            {t("home.videoDesc")}
           </p>
         </div>
 

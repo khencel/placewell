@@ -10,11 +10,12 @@ import {
 
 import NavForMobile from "./NavForMobile";
 import NavForDesktop from "./NavForDesktop";
+import { useLocale } from "@/i18n/LocaleContext";
 
 
 export default function Navigation() {
   const [open, setOpen] = useState(false);
-
+  const { locale, setLocale } = useLocale();
   return (
     <div className="nav-div">
       <nav className="nav-container">
@@ -42,6 +43,15 @@ export default function Navigation() {
             <span><FaInstagram className="social-icon" /></span>
             <span><FaYoutube className="social-icon" /></span>
             <span><FaTiktok className="social-icon" /></span>
+            <span>
+              <select
+                value={locale}
+                onChange={(e) => setLocale(e.target.value as "en" | "ja")}
+              >
+                <option value="en">English</option>
+                <option value="ja">Japanese</option>
+              </select>
+            </span>
           </div>
         </div>
 

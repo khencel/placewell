@@ -4,9 +4,12 @@ import { FaCircleCheck } from "react-icons/fa6";
 import { getRollingData } from "@/data/homepage";
 import { MdGroups } from "react-icons/md";
 import { FaGlobe, FaCalendar  } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 
 export default function WhyPlacewell() {
     const rollingData = getRollingData();
+    const t = useTranslations();
+    
     return (
         <section className={s.section}>
         <div className={s.wrapper}>
@@ -30,28 +33,28 @@ export default function WhyPlacewell() {
                         <MdGroups className={s.iconStat} />
                         
                         <h3>200,000</h3>
-                        <p>Deployed OFWs</p>
+                        <p>{t("home.deployed")}</p>
                     </div>
                     <div className={s.stat}>
                         
                         <FaGlobe className={s.iconStat} />
                         
                         <h3>15+</h3>
-                        <p>Branch Offices</p>
+                        <p>{t("home.branchOffices")}</p>
                     </div>
                     <div className={s.stat}>
                         <FaCalendar className={s.iconStat} /> 
-                        <h3>50 Years</h3>
-                        <p>Experience</p>
+                        <h3>50 {t("home.year")}</h3>
+                        <p>{t("home.exp")}</p>
                     </div>
                 </div>
             </div>
 
             {/* RIGHT SIDE */}
             <div className={s.right}>
-            <span className={s.titleHead}>Why Placewell</span>
+            <span className={s.titleHead}>{t("home.whyPlacewell")}</span>
             <p className={s.desc}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi excepturi odit deleniti, maxime, natus quibusdam unde accusantium aperiam aut esse reprehenderit tempora! Eos ducimus ut adipisci animi velit facilis perferendis?
+                {t("home.whyPlacewellSub")}
             </p>
 
             <div className={s.list}>
