@@ -10,9 +10,9 @@ export function getDepartmentList(){
             title: "International Human Resource Department",
             description: "We assign dedicated contact persons for each market we serve. They maintain constant communication with our clients through a group chat system, ensuring timely and accurate responses for an efficient deployment process. We have designated departments for the Middle East, Europe, Japan, Hong Kong, and other Asian countries.",
             image:{
-                img1:"/img/department/1.jpg",
-                img2:"/img/department/2.jpg",
-                img3:"/img/department/3.jpg",
+                img1:"/img/department/DSC03279.jpg",
+                img2:"/img/department/DSC04561.jpg",
+                img3:"/img/department/DSC04593.jpg",
             }
         },
         {
@@ -20,9 +20,9 @@ export function getDepartmentList(){
             title: "Manpower Support Department",
             description: "The Manpower Support Team is responsible for recruiting workers and coordinating interview schedules. They screen applicants, verify qualifications, and arrange interviews with employers. The team also manages and maintains a database of tens of thousands of qualified Filipino workers within our Myra System.",
             image:{
-                img1:"/img/department/4.jpg",
-                img2:"/img/department/5.jpg",
-                img3:"/img/department/6.jpg",
+                img1:"/img/department/DSC04678.jpg",
+                img2:"/img/department/DSC04655.jpg",
+                img3:"/img/department/DSC04658.jpg",
             }
         },
         {
@@ -30,9 +30,9 @@ export function getDepartmentList(){
             title: "OFW Welfare (Legal) Department",
             description: "Placewell prioritizes the welfare of its deployed workers through ongoing support and care. Our dedicated call center operates nearly 24/7 to promptly address concerns and provide assistance to distressed workers abroad.",
             image:{
-                img1:"/img/department/7.jpg",
-                img2:"/img/department/8.jpg",
-                img3:"/img/department/9.jpg",
+                img1:"/img/department/DSC04632.jpg",
+                img2:"/img/defaultImage.png",
+                img3:"/img/defaultImage.png",
             }
         },
         {
@@ -40,9 +40,9 @@ export function getDepartmentList(){
             title: "Processing Department",
             description: "Our dedicated team handles all required documentation efficiently and accurately to ensure minimal delays in the deployment process.",
             image:{
-                img1:"/img/department/10.jpg",
-                img2:"/img/department/11.jpg",
-                img3:"/img/department/12.jpg",
+                img1:"/img/department/DSC04614.jpg",
+                img2:"/img/department/DSC04629.jpg",
+                img3:"/img/department/DSC04621.jpg",
             }
         },
         
@@ -56,9 +56,9 @@ export function getAccount(){
             title: "Accounting Department",
             description: "We maintain disciplined and organized financial management across all operations.",
             image:{
-                img1:"/img/department/13.jpg",
-                img2:"/img/department/14.jpg",
-                img3:"/img/department/15.jpg",
+                img1:"/img/department/DSC03421.jpg",
+                img2:"/img/defaultImage.png",
+                img3:"/img/defaultImage.png",
             }
         }
 }

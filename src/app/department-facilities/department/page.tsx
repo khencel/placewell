@@ -12,7 +12,7 @@ export default function DepartmentPage() {
                 backgroundImage="/img/banner/5900600_3742.jpg"
                 title="Departments and Facilities"
                 subtitle="Departments"
-                description="Placewell structures its departments to ensure streamlined, efficient, and well-organized operations."
+                description="Discover how we deliver streamlined operations"
             />
             <section className="mb-3" style={{background:"#f4f3f3"}}>
                 <div className="row m-0 justify-content-center">
@@ -34,7 +34,7 @@ export default function DepartmentPage() {
                                                     </div> 
                                                     <div className="p-3">
                                                         <div className={s.descriptioCont}>
-                                                            <p className="subtitle">
+                                                            <p className="subtitle longParagraph">
                                                                 {department.description}
                                                             </p>
                                                         </div>

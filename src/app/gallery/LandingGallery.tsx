@@ -3,8 +3,8 @@
 import { useState, useMemo, useEffect, useCallback, CSSProperties } from "react";
 import { getGallery } from "@/data/gallery";
 
-type Category = "department" | "mainOffice" | "dormitory";
-type FilterOption = "All Gallery" | "Department" | "Main Office" | "Dormitory";
+type Category = "mainOffice" | "branchOffice" | "dormitory" | "interview" | "tradeTests" | "deployment" | "others";
+type FilterOption = "Main Office" | "Branch Office" | "Dormitory" | "Interview" | "Trade Tests" | "Deployment" | "Others";
 
 interface Project {
   id: number;
@@ -16,24 +16,36 @@ interface Project {
 
 const projects: Project[] = getGallery() as Project[];
 
-const FILTERS: FilterOption[] = ["All Gallery", "Department", "Main Office", "Dormitory"];
+const FILTERS: FilterOption[] = ["Main Office", "Branch Office", "Dormitory", "Interview", "Trade Tests", "Deployment", "Others"];
 
 const categoryIcons: Record<Category, string> = {
-  department: "⚙️",
+  interview: "⚙️",
   mainOffice: "🏗️",
-  dormitory: "⚡"
+  branchOffice: "🏢",
+  dormitory: "⚡",
+  tradeTests: "🧪",
+  deployment: "🚀",
+  others: "📦"
 };
 
 const tagColors: Record<Category, string> = {
-  department: "#E24B4A",
+  interview: "#E24B4A",
   mainOffice: "#378ADD",
-  dormitory: "#639922"
+  branchOffice: "#F59E0B",
+  dormitory: "#639922",
+  tradeTests: "#E24B4A",
+  deployment: "#378ADD",
+  others: "#F59E0B"
 };
 
 const placeholderBg: Record<Category, string> = {
-  department: "#fff1f1",
+  interview: "#fff1f1",
   mainOffice: "#eff6ff",
-  dormitory: "#f0fdf4"
+  branchOffice: "#fffbeb",
+  dormitory: "#f0fdf4",
+  tradeTests: "#fff1f1",
+  deployment: "#eff6ff",
+  others: "#fffbeb" 
 };
 
 // ─── Style helpers ──────────────────────────────────────────────────────────
@@ -402,15 +414,20 @@ interface ProjectsGalleryProps {
 }
 
 export default function ProjectsGallery({ data = projects }: ProjectsGalleryProps) {
-  const [activeFilter, setActiveFilter] = useState<FilterOption>("All Gallery");
+  const [activeFilter, setActiveFilter] = useState<FilterOption>("Main Office");
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   const filtered = useMemo<Project[]>(() => {
     const categoryMap: Record<FilterOption, Category | null> = {
-        "All Gallery": null,
-        "Department": "department",
-        "Main Office": "mainOffice",   // ← map to camelCase
+        // "All Gallery": null,
+        "Main Office": "mainOffice",
+        "Branch Office": "branchOffice",
         "Dormitory": "dormitory",
+        "Interview": "interview",
+        "Trade Tests": "tradeTests",
+        "Deployment": "deployment",
+        "Others": "others",
+           // ← map to camelCase
     };
 
     const mapped = categoryMap[activeFilter];

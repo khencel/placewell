@@ -138,21 +138,27 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
-                        <div className="mega-item">
+                        <Link href="/department-facilities/pro-tech" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>{t("nav.pro")}</h4>
                             <p>{t("nav_sub.pro")}</p>
                             </div>
-                        </div>
-
-                        <Link href="/department-facilities/hashira" className="mega-item">
-                            <FaSyringe className="social-icon" />
-                            <div>
-                            <h4>{t("nav.hashira")}</h4>
-                            <p>{t("nav_sub.hashira")}</p>
-                            </div>
                         </Link>
+
+                        <a 
+                            href="https://hashira-tau.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mega-item"
+                        >
+                            <FaSyringe className="social-icon" />
+                            
+                            <div>
+                                <h4>{t("nav.hashira")}</h4>
+                                <p>{t("nav_sub.hashira")}</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </li>
@@ -177,7 +183,7 @@ export default function NavForDesktop() {
                             <FaHospital className="social-icon" />
                             <div>
                             <h4>{t("nav.client")}</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Hear from our esteemed clients</p>
                             </div>
                         </Link>
 
@@ -185,7 +191,7 @@ export default function NavForDesktop() {
                             <FaUserDoctor className="social-icon" />
                             <div>
                             <h4>{t("nav.ofw")}</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Some success stories from our deployed workers</p>
                             </div>
                         </Link>
 

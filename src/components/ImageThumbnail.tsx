@@ -32,9 +32,9 @@ export default function ImageThumbnail({ src, title, address, contact }: ImageTh
                             </span>
                         </div>
 
-                        <button className="btnprimary" style={{fontSize:"12px",padding:"5px 10px"}}>
+                        {/* <button className="btnprimary" style={{fontSize:"12px",padding:"5px 10px"}}>
                             View Details
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>

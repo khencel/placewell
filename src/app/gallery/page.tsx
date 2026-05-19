@@ -9,7 +9,7 @@ export default function Gallery(){
                 backgroundImage="/img/banner/gallery.jpg"
                 title="Gallery"
                 subtitle="Explore Our Gallery"
-                description="With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country. Our branch offices are located in key cities and provinces, allowing us to connect with a wide pool of talented Filipino workers and provide them with the support they need throughout the recruitment and deployment process."
+                description="Discover memorable moments, activities, achievements, and events captured through our gallery."
             />
 
             <ProjectsGallery />
