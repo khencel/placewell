@@ -459,3 +459,18 @@
   background: #709C6B;
   color: white;
 }
+
+.longParagraph {
+  line-height: 1.8;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: justify;
+
+  
+  max-width: 800px;
+
+  
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}

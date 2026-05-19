@@ -35,7 +35,7 @@ export default function WorldWideCareers() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/construction.jpg"
+                backgroundImage="/img/banner/globe.jpg"
                 title="About Us"
                 subtitle="Worldwide Careers"
                 description="Over 200,000 Filipinos deployed to more than 30 different countries"
@@ -48,7 +48,7 @@ export default function WorldWideCareers() {
                             <div className="col-md-2 p-3">
                                 <span className="title" style={{fontSize:"20px"}}>Construction Industry</span>
                                 <p  className="subtitle">
-                                    From construction sites to shipyards and highways, the skilled professionals build, operate, and maintain the structures and systems that keep the wolrd moving forward.
+                                    From construction sites to shipyards and highways, this skilled professionals build, operate, and maintain the structures and systems that keep the world moving forward.
                                 </p>
 
                             </div>
@@ -88,7 +88,7 @@ export default function WorldWideCareers() {
                                                 <br />
                                                 workers to Japan, particularly in Imabari, 
                                                 <br />
-                                                Shin Kurushima,including placements at 
+                                                including placements at 
                                                 <br />
                                                 Imabari Zosen and Shin Kurushima Dock.
                                             </p>
@@ -159,7 +159,7 @@ export default function WorldWideCareers() {
                             </div>
                             <div className="col-md-5 p-3">
                                 <div className="">
-                                    <img src="/img/filipinoWorker.jpg" className={`${s.rightImage} img-fluid`} alt="" />
+                                    <img src="/img/career/construction.jpg" className={`${s.rightImage} img-fluid`} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -172,7 +172,7 @@ export default function WorldWideCareers() {
                     <div className="col-md-10">
                         <div className="row">
                             <div className="col-md-2 p-3">
-                                <span className="title" style={{fontSize:"20px"}}>Delivery Comfort and Care</span>
+                                <span className="title" style={{fontSize:"20px"}}>Hospitality Industry</span>
                                 <p  className="subtitle">
                                     These professionals ensure people feel comportable, safe and cared for --whether at home, in hotels, on flights, or in the places where we gather and relax.
                                 </p>
@@ -279,7 +279,7 @@ export default function WorldWideCareers() {
                             </div>
                             <div className="col-md-5 p-3">
                                 <div className="">
-                                    <img src="/img/19031.jpg" className={`${s.rightImage} img-fluid`} alt="" />
+                                    <img src="/img/career/12695.jpg" className={`${s.rightImage} img-fluid`} alt="" />
                                 </div>
                             </div>
                         </div>

@@ -11,10 +11,10 @@ export default function About() {
     return (
       <>
         <Banner
-            backgroundImage="/img/banner/144829.jpg"
+            backgroundImage="/img/banner/services.jpg"
             title="About Us"
             subtitle="Our Services"
-            description="From Skills and Language Training to Trade Testing – we do it all!"
+            description="From Skills and Language Training to Trade Tests – we do it all!"
         />
 
         <section className="mb-5">
@@ -28,8 +28,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="col-md-5 p-3 p-md-0">
-                    <div className={s.imageStyle} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
-
+                    <div className={s.imageStyle} style={{ background: "url('/img/services/DSC04584.jpg') center/cover no-repeat" }}>
                     </div>
                 </div>
               </div>
@@ -42,7 +41,7 @@ export default function About() {
             <div className={`${s.contSection} col-md-10 border`}>
               <div className="row justify-content-center align-items-center">
                 <div className="col-md-5 p-3 order-2 order-md-1 p-md-0">
-                    <div className={s.imageStyleLeft} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
+                    <div className={s.imageStyleLeft} style={{ background: "url('/img/services/DSC03362.jpg') center/cover no-repeat" }}>
 
                     </div>
                 </div>
@@ -70,7 +69,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="col-md-5 p-3 p-md-0">
-                    <div className={s.imageStyle} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
+                    <div className={s.imageStyle} style={{ background: "url('/img/services/DSC02801.jpg') center/cover no-repeat" }}>
 
                     </div>
                 </div>
@@ -84,7 +83,7 @@ export default function About() {
             <div className={`${s.contSection} col-md-10 border`}>
               <div className="row justify-content-center align-items-center">
                 <div className="col-md-5 p-3 order-2 order-md-1 p-md-0">
-                    <div className={s.imageStyleLeft} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
+                    <div className={s.imageStyleLeft} style={{ background: "url('/img/services/DSC03631.jpg') center/cover no-repeat" }}>
 
                     </div>
                 </div>
@@ -115,7 +114,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="col-md-5 p-3 p-md-0">
-                    <div className={s.imageStyle} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
+                    <div className={s.imageStyle} style={{ background: "url('/img/services/DSC04492.jpg') center/cover no-repeat" }}>
 
                     </div>
                 </div>
@@ -129,7 +128,7 @@ export default function About() {
             <div className={`${s.contSection} col-md-10 border`}>
               <div className="row justify-content-center align-items-center">
                 <div className="col-md-5 p-3 order-2 order-md-1 p-md-0">
-                    <div className={s.imageStyleLeft} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
+                    <div className={s.imageStyleLeft} style={{ background: "url('/img/services/DSC03237.jpg') center/cover no-repeat" }}>
 
                     </div>
                 </div>
@@ -163,7 +162,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="col-md-5 p-3 p-md-0">
-                    <div className={s.imageStyle} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
+                    <div className={s.imageStyle} style={{ background: "url('/img/services/DSC03481.jpg') center/cover no-repeat" }}>
 
                     </div>
                 </div>
@@ -177,7 +176,7 @@ export default function About() {
             <div className={`${s.contSection} col-md-10 border`}>
               <div className="row justify-content-center align-items-center">
                 <div className="col-md-5 p-3 order-2 order-md-1 p-md-0">
-                    <div className={s.imageStyleLeft} style={{ background: "url('/img/banner/144829.jpg') center/cover no-repeat" }}>
+                    <div className={s.imageStyleLeft} style={{ background: "url('/img/services/DSC03793.jpg') center/cover no-repeat" }}>
 
                     </div>
                 </div>

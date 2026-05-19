@@ -55,8 +55,8 @@ export default function MissionVision() {
   return (
     <section className={s.section}>
       <div className="header">
-        <h2 className="title">Mission Vision</h2>
-        <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h2 className="title">Mission & Vision</h2>
+        {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
       </div>
 
       <div className={s.grid}>

@@ -12,7 +12,7 @@ export default function EngageWithUs() {
                 backgroundImage="/img/2148269340.jpg"
                 title="Engage With Us"
                 subtitle="Engage With Us"
-                description="We understand that the accreditation process can be lengthy and complex, but our knowledgeable and responsive team will support you every step of the way to make it as smooth and manageable as possible.So please feel free to contact us. "
+                description="Learn the step-by-step process on how to partner with us!"
             />
             <Process />
             <section>
@@ -20,7 +20,7 @@ export default function EngageWithUs() {
                     <div className="col-md-10">
                         <div className="header">
                             <h2 className="title">Engage With Us</h2>
-                            <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, repellendus odit. Ipsam delectus totam vero. Adipisci illum, dolore laborum ad voluptatibus nam ratione exercitationem assumenda totam accusantium consequuntur. Magni, maxime?</p>
+                            <p className="subtitle">We understand that the accreditation process can be lengthy and complex, but our knowledgeable and responsive team will support you every step of the way to make it as smooth and manageable as possible.So please feel free to contact us. </p>
                         </div>
                     </div>
                 </div>
@@ -128,14 +128,14 @@ export default function EngageWithUs() {
                                     <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >Download <FaDownload/></button>
                                 </div>
                             </div>
-                            <div className="d-flex">
+                            {/* <div className="d-flex">
                                 <div style={{width:"50%"}}>
                                     <img src="/img/envelopLock.png" className="img-fluid" alt="" />
                                 </div>
                                 <div style={{width:"50%"}}>
                                     <img src="/img/confidential.png" style={{width:"78%"}} alt="" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

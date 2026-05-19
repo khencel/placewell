@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import s from "./style.module.css"
 import MissionVision from "@/components/MissionVision";
+import DefaultImage from "@/components/defaultImage";
 
 export default function About() {
     return (
@@ -14,15 +15,54 @@ export default function About() {
           backgroundImage="/img/banner/meeting.jpg"
           title="About Us"
           subtitle="Corporate Identity"
-          description="Placewell International is a Filipino-owned, family-run manpower agency with over 50 years of experience in deploying Filipino workers overseas. Headquartered in Makati and supported by more than 15 branches nationwide, we recruit, train, and deploy Filipino workers to companies all over the world. Placewell is committed to providing its clients with dependable workers and service that is efficient, organized and highly responsive. At the same time, Placewell remains dedicated to empowering Filipinos by connecting them with employers that value them as people."
+          description="Know all about one of the Philippines’ leading manpower agencies"
         />
-        <section className="mb-5">
+
+        <section className="mt-5">
+          <div className="row m-0 justify-content-center">
+            <div className="col-md-10">
+              <div className="row">
+                <div className="col-md-6">
+                  <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>Placewell Internation</span>
+                  
+                  <p className="subtitle longParagraph mt-3">
+                    Placewell International is a Filipino-owned, family-run manpower agency with over 50 years of experience in deploying Filipino workers overseas. Headquartered in Makati and supported by more than 15 branches nationwide, we recruit, train, and deploy Filipino workers to companies all over the world. Placewell is committed to providing its clients with dependable workers and service that is efficient, organized and highly responsive. At the same time, Placewell remains dedicated to empowering Filipinos by connecting them with employers that value them as people.
+                  </p>
+                </div>
+                <div className="col-md-6 text-center">
+                  <DefaultImage />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="mb-5 mt-5">
             <div className="header">
               <h2 className="title">Board of Directors</h2>
-              <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
             </div>
 
             <div className="row m-0 mt-5 pt-5 justify-content-center">
+
+              <div className="col-md-5 p-3">
+                  <div className="row">
+                    <div className="col"><ImageStyle image="/img/identity/Parents-resized-600x599.jpg"/></div>
+                    <div className="col d-flex align-items-center">
+                      <div>
+                        <h5 className="title" style={{fontSize:"24px"}} >Filemon P. Escueta Jr. <img src="/img/cross.png" alt="" style={{width:"40px"}} /> and Aida H. Escueta</h5>
+                        <small>
+                            <strong>Chief Executive Officer and President</strong>
+                        </small>
+
+                        <p className="mt-3 cardText">
+                            They are the husband and wife team that founded Placewell International and are pioneers in the Philippine overseas employment industry. Aida continues to provide dedicated service to her long-standing clients in the Middle East, even into her 90s.
+                        </p>
+                      </div>
+                      
+                    </div>
+                </div>
+              </div>
+
               <div className="col-md-5 p-3">
                 <div className="row">
                   <div className="col"><ImageStyle image="/img/identity/IMG-20230710-WA0020-copy.jpg"/></div>
@@ -43,24 +83,7 @@ export default function About() {
                   
               </div>
 
-              <div className="col-md-5 p-3">
-                  <div className="row">
-                    <div className="col"><ImageStyle image="/img/identity/Parents-resized-600x599.jpg"/></div>
-                    <div className="col d-flex align-items-center">
-                      <div>
-                        <h5 className="title" style={{fontSize:"24px"}} >Filemon P. Escueta Jr. (cross) and Aida H. Escueta</h5>
-                        <small>
-                            <strong>Chief Executive Officer and President</strong>
-                        </small>
-
-                        <p className="mt-3 cardText">
-                            They are the husband and wife team that founded Placewell International and are pioneers in the Philippine overseas employment industry. Aida continues to provide dedicated service to her long-standing clients in the Middle East, even into her 90s.
-                        </p>
-                      </div>
-                      
-                    </div>
-                </div>
-              </div>
+              
             </div>
 
 
