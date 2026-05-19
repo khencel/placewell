@@ -8,7 +8,7 @@ import { getRollingData, getWhyHireFilipino  } from "@/data/homepage";
 export default function WhyHire() {
     const whyHire = getWhyHireFilipino()
     return (
-        <section className={`${s.section} ${s.banner}`}>
+        <section className={`${s.section}`}>
             <div className={s.wrapper}>
 
                 {/* LEFT SIDE */}
@@ -24,7 +24,7 @@ export default function WhyHire() {
                 </div>
 
                 {/* STATS */}
-                    <div className={s.stats}>
+                    {/* <div className={s.stats}>
                         <div className="row">
                             <div className="col text-white">
                                 <h4>Your trusted partner</h4>
@@ -34,14 +34,14 @@ export default function WhyHire() {
                             </div>
                         </div>
                         
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* RIGHT SIDE */}
                 <div className={s.right}>
-                <span className={s.titleHead} style={{color:"white"}}>Why Hire Filipino Workers</span>
+                <span className={s.titleHead}>Why Hire Filipino Workers</span>
                 <p className={s.desc} style={{color:"white"}}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
                 </p>
 
                 <div className={s.list}>

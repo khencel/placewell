@@ -95,7 +95,7 @@ export default function Home() {
         slidesPerView={1}
         loop={true}
         modules={[Autoplay]}
-        autoplay={{ delay: 2000 }}
+        // autoplay={{ delay: 2000 }}
         speed={800}
       >
         <SwiperSlide>
@@ -132,7 +132,7 @@ export default function Home() {
         <div style={styles.header}>
           <h2 style={styles.title}>{t("home.videoTitle")}</h2>
           <p style={styles.subtitle}>
-            {t("home.videoDesc")}
+            {/* {t("home.videoDesc")} */}
           </p>
         </div>
 
@@ -161,14 +161,15 @@ export default function Home() {
         
     </section>
     
-    <WhyPlacewell />
     <WhyHire />
+    <WhyPlacewell />
+    
 
     <section className="mt-5 mb-5">
       <div style={styles.header}>
           <h2 style={styles.title}>Gallery</h2>
           <p style={styles.subtitle}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Highlights of Our Activities
           </p>
         </div>
         
@@ -186,7 +187,7 @@ export default function Home() {
       <div style={styles.header}>
           <h2 style={styles.title}>Our Clients</h2>
           <p style={styles.subtitle}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. */}
           </p>
         </div>
         

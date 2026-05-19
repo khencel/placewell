@@ -11,14 +11,14 @@ export default function WhyPlacewell() {
     const t = useTranslations();
     
     return (
-        <section className={s.section}>
+        <section className={`${s.section} ${s.banner}`}>
         <div className={s.wrapper}>
 
             {/* LEFT SIDE */}
             <div className={s.left}>
             <div className={s.imageWrap}>
                 <Image
-                src="/img/planning.jpg"
+                src="/img/banner/DSC03258.jpg"
                 alt="Planning"
                 fill
                 className={s.image}
@@ -39,7 +39,7 @@ export default function WhyPlacewell() {
                         
                         <FaGlobe className={s.iconStat} />
                         
-                        <h3>15+</h3>
+                        <h3>20+</h3>
                         <p>{t("home.branchOffices")}</p>
                     </div>
                     <div className={s.stat}>
@@ -52,9 +52,9 @@ export default function WhyPlacewell() {
 
             {/* RIGHT SIDE */}
             <div className={s.right}>
-            <span className={s.titleHead}>{t("home.whyPlacewell")}</span>
+            <span className={s.titleHead} style={{color:"white"}}>{t("home.whyPlacewell")}</span>
             <p className={s.desc}>
-                {t("home.whyPlacewellSub")}
+                {/* {t("home.whyPlacewellSub")} */}
             </p>
 
             <div className={s.list}>
