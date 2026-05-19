@@ -1,19 +1,23 @@
 import Banner from "@/components/Banner"
 import TradeTestItem from "./tradeTestItem"
+import { getData } from "./data"
 
 export default function TradeTest() {
+    const data = getData();
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/philippines.jpg"
-                title="About Us"
-                subtitle="Branch Offices"
-                description="With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country. Our branch offices are located in key cities and provinces, allowing us to connect with a wide pool of talented Filipino workers and provide them with the support they need throughout the recruitment and deployment process."
+                backgroundImage="/img/banner/welding.jpg"
+                title="Our Services"
+                subtitle="Trade Tests"
+                description="lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?"
             />
 
             <div className="row justify-content-center m-0">
                 <div className="col-md-10">
-                    <TradeTestItem />
+                    {data.map((item) => (
+                        <TradeTestItem key={item.number} {...item} />
+                    ))}
                 </div>
             </div>
         </>

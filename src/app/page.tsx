@@ -12,6 +12,7 @@ import WhyPlacewell from "@/components/WhyPlacewell";
 import WhyHire from "@/components/WhyHire";
 
 import { useTranslations } from "next-intl";
+import Banner from "@/components/Banner";
 
 
 export default function Home() {
@@ -99,17 +100,15 @@ export default function Home() {
         speed={800}
       >
         <SwiperSlide>
-          <div className={s.hero}>
-              <div className={s.content}>
-                <h1 className={s.bannerTitle}>{t("home.bannerTitle")}</h1>
-                <p>{t("home.bannerSubtitle")}</p>
-                
-                <div className={s.buttons}>
-                  <button className={s.btnprimary}>{t("home.bannerPrimaryBtn")}</button>
-                  {/* <button className={s.btnoutline}>Learn More</button> */}
-                </div>
-              </div>
-          </div>
+          
+
+          <Banner
+                backgroundImage="/img/banner/OFW.png"
+                subtitle={t("home.bannerTitle")}
+                description={t("home.bannerSubtitle")}
+                // haveBtnPrimary={true}
+                // textButton="Contact Us"
+            />
         </SwiperSlide>
 
         <SwiperSlide>

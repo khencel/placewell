@@ -1,21 +1,32 @@
 "use client"
 
 import YouTube from "react-youtube";
+import s from "@/styles/tradeTest.module.css";
 
-export default function TradeTestItem(){
+interface TradeTestItemProps {
+    number: number;
+    title: string;
+    description: string;
+    videoId: string;
+    image1: string;
+    image2: string;
+}
+
+export default function TradeTestItem({ number, title, description, videoId, image1, image2 }: TradeTestItemProps){
+
     return (
         <>
             <div className="row">
                 <div className="col-md-3">
                     <div className="d-flex">
-                        <div style={{width:"10%"}}>
-                            <span style={{fontSize:"14px"}} className="badge bg-success p-2">1</span>
+                        <div style={{width:"15%"}}>
+                            <span style={{fontSize:"14px"}} className="badge bg-success p-2">{number}</span>
                         </div>
-                        <div style={{width:"90%"}}>
+                        <div style={{width:"85%"}}>
                             <div>
-                                <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>Domestic Work NC II</span>
+                                <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>{title}</span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?
+                                    {description}
                                 </p>
                             </div>
                         </div>
@@ -23,7 +34,7 @@ export default function TradeTestItem(){
                 </div>
                 <div className="col-md-3">
                     <YouTube
-                        videoId="1vIU3R-BIDQ"
+                        videoId={videoId}
                         opts={{
                             width: "100%",
                             height: "300px",
@@ -38,10 +49,10 @@ export default function TradeTestItem(){
                     />
                 </div>
                 <div className="col-md-3">
-                    <img src="/img/2148269340.jpg" className="img-fluid" alt="" />
+                    <img src={image1} className={s.imageStyle} alt="" />
                 </div>
                 <div className="col-md-3">
-                    <img src="/img/2148269340.jpg" className="img-fluid" alt="" />
+                    <img src={image2} className={s.imageStyle} alt="" />
                 </div>
             </div>
         </>

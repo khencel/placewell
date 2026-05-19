@@ -6,11 +6,12 @@ interface BannerProps {
     title?: string;
     subtitle?: string;
     description?: string;
-    haveBtnPrimary?:boolean
+    haveBtnPrimary?:boolean;
+    textButton?: string;
 
 }
 
-export default function Banner({ backgroundImage, title, subtitle, description, haveBtnPrimary }: BannerProps) {
+export default function Banner({ backgroundImage, title, subtitle, description, haveBtnPrimary,textButton }: BannerProps) {
   return (
     <section
       className={s.banner}
@@ -31,7 +32,7 @@ export default function Banner({ backgroundImage, title, subtitle, description, 
 
         {
           haveBtnPrimary && (
-            <button className={`${s.btnprimary} rounded-4`}><FaGlobe /> Visit Hashira Website</button>
+            <button className={`${s.btnprimary}`}>{textButton}</button>
           )
         
         }
