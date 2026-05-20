@@ -15,7 +15,7 @@ export default function WhyHire() {
                 <div className={s.left}>
                 <div className={s.imageWrap}>
                     <Image
-                    src="/img/planning.jpg"
+                    src="/img/banner/OFW.png"
                     alt="Planning"
                     fill
                     className={s.image}
