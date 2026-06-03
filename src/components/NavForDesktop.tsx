@@ -51,6 +51,7 @@ export default function NavForDesktop() {
                                                 fontSize: "12px",
                                             }}>
                                     {t.rich("nav_sub.services", {
+                                        br: () => <br />,
                                         link: (chunks) => (
                                         <Link 
                                             href="/trade-test"

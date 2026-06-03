@@ -18,7 +18,7 @@ export function getData(){
         },
         {
             number:3,
-            title:"Scaffolding",
+            title:"Trailer Truck Driving",
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
@@ -42,7 +42,7 @@ export function getData(){
         },
         {
             number:6,
-            title:"Trailer Truck Driving",
+            title:"Scaffolding",
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",

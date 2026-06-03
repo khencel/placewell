@@ -22,7 +22,7 @@
     },
     "nav_sub":{
         "identity":"Know all about one of the Philippines’ leading manpower agencies",
-        "services":"From Skills and Language Training to <link>Trade Tests</link> – we do it all!",
+        "services":"From Skills and Language Training to <br></br> <link>Trade Tests</link> – we do it all!",
         "branchOffices":"We have nationwide presence and recruit workers from all over the Philippines",
         "worldWide":"Over 200,000 Filipinos deployed to more than 30 different countries",
         "dept":"Discover how we deliver streamlined operations",
@@ -53,7 +53,69 @@
         "deployed":"Deployed OFWs",
         "branchOffices":"Branch Offices",
         "exp":"Experience",
-        "year":"Years"
+        "year":"Years",
+        "whyFilipino":{
+            "title":"Why Hire Filipino Workers",
+            "itemList":[
+                {
+                    "title":"Low average age",
+                    "desc":"The average in the Philippines is around 25 years old, which means that there is a lot of youthful energy available for work."
+                },
+                {
+                    "title":"Cost-effective high quality labor",
+                    "desc":"Although it may cost less to hire Filipino workers than locals, there will be no sacrifice in the quality of work. In fact, Filipinos who work abroad tend to work even harder than locals because of their feelings of gratitude and urgency to perform."
+                },
+                {
+                    "title":"Low minimum wage",
+                    "desc":"The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad."
+                },
+                {
+                    "title":"Well-known as People who work abroad",
+                    "desc":"There are Filipinos all over the world from Europe to the Middle East, North America, and all across Asia. Filipino workers have been known to be hard-working, friendly, and loyal to their employers."
+                },
+                {
+                    "title":"English Speaking",
+                    "desc":"The demand for workers who are competent in the English language is growing with the rise of Globalization. The English language is especially important in the hotel and restaurant industry. Almost all Filipinos are proficient in English and are happy to share and utilize their skills."
+                }
+            ]
+
+        },
+        "ourClients":"Our Clients",
+        "gallery":"Our Gallery",
+        "gallerydesc":"Highlights of Our Activities"
+    },
+    "corporateIdentity": {
+        "title": "About Us",
+        "subtitle":"Corporate Identity",
+        "placewellTitle":"Placewell International",
+        "placewellInternational":"Placewell International is a Filipino-owned, family-run manpower agency with over 50 years of experience in deploying Filipino workers overseas. Headquartered in Makati and supported by more than 15 branches nationwide, we recruit, train, and deploy Filipino workers to companies all over the world. Placewell is committed to providing its clients with dependable workers and service that is efficient, organized and highly responsive. At the same time, Placewell remains dedicated to empowering Filipinos by connecting them with employers that value them as people.",
+        "boardTitle":"Board of Directors",
+        "chief":"Chief Executive Officer and President",
+        "chiefDesc":"They are the husband and wife team that founded Placewell International and are pioneers in the Philippine overseas employment industry. Aida continues to provide dedicated service to her long-standing clients in the Middle East, even into her 90s.",
+        "vice":"Vice President for Operations",
+        "viceDesc":"Elo took over Placewell International in 1995 and has since transformed the company into one of the country’s leading manpower agencies. She is a seasoned businesswoman with a big heart. Under her leadership, Placewell has expanded its services across Europe, Asia, Oceania, and North America. She obtained her degree in Psychology from Colegio de San Juan de Letran.",
+        "consultant":"Consultant",
+        "consultantDesc":"Joelo is a licensed attorney and a JLPT N1 passer. He obtained his degree in International Business from Pepperdine University and his Juris Doctor from Ateneo De Manila School of Law. He is also the President of Hashira Skills and Language Academy and Pro-Tech Skills Development Center Corporation. He has been with Placewell since 2018.",
+        "mission":"Mission & Vision",
+        "missionTitle":"Mission",
+        "missionDesc":"To be the most trusted, most reliable Philippine manpower services company in the world, recognized for readily available efficient services to our clients; for loyalty to our employees; for fidelity to our stockholders; and for social responsibility to our community.",
+        "visionTitle":"Vision",
+        "visionDesc":"A Philippine manpower services company, born of excellence, nurtured by expertise, and committed to leading in meeting the needs of global employers for highly competent, professional, and skilled Filipino workers.",
+        "corporate":"Corporate Philosophy",
+        "corporatePhilosophy": {
+            "line1": "We are a people company that builds lasting relationships.",
+            "line2": "We care for people because they are:",
+            "reasons": {
+            "1": "Individuals with dignity to be respected and rights to be protected.",
+            "2": "Employers who generate economic value.",
+            "3": "Workers who need to be treated and rewarded fairly."
+            },
+            "clientsTitle": "Clients count first.",
+            "clientsDesc": "We exist for our clients and, thus, work to provide them with on-time job-ready, and competent workers as required, by employing only ethical and modern recruitment practices and strategies that conform to international standards.",
+            "csrTitle": "We take our corporate social responsibility seriously.",
+            "csrDesc": "We share the rewards of business with the communities where we operate, believing that by giving freely, you shall receive tenfold."
+        },
+        "companyHistory":"Company History"
     }
     
 }   

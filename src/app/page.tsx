@@ -168,9 +168,9 @@ export default function Home() {
 
     <section className="mt-5 mb-5">
       <div style={styles.header}>
-          <h2 style={styles.title}>Gallery</h2>
+          <h2 style={styles.title}>{t("home.gallery")}</h2>
           <p style={styles.subtitle}>
-            Highlights of Our Activities
+            {t("home.gallerydesc")}
           </p>
         </div>
         
@@ -186,7 +186,7 @@ export default function Home() {
 
     <section className="mt-5 mb-5">
       <div style={styles.header}>
-          <h2 style={styles.title}>Our Clients</h2>
+          <h2 style={styles.title}>{t("home.ourClients")}</h2>
           <p style={styles.subtitle}>
             {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. */}
           </p>

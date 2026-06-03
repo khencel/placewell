@@ -46,10 +46,19 @@ export default function Navigation() {
             <span>
               <select
                 value={locale}
-                onChange={(e) => setLocale(e.target.value as "en" | "ja")}
+                onChange={(e) => {
+                  const selectedLocale = e.target.value as Parameters<typeof setLocale>[0];
+                  setLocale(selectedLocale);
+                }}
               >
                 <option value="en">English</option>
+                <option value="ar">Arabic</option>
+                <option value="zh">Mandarin</option>
+                <option value="yue">Cantonese</option>
                 <option value="ja">Japanese</option>
+                <option value="lt">Lithuanian</option>
+                <option value="hr">Croatian</option>
+                <option value="pl">Polish</option>
               </select>
             </span>
           </div>

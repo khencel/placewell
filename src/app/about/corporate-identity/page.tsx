@@ -3,19 +3,20 @@ import Banner from "@/components/Banner";
 import ImageStyle from "@/components/ImageStyle";
 import CustomHR from "@/components/CustomHR";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
 import s from "./style.module.css"
 import MissionVision from "@/components/MissionVision";
-import DefaultImage from "@/components/defaultImage";
+import { useTranslations } from "next-intl";
+
 
 export default function About() {
+    const t = useTranslations();
     return (
       <>
         <Banner
           backgroundImage="/img/banner/meeting.jpg"
-          title="About Us"
-          subtitle="Corporate Identity"
-          description="Know all about one of the Philippines’ leading manpower agencies"
+          title={t("corporateIdentity.title")}
+          subtitle={t("corporateIdentity.subtitle")}
+          description={t("nav_sub.identity")}
         />
 
         <section className="mt-5">
@@ -23,14 +24,14 @@ export default function About() {
             <div className="col-md-10">
               <div className="row">
                 <div className="col-md-6">
-                  <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>Placewell Internation</span>
+                  <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>{t("corporateIdentity.placewellTitle")}</span>
                   
                   <p className="subtitle longParagraph mt-3">
-                    Placewell International is a Filipino-owned, family-run manpower agency with over 50 years of experience in deploying Filipino workers overseas. Headquartered in Makati and supported by more than 15 branches nationwide, we recruit, train, and deploy Filipino workers to companies all over the world. Placewell is committed to providing its clients with dependable workers and service that is efficient, organized and highly responsive. At the same time, Placewell remains dedicated to empowering Filipinos by connecting them with employers that value them as people.
+                    {t("corporateIdentity.placewellInternational")}
                   </p>
                 </div>
                 <div className="col-md-6 text-center">
-                  <DefaultImage />
+                  <img src="/logo.png" className="img-fluid" alt="" />
                 </div>
               </div>
             </div>
@@ -38,7 +39,7 @@ export default function About() {
         </section>
         <section className="mb-5 mt-5">
             <div className="header">
-              <h2 className="title">Board of Directors</h2>
+              <h2 className="title">{t("corporateIdentity.boardTitle")}</h2>
               {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
             </div>
 
@@ -46,16 +47,16 @@ export default function About() {
 
               <div className="col-md-5 p-3">
                   <div className="row">
-                    <div className="col"><ImageStyle image="/img/identity/Parents-resized-600x599.jpg"/></div>
-                    <div className="col d-flex align-items-center">
+                    <div className="col-md-6"><ImageStyle image="/img/identity/Parents-resized-600x599.jpg"/></div>
+                    <div className="col-md-6 d-flex align-items-center">
                       <div>
-                        <h5 className="title" style={{fontSize:"24px"}} >Filemon P. Escueta Jr. <img src="/img/cross.png" alt="" style={{width:"40px"}} /> and Aida H. Escueta</h5>
+                        <h5 className="title" style={{fontSize:"24px"}} >Filemon P. Escueta Jr.  and Aida H. Escueta</h5>
                         <small>
-                            <strong>Chief Executive Officer and President</strong>
+                            <strong>{t("corporateIdentity.chief")}</strong>
                         </small>
 
                         <p className="mt-3 cardText">
-                            They are the husband and wife team that founded Placewell International and are pioneers in the Philippine overseas employment industry. Aida continues to provide dedicated service to her long-standing clients in the Middle East, even into her 90s.
+                            {t("corporateIdentity.chiefDesc")}
                         </p>
                       </div>
                       
@@ -65,16 +66,16 @@ export default function About() {
 
               <div className="col-md-5 p-3">
                 <div className="row">
-                  <div className="col"><ImageStyle image="/img/identity/IMG-20230710-WA0020-copy.jpg"/></div>
-                  <div className="col d-flex align-items-center">
+                  <div className="col-md-6"><ImageStyle image="/img/identity/IMG-20230710-WA0020-copy.jpg"/></div>
+                  <div className="col-md-6 d-flex align-items-center">
                       <div>
                         <h5 className="title" style={{fontSize:"24px"}} >Eleonor H. Escueta (Elo) </h5>
                         <small>
-                            <strong>Vice President for Operations</strong>
+                            <strong>{t("corporateIdentity.vice")}</strong>
                         </small>
 
                         <p className="mt-3 cardText">
-                            Elo took over Placewell International in 1995 and has since transformed the company into one of the country’s leading manpower agencies. She is a seasoned businesswoman with a big heart. Under her leadership, Placewell has expanded its services across Europe, Asia, Oceania, and North America. She obtained her degree in Psychology from Colegio de San Juan de Letran. 
+                            {t("corporateIdentity.viceDesc")}
                         </p>
                       </div>
                       
@@ -96,12 +97,11 @@ export default function About() {
                 <div>
                   <h5 className="title" style={{fontSize:"24px"}} >Jose Lorenzo Escueta Beech  (Joelo)</h5>
                   <small>
-                      <strong>Consultant</strong>
+                      <strong>{t("corporateIdentity.consultant")}</strong>
                   </small>
 
                   <p className="mt-3 cardText">
-                    Joelo is a licensed attorney and a JLPT N1 passer. He obtained his degree in International Business from Pepperdine University and his Juris Doctor from Ateneo De Manila School of Law. He is also the President of Hashira Skills and Language Academy and Pro-Tech Skills Development Center Corporation. He has been with Placewell since 2018.
-                      
+                    {t("corporateIdentity.consultantDesc")}
                   </p>
                 </div>
                 
@@ -129,8 +129,8 @@ export default function About() {
         <section>
           <div className={s.sectionWrapper}>
             <div className="header">
-              <h2 className="title">Company History</h2>
-              <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h2 className="title">{t("corporateIdentity.companyHistory")}</h2>
+              {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
             </div>
             <div className={`${s.historyCont} row justify-content-center position-relative m-0 mb-5`}>
               <div className="col-md-11">

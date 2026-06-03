@@ -10,7 +10,7 @@ export default function TradeTest() {
                 backgroundImage="/img/banner/welding.jpg"
                 title="Our Services"
                 subtitle="Trade Tests"
-                description="lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?"
+                description="We conduct Trade Tests at our own facility"
             />
 
             <div className="row justify-content-center m-0">

@@ -12,7 +12,7 @@ export default function ClientTestimonial() {
                 backgroundImage="/img/banner/57234.jpg"
                 title="Testimonials"
                 subtitle="OFW Testimonials"
-                description="With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country. Our branch offices are located in key cities and provinces, allowing us to connect with a wide pool of talented Filipino workers and provide them with the support they need throughout the recruitment and deployment process."
+                description="Some success stories from our deployed workers."
             />
 
             <section className="mt-5">

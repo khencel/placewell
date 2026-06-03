@@ -3,3 +3,14 @@
   border-radius: 16px;
   /* width: 80%; */
 }
+@media (max-width: 768px) {
+  .imgStyle{
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .imgStyle{
+    box-shadow: none;
+  }
+}

@@ -159,7 +159,7 @@ export default function WorldWideCareers() {
                             </div>
                             <div className="col-md-5 p-3">
                                 <div className="">
-                                    <img src="/img/career/construction.jpg" className={`${s.rightImage} img-fluid`} alt="" />
+                                    <img src="/img/career/construction.png" className={`${s.rightImage} img-fluid`} alt="" />
                                 </div>
                             </div>
                         </div>
