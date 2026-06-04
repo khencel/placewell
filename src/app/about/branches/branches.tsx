@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect, useRef } from "react";
 import styles from "@/styles/BranchLocator.module.css";
+import { useTranslations } from "next-intl";
 
 type Region = "Luzon" | "Visayas" | "Mindanao";
 
@@ -50,6 +51,7 @@ function BranchCard({ branch, index, isActive, onViewMap }: {
   branch: Branch; index: number; isActive: boolean; onViewMap: (b: Branch) => void;
 }) {
   const color = REGION_COLORS[branch.region];
+  const t = useTranslations("branch");
   return (
     <div className={`${styles.card} ${isActive ? styles.cardActive : ""}`} onClick={() => onViewMap(branch)}>
       <span className={styles.cardBadge} style={{ background: color }}>{index + 1}</span>
@@ -63,7 +65,7 @@ function BranchCard({ branch, index, isActive, onViewMap }: {
         style={isActive ? { background: color, color: "#fff", borderColor: color } : {}}
         onClick={(e) => { e.stopPropagation(); onViewMap(branch); }}
       >
-        View on Map
+        {t("view")}
       </button>
     </div>
   );

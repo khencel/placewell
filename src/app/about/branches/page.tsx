@@ -1,18 +1,21 @@
+"use client"
+
 import Banner from "@/components/Banner"
 import BranchLocator from "./branches"
+import { useTranslations } from "next-intl";
 
 export default function AboutBranches() {
+    const t = useTranslations("branch");
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/philippines.jpg"
-                title="About Us"
-                subtitle="Branch Offices"
-                description="With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country. Our branch offices are located in key cities and provinces, allowing us to connect with a wide pool of talented Filipino workers and provide them with the support they need throughout the recruitment and deployment process."
+                title={t("title")}
+                subtitle={t("subtitle")}
+                description={t("desc")}
             />
 
             <BranchLocator />
-
             
         </>
     )

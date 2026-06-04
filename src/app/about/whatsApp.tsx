@@ -1,6 +1,8 @@
+"use client"
 import s from '@/styles/whatsApp.module.css'
-
+import { useTranslations } from "next-intl";
 export default function WhatsApp(){
+    const t = useTranslations();
     return (
         <>
             <section>
@@ -8,11 +10,11 @@ export default function WhatsApp(){
                     <div className={`${s.contSection} col-md-10 border`}>
                         <div className={`row`}>
                             <div className="col-md-4 p-3">
-                                <h2 className={s.title} style={{fontSize:"20px"}}>WhatsApp and Line <br />Group Chat System</h2>
+                                <h2 className={s.title} style={{fontSize:"20px"}}>{t("ourServices.whatsAup")}</h2>
                                 <div className={s.divider} />
                                 <div>
                                     <span className={s.description} style={{fontSize:"12px"}}>
-                                        To ensure fast and efficient communication with all our partners and clients, we use a group chat system managed by our dedicated staff. We prioritize quick and accurate responses, recognizing the importance of time in the recruitment process.
+                                        {t("ourServices.whatsAupDesc")}
                                     </span>
                                 </div>
                             </div>
@@ -22,10 +24,10 @@ export default function WhatsApp(){
                                         <img src="/img/icon/whatsapp.png" style={{width:"70%"}} alt="" />
                                     </div>
                                     <div>
-                                        <span className={s.title} style={{fontSize:"14px"}}>WhatsApp Groups</span>
+                                        <span className={s.title} style={{fontSize:"14px"}}>{t("ourServices.whatsAppGroup")}</span>
                                         <br />
                                         <span className={s.description}>
-                                            Instant messaging and updates for smooth communication
+                                            {t("ourServices.whatsAppGroupDesc")}
                                         </span>
                                         
                                     </div>
@@ -35,10 +37,10 @@ export default function WhatsApp(){
                                         <img src="/img/icon/line.png" style={{width:"70%"}} alt="" />
                                     </div>
                                     <div>
-                                        <span className={s.title} style={{fontSize:"14px"}}>LINE Groups</span>
+                                        <span className={s.title} style={{fontSize:"14px"}}>{t("ourServices.lineGroup")}</span>
                                         <br />
                                         <span className={s.description}>
-                                            Organized group chats for better coordination and collaboration.
+                                            {t("ourServices.lineGroupDesc")}
                                         </span>
                                         
                                     </div>

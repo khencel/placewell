@@ -1,3 +1,4 @@
+"use client"
 import Banner from "@/components/Banner"
 import  s from "../../styles/worldwide.module.css"
 import { 
@@ -29,16 +30,17 @@ import {
             iconMidwives,
             iconMedical  
 } from "./iconList"
-
+import { useTranslations } from "next-intl";
 
 export default function WorldWideCareers() {
+    const t = useTranslations("worldWide");
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/globe.jpg"
-                title="About Us"
-                subtitle="Worldwide Careers"
-                description="Over 200,000 Filipinos deployed to more than 30 different countries"
+                title={t("title")}
+                subtitle={t("subtitle")}
+                description={t("desc")}
             />
 
             <section>
@@ -46,9 +48,9 @@ export default function WorldWideCareers() {
                     <div className="col-md-10">
                         <div className="row">
                             <div className="col-md-2 p-3">
-                                <span className="title" style={{fontSize:"20px"}}>Construction Industry</span>
+                                <span className="title" style={{fontSize:"20px"}}>{t("construction")}</span>
                                 <p  className="subtitle">
-                                    From construction sites to shipyards and highways, this skilled professionals build, operate, and maintain the structures and systems that keep the world moving forward.
+                                    {t("constructionDesc")}
                                 </p>
 
                             </div>
@@ -57,21 +59,15 @@ export default function WorldWideCareers() {
                                     <div className={s.iconStyle}>
                                         <img src="/img/icon/star.png" className={s.starIcon} alt="" />
                                         <div>{iconWelder()}</div>
-                                        <span className={s.label}>Welder</span>
+                                        <span className={s.label}>{t("welder")}</span>
 
                                         
                                         <span className={s.tooltip}>
-                                            <span className="title" style={{fontSize:"20px"}}>Welder</span>
+                                            <span className="title" style={{fontSize:"20px"}}>{t("welder")}</span>
                                             <p className="subtitle">
-                                                We specialize in the recruitment
-                                                <br />
-                                                and training of welders across all
-                                                <br />
-                                                types of welding. We deploy skilled
-                                                <br />
-                                                welders to Saudi Arabia, Japan, Croatia,
-                                                <br />
-                                                Estonia,and Lithuania.
+                                                {t.rich("welderDesc", {
+                                                    br: () => <br />
+                                                })}
                                             </p>
                                         </span>
                                     </div>
@@ -79,18 +75,14 @@ export default function WorldWideCareers() {
                                     <div className={s.iconStyle}>
                                         <img src="/img/icon/star.png" className={s.starIcon} alt="" />
                                         {iconShipYard()}
-                                        <span className={s.label}>Shipyard</span>
+                                        <span className={s.label}>{t("shipyard")}</span>
 
                                         <span className={s.tooltip}>
-                                            <span className="title" style={{fontSize:"20px"}}>Shipyard Workers</span>
+                                            <span className="title" style={{fontSize:"20px"}}>{t("shipyard")}</span>
                                             <p className="subtitle">
-                                                We have deployed over a thousand shipyard 
-                                                <br />
-                                                workers to Japan, particularly in Imabari, 
-                                                <br />
-                                                including placements at 
-                                                <br />
-                                                Imabari Zosen and Shin Kurushima Dock.
+                                                {t.rich("shipyardDesc", {
+                                                    br: () => <br />
+                                                })}
                                             </p>
                                         </span>
                                     </div>
@@ -98,19 +90,13 @@ export default function WorldWideCareers() {
                                     <div className={s.iconStyle}>
                                         <img src="/img/icon/star.png" className={s.starIcon} alt="" />
                                         {iconTrucking()}
-                                        <span className={s.label}>Trucking</span>
+                                        <span className={s.label}>{t("trucking")}</span>
                                         <span className={s.tooltip}>
-                                            <span className="title" style={{fontSize:"20px"}}>Trailer Truck Drivers</span>
+                                            <span className="title" style={{fontSize:"20px"}}>{t("trucking")}</span>
                                             <p className="subtitle">
-                                                We implement a specialized recruitment 
-                                                <br />
-                                                system for truck drivers bound for Lithuania. 
-                                                <br />
-                                                We maintain a ready pool of pre-documented 
-                                                <br />
-                                                candidates and provide mock immigration 
-                                                <br />
-                                                interviews, resulting in high passing rates.
+                                                {t.rich("truckingDesc", {
+                                                    br: () => <br />
+                                                })}
                                             </p>
                                         </span>
                                     </div>
@@ -119,41 +105,41 @@ export default function WorldWideCareers() {
                                 <div className="d-flex justify-content-center gap-2 mt-2">
                                     <div className={s.secondaryIcon}>
                                         {iconCarpenters()}
-                                        <span className={s.label}>Carpenters</span>
+                                        <span className={s.label}>{t("carpenters")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconScaffolders()}
-                                        <span className={s.label}>Scaffolders</span>
+                                        <span className={s.label}>{t("scaffolders")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconSteelFixer()}
-                                        <span className={s.label}>Steel Fixers</span>
+                                        <span className={s.label}>{t("steel")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconMasons()}
-                                        <span className={s.label}>Masons</span>
+                                        <span className={s.label}>{t("masons")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconPainters()}
-                                        <span className={s.label}>Painters</span>
+                                        <span className={s.label}>{t("painters")}</span>
                                     </div>
                                 </div>
                                 <div className="d-flex justify-content-center gap-2 mt-2">
                                     <div className={s.secondaryIcon}>
                                         {iconEngineer()}
-                                        <span className={s.label}>Engineer</span>
+                                        <span className={s.label}>{t("engineer")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconMechanical()}
-                                        <span className={s.label}>Mechanics and Technicians</span>
+                                        <span className={s.label}>{t("mechanic")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconFactoryWorker()}
-                                        <span className={s.label}>Factory Workers</span>
+                                        <span className={s.label}>{t("factory")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconHeaveEquipment()}
-                                        <span className={s.label}>Heavy Equipment Operators</span>
+                                        <span className={s.label}>{t("heavy")}</span>
                                     </div>
                                 </div>
                             </div>
@@ -172,9 +158,9 @@ export default function WorldWideCareers() {
                     <div className="col-md-10">
                         <div className="row">
                             <div className="col-md-2 p-3">
-                                <span className="title" style={{fontSize:"20px"}}>Hospitality Industry</span>
+                                <span className="title" style={{fontSize:"20px"}}>{t("hospitality")}</span>
                                 <p  className="subtitle">
-                                    These professionals ensure people feel comportable, safe and cared for --whether at home, in hotels, on flights, or in the places where we gather and relax.
+                                    {t("hospitalityDesc")}
                                 </p>
 
                             </div>
@@ -183,11 +169,11 @@ export default function WorldWideCareers() {
                                     <div className={s.iconStyle}>
                                         <img src="/img/icon/star.png" className={s.starIcon} alt="" />
                                         <div>{iconCleaners()}</div>
-                                        <span className={s.label}>Cleaners</span>
+                                        <span className={s.label}>{t("cleaners")}</span>
 
                                         
                                         <span className={s.tooltip}>
-                                            <span className="title" style={{fontSize:"20px"}}>Cleaners</span>
+                                            <span className="title" style={{fontSize:"20px"}}>{t("cleaners")}</span>
                                             <p className="subtitle">
                                                 Our highest-volume job order is 
                                                 <br />
@@ -201,10 +187,10 @@ export default function WorldWideCareers() {
                                     <div className={s.iconStyle}>
                                         <img src="/img/icon/star.png" className={s.starIcon} alt="" />
                                         {iconDomestic()}
-                                        <span className={s.label}>Domestic Helpers</span>
+                                        <span className={s.label}>{t("domestic")}</span>
 
                                         <span className={s.tooltip}>
-                                            <span className="title" style={{fontSize:"20px"}}>Domestic Helpers</span>
+                                            <span className="title" style={{fontSize:"20px"}}>{t("domestic")}</span>
                                             <p className="subtitle">
                                                Placewell is recognized as a leading 
                                                <br />
@@ -222,9 +208,9 @@ export default function WorldWideCareers() {
                                     <div className={s.iconStyle}>
                                         <img src="/img/icon/star.png" className={s.starIcon} alt="" />
                                         {iconFoodService()}
-                                        <span className={s.label}>Food Service Workers</span>
+                                        <span className={s.label}>{t("food")}</span>
                                         <span className={s.tooltip}>
-                                            <span className="title" style={{fontSize:"20px"}}>Food Service Workers</span>
+                                            <span className="title" style={{fontSize:"20px"}}>{t("food")}</span>
                                             <p className="subtitle">
                                                 We implement a specialized recruitment 
                                                 <br />
@@ -241,7 +227,7 @@ export default function WorldWideCareers() {
                                     <div className={s.iconStyle}>
                                         <img src="/img/icon/star.png" className={s.starIcon} alt="" />
                                         {iconFlightGroundHandling()}
-                                        <span className={s.label}>Flight Attendants and Ground Handling Staff</span>
+                                        <span className={s.label}>{t("flight")}</span>
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>Flight Attendants and <br />Ground Handling Staff</span>
                                             <p className="subtitle">
@@ -256,23 +242,23 @@ export default function WorldWideCareers() {
                                 <div className="d-flex justify-content-center gap-2 mt-2">
                                     <div className={s.secondaryIcon}>
                                         {iconHotel()}
-                                        <span className={s.label}>Hotel Workers</span>
+                                        <span className={s.label}>{t("hotel")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconFarmers()}
-                                        <span className={s.label}>Farmers</span>
+                                        <span className={s.label}>{t("farmers")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconTeacher()}
-                                        <span className={s.label}>Teachers</span>
+                                        <span className={s.label}>{t("teachers")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconDriver()}
-                                        <span className={s.label}>Family Drivers</span>
+                                        <span className={s.label}>{t("family")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconChef()}
-                                        <span className={s.label}>Chefs</span>
+                                        <span className={s.label}>{t("chefs")}</span>
                                     </div>
                                 </div>
                                 
@@ -293,9 +279,9 @@ export default function WorldWideCareers() {
                     <div className="col-md-10">
                         <div className="row">
                             <div className="col-md-2 p-3">
-                                <span className="title" style={{fontSize:"20px"}}>Medical Industry</span>
+                                <span className="title" style={{fontSize:"20px"}}>{t("medical")}</span>
                                 <p  className="subtitle">
-                                    These healthcare professionals provide essential medical care, support, and treatment --helping individuals live healthier, happier lives.
+                                    {t("medicalDesc")}
                                 </p>
 
                             </div>
@@ -304,11 +290,11 @@ export default function WorldWideCareers() {
                                     <div className={s.iconStyle}>
                                         <img src="/img/icon/star.png" className={s.starIcon} alt="" />
                                         <div>{iconNurse()}</div>
-                                        <span className={s.label}>Nurses</span>
+                                        <span className={s.label}>{t("nurses")}</span>
 
                                         
                                         <span className={s.tooltip}>
-                                            <span className="title" style={{fontSize:"20px"}}>Nurses</span>
+                                            <span className="title" style={{fontSize:"20px"}}>{t("nurses")}</span>
                                             <p className="subtitle">
                                                 We have deployed numerous nurses to 
                                                 <br />
@@ -327,11 +313,11 @@ export default function WorldWideCareers() {
                                     <div className={s.iconStyle}>
                                         <img src="/img/icon/star.png" className={s.starIcon} alt="" />
                                         <div>{iconCaregiver()}</div>
-                                        <span className={s.label}>Caregivers</span>
+                                        <span className={s.label}>{t("caregivers")}</span>
 
                                         
                                         <span className={s.tooltip}>
-                                            <span className="title" style={{fontSize:"20px"}}>Caregivers</span>
+                                            <span className="title" style={{fontSize:"20px"}}>{t("caregivers")}</span>
                                             <p className="subtitle">
                                                 We were among the first manpower agencies 
                                                 <br />
@@ -350,19 +336,19 @@ export default function WorldWideCareers() {
                                 <div className="d-flex justify-content-center gap-2 mt-2">
                                     <div className={s.secondaryIcon}>
                                         {iconDoctor()}
-                                        <span className={s.label}>Doctors</span>
+                                        <span className={s.label}>{t("doctors")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconDentist()}
-                                        <span className={s.label}>Dentist</span>
+                                        <span className={s.label}>{t("dentists")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconMidwives()}
-                                        <span className={s.label}>Midwives</span>
+                                        <span className={s.label}>{t("midwives")}</span>
                                     </div>
                                     <div className={s.secondaryIcon}>
                                         {iconMedical()}
-                                        <span className={s.label}>Medical Technologists</span>
+                                        <span className={s.label}>{t("medicalTech")}</span>
                                     </div>
                                     
                                 </div>

@@ -1,8 +1,12 @@
+"use client"
+import { useTranslations } from "next-intl";
+
 export function getData(){
+    const t = useTranslations();
     return [
         {
             number:1,
-            title:"Welding",
+            title:t("tradeTest.title"),
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
@@ -10,7 +14,7 @@ export function getData(){
         },
         {
             number:2,
-            title:"Carpentry",
+            title:t("tradeTest.carpentry"),
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
@@ -18,7 +22,7 @@ export function getData(){
         },
         {
             number:3,
-            title:"Trailer Truck Driving",
+            title:t("tradeTest.trailer"),
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
@@ -26,7 +30,7 @@ export function getData(){
         },
         {
             number:4,
-            title:"Masonry",
+            title:t("tradeTest.masonry"),
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
@@ -34,7 +38,7 @@ export function getData(){
         },
         {
             number:5,
-            title:"Painting",
+            title:t("tradeTest.painting"),
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
@@ -42,7 +46,7 @@ export function getData(){
         },
         {
             number:6,
-            title:"Scaffolding",
+            title:t("tradeTest.scaffolding"),
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
@@ -50,7 +54,7 @@ export function getData(){
         },
         {
             number:7,
-            title:"Heavy Equipment",
+            title:t("tradeTest.heavy"),
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
@@ -58,7 +62,7 @@ export function getData(){
         },
         {
             number:8,
-            title:"Caregiving",
+            title:t("tradeTest.caregiving"),
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
@@ -66,7 +70,7 @@ export function getData(){
         },
         {
             number:9,
-            title:"Food Service",
+            title:t("tradeTest.food"),
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
@@ -74,7 +78,7 @@ export function getData(){
         },
         {
             number:10,
-            title:"Housekeeping ",
+            title:t("tradeTest.house"),
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",

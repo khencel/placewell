@@ -1,7 +1,10 @@
-import style from '../../styles/myra.module.css'
+"use client"
 
+import style from '../../styles/myra.module.css'
+import { useTranslations } from "next-intl";
 
 export default function Myra(){
+    const t = useTranslations();
     return (
         <>
             <section className='mt-3 mb-3'>
@@ -14,9 +17,9 @@ export default function Myra(){
                                 </div>
                                 <div style={{width:"85%"}} className='p-3'>
                                     <h2 className={style.title}>Myra</h2>
-                                    <small style={{color:"#0d6308"}}>(Manpower Database)</small>
+                                    <small style={{color:"#0d6308"}}>({t("ourServices.manPower")})</small>
                                     <p className={style.description}>
-                                        Myra is Placewell’s personalized manpower support system that ensures all selected workers’ relevant information and documents are properly organized, upholding an accurate and timely deployment process. It also maintains a readily available pool of candidates across various industries, with filters for quick and easy searching and sorting. Placewell also provides employers with their own personalized Myra accounts, offering customized features tailored to their specific industry needs.
+                                        {t("ourServices.myraDesc")}
                                     </p>
                                 </div>
                                 

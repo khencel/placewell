@@ -1,16 +1,19 @@
+"use client"
 import Banner from "@/components/Banner"
 import TradeTestItem from "./tradeTestItem"
 import { getData } from "./data"
+import { useTranslations } from "next-intl";
 
 export default function TradeTest() {
     const data = getData();
+    const t = useTranslations();
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/welding.jpg"
-                title="Our Services"
-                subtitle="Trade Tests"
-                description="We conduct Trade Tests at our own facility"
+                title={t("tradeTest.title")}
+                subtitle={t("tradeTest.subtitle")}
+                description={t("tradeTest.desc")}
             />
 
             <div className="row justify-content-center m-0">

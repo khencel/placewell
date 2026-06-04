@@ -1,14 +1,9 @@
 "use client"
 import React, { useEffect, useRef } from "react";
 import styles from "@/styles/facebook.module.css";
+import { useTranslations } from "next-intl";
 
-const features = [
-  "500,000+ Facebook Followers",
-  "High-Volume Applicant Reach",
-  "Thorough Candidate Screening",
-  "Pre-Qualified Talent Pool",
-  "Fast Client Endorsement",
-];
+
 
 interface FloatingIconProps {
   emoji: string;
@@ -20,7 +15,16 @@ const FloatingIcon: React.FC<FloatingIconProps> = ({ emoji, className }) => (
 );
 
 const FacebookMarketing: React.FC = () => {
+  const t = useTranslations();
   const cardRef = useRef<HTMLDivElement>(null);
+
+  const features = [
+    t("ourServices.facebookItem1"),
+    t("ourServices.facebookItem2"),
+    t("ourServices.facebookItem3"),
+    t("ourServices.facebookItem4"),
+    t("ourServices.facebookItem5"),
+  ];
 
   useEffect(() => {
     const card = cardRef.current;
@@ -45,7 +49,7 @@ const FacebookMarketing: React.FC = () => {
       card.removeEventListener("mouseleave", handleMouseLeave);
     };
   }, []);
-
+  
   return (
     
     <div className={styles.wrapper}>
@@ -66,10 +70,10 @@ const FacebookMarketing: React.FC = () => {
         </div>
 
         <div className={styles.content}>
-          <h2 className={styles.title}>Facebook Marketing</h2>
+          <h2 className={styles.title}>{t("ourServices.facebook")}</h2>
           <div className={styles.divider} />
               <p className={styles.description}>
-                With nearly 500,000 Facebook followers, we generate hundreds of qualified applicants from a single post. Our dedicated manpower support team thoroughly screens every candidate before presenting them to clients — saving you time and ensuring only the best reach your interview table.
+                {t("ourServices.facebookDesc")}
               </p>
           </div>
 

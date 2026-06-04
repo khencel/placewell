@@ -1,3 +1,5 @@
+"use client";
+
 import Banner from "@/components/Banner";
 import s from "./about.module.css";
 import Myra from "./myra";
@@ -5,16 +7,17 @@ import CustomHR from "@/components/CustomHR";
 import FacebookMarketing from "./facebook";
 import WhatsApp from "./whatsApp";
 import Link from "next/link";
-
+import { useTranslations } from "next-intl";
 
 export default function About() {
+  const t = useTranslations();
     return (
       <>
         <Banner
             backgroundImage="/img/banner/services.jpg"
-            title="About Us"
-            subtitle="Our Services"
-            description="From Skills and Language Training to Trade Tests – we do it all!"
+            title={t("ourServices.title")}
+            subtitle={t("ourServices.subtitle")}
+            description={t("ourServices.desc")}
         />
 
         <section className="mb-5">
@@ -23,8 +26,8 @@ export default function About() {
               <div className="row justify-content-center align-items-center">
                 <div className="col-md-7 p-4">
                   <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Recruitment </h2>
-                    <p className="subtitle">We source qualified workers through our network of over 15 branches nationwide, supported by a strong and active social media presence. In addition, our established reputation in the industry enables us to receive support from government agencies in identifying and recruiting highly qualified candidates.</p>
+                    <h2 className="title" style={{fontSize:"24px"}}>{t("ourServices.recruitment")} </h2>
+                    <p className="subtitle">{t("ourServices.recruitmentDesc")}</p>
                   </div>
                 </div>
                 <div className="col-md-5 p-3 p-md-0">
@@ -47,8 +50,8 @@ export default function About() {
                 </div>
                 <div className="col-md-7 p-4 order-1 order-md-2">
                   <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Screening</h2>
-                    <p className="subtitle">We carefully screen candidates based on their work experience, qualifications, personality and English proficiency to ensure that our clients only interview qualified and outstanding workers.</p>
+                    <h2 className="title" style={{fontSize:"24px"}}>{t("ourServices.screening")}</h2>
+                    <p className="subtitle">{t("ourServices.screeningDesc")}</p>
                   </div>
                 </div>
                 
@@ -62,9 +65,9 @@ export default function About() {
               <div className="row justify-content-center align-items-center">
                 <div className="col-md-7 p-4">
                   <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Interview</h2>
+                    <h2 className="title" style={{fontSize:"24px"}}>{t("ourServices.interview")}</h2>
                     <p className="subtitle">
-                      We have comfortable interview rooms and conduct interviews in an organized and professional manner. All applicants use a standard resume format for consistency. We also ensure that online interviews are conducted smoothly and with equally good quality.
+                      {t("ourServices.interviewDesc")}
                     </p>
                   </div>
                 </div>
@@ -89,9 +92,9 @@ export default function About() {
                 </div>
                 <div className="col-md-7 p-4 order-1 order-md-2">
                   <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}><Link href="/trade-test" style={{color:"#448153"}}>Trade Test</Link></h2>
+                    <h2 className="title" style={{fontSize:"24px"}}><Link href="/trade-test" style={{color:"#448153"}}>{t("ourServices.tradeTest")}</Link></h2>
                     <p className="subtitle">
-                      We conduct trade tests across various industries at our own in-house facility.
+                      {t("ourServices.tradeTestDesc")}
                     </p>
                   </div>
                 </div>
@@ -107,9 +110,9 @@ export default function About() {
               <div className="row justify-content-center align-items-center">
                 <div className="col-md-7 p-4">
                   <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Skills and Language Training</h2>
+                    <h2 className="title" style={{fontSize:"24px"}}>{t("ourServices.skillAndLang")}</h2>
                     <p className="subtitle">
-                      We have a dedicated school for Japanese language training, as well as separate facilities for Arabic and Cantonese language modules. In addition, we operate our own TESDA accredited training center.
+                      {t("ourServices.skillAndLangDesc")}
                     </p>
                   </div>
                 </div>
@@ -134,12 +137,9 @@ export default function About() {
                 </div>
                 <div className="col-md-7 p-4 order-1 order-md-2">
                   <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Immigration Interview Practice</h2>
+                    <h2 className="title" style={{fontSize:"24px"}}>{t("ourServices.immigration")}</h2>
                     <p className="subtitle">
-                      For OFW destinations requiring immigration interviews, such as Lithuania, we provide candidates with mock interview sessions where our staff simulate the role of immigration officers to help them prepare effectively.
-                      <br />
-                      Pre-Departure Orientation - An accredited provider since 1988, Placewell conducts the government-required Pre-Departure Orientation Seminar (PDOS) in its own facility. This one-day seminar prepares selected candidates by providing essential information about their destination country and useful advice about working abroad.
-
+                      {t("ourServices.immigrationDesc")}
                     </p>
                   </div>
                 </div>
@@ -155,9 +155,9 @@ export default function About() {
               <div className="row justify-content-center align-items-center">
                 <div className="col-md-7 p-4">
                   <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Deployment </h2>
+                    <h2 className="title" style={{fontSize:"24px"}}>{t("ourServices.deployment")}</h2>
                     <p className="subtitle">
-                      We transport our workers to the airport, ensuring they arrive on time for their flights. Prior to departure, we orient them on all necessary airport procedures, both local and international.
+                      {t("ourServices.deploymentDesc")}
                     </p>
                   </div>
                 </div>
@@ -182,9 +182,9 @@ export default function About() {
                 </div>
                 <div className="col-md-7 p-4 order-1 order-md-2">
                   <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Post Deployment and Monitoring</h2>
+                    <h2 className="title" style={{fontSize:"24px"}}>{t("ourServices.postDeployment")}</h2>
                     <p className="subtitle">
-                      We have a dedicated OFW welfare division and a 24/7 call center to support workers who may experience distress while abroad.
+                      {t("ourServices.postDeploymentDesc")}
                     </p>
                   </div>
                 </div>

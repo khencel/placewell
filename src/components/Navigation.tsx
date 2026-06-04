@@ -11,6 +11,7 @@ import {
 import NavForMobile from "./NavForMobile";
 import NavForDesktop from "./NavForDesktop";
 import { useLocale } from "@/i18n/LocaleContext";
+import { LanguagePicker } from "./langSelector";
 
 
 export default function Navigation() {
@@ -44,7 +45,7 @@ export default function Navigation() {
             <span><FaYoutube className="social-icon" /></span>
             <span><FaTiktok className="social-icon" /></span>
             <span>
-              <select
+              {/* <select
                 value={locale}
                 onChange={(e) => {
                   const selectedLocale = e.target.value as Parameters<typeof setLocale>[0];
@@ -59,7 +60,8 @@ export default function Navigation() {
                 <option value="lt">Lithuanian</option>
                 <option value="hr">Croatian</option>
                 <option value="pl">Polish</option>
-              </select>
+              </select> */}
+              <LanguagePicker />
             </span>
           </div>
         </div>
