@@ -1,15 +1,19 @@
+"use client"
+
 import s from "../../styles/engage.module.css"
 import { FaArrowRightLong } from "react-icons/fa6";
 import LeftImageContent from "@/components/leftImageContentStandard";
 import RightImageContent from "@/components/RightImageContentStandard";
+import { useTranslations } from "next-intl";
 
 export default function Process(){
+    const t = useTranslations("engage");
     return (
         <>
             <section className="mt-5">
                 <div className="header">
-                    <h2 className="title">Our Process</h2>
-                    <p className="subtitle">We handle every step with care to help Filipino workers achieve safe and successful overseas employment.</p>
+                    <h2 className="title">{t('our')}</h2>
+                    <p className="subtitle">{t('we')}</p>
                 </div>
         
                 <div className="row m-0 justify-content-center d-none d-md-flex ">
@@ -23,7 +27,7 @@ export default function Process(){
                                 <div  style={{height:"100px"}}>
                                     <span className="badge bg-success">1</span>
                                     <br />
-                                    <strong>POLO Verification</strong>
+                                    <strong>{t('polo')}</strong>
                                 </div>
                             </div>
                             <span><FaArrowRightLong style={{color:"#448153"}} /></span>
@@ -34,7 +38,7 @@ export default function Process(){
                                 <div  style={{height:"100px"}}>
                                     <span className="badge bg-success">2</span>
                                     <br />
-                                    <strong>POEA Registrastion</strong>
+                                    <strong>{t('poea')}</strong>
                                 </div>
                                 
                             </div>
@@ -47,7 +51,7 @@ export default function Process(){
                                 <div  style={{height:"100px"}}>
                                     <span className="badge bg-success">3</span>
                                     <br />
-                                    <strong>Interview & Hiring</strong>
+                                    <strong>{t('interview')}</strong>
                                 </div>
                                 
                             </div>
@@ -59,7 +63,12 @@ export default function Process(){
                                 <div style={{height:"100px"}}>
                                     <span className="badge bg-success">4</span>
                                     <br />
-                                    <strong>Immigration Bureau <br /> Certificate</strong>
+                                    <strong>
+                                        {t.rich("immigration", {
+                                            br: () => <br />
+                                        })}
+                                        
+                                    </strong>
                                 </div>
                                 
                                 
@@ -72,7 +81,7 @@ export default function Process(){
                                 <div  style={{height:"100px"}}>
                                     <span className="badge bg-success">5</span>
                                     <br />
-                                    <strong>Deployment</strong>
+                                    <strong>{t('deployment')}</strong>
                                 </div>
                                 
                             </div>
@@ -84,7 +93,7 @@ export default function Process(){
                                 <div  style={{height:"100px"}}>
                                     <span className="badge bg-success">6</span>
                                     <br />
-                                    <strong>Monitoring</strong>
+                                    <strong>{t('monitoring')}</strong>
                                 </div>
                             </div>
                         </div>

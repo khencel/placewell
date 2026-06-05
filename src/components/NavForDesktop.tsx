@@ -184,7 +184,7 @@ export default function NavForDesktop() {
                             <FaHospital className="social-icon" />
                             <div>
                             <h4>{t("nav.client")}</h4>
-                            <p>Hear from our esteemed clients</p>
+                            <p>{t("nav_sub.client")}</p>
                             </div>
                         </Link>
 
@@ -192,7 +192,7 @@ export default function NavForDesktop() {
                             <FaUserDoctor className="social-icon" />
                             <div>
                             <h4>{t("nav.ofw")}</h4>
-                            <p>Some success stories from our deployed workers</p>
+                            <p>{t("nav_sub.client")}</p>
                             </div>
                         </Link>
 

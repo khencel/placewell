@@ -78,8 +78,14 @@ export default function Navigation() {
         {/* MENU */}
         <ul className={`nav-menu ${open ? "active" : ""}`}>
           <NavForDesktop />
-          <NavForMobile />
+          <NavForMobile onClose={() => setOpen(false)} />
         </ul>
+        {/* LANGUAGE PICKER — mobile only, outside nav-menu */}
+          {open && (
+              <div className="mobile-lang-picker">
+                  <LanguagePicker />
+              </div>
+          )}
       </nav>
     </div>
   );

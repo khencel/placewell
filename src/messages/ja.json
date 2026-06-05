@@ -30,7 +30,9 @@
     "branch": "全国の支店情報をご紹介します",
     "dorm": "対象者向けの快適な寮施設をご覧ください",
     "pro": "TESDA認定のホスピタリティ・介護研修センター",
-    "hashira": "TESDA認定の日本語・建設技能研修センター"
+    "hashira": "TESDA認定の日本語・建設技能研修センター",
+    "client": "私たちの大切なお客様からの声をご紹介します。",
+    "ofw": "派遣された労働者たちの成功ストーリーをご紹介します。"
   },
   "home": {
     "bannerTitle": "世界で最も信頼されるフィリピン人材派遣会社",
@@ -261,5 +263,109 @@
     "accreditation": "認定申請書類（完了版）",
     "important": "重要情報（ぼかし版）",
     "download": "ダウンロード"
+  },
+  "department": {
+      "title": "部署・施設",
+      "subtitle": "部署紹介",
+      "desc": "効率的な運営を実現する当社の取り組みをご紹介します。",
+      "international": "国際人材部",
+      "internationalDesc": "当社がサービスを提供する各市場ごとに専任担当者を配置しています。グループチャットシステムを通じてクライアントと常に連絡を取り合い、迅速かつ正確な対応を行うことで、円滑な人材派遣プロセスを実現しています。中東、ヨーロッパ、日本、香港、その他アジア諸国向けの専門部署を設けています。",
+      "manpower": "人材サポート部",
+      "manpowerDesc": "人材サポートチームは、労働者の募集および面接日程の調整を担当しています。応募者の選考、資格確認、雇用主との面接手配を行います。また、Myraシステム内で数万人規模の有資格フィリピン人労働者のデータベースを管理・維持しています。",
+      "ofw": "海外労働者福祉（法務）部",
+      "ofwDesc": "Placewellは派遣された労働者の福祉を最優先に考え、継続的な支援とサポートを提供しています。当社の専用コールセンターはほぼ24時間365日体制で運営されており、海外で困難に直面している労働者の相談や支援に迅速に対応しています。",
+      "process": "手続き部",
+      "processDesc": "当社の専門チームは、派遣手続きに必要なすべての書類を正確かつ効率的に処理し、遅延を最小限に抑えています。",
+      "accounting": "経理部",
+      "accountingDesc": "当社はすべての業務において、規律ある組織的な財務管理を維持しています。"
+  },
+  "mainOffice": {
+      "title": "部署・施設",
+      "subtitle": "本社",
+      "desc": "マカティにある5階建て本社をご覧ください。",
+      "reception": "受付",
+      "receptionDesc": "受付エリアは、すべての来訪者に快適さと良い第一印象を提供できるよう、温かくプロフェッショナルな環境を整えています。",
+      "conferences": "会議室",
+      "conferencesDesc": "当社の会議室は、生産的なミーティングをサポートするために設計されています。",
+      "interview": "面接室",
+      "interviewDesc": "個人面接、パネル面接、オンライン面接に対応した面接室を備えています。",
+      "orientation": "オリエンテーションルーム",
+      "orientationDesc": "これらは出国前研修（Pre-Departure Orientation）を実施するための専用ルームです。",
+      "cafeteria": "社員食堂",
+      "cafeteriaDesc": "社員や応募者が手頃な価格で食事を楽しめる社員食堂を設けています。"
+  },
+  "banchOffices": {
+      "title": "部署・施設",
+      "subtitle": "支店",
+      "desc": "全国に展開する拠点についてご紹介します。",
+      "our": "支店一覧"
+  },
+  "dormitory": {
+      "title": "部署・施設",
+      "subtitle": "支店",
+      "desc": "全国に展開する拠点についてご紹介します。",
+      "our": "支店一覧"
+  },
+  "protech": {
+      "title": "部署・施設",
+      "subtitle": "Pro-Tech Skills",
+      "desc": "TESDA認定のホスピタリティおよび介護研修センター",
+      "tesda": "TESDA認定センター",
+      "proTech": "Pro-Tech Skills",
+      "development": "開発センター",
+      "developmentDesc": "Pro-Tech Skills Development Center Corporationは、Placewellの関連TESDA認定研修センターです。",
+      "what": "提供サービス",
+      "certified": "認定コース・プログラム",
+      "domestic": "家事サービス NC II",
+      "house": "ハウスキーピング NC II",
+      "events": "イベント運営サービス NC II",
+      "food": "飲食サービス NC II",
+      "trainers": "トレーナー養成方法論レベル I",
+      "caregiving": "介護 NC II",
+      "health": "ヘルスケアサービス NC II",
+      "tesdaAccredited": "TESDA認定",
+      "ourFacilities": "施設紹介",
+      "space": "実践的な訓練のための環境",
+      "spaceDesc": "当センターの研修施設は実際の職場環境を再現するよう設計されており、受講生が実践的な経験を積むことで、国内外での即戦力として活躍できるよう支援しています。",
+      "nc": "NC II コース",
+      "tesdaCertifieed": "TESDA認定"
+  },
+  "clientTestimonial": {
+      "title": "お客様の声",
+      "subtitle": "クライアントの声",
+      "desc": "私たちの大切なお客様からの声をご紹介します。",
+      "our": "クライアントの声",
+      "what": "お客様の声"
+  },
+  "OFWTestimonial": {
+      "title": "お客様の声",
+      "subtitle": "OFWの体験談",
+      "desc": "派遣された労働者たちの成功ストーリーをご紹介します。",
+      "our": "OFWの体験談",
+      "what": "OFWの声"
+  },
+  "gallery": {
+      "title": "ギャラリー",
+      "subtitle": "ギャラリーをご覧ください",
+      "desc": "ギャラリーを通して、思い出に残る瞬間や活動、実績、イベントをご覧いただけます。",
+      "main": "本社",
+      "branch": "支店",
+      "dormitory": "寮",
+      "interview": "面接",
+      "trade": "技能試験",
+      "deployment": "派遣",
+      "others": "その他"
+  },
+  "contact": {
+      "title": "お問い合わせ",
+      "subtitle": "お気軽にご連絡ください",
+      "desc": "",
+      "let": "お問い合わせはこちら",
+      "contact": "連絡先情報",
+      "address": "住所",
+      "phone": "電話番号",
+      "trunkline": "代表番号",
+      "email": "メールアドレス",
+      "facebook": "Facebook"
   }
 }

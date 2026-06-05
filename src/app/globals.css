@@ -115,24 +115,38 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.mobile-lang-picker {
+    display: none;
+}
 /* =====================
    MOBILE ONLY
 ===================== */
 @media (max-width: 768px) {
-    
+  .mobile-lang-picker {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 15px;
+        border-bottom: 1px solid #CCCCCC;
+        position: relative;
+        z-index: 9999; /* nasa ibabaw ng lahat */
+    }
+
+    /* --- NAV MENU --- */
     .nav-menu {
         flex-direction: column;
         max-height: 0;
         overflow: hidden;
         padding: 0;
+        opacity: 0;
         transform: translateY(-10px);
-        transition: grid-template-rows 350ms ease, opacity 250ms ease, transform 250ms ease;
+        transition: max-height 350ms ease, opacity 250ms ease, transform 250ms ease;
     }
 
     .nav-menu.active {
-        max-height: 100vh;
-        padding: 10px px;
+        max-height: 1000px;
         padding: 10px 0;
+        opacity: 1;
         transform: translateY(0);
     }
 
@@ -140,59 +154,69 @@
         margin: 10px 0;
         border-bottom: 1px solid #CCCCCC;
     }
+
+    /* --- BURGER --- */
     .burger {
         display: flex;
     }
 
+    /* --- LOGO --- */
     .logo img {
         height: 35px;
     }
 
+    .logo {
+        order: 0;
+    }
+
+    /* --- NAV CONTAINER --- */
     .nav-container {
         width: 100%;
     }
+
     .nav-top {
         flex-wrap: wrap;
         border-bottom: 1px solid #CCCCCC;
     }
 
-    .socials {
-        display: none;
-        border-bottom: 1px solid #CCCCCC;
-    }
-
-    .socials.show {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        margin-top: 10px;
-    }
-
-    
-
-    .logo {
-        order: 0;
+    .nav-div {
+        border-bottom: none;
     }
 
     .nav-menu {
         order: 3;
     }
 
-    .nav-div{
-        border-bottom: none;
+    /* --- SOCIALS --- */
+    /* Itago ang desktop socials sa mobile */
+    .nav-top .socials {
+        display: none !important;
     }
-    .forMobile{
+
+    /* Ipakita lang ang mobile socials kapag bukas ang burger */
+    .socials.for-mobile {
+        display: none;
+        border-bottom: 1px solid #CCCCCC;
+    }
+
+    .socials.for-mobile.show {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    /* --- OTHERS --- */
+    .forMobile {
         display: block;
         margin-left: 10px;
         color: #448153;
         font-weight: 600;
     }
 
-    .forMobile:hover{
+    .forMobile:hover {
         color: #8F6843;
     }
-
-    
 }
 
 

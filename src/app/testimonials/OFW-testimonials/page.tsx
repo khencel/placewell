@@ -4,23 +4,25 @@ import Banner from "@/components/Banner";
 import YouTube from "react-youtube";
 import TestimonialCard from "@/components/TestimonialsCard";
 import s from "../../../styles/testimonials.module.css"
+import { useTranslations } from "next-intl";
 
 export default function ClientTestimonial() {
+    const t = useTranslations("OFWTestimonial");
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/57234.jpg"
-                title="Testimonials"
-                subtitle="OFW Testimonials"
-                description="Some success stories from our deployed workers."
+                title={t("title")}
+                subtitle={t("subtitle")}
+                description={t("desc")}
             />
 
             <section className="mt-5">
                 <div className="row m-0 justify-content-center">
                     <div className="col-md-10">
                         <div className="header">
-                            <h2 className="title">Our OFW Testimonials</h2>
-                            <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p>
+                            <h2 className="title">{t("our")}</h2>
+                            {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p> */}
                         </div>
                         <div className="row">
                             <div className="col-md-4 p-2">
@@ -101,8 +103,8 @@ export default function ClientTestimonial() {
                     <div className="row m-0 justify-content-center">
                         <div className="col-md-10">
                             <div className="header">
-                                <h2 className="title">What Our OFW Says</h2>
-                                <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p>
+                                <h2 className="title">{t("what")}</h2>
+                                {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p> */}
                             </div>
                             <div className="row">
                                 <div className="col-md-4">

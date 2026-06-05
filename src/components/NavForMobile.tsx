@@ -1,174 +1,186 @@
+"use client";
+
 import { FaHospital, FaUserDoctor, FaSyringe } from "react-icons/fa6";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { LanguagePicker } from "./langSelector";
 
-export default function navFormMobile() {
+interface NavForMobileProps {
+    onClose: () => void;
+}
+
+export default function NavForMobile({ onClose }: NavForMobileProps) {
+    const t = useTranslations();
+
+    // Helper: isara ang accordion at nav
+    const handleLinkClick = () => {
+        // I-close lahat ng bukas na Bootstrap accordions
+        document.querySelectorAll(".accordion-collapse.show").forEach((el) => {
+            el.classList.remove("show");
+        });
+        document.querySelectorAll(".accordion-button").forEach((btn) => {
+            btn.classList.add("collapsed");
+        });
+        onClose();
+    };
+
     return (
         <>
-            <li className="forMobile"><Link href="/" className="ms-2">Home</Link></li>
             <li className="forMobile">
-                <div className="accordion forMobile" id="accordionExample">
-                    <div className="">
-                    
-                        <span className="accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        About Us
-                        </span>
-                    
-                        <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div className="accordion-body">
-                                <div className="mega-grid">
-                                <strong>About Us</strong>
-                                <Link href="/about/corporate-identity" className="mega-item">
+                <Link href="/" className="ms-2" onClick={handleLinkClick}>
+                    {t("nav.home")}
+                </Link>
+            </li>
+
+            {/* ABOUT */}
+            <li className="forMobile">
+                <div className="accordion" id="mobileAboutAccordion">
+                    <span
+                        className="accordion-button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mobileAbout"
+                    >
+                        {t("nav.about")}
+                    </span>
+                    <div id="mobileAbout" className="accordion-collapse collapse">
+                        <div className="accordion-body">
+                            <div className="mega-grid">
+                                <strong>{t("nav.about")}</strong>
+                                <Link href="/about/corporate-identity" className="mega-item" onClick={handleLinkClick}>
                                     <FaHospital className="social-icon" />
                                     <div>
-                                    <h4>Corporate Identity</h4>
-                                    <p>Know all about one of the Philippines’ leading manpower agencies</p>
+                                        <h4>{t("nav.identity")}</h4>
+                                        <p>{t("nav_sub.identity")}</p>
                                     </div>
                                 </Link>
-
                                 <div className="mega-item">
                                     <FaUserDoctor className="social-icon" />
                                     <div>
-                                        <Link href="/about">
-                                            <h4>Our Services</h4>
+                                        <Link href="/about" onClick={handleLinkClick}>
+                                            <h4>{t("nav.services")}</h4>
                                         </Link>
                                         <p>
-                                            From Skills and Language  
-                                            <a href="/training">Training</a> 
-                                            to  
-                                            <a href="/trade-testing">Trade Testing</a> 
-                                            – we do it all!
+                                            {t.rich("nav_sub.services", {
+                                                br: () => <br />,
+                                                link: (chunks) => (
+                                                    <Link href="/trade-test" onClick={handleLinkClick}
+                                                        style={{ color: "#448153", fontWeight: "bold", textDecoration: "underline" }}
+                                                    >
+                                                        {chunks}
+                                                    </Link>
+                                                ),
+                                            })}
                                         </p>
                                     </div>
                                 </div>
-
-                                <Link href="/about/branches" className="mega-item">
+                                <Link href="/about/branches" className="mega-item" onClick={handleLinkClick}>
                                     <FaSyringe className="social-icon" />
                                     <div>
-                                    <h4>Branch Offices</h4>
-                                    <p>We have nationwide presence and recruit workers from all over the Philippines</p>
+                                        <h4>{t("nav.branchOffices")}</h4>
+                                        <p>{t("nav_sub.branchOffices")}</p>
                                     </div>
                                 </Link>
-                                <Link href="/worldwide-careers" className="mega-item">
+                                <Link href="/worldwide-careers" className="mega-item" onClick={handleLinkClick}>
                                     <FaSyringe className="social-icon" />
                                     <div>
-                                    <h4>Worldwide Careers</h4>
-                                    <p>Over 200,000 Filipinos deployed to more than 30 different countries</p>
+                                        <h4>{t("nav.worldWide")}</h4>
+                                        <p>{t("nav_sub.worldWide")}</p>
                                     </div>
                                 </Link>
                             </div>
-                            </div>
                         </div>
                     </div>
-                    
                 </div>
             </li>
-
-            <li className="forMobile"><div className="ms-2">Engage with Us</div></li>
 
             <li className="forMobile">
-                <div className="accordion forMobile" id="accordionExample">
-                    <div className="">
-                    
-                        <span className="accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                        Departments and Facilities 
-                        </span>
-                    
-                        <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div className="accordion-body">
-                                <div className="mega-grid">
-                                    <strong>Departments and Facilities</strong>
-                                    <Link href="/department-facilities/department" className="mega-item">
-                                        <FaHospital className="social-icon" />
-                                        <div>
-                                        <h4>Departments</h4>
-                                        <p>Discover how we deliver streamlined operations</p>
-                                        </div> 
-                                    </Link>
-
-                                    <Link href="/department-facilities/main-office" className="mega-item">
-                                        <FaUserDoctor className="social-icon" />
-                                        <div>
-                                        <h4>Main Office</h4>
-                                        <p>Explore our five-storey headquarters in Makati</p>
-                                        </div>
-                                    </Link>
-
-                                    <Link href="/department-facilities/branch-offices" className="mega-item">
-                                        <FaSyringe className="social-icon" />
-                                        <div>
-                                        <h4>Branch Offices</h4>
-                                        <p>Learn more about our nationwide locations</p>
-                                        </div>
-                                    </Link>
-
-                                    <div className="mega-item">
-                                        <FaSyringe className="social-icon" />
-                                        <div>
-                                        <h4>Dormitory</h4>
-                                        <p>View our well-maintained housing facilities for selected workers</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="mega-item">
-                                        <FaSyringe className="social-icon" />
-                                        <div>
-                                        <h4>Pro-Tech Skills</h4>
-                                        <p>Our TESDA accredited Hospitality and Caregiving Training Center</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="mega-item">
-                                        <FaSyringe className="social-icon" />
-                                        <div>
-                                        <h4>Hashira Skills</h4>
-                                        <p>Our TESDA accredited Japanese Language and Construction Training Center</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
+                <Link href="/engage-with-us" className="ms-2" onClick={handleLinkClick}>
+                    {t("nav.engage")}
+                </Link>
             </li>
-            
+
+            {/* DEPARTMENTS */}
             <li className="forMobile">
-                <div className="accordion forMobile" id="accordionExample">
-                    <div className="">
-                    
-                        <span className="accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                        Testimonials 
-                        </span>
-                    
-                        <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div className="accordion-body">
-                                <div className="mega-grid">
-                                    <strong>Testimonials</strong>
-                                    <div className="mega-item">
-                                        <FaHospital className="social-icon" />
-                                        <div>
-                                        <h4>Client Testimonials</h4>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="mega-item">
-                                        <FaUserDoctor className="social-icon" />
-                                        <div>
-                                        <h4>OFW Testimonials</h4>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-
-                                </div>
+                <div className="accordion" id="mobileDepartmentAccordion">
+                    <span
+                        className="accordion-button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mobileDepartment"
+                    >
+                        {t("nav.department")}
+                    </span>
+                    <div id="mobileDepartment" className="accordion-collapse collapse">
+                        <div className="accordion-body">
+                            <div className="mega-grid">
+                                <strong>{t("nav.department")}</strong>
+                                <Link href="/department-facilities/department" className="mega-item" onClick={handleLinkClick}>
+                                    <FaHospital className="social-icon" />
+                                    <div><h4>{t("nav.dept")}</h4><p>{t("nav_sub.dept")}</p></div>
+                                </Link>
+                                <Link href="/department-facilities/main-office" className="mega-item" onClick={handleLinkClick}>
+                                    <FaUserDoctor className="social-icon" />
+                                    <div><h4>{t("nav.main")}</h4><p>{t("nav_sub.main")}</p></div>
+                                </Link>
+                                <Link href="/department-facilities/branch-offices" className="mega-item" onClick={handleLinkClick}>
+                                    <FaSyringe className="social-icon" />
+                                    <div><h4>{t("nav.branch")}</h4><p>{t("nav_sub.branch")}</p></div>
+                                </Link>
+                                <Link href="/department-facilities/dormitory" className="mega-item" onClick={handleLinkClick}>
+                                    <FaSyringe className="social-icon" />
+                                    <div><h4>{t("nav.dorm")}</h4><p>{t("nav_sub.dorm")}</p></div>
+                                </Link>
+                                <Link href="/department-facilities/pro-tech" className="mega-item" onClick={handleLinkClick}>
+                                    <FaSyringe className="social-icon" />
+                                    <div><h4>{t("nav.pro")}</h4><p>{t("nav_sub.pro")}</p></div>
+                                </Link>
+                                <a href="https://hashira-tau.vercel.app/" target="_blank" rel="noopener noreferrer" className="mega-item" onClick={handleLinkClick}>
+                                    <FaSyringe className="social-icon" />
+                                    <div><h4>{t("nav.hashira")}</h4><p>{t("nav_sub.hashira")}</p></div>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </li>
-            <li className="forMobile"><div className="ms-2">Gallery</div></li>
-            <li className="forMobile"><div className="ms-2">Contact Us</div></li>
+
+            {/* TESTIMONIALS */}
+            <li className="forMobile">
+                <div className="accordion" id="mobileTestimonialsAccordion">
+                    <span
+                        className="accordion-button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mobileTestimonials"
+                    >
+                        {t("nav.testimonials")}
+                    </span>
+                    <div id="mobileTestimonials" className="accordion-collapse collapse">
+                        <div className="accordion-body">
+                            <div className="mega-grid">
+                                <strong>{t("nav.testimonials")}</strong>
+                                <Link href="/testimonials/client-testimonials" className="mega-item" onClick={handleLinkClick}>
+                                    <FaHospital className="social-icon" />
+                                    <div><h4>{t("nav.client")}</h4><p>Hear from our esteemed clients</p></div>
+                                </Link>
+                                <Link href="/testimonials/OFW-testimonials" className="mega-item" onClick={handleLinkClick}>
+                                    <FaUserDoctor className="social-icon" />
+                                    <div><h4>{t("nav.ofw")}</h4><p>Some success stories from our deployed workers</p></div>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li className="forMobile">
+                <Link href="/gallery" className="ms-2" onClick={handleLinkClick}>
+                    {t("nav.gallery")}
+                </Link>
+            </li>
+            <li className="forMobile">
+                <Link href="/contact-us" className="ms-2" onClick={handleLinkClick}>
+                    {t("nav.contact")}
+                </Link>
+            </li>
         </>
-    )
+    );
 }

@@ -2,9 +2,10 @@
 
 import { useState, useMemo, useEffect, useCallback, CSSProperties } from "react";
 import { getGallery } from "@/data/gallery";
+import { useTranslations } from "next-intl";
 
 type Category = "mainOffice" | "branchOffice" | "dormitory" | "interview" | "tradeTests" | "deployment" | "others";
-type FilterOption = "Main Office" | "Branch Office" | "Dormitory" | "Interview" | "Trade Tests" | "Deployment" | "Others";
+
 
 interface Project {
   id: number;
@@ -16,7 +17,14 @@ interface Project {
 
 const projects: Project[] = getGallery() as Project[];
 
-const FILTERS: FilterOption[] = ["Main Office", "Branch Office", "Dormitory", "Interview", "Trade Tests", "Deployment", "Others"];
+type FilterKey = "main" | "branch" | "dormitory" |
+  "interview" | "trade" | "deployment" | "others";
+
+const FILTER_KEYS: FilterKey[] = [
+  "main", "branch", "dormitory",
+  "interview", "trade", "deployment", "others"
+];
+
 
 const categoryIcons: Record<Category, string> = {
   interview: "⚙️",
@@ -414,20 +422,19 @@ interface ProjectsGalleryProps {
 }
 
 export default function ProjectsGallery({ data = projects }: ProjectsGalleryProps) {
-  const [activeFilter, setActiveFilter] = useState<FilterOption>("Main Office");
+  const t = useTranslations("gallery");
+  const [activeFilter, setActiveFilter] = useState<FilterKey>("main");
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   const filtered = useMemo<Project[]>(() => {
-    const categoryMap: Record<FilterOption, Category | null> = {
-        // "All Gallery": null,
-        "Main Office": "mainOffice",
-        "Branch Office": "branchOffice",
-        "Dormitory": "dormitory",
-        "Interview": "interview",
-        "Trade Tests": "tradeTests",
-        "Deployment": "deployment",
-        "Others": "others",
-           // ← map to camelCase
+    const categoryMap: Record<FilterKey, Category> = {
+      main:       "mainOffice",
+      branch:     "branchOffice",
+      dormitory:  "dormitory",
+      interview:  "interview",
+      trade:      "tradeTests",
+      deployment: "deployment",
+      others:     "others",
     };
 
     const mapped = categoryMap[activeFilter];
@@ -467,16 +474,12 @@ export default function ProjectsGallery({ data = projects }: ProjectsGalleryProp
 
       <div style={baseStyles.wrapper}>
         <div style={baseStyles.filtersRow} role="toolbar" aria-label="Gallery filters">
-          {FILTERS.map((f) => (
-            <button
-              key={f}
-              style={getFilterBtnStyle(activeFilter === f)}
-              onClick={() => setActiveFilter(f)}
-              aria-pressed={activeFilter === f}
-            >
-              {f}
-            </button>
-          ))}
+            {FILTER_KEYS.map((key) => (
+              <button key={key} style={getFilterBtnStyle(activeFilter === key)}
+                onClick={() => setActiveFilter(key)}>
+                {t(key)}
+              </button>
+            ))}
         </div>
 
         <div style={baseStyles.grid}>

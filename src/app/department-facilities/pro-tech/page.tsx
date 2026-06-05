@@ -1,24 +1,30 @@
+"use client"
 import Banner from "@/components/Banner"
 import s from "@/styles/protech.module.css"
+import { useTranslations } from "next-intl";
 
-const courses = [
-    { icon: "🏠", title: "Domestic Work NC II",              meta: "TESDA Accredited" },
-    { icon: "🛎️", title: "Housekeeping NC II",               meta: "TESDA Accredited" },
-    { icon: "🎪", title: "Events Management Services NC II", meta: "TESDA Accredited" },
-    { icon: "🍽️", title: "Food and Beverage Services NC II", meta: "TESDA Accredited" },
-    { icon: "📋", title: "Trainers Methodology Level I",     meta: "TESDA Accredited" },
-    { icon: "❤️", title: "Caregiving NC II",                  meta: "TESDA Accredited" },
-    { icon: "🏥", title: "Health Care Services NC II",       meta: "TESDA Accredited" },
-]
+
+
 
 export default function ProTech() {
+    const t = useTranslations('protech');
+    const courses = [
+        { icon: "🏠", title: t("domestic"),             meta: t("tesdaAccredited") },
+        { icon: "🛎️", title: t("house"),                meta: t("tesdaAccredited") },
+        { icon: "🎪", title: t("events"),               meta: t("tesdaAccredited") },
+        { icon: "🍽️", title: t("food"),                 meta: t("tesdaAccredited") },
+        { icon: "📋", title: t("trainers"),             meta: t("tesdaAccredited") },
+        { icon: "❤️", title: t("caregiving"),           meta: t("tesdaAccredited") },
+        { icon: "🏥", title: t("health"),               meta: t("tesdaAccredited") },
+    ]
+
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/proTechBanner.png"
-                title="Departments and Facilities"
-                subtitle="Pro Tech Skills"
-                description="Our TESDA accredited Hospitality and Caregiving Training Center"
+                title={t("title")}
+                subtitle={t("subtitle")}
+                description={t("desc")}
             />
 
             <section className="mt-5 mb-5">
@@ -29,13 +35,13 @@ export default function ProTech() {
                         <div className={s.proTechHero}>
                             <div className={s.heroContent}>
                                 <div className={s.heroLeft}>
-                                    <p className={s.heroEyebrow}>TESDA Accredited Center</p>
+                                    <p className={s.heroEyebrow}>{t("tesda")}</p>
                                     <h2 className={s.heroTitle}>
-                                        Pro-Tech Skills<br />
-                                        <em>Development Center</em>
+                                        {t("proTech")}<br />
+                                        <em>{t("development")}</em>
                                     </h2>
                                     <p className={s.heroDesc}>
-                                        Pro-Tech Skills Development Center Corporation is Placewell’s affiliated TESDA accredited training center. 
+                                        {t("developmentDesc")} 
                                     </p>
                                 </div>
 
@@ -50,9 +56,9 @@ export default function ProTech() {
 
                         {/* ── COURSES ── */}
                         <div className={s.coursesSection}>
-                            <p className={s.sectionLabel}>What We Offer</p>
+                            <p className={s.sectionLabel}>{t("what")} </p>
                             <h3 className={s.sectionTitle}>
-                                Certified Courses &amp; Programs
+                                {t("certified")}
                             </h3>
 
                             <div className={s.coursesGrid}>
@@ -75,25 +81,22 @@ export default function ProTech() {
 
                                     {/* Text side */}
                                     <div className={s.galleryText}>
-                                        <p className={s.sectionLabel}>Our Facilities</p>
+                                        <p className={s.sectionLabel}>{t("ourFacilities")}</p>
                                         <h3 className={s.galleryHeadline}>
-                                            A Space Built for Real-World Training
+                                            {t("space")}
                                         </h3>
                                         <p className={s.gallerySubtext}>
-                                            Our training facilities are designed to simulate actual
-                                            professional environments — giving students hands-on
-                                            experience that prepares them for immediate deployment
-                                            locally and abroad.
+                                            {t("spaceDesc")}
                                         </p>
 
                                         <div className={s.statsRow}>
                                             <div className={s.statItem}>
                                                 <span className={s.statNumber}>7+</span>
-                                                <span className={s.statDesc}>NC II Courses</span>
+                                                <span className={s.statDesc}>{t("nc")}</span>
                                             </div>
                                             <div className={s.statItem}>
                                                 <span className={s.statNumber}>100%</span>
-                                                <span className={s.statDesc}>TESDA Certified</span>
+                                                <span className={s.statDesc}>{t("tesdaCertifieed")}</span>
                                             </div>
                                         </div>
                                     </div>

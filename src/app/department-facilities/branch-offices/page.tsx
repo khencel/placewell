@@ -2,22 +2,23 @@
 import Banner from "@/components/Banner"
 import ImageThumbnail from "@/components/ImageThumbnail"
 import { getBranchData } from "./data"
+import { useTranslations } from "next-intl";
 
 export default function BranchOffices() {
     const branchData = getBranchData();
-
+    const t = useTranslations('banchOffices');
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/map.jpg"
-                title="Departments and Facilities"
-                subtitle="Branch Offices"
-                description="Learn more about our nationwide locations"
+                title={t("title")}
+                subtitle={t("subtitle")}
+                description={t("desc")}
             />
 
             <section className="mt-5">
                 <div className="header">
-                    <h2 className="title">Our Branches</h2>
+                    <h2 className="title">{t("our")}</h2>
                     {/* <p className="subtitle">Find a Branch new you. We're here to serve you better.</p> */}
                 </div>
 

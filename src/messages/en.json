@@ -30,7 +30,9 @@
         "branch":"Learn more about our nationwide locations",
         "dorm":"View our well-maintained housing facilities for selected workers",
         "pro":"Our TESDA accredited Hospitality and Caregiving Training Center",
-        "hashira":"Our TESDA accredited Japanese Language and Construction Training Center"
+        "hashira":"Our TESDA accredited Japanese Language and Construction Training Center",
+        "client":"Hear from our esteemed clients.",
+        "ofw":"Some success stories from our deployed workers."
     },
     "home":{
         "bannerTitle":"The World's Most Trusted Filipino Manpower Company",
@@ -244,7 +246,7 @@
         "polo":"POLO Verification",
         "poea":"POEA Registration",
         "interview":"Interview & Hiring",
-        "immigration":"Immigration Bureau Certificate",
+        "immigration":"Immigration Bureau <br></br> Certificate",
         "deployment":"Deployment",
         "monitoring":"Monitoring",
         "engage":"Engage with Us",
@@ -262,6 +264,111 @@
         "accreditation":"Accredtitation Docs (Completed)",
         "important":"Important Information BLURRED",
         "download":"Download"
+    },
+    "department":{
+        "title": "Departments and Facilities",
+        "subtitle":"Departments",
+        "desc":"Discover how we deliver streamlined operations",
+        "international":"International Human Resource Department",
+        "internationalDesc":"We assign dedicated contact persons for each market we serve. They maintain constant communication with our clients through a group chat system, ensuring timely and accurate responses for an efficient deployment process. We have designated departments for the Middle East, Europe, Japan, Hong Kong, and other Asian countries.",
+        "manpower":"Manpower Support Department",
+        "manpowerDesc":"The Manpower Support Team is responsible for recruiting workers and coordinating interview schedules. They screen applicants, verify qualifications, and arrange interviews with employers. The team also manages and maintains a database of tens of thousands of qualified Filipino workers within our Myra System.",
+        "ofw":"OFW Welfare (Legal) Department",
+        "ofwDesc":"Placewell prioritizes the welfare of its deployed workers through ongoing support and care. Our dedicated call center operates nearly 24/7 to promptly address concerns and provide assistance to distressed workers abroad.",
+        "process":"Processing Department",
+        "processDesc":"Our dedicated team handles all required documentation efficiently and accurately to ensure minimal delays in the deployment process.",
+        "accounting":"Accounting Department",
+        "accountingDesc":"We maintain disciplined and organized financial management across all operations."
+    },
+    "mainOffice":{
+        "title": "Departments and Facilities",
+        "subtitle":"Main Office",
+        "desc":"Explore our five-storey headquarters in Makati.",
+        "reception":"Reception",
+        "receptionDesc":"Our reception area offers a welcoming and professional environment, designed to provide comfort and a positive first impression for all visitors.",
+        "conferences":"Conferences Rooms",
+        "conferencesDesc":"Our conference rooms are designed to support productive meetings.",
+        "interview":"Interview Rooms",
+        "interviewDesc":"We have interview rooms for one on one interviews, panel interviews and online interviews.",
+        "orientation":"Orientation Rooms",
+        "orientationDesc":"These are our designated rooms for conducting Pre-Departure orientations.",
+        "cafeteria":"Cafeteria",
+        "cafeteriaDesc":"We have a cafeteria where employees and applicants can enjoy meals at a reasonable price."
+    },
+    "banchOffices":{
+        "title": "Departments and Facilities",
+        "subtitle":"Branch Offices",
+        "desc":"Learn more about our nationwide locations",
+        "our":"Our Branches"
+    },
+    "dormitory": {
+        "title": "Departments and Facilities",
+        "subtitle": "Dormitory",
+        "desc": "View our well-maintained housing facilities for selected workers",
+        "our": "Our Dormitory"
+    },
+    "protech":{
+        "title": "Departments and Facilities",
+        "subtitle": "Pro Tech Skills",
+        "desc":"Our TESDA accredited Hospitality and Caregiving Training Center",
+        "tesda":"TESDA Accredited Center",
+        "proTech":"Pro-Tech Skills",
+        "development":"Development Center",
+        "developmentDesc":"Pro-Tech Skills Development Center Corporation is Placewell’s affiliated TESDA accredited training center.",
+        "what":"What We Offer",
+        "certified":"Certified Courses & Programs",
+        "domestic":"Domestic Work NC II",
+        "house":"Housekeeping NC II",
+        "events":"Events Management Services NC II",
+        "food":"Food and Beverage Services NC II",
+        "trainers":"Trainers Methodology Level I",
+        "caregiving":"Caregiving NC II",
+        "health":"Health Care Services NC II",
+        "tesdaAccredited":"TESDA Accredited",
+        "ourFacilities":"Our Facilities",
+        "space":"A Space Built for Real-World Training",
+        "spaceDesc":"Our training facilities are designed to simulate actual professional environments — giving students hands-on experience that prepares them for immediate deployment locally and abroad.",
+        "nc":"NC II Courses",
+        "tesdaCertifieed":"TESDA Certified"
+    },
+    "clientTestimonial":{
+        "title": "Testimonials",
+        "subtitle": "Client Testimonials",
+        "desc":"Hear from our esteemed clients.",
+        "our":"Our Client Testimonials",
+        "what":"What Our Clients Says"
+    },
+    "OFWTestimonial":{
+        "title": "Testimonials",
+        "subtitle": "OFW Testimonials",
+        "desc":"Some success stories from our deployed workers.",
+        "our":"Our OFW Testimonials",
+        "what":"What Our OFW Says"
+    },
+    "gallery":{
+        "title": "Gallery",
+        "subtitle": "Explore Our Gallery",
+        "desc":"Discover memorable moments, activities, achievements, and events captured through our gallery.",
+        "main":"Main Office",
+        "branch":"Branch Office",
+        "dormitory":"Dormitory",
+        "interview":"Interview",
+        "trade":"Trade Tests",
+        "deployment":"Deployment",
+        "others":"Others"
+    },
+    "contact":{
+        "title": "Contact Us",
+        "subtitle":"We’re here to assist you",
+        "desc":"",
+        "let":"Let’s Connect",
+        "contact":"Contact Information",
+        "address":"Address",
+        "phone":"Phone",
+        "trunkline":"Trunkline",
+        "email":"Email",
+        "facebook":"Facebook"
     }
+
     
 }   

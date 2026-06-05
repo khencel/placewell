@@ -1,18 +1,20 @@
+"use client"
 import Banner from "@/components/Banner"
 import {getDepartmentList, getAccount}  from "./data"
 import s from "../../department-facilities/department/department.module.css"
-
+import { useTranslations } from "next-intl";
 
 export default function DepartmentPage() {
     const departments = getDepartmentList();
     const account = getAccount();
+    const t = useTranslations('department');
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/5900600_3742.jpg"
-                title="Departments and Facilities"
-                subtitle="Departments"
-                description="Discover how we deliver streamlined operations"
+                title={t('title')}
+                subtitle={t('subtitle')}
+                description={t('desc')}
             />
             <section className="mb-3" style={{background:"#f4f3f3"}}>
                 <div className="row m-0 justify-content-center">
