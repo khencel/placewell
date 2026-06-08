@@ -34,8 +34,8 @@ export function getDepartmentList(){
             description: t('ofwDesc'),
             image:{
                 img1:"/img/department/DSC04632.jpg",
-                img2:"/img/defaultImage.png",
-                img3:"/img/defaultImage.png",
+                img2:"/img/department/DSC04888.jpg",
+                img3:"/img/department/DSC04895.jpg",
             }
         },
         {
@@ -61,8 +61,8 @@ export function getAccount(){
             description: t('accountingDesc'),
             image:{
                 img1:"/img/department/DSC03421.jpg",
-                img2:"/img/defaultImage.png",
-                img3:"/img/defaultImage.png",
+                img2:"/img/department/DSC04865.jpg",
+                img3:"/img/department/DSC04852.jpg",
             }
         }
 }

@@ -13,9 +13,9 @@ export function getDataList(){
             title: t("reception"),
             description: t("receptionDesc"),
             image:{
-                img1:"/img/mainOffice/1.jpg",
-                img2:"/img/mainOffice/2.jpg",
-                img3:"/img/mainOffice/3.jpg",
+                img1:"/img/mainOffice/DSC04873.jpg",
+                img2:"/img/mainOffice/DSC04881.jpg",
+                img3:"/img/mainOffice/IMG_2356.JPG",
             }
         },
         {
@@ -23,9 +23,9 @@ export function getDataList(){
             title: t("conferences"),
             description: t("conferencesDesc"),
             image:{
-                img1:"/img/mainOffice/4.jpg",
-                img2:"/img/mainOffice/5.jpg",
-                img3:"/img/mainOffice/6.jpg",
+                img1:"/img/mainOffice/DSC03433.jpeg",
+                img2:"/img/mainOffice/DSC04913.jpg",
+                img3:"/img/mainOffice/DSC04924.jpg",
             }
         },
         {

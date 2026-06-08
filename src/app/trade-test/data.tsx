@@ -6,8 +6,8 @@ export function getData(){
     return [
         {
             number:1,
-            title:t("tradeTest.title"),
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            title:t("tradeTest.welding"),
+            description:t("tradeTest.weldingDesc"),
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
             image2:"/img/defaultImage.png"
@@ -15,7 +15,7 @@ export function getData(){
         {
             number:2,
             title:t("tradeTest.carpentry"),
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:t("tradeTest.carpentryDesc"),
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
             image2:"/img/defaultImage.png"
@@ -23,7 +23,7 @@ export function getData(){
         {
             number:3,
             title:t("tradeTest.trailer"),
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:t("tradeTest.trailerDesc"),
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
             image2:"/img/defaultImage.png"
@@ -31,7 +31,7 @@ export function getData(){
         {
             number:4,
             title:t("tradeTest.masonry"),
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:t("tradeTest.masonryDesc"),
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
             image2:"/img/defaultImage.png"
@@ -39,7 +39,7 @@ export function getData(){
         {
             number:5,
             title:t("tradeTest.painting"),
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:t("tradeTest.paintingDesc"),
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
             image2:"/img/defaultImage.png"
@@ -47,7 +47,7 @@ export function getData(){
         {
             number:6,
             title:t("tradeTest.scaffolding"),
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:t("tradeTest.scaffoldingDesc"),
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
             image2:"/img/defaultImage.png"
@@ -55,7 +55,7 @@ export function getData(){
         {
             number:7,
             title:t("tradeTest.heavy"),
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:t("tradeTest.heavyDesc"),
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
             image2:"/img/defaultImage.png"
@@ -63,7 +63,7 @@ export function getData(){
         {
             number:8,
             title:t("tradeTest.caregiving"),
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:t("tradeTest.caregivingDesc"),
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
             image2:"/img/defaultImage.png"
@@ -71,7 +71,7 @@ export function getData(){
         {
             number:9,
             title:t("tradeTest.food"),
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:t("tradeTest.foodDesc"),
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
             image2:"/img/defaultImage.png"
@@ -79,7 +79,7 @@ export function getData(){
         {
             number:10,
             title:t("tradeTest.house"),
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:t("tradeTest.cleaningDesc"),
             videoId:"1vIU3R-BIDQ",
             image1:"/img/defaultImage.png",
             image2:"/img/defaultImage.png"

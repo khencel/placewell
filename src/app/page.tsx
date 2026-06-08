@@ -104,6 +104,7 @@ export default function Home() {
               <div className={s.content}>
                 <h1 className={s.bannerTitle}>{t("home.bannerTitle")}</h1>
                 <p>{t("home.bannerSubtitle")}</p>
+              
                 
                 <div className={s.buttons}>
                   <button className={s.btnprimary}>{t("home.bannerPrimaryBtn")}</button>

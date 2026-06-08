@@ -85,6 +85,9 @@
         "ourClients":"Our Clients",
         "gallery":"Our Gallery",
         "gallerydesc":"Highlights of Our Activities"
+
+        ,
+        "subtitle":"Placewell International Services Corporation is a trusted Philippine overseas recruitment agency with more than 50 years of experience in sourcing and deploying qualified Filipino talent to employers around the world. Backed by a dedicated team and a comprehensive recruitment process, we provide reliable workforce solutions while upholding professionalism, integrity, and a strong commitment to both our clients and the workers we serve."
     },
     "corporateIdentity": {
         "title": "About Us",
@@ -160,25 +163,25 @@
         "subtitle":"Trade Tests",
         "desc":"We conduct Trade Tests at our own facility",
         "welding":"Welding",
-        "weldingDesc":"",
+        "weldingDesc":"We have our own dedicated facility for welding trade tests, equipped with 16 welding machines that can be used for MIG Welding and Stick Welding. ",
         "carpentry":"Carpentry",
-        "carpentryDesc":"",
+        "carpentryDesc":"Our facility is complete with all tools and equipment needed to conduct a thorough evaluation of a carpenter’s skills",
         "trailer":"Trailer Truck Driving",
-        "trailerDesc":"",
+        "trailerDesc":"We are partnered with a logistics company that has a spacious trucking yard and numerous trucks that are adjustable to the needs and requirements of our employers. ",
         "masonry":"Masonry",
-        "masonryDesc":"",
+        "masonryDesc":"Our facility is adequate enough to handle a basic masonry/plastering trade test",
         "painting":"Painting",
-        "paintingDesc":"",
+        "paintingDesc":"We are able to conduct metal, drywall and cement wall at our trade test center.",
         "scaffolding":"Scaffolding",
-        "scaffoldingDesc":"",
+        "scaffoldingDesc":"Our facility is complete with equipment and safety gear to conduct scaffolding trade tests of up to 25 meters. ",
         "heavy":"Heavy Equipment",
-        "heavyDesc":"",
+        "heavyDesc":"We are partnered with a mining company that has a wide area that can be used for dump truck, excavator and bulldozer trade tests. ",
         "caregiving":"Caregiving",
-        "caregivingDesc":"",
+        "caregivingDesc":"We have our own dedicated facility for training and trade tests and modeled up to modern Japanese nursing home standards.",
         "food":"Food Service",
-        "foodDesc":"",
+        "foodDesc":"Our facility is complete with tools and equipment needed to conduct training and trade tests for cooking, proper serving and hygiene management.",
         "house":"Housekeeping",
-        "cleaningDesc":""
+        "cleaningDesc":"Our facility is complete with beds, dining tables, cooking tools and more – making it satisfactory for high-quality training and trade tests for domestic and hotel works.  "
     },
     "branch":{
         "title": "About Us",
