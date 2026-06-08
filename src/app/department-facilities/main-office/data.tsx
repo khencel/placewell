@@ -33,9 +33,9 @@ export function getDataList(){
             title: t("interview"),
             description: t("interviewDesc"),
             image:{
-                img1:"/img/mainOffice/7.jpg",
-                img2:"/img/mainOffice/8.jpg",
-                img3:"/img/mainOffice/9.jpg",
+                img1:"/img/mainOffice/DSC03356.jpeg",
+                img2:"/img/mainOffice/DSC04825.jpg",
+                img3:"/img/mainOffice/DSC04832.jpg",
             }
         },
         {
@@ -43,9 +43,9 @@ export function getDataList(){
             title: t("orientation"),
             description: t("orientationDesc"),
             image:{
-                img1:"/img/department/10.jpg",
-                img2:"/img/department/11.jpg",
-                img3:"/img/department/12.jpg",
+                img1:"/img/mainOffice/DSC03475.jpeg",
+                img2:"/img/mainOffice/DSC03486.jpeg",
+                img3:"/img/mainOffice/DSC03517.jpeg",
             }
         }
     ]
