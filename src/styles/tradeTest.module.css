@@ -1,7 +1,40 @@
 .imageStyle{
     width: 100%;
-    height: 300px;
+    height: 223px;
     object-fit: cover;
     display: block;
     border-radius: 10px;
 }
+
+.mainImageStyle{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tradeCard {
+    position: relative;
+    background: #fff;
+    border: 1px solid rgba(46, 125, 50, 0.15);
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: all 0.25s ease;
+}
+
+/* dotted/circle accent background */
+.tradeCard::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(
+        rgba(46, 125, 50, 0.12) 2px,
+        transparent 2px
+    );
+    background-size: 18px 18px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
