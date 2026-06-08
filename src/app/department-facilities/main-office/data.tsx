@@ -58,9 +58,9 @@ export function getCafeteria(){
         title: t("cafeteria"),
         description: t("cafeteriaDesc"),
         image:{
-            img1:"/img/mainOffice/10.jpg",
-            img2:"/img/mainOffice/11.jpg",
-            img3:"/img/mainOffice/12.jpg",
+            img1:"/img/mainOffice/DSC03402.jpeg",
+            img2:"/img/mainOffice/DSC04805.jpg",
+            img3:"/img/mainOffice/DSC04935.jpg",
         }
     }
 }
