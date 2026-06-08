@@ -26,66 +26,73 @@ export function getData(){
             number:3,
             title:t("tradeTest.trailer"),
             description:t("tradeTest.trailerDesc"),
-            videoId:"1vIU3R-BIDQ",
-            image1:"/img/defaultImage.png",
-            image2:"/img/defaultImage.png",
-            image3:"/img/trade/DSC03744.jpeg",
+            videoId:"/video/driving.mp4",
+            image1:"/img/trade/driving1.jpg",
+            image2:"/img/trade/driving2.jpg",
+            image3:"/img/trade/driving3.jpg",
         },
-        // {
-        //     number:4,
-        //     title:t("tradeTest.masonry"),
-        //     description:t("tradeTest.masonryDesc"),
-        //     videoId:"1vIU3R-BIDQ",
-        //     image1:"/img/defaultImage.png",
-        //     image2:"/img/defaultImage.png"
-        // },
-        // {
-        //     number:5,
-        //     title:t("tradeTest.painting"),
-        //     description:t("tradeTest.paintingDesc"),
-        //     videoId:"1vIU3R-BIDQ",
-        //     image1:"/img/defaultImage.png",
-        //     image2:"/img/defaultImage.png"
-        // },
-        // {
-        //     number:6,
-        //     title:t("tradeTest.scaffolding"),
-        //     description:t("tradeTest.scaffoldingDesc"),
-        //     videoId:"1vIU3R-BIDQ",
-        //     image1:"/img/defaultImage.png",
-        //     image2:"/img/defaultImage.png"
-        // },
-        // {
-        //     number:7,
-        //     title:t("tradeTest.heavy"),
-        //     description:t("tradeTest.heavyDesc"),
-        //     videoId:"1vIU3R-BIDQ",
-        //     image1:"/img/defaultImage.png",
-        //     image2:"/img/defaultImage.png"
-        // },
-        // {
-        //     number:8,
-        //     title:t("tradeTest.caregiving"),
-        //     description:t("tradeTest.caregivingDesc"),
-        //     videoId:"1vIU3R-BIDQ",
-        //     image1:"/img/defaultImage.png",
-        //     image2:"/img/defaultImage.png"
-        // },
-        // {
-        //     number:9,
-        //     title:t("tradeTest.food"),
-        //     description:t("tradeTest.foodDesc"),
-        //     videoId:"1vIU3R-BIDQ",
-        //     image1:"/img/defaultImage.png",
-        //     image2:"/img/defaultImage.png"
-        // },
-        // {
-        //     number:10,
-        //     title:t("tradeTest.house"),
-        //     description:t("tradeTest.cleaningDesc"),
-        //     videoId:"1vIU3R-BIDQ",
-        //     image1:"/img/defaultImage.png",
-        //     image2:"/img/defaultImage.png"
-        // }
+        {
+            number:4,
+            title:t("tradeTest.masonry"),
+            description:t("tradeTest.masonryDesc"),
+            videoId:"1vIU3R-BIDQ",
+            image1:"/img/trade/mason1.jpeg",
+            image2:"/img/trade/mason2.jpeg",
+            image3:"/img/trade/mason3.jpeg",
+        },
+        {
+            number:5,
+            title:t("tradeTest.painting"),
+            description:t("tradeTest.paintingDesc"),
+            videoId:"/video/painting.mp4",
+            image1:"/img/trade/paint1.jpeg",
+            image2:"/img/trade/paint2.jpeg",
+            image3:"/img/trade/paint3.jpg",
+        },
+        {
+            number:6,
+            title:t("tradeTest.scaffolding"),
+            description:t("tradeTest.scaffoldingDesc"),
+            videoId:"/video/scaf.mp4",
+            image1:"/img/trade/scaf1.jpg",
+            image2:"/img/trade/scaf2.jpeg",
+            image3:"/img/trade/scaf3.jpeg",
+        },
+        {
+            number:7,
+            title:t("tradeTest.heavy"),
+            description:t("tradeTest.heavyDesc"),
+            videoId:"/video/heavy.mp4",
+            image1:"/img/trade/heavy1.jpg",
+            image2:"/img/trade/heavy2.jpg",
+            image3:"/img/trade/heavy3.jpg",
+        },
+        {
+            number:8,
+            title:t("tradeTest.caregiving"),
+            description:t("tradeTest.caregivingDesc"),
+            videoId:"/video/care.mp4",
+            image1:"/img/trade/care1.jpeg",
+            image2:"/img/trade/care2.jpeg",
+            image3:"/img/trade/care3.jpeg",
+        },
+        {
+            number:9,
+            title:t("tradeTest.food"),
+            description:t("tradeTest.foodDesc"),
+            videoId:"/video/food.mp4",
+            image1:"/img/trade/food1.jpeg",
+            image2:"/img/trade/food2.jpeg",
+            image3:"/img/trade/food3.jpeg",
+        },
+        {
+            number:10,
+            title:t("tradeTest.house"),
+            description:t("tradeTest.cleaningDesc"),
+            videoId:"/video/house.mp4",
+            image1:"/img/trade/clean4.jpeg",
+            image2:"/img/trade/clean1.jpeg",
+            image3:"/img/trade/clean3.jpeg",
+        }
     ]
 }
