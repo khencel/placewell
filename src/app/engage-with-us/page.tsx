@@ -59,7 +59,7 @@ export default function EngageWithUs() {
                             </div>
                         </div>
 
-                        <div className={`${s.leftCont} d-flex gap-2 mt-4 `}>
+                        {/* <div className={`${s.leftCont} d-flex gap-2 mt-4 `}>
                             <div style={{width:"40%"}}>
                                 <img src="/img/engage/secondAvatar.png" className={s.imageStyle} alt="" />
                             </div>
@@ -80,7 +80,7 @@ export default function EngageWithUs() {
                                 </div>
                                 
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-md-5">
                         <div className={s.rightCont}>

@@ -66,7 +66,7 @@ export default function About() {
 
               <div className="col-md-5 p-3">
                 <div className="row">
-                  <div className="col-md-6"><ImageStyle image="/img/identity/IMG-20230710-WA0020-copy.jpg"/></div>
+                  <div className="col-md-6"><ImageStyle image="/img/eloisa.png"/></div>
                   <div className="col-md-6 d-flex align-items-center">
                       <div>
                         <h5 className="title" style={{fontSize:"24px"}} >Eleonor H. Escueta (Elo) </h5>

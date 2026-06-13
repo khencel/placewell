@@ -42,12 +42,12 @@
         "videoDesc":"Watch our latest highlight and updates",
         "whyPlacewell":"Why Placewell",
         "whyPlacewellSub":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi excepturi odit deleniti, maxime, natus quibusdam unde accusantium aperiam aut esse reprehenderit tempora! Eos ducimus ut adipisci animi velit facilis perferendis?",
-        "20Branch":"20 branches nationwide",
-        "20BranchDesc":"With 20+ branch offices strategically placed in main component cities all over the Philippines, Placewell International is able to recruit workers and conduct interviews nationwide.",
+        "20Branch":"15 branches nationwide",
+        "20BranchDesc":"With 15+ branch offices strategically placed in main component cities all over the Philippines, Placewell International is able to recruit workers and conduct interviews nationwide.",
         "one":"One-stop shop",
         "oneDesc":"From our strict recruitment, screening, and interview process to personalized skills and language training, we assist your company from A to Z so that you pick the Filipino workers who fit best with your company’s needs.",
         "aTrusted":"A trusted company with history",
-        "aTrustedDesc":"With over 45+ years of experience in the Philippine Manpower industry, Placewell Industry has a proven track record of providing quality and efficient service to both its Filipino workers and foreign clients.",
+        "aTrustedDesc":"With over 50+ years of experience in the Philippine Manpower industry, Placewell Industry has a proven track record of providing quality and efficient service to both its Filipino workers and foreign clients.",
         "good":"Good relations with philippine government agencies",
         "goodDesc":"Given Placewell International’s good reputation in the Philippine Manpower industry, the Philippine government is open to helping our company in recruiting workers and speeding up the deployment process.",
         "fast":"Fast and systematic group chat system",
@@ -60,8 +60,16 @@
             "title":"Why Hire Filipino Workers",
             "itemList":[
                 {
+                    "title":"Well-known as People who work abroad",
+                    "desc":"There are Filipinos all over the world from Europe to the Middle East, North America, and all across Asia. Filipino workers have been known to be hard-working, friendly, and loyal to their employers."
+                },
+                {
                     "title":"Low average age",
                     "desc":"The average in the Philippines is around 25 years old, which means that there is a lot of youthful energy available for work."
+                },
+                {
+                    "title":"English Speaking",
+                    "desc":"The demand for workers who are competent in the English language is growing with the rise of Globalization. The English language is especially important in the hotel and restaurant industry. Almost all Filipinos are proficient in English and are happy to share and utilize their skills."
                 },
                 {
                     "title":"Cost-effective high quality labor",
@@ -70,14 +78,6 @@
                 {
                     "title":"Low minimum wage",
                     "desc":"The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad."
-                },
-                {
-                    "title":"Well-known as People who work abroad",
-                    "desc":"There are Filipinos all over the world from Europe to the Middle East, North America, and all across Asia. Filipino workers have been known to be hard-working, friendly, and loyal to their employers."
-                },
-                {
-                    "title":"English Speaking",
-                    "desc":"The demand for workers who are competent in the English language is growing with the rise of Globalization. The English language is especially important in the hotel and restaurant industry. Almost all Filipinos are proficient in English and are happy to share and utilize their skills."
                 }
             ]
 
@@ -92,7 +92,7 @@
     "corporateIdentity": {
         "title": "About Us",
         "subtitle":"Corporate Identity",
-        "placewellTitle":"Placewell International",
+        "placewellTitle":"Who is Placewell International?",
         "placewellInternational":"Placewell International is a Filipino-owned, family-run manpower agency with over 50 years of experience in deploying Filipino workers overseas. Headquartered in Makati and supported by more than 15 branches nationwide, we recruit, train, and deploy Filipino workers to companies all over the world. Placewell is committed to providing its clients with dependable workers and service that is efficient, organized and highly responsive. At the same time, Placewell remains dedicated to empowering Filipinos by connecting them with employers that value them as people.",
         "boardTitle":"Board of Directors",
         "chief":"Chief Executive Officer and President",
@@ -339,14 +339,14 @@
         "subtitle": "Client Testimonials",
         "desc":"Hear from our esteemed clients.",
         "our":"Our Client Testimonials",
-        "what":"What Our Clients Says"
+        "what":"What Our Clients Say"
     },
     "OFWTestimonial":{
         "title": "Testimonials",
         "subtitle": "OFW Testimonials",
         "desc":"Some success stories from our deployed workers.",
         "our":"Our OFW Testimonials",
-        "what":"What Our OFW Says"
+        "what":"What Our OFWs Say"
     },
     "gallery":{
         "title": "Gallery",

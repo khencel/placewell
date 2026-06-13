@@ -39,7 +39,7 @@ export default function WhyPlacewell() {
                         
                         <FaGlobe className={s.iconStat} />
                         
-                        <h3>20+</h3>
+                        <h3>15+</h3>
                         <p>{t("home.branchOffices")}</p>
                     </div>
                     <div className={s.stat}>
