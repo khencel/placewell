@@ -11,8 +11,8 @@
 
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 500px;
+  min-height: 100vh;
+  height: 100dvh; /* ✅ FIX for mobile viewport issue */
   background-image: url('/img/OFW.png');
   background-repeat: no-repeat;
   background-position: right center;
@@ -182,9 +182,8 @@
 
   .hero {
     height: auto;
-    min-height: 100vh;
+    height: 300px;
     padding: 60px 20px;
-    min-height: 300px;
     text-align: center;
     justify-content: center;
     background: none;
@@ -228,6 +227,13 @@
 
   .swiper {
     height: 337px;
+  }
+
+  .customCont {
+    height: auto;
+    min-height: auto;
+    padding: 60px 20px;
+    flex-direction: column;
   }
 }
 

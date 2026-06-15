@@ -1,9 +1,11 @@
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 500px;
+  min-height: 100vh;
+  height: 100dvh; /* ✅ FIX for mobile viewport issue */
   overflow: hidden;
   background: #f7f8fa;
+  display: flex;
+  align-items: center; /* keeps content vertically centered */
 }
 
 /* Background Shapes */
@@ -31,26 +33,20 @@
   opacity: .95;
 }
 
+/* LEFT */
 .leftPanel {
   position: relative;
   z-index: 2;
   padding: 80px;
 }
 
+/* CERT CARDS */
 .certCard {
-  height: 250px;
-  background: white;
-  border-radius: 30px;
-
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  padding: 30px;
-
-  box-shadow:
-    0 10px 30px rgba(0,0,0,.08);
-
+  padding: 10px;
   transition: .3s;
 }
 
@@ -63,26 +59,19 @@
   max-width: 180px;
 }
 
+/* LOGO */
 .logoCard {
-  height: 220px;
-  background: white;
-  border-radius: 30px;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
-  padding: 40px;
-
-  box-shadow:
-    0 10px 30px rgba(0,0,0,.08);
+  padding: 10px;
 }
 
 .logoCard img {
   width: 100%;
-  max-width: 400px;
 }
 
+/* RIGHT CONTENT */
 .content {
   position: relative;
   z-index: 2;
@@ -124,13 +113,10 @@
   border: none;
   background: #104675;
   color: white;
-
   padding: 16px 40px;
   border-radius: 14px;
-
   font-size: 18px;
   font-weight: 600;
-
   transition: .3s;
 }
 
@@ -138,16 +124,105 @@
   transform: translateY(-4px);
 }
 
+/* DOTS */
 .dots {
   position: absolute;
   top: 80px;
   right: 80px;
-
   width: 140px;
   height: 140px;
-
-  background-image:
-    radial-gradient(#4f86c6 1.5px, transparent 1.5px);
-
+  background-image: radial-gradient(#4f86c6 1.5px, transparent 1.5px);
   background-size: 15px 15px;
+}
+
+/* ========================= */
+/* TABLET FIX */
+/* ========================= */
+@media (max-width: 992px) {
+
+  .hero {
+    flex-direction: column;
+    height: auto;
+    min-height: auto;
+  }
+
+  .leftPanel,
+  .content {
+    width: 100%;
+  }
+
+  .content {
+    padding: 60px 30px;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .certCard img {
+    max-width: 150px;
+  }
+}
+
+/* ========================= */
+/* MOBILE FIX (IMPORTANT) */
+/* ========================= */
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column;
+    height: auto;      /* ✅ removes tall 100vh issue */
+    min-height: auto;
+    padding: 40px 0 20px;
+  }
+
+  .leftPanel,
+  .content {
+    width: 100%;
+  }
+
+  .leftPanel {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .content {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .certCard {
+    height: auto;
+  }
+
+  .certCard img {
+    max-width: 120px;
+  }
+
+  .logoCard img {
+    max-width: 200px;
+  }
+
+  .dots {
+    display: none;
+  }
+}
+
+/* ========================= */
+/* SWIPER SAFETY (IMPORTANT) */
+/* ========================= */
+.swiper,
+.swiper-wrapper,
+.swiper-slide {
+  height: auto;
 }

@@ -11,11 +11,12 @@ import { getRollingData, getWhyHireFilipino, getAllClient } from "@/data/homepag
 import WhyPlacewell from "@/components/WhyPlacewell";
 import WhyHire from "@/components/WhyHire";
 import slide2 from "@/styles/slide2.module.css"
+import slide3 from "@/styles/slide3.module.css"
 
 import { useTranslations } from "next-intl";
 import Banner from "@/components/Banner";
 
-
+import { FaClipboardList } from "react-icons/fa";
 export default function Home() {
   const rollingData = getRollingData();
   const whyHireFilipino = getWhyHireFilipino();
@@ -89,7 +90,16 @@ export default function Home() {
     pointerEvents: "none",
   },
   
-};
+  };
+
+  const cards = [
+    { img: "/img/slide3/pic1.png", label: 'Welding' },
+    { img: "/img/slide3/pic2.png", label: 'Construction' },
+    { img: "/img/slide3/pic3.png", label: 'Trailer Truck Driving' },
+    { img: "/img/slide3/pic4.png", label: 'Domestic Work' },
+    { img: "/img/slide3/pic5.png", label: 'Caregiving' },
+    { img: "/img/slide3/pic6.png", label: 'Food Service' },
+  ];
   return (
     <>
       <Swiper
@@ -97,7 +107,7 @@ export default function Home() {
         slidesPerView={1}
         loop={true}
         modules={[Autoplay]}
-        // autoplay={{ delay: 2000 }}
+        autoplay={{ delay: 2000 }}
         speed={800}
       >
         <SwiperSlide>
@@ -124,15 +134,15 @@ export default function Home() {
                 <div className="col-lg-5">
                   <div className={slide2.leftPanel}>
 
-                    <div className="row g-4">
+                    <div className="row jus">
 
-                      <div className="col-6">
+                      <div className="col-5">
                         <div className={slide2.certCard}>
                           <img src="/dmw.png" alt="DMW" />
                         </div>
                       </div>
 
-                      <div className="col-6">
+                      <div className="col-5">
                         <div className={slide2.certCard}>
                           <img src="/iso.png" alt="ISO" />
                         </div>
@@ -186,49 +196,30 @@ export default function Home() {
 
 
         <SwiperSlide>
-          <div >
-                <div className="row w-100">
-                  <div className="col-md-5">
-                    <div className={s.customCont}>
-                        <div className={s.content}>
-                          <h1 className={s.bannerTitle} style={{color:"#104675"}}>Trade Tests</h1>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto sequi doloremque ad quis qui molestias? Corporis incidunt repellendus corrupti, provident totam quaerat non omnis ducimus beatae rem praesentium laudantium.</p>
-                        </div>
-                    </div>
-                    
-                  </div>
-                  <div className="col-md-7">
-                    <div className="dotPattern"></div>
-                    <div className={s.customContRight}>
-                      
-                      <div className="row mb-3">
-                          <div className="col-md-4">
-                            <img src="/img/slide3/pic1.png" className={s.imgRight} alt="" />
-                          </div>
-                          <div className="col-md-4">
-                            <img src="/img/slide3/pic2.png" className={s.imgRight} alt="" />
-                          </div>
-                          <div className="col-md-4">
-                            <img src="/img/slide3/pic3.png" className={s.imgRight} alt="" />
-                          </div>
-                      </div>
-
-                      <div className="row">
-                        <div className="col-md-4">
-                          <img src="/img/slide3/pic4.png" className={s.imgRight} alt="" />
-                        </div>
-                        <div className="col-md-4">
-                          <img src="/img/slide3/pic5.png" className={s.imgRight} alt="" />
-                        </div>
-                        <div className="col-md-4">
-                          <img src="/img/slide3/pic6.png" className={s.imgRight} alt="" />
-                        </div>
-                      </div>
-                    </div>
-                    
-                  </div>
+          <section className={slide3.tradeTests}>
+            <div className={slide3.accentCircleTop} />
+            <div className={slide3.accentCircleBottom} />
+            <div className={slide3.container}>
+              <div className={slide3.left}>
+                <div className={slide3.icon}>
+                  <FaClipboardList />
+                </div>
+                <h2>Training and Trade Tests</h2>
+                <p>
+                  We conduct training and trade tests across a number of skills all at our own top-tier facilities.
+                </p>
               </div>
-          </div>
+
+              <div className={slide3.right}>
+                {cards.map((card) => (
+                  <div className={slide3.card} key={card.label}>
+                    <img src={card.img} alt={card.label} />
+                    <span>{card.label}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
           
         </SwiperSlide>
         

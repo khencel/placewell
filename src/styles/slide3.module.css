@@ -1,0 +1,163 @@
+.tradeTests {
+  padding: 60px;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.accentCircleTop {
+  position: absolute;
+  top: -90px;
+  left: 28%;
+  width: 220px;
+  height: 220px;
+  background: #709C6B;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.accentCircleBottom {
+  position: absolute;
+  bottom: -130px;
+  right: -70px;
+  width: 300px;
+  height: 300px;
+  background: #709C6B;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: start;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.left .icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #eaf1fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #448153;
+  margin-bottom: 20px;
+}
+
+.left h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #448153;
+  margin: 0 0 16px;
+  position: relative;
+  padding-bottom: 16px;
+}
+
+.left h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background: #8F6843;
+  border-radius: 2px;
+}
+
+.left p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  max-width: 480px;
+  margin: 0;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 220px;
+  background: #ddd;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #448153;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* .card span::before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  flex-shrink: 0;
+} */
+
+/* ========================= */
+/* TABLET FIX */
+/* ========================= */
+@media (max-width: 992px) {
+  .tradeTests {
+    height: auto;
+    min-height: auto;
+    display: block;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .right {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ========================= */
+/* MOBILE FIX */
+/* ========================= */
+@media (max-width: 768px) {
+  .tradeTests {
+    height: auto;
+    min-height: auto;
+    padding: 40px 0 20px;
+  }
+
+  .right {
+    grid-template-columns: 1fr;
+  }
+}
