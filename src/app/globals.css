@@ -494,3 +494,17 @@
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
+
+.dotPattern{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    width: 120px;
+    height: 120px;
+    background-image: radial-gradient(
+        #77a5f5 1.5px,
+        transparent 1.5px
+    );
+    background-size: 12px 12px;
+    z-index: 0;
+}

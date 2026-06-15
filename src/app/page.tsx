@@ -115,17 +115,84 @@ export default function Home() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className={s.heroRight}>
-              <div className={s.content}>
-                <h1 className={s.bannerTitle}>The World's Most Trusted Filipino Manpower Company</h1>
-                <p>Inspiring customers & supporting through experience</p>
-                
-                <div className={s.buttons}>
-                  <button className={s.btnprimary}>Contact Us</button>
-                  <button className={s.btnoutline}>Learn More</button>
-                </div>
+          <div >
+                <div className="row w-100">
+                  
+                  <div className="col-md-6">
+                    <div className="dotPattern"></div>
+                    <div className={s.customContRight}>
+                      
+                      <div className="row mb-3">
+                          <div className="col-md-4">
+                            <img src="/img/slide3/pic1.png" className={s.imgRight} alt="" />
+                          </div>
+                         
+                      </div>
+
+                      
+                    </div>
+                    
+                  </div>
+                  <div className="col-md-6">
+                    <div className={s.customCont}>
+                        <div className={s.content}>
+                          <h1 className={s.bannerTitle} style={{color:"#104675"}}>Placewell International Services Corporation</h1>
+                          <p>Is a trusted Philippine overseas recruitment agency with more than 50 years of experience in sourcing and deploying qualified Filipino talent to employers around the world. Backed by a dedicated team and a comprehensive recruitment process, we provide reliable workforce solutions while upholding professionalism, integrity, and a strong commitment to both our clients and the workers we serve.</p>
+                        </div>
+                    </div>
+                    
+                  </div>
               </div>
           </div>
+          
+        </SwiperSlide>
+
+
+        <SwiperSlide>
+          <div >
+                <div className="row w-100">
+                  <div className="col-md-5">
+                    <div className={s.customCont}>
+                        <div className={s.content}>
+                          <h1 className={s.bannerTitle} style={{color:"#104675"}}>Trade Tests</h1>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto sequi doloremque ad quis qui molestias? Corporis incidunt repellendus corrupti, provident totam quaerat non omnis ducimus beatae rem praesentium laudantium.</p>
+                        </div>
+                    </div>
+                    
+                  </div>
+                  <div className="col-md-7">
+                    <div className="dotPattern"></div>
+                    <div className={s.customContRight}>
+                      
+                      <div className="row mb-3">
+                          <div className="col-md-4">
+                            <img src="/img/slide3/pic1.png" className={s.imgRight} alt="" />
+                          </div>
+                          <div className="col-md-4">
+                            <img src="/img/slide3/pic2.png" className={s.imgRight} alt="" />
+                          </div>
+                          <div className="col-md-4">
+                            <img src="/img/slide3/pic3.png" className={s.imgRight} alt="" />
+                          </div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-md-4">
+                          <img src="/img/slide3/pic4.png" className={s.imgRight} alt="" />
+                        </div>
+                        <div className="col-md-4">
+                          <img src="/img/slide3/pic5.png" className={s.imgRight} alt="" />
+                        </div>
+                        <div className="col-md-4">
+                          <img src="/img/slide3/pic6.png" className={s.imgRight} alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+              </div>
+          </div>
+          
         </SwiperSlide>
         
       </Swiper>
