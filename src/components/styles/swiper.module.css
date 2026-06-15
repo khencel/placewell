@@ -94,8 +94,13 @@
 .imgRight{
   width: 240px;
   height: 270px;
-  object-fit: cover;
-  border-radius: 16px;
+  object-fit: contain;
+}
+
+.imgLogo{
+  width: 340px;
+  height: 270px;
+  object-fit: contain;
 }
 
 /* content */
@@ -225,6 +230,10 @@
     height: 337px;
   }
 }
+
+
+/* slide 2  */
+
 
 
 

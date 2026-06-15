@@ -10,6 +10,7 @@ import Rolling from "@/components/Rolling";
 import { getRollingData, getWhyHireFilipino, getAllClient } from "@/data/homepage";
 import WhyPlacewell from "@/components/WhyPlacewell";
 import WhyHire from "@/components/WhyHire";
+import slide2 from "@/styles/slide2.module.css"
 
 import { useTranslations } from "next-intl";
 import Banner from "@/components/Banner";
@@ -115,35 +116,71 @@ export default function Home() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div >
-                <div className="row w-100">
-                  
-                  <div className="col-md-6">
-                    <div className="dotPattern"></div>
-                    <div className={s.customContRight}>
-                      
-                      <div className="row mb-3">
-                          <div className="col-md-4">
-                            <img src="/img/slide3/pic1.png" className={s.imgRight} alt="" />
-                          </div>
-                         
+          <section className={slide2.hero}>
+            <div className="container-fluid h-100">
+              <div className="row h-100 align-items-center">
+
+                {/* LEFT SIDE */}
+                <div className="col-lg-5">
+                  <div className={slide2.leftPanel}>
+
+                    <div className="row g-4">
+
+                      <div className="col-6">
+                        <div className={slide2.certCard}>
+                          <img src="/dmw.png" alt="DMW" />
+                        </div>
                       </div>
 
-                      
-                    </div>
-                    
-                  </div>
-                  <div className="col-md-6">
-                    <div className={s.customCont}>
-                        <div className={s.content}>
-                          <h1 className={s.bannerTitle} style={{color:"#104675"}}>Placewell International Services Corporation</h1>
-                          <p>Is a trusted Philippine overseas recruitment agency with more than 50 years of experience in sourcing and deploying qualified Filipino talent to employers around the world. Backed by a dedicated team and a comprehensive recruitment process, we provide reliable workforce solutions while upholding professionalism, integrity, and a strong commitment to both our clients and the workers we serve.</p>
+                      <div className="col-6">
+                        <div className={slide2.certCard}>
+                          <img src="/iso.png" alt="ISO" />
                         </div>
+                      </div>
+
+                      <div className="col-12">
+                        <div className={slide2.logoCard}>
+                          <img src="/logo.png" alt="Placewell" />
+                        </div>
+                      </div>
+
                     </div>
-                    
+
                   </div>
+                </div>
+
+                {/* RIGHT SIDE */}
+                <div className="col-lg-7">
+                  <div className={slide2.content}>
+
+                    <span className={slide2.subtitle}>
+                      TRUSTED. EXPERIENCED. COMMITTED.
+                    </span>
+
+                    <h1 className={slide2.title}>
+                      Placewell International
+                      <br />
+                      Services Corporation
+                    </h1>
+
+                    <div className={slide2.line}></div>
+
+                    <p className={slide2.description}>
+                      Is a trusted Philippine overseas recruitment agency with more than 50 years of experience in sourcing and deploying qualified Filipino talent to employers around the world. Backed by a dedicated team and a comprehensive recruitment process, we provide reliable workforce solutions while upholding professionalism, integrity, and a strong commitment to both our clients and the workers we serve.
+                    </p>
+
+                    {/* <button className={slide2.ctaBtn}>
+                      Learn More →
+                    </button> */}
+
+                  </div>
+                </div>
+
               </div>
-          </div>
+            </div>
+
+            <div className={slide2.dots}></div>
+          </section>
           
         </SwiperSlide>
 

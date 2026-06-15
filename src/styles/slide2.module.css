@@ -1,0 +1,153 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  overflow: hidden;
+  background: #f7f8fa;
+}
+
+/* Background Shapes */
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  background: #104675;
+  border-radius: 50%;
+  top: -350px;
+  left: -350px;
+  opacity: .95;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: #104675;
+  border-radius: 50%;
+  bottom: -350px;
+  right: -350px;
+  opacity: .95;
+}
+
+.leftPanel {
+  position: relative;
+  z-index: 2;
+  padding: 80px;
+}
+
+.certCard {
+  height: 250px;
+  background: white;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+  transition: .3s;
+}
+
+.certCard:hover {
+  transform: translateY(-6px);
+}
+
+.certCard img {
+  width: 100%;
+  max-width: 180px;
+}
+
+.logoCard {
+  height: 220px;
+  background: white;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+}
+
+.logoCard img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 750px;
+  padding: 100px 60px;
+}
+
+.subtitle {
+  color: #d49b2b;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #448153;
+  margin-top: 20px;
+}
+
+.line {
+  width: 90px;
+  height: 4px;
+  background: #d49b2b;
+  margin: 30px 0;
+  border-radius: 50px;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: #555;
+}
+
+.ctaBtn {
+  margin-top: 40px;
+  border: none;
+  background: #104675;
+  color: white;
+
+  padding: 16px 40px;
+  border-radius: 14px;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  transition: .3s;
+}
+
+.ctaBtn:hover {
+  transform: translateY(-4px);
+}
+
+.dots {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+
+  width: 140px;
+  height: 140px;
+
+  background-image:
+    radial-gradient(#4f86c6 1.5px, transparent 1.5px);
+
+  background-size: 15px 15px;
+}
