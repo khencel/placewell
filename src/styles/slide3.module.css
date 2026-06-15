@@ -118,16 +118,6 @@
   gap: 12px;
 }
 
-/* .card span::before {
-  content: "";
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  flex-shrink: 0;
-} */
-
 /* ========================= */
 /* TABLET FIX */
 /* ========================= */
@@ -154,10 +144,55 @@
   .tradeTests {
     height: auto;
     min-height: auto;
-    padding: 40px 0 20px;
+    padding: 40px 20px;
+  }
+
+  .container {
+    gap: 24px;
+  }
+
+  .left .icon {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .left h2 {
+    font-size: 28px;
+    padding-bottom: 12px;
+  }
+
+  .left p {
+    font-size: 15px;
+    max-width: 100%;
   }
 
   .right {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .card img {
+    display: none;
+  }
+
+  .card {
+    height: auto;
+    min-height: 80px;
+    background: #448153;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .card span {
+    position: relative;
+    background: transparent;
+    padding: 0;
+    justify-content: center;
+    font-size: 14px;
   }
 }
