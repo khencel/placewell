@@ -133,7 +133,7 @@ export default function NavForMobile({ onClose }: NavForMobileProps) {
                                     <FaSyringe className="social-icon" />
                                     <div><h4>{t("nav.pro")}</h4><p>{t("nav_sub.pro")}</p></div>
                                 </Link>
-                                <a href="https://hashira-tau.vercel.app/" target="_blank" rel="noopener noreferrer" className="mega-item" onClick={handleLinkClick}>
+                                <a href="https://www.hashiraskills.net/" target="_blank" rel="noopener noreferrer" className="mega-item" onClick={handleLinkClick}>
                                     <FaSyringe className="social-icon" />
                                     <div><h4>{t("nav.hashira")}</h4><p>{t("nav_sub.hashira")}</p></div>
                                 </a>

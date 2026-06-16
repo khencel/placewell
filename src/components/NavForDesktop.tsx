@@ -148,7 +148,7 @@ export default function NavForDesktop() {
                         </Link>
 
                         <a 
-                            href="https://hashira-tau.vercel.app/"
+                            href="https://www.hashiraskills.net/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="mega-item"

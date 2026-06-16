@@ -13,6 +13,7 @@ import { Montserrat } from "next/font/google";
 import "../../node_modules/swiper/swiper-bundle.min.css";
 
 import { LocaleProvider } from "@/i18n/LocaleContext";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const montserrat = Montserrat({
         subsets: ["latin"]
@@ -38,6 +39,7 @@ export default function RootLayout({
           <Navigation />
             {children}
           <Footer />
+          <ScrollToTop />
         </LocaleProvider>
       </body>
     </html>

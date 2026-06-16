@@ -11,7 +11,7 @@ export default function Dormitory() {
     return (
         <>
             <Banner
-                backgroundImage="/DSC04737.jpg"
+                backgroundImage="/img/banner/dorm.png"
                 title={t("title")}
                 subtitle={t("subtitle")}
                 description={t("desc")}
