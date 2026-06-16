@@ -10,7 +10,7 @@ export default function BranchOffices() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/map.jpg"
+                backgroundImage="/img/banner/building.png"
                 title={t("title")}
                 subtitle={t("subtitle")}
                 description={t("desc")}
@@ -33,6 +33,9 @@ export default function BranchOffices() {
                                             title={item.title} 
                                             address={item.address} 
                                             contact={item.contact}
+                                            mon={item.mon}
+                                            sat={item.sat}
+                                            imgs={item.imgs}
                                         />
                                     </div>
                                 ))

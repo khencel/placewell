@@ -44,16 +44,16 @@ export default function EngageWithUs() {
                                 <span className="title" style={{fontSize:"20px", fontWeight:"bold"}}>Kim Carl Diestro</span>
                                 <p className="subtitle"><i>{t('business')}</i></p>
                                 <div className="mb-2">
-                                    <span><FaSquareWhatsapp className={s.iconStyle} style={{color:"#25D366"}} /></span> <span className="title" style={{fontSize:"15px", fontWeight:"bold"}}>{t('whatsapp')}:</span><span>+63 9XX XXXX XXXX</span>
+                                    <span><FaSquareWhatsapp className={s.iconStyle} style={{color:"#25D366"}} /></span> <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>{t('whatsapp')}:</span><span style={{fontSize:"13px"}}>+63 9XX XXXX XXXX</span>
                                 </div>
                                 <div className="mb-2">
-                                    <span><FaPhone className={s.iconStyle} style={{color:"#448153"}} /></span> <span className="title" style={{fontSize:"15px", fontWeight:"bold"}}>{t('cellphone')}:</span><span> +63 9XX XXXX XXXX</span>
+                                    <span><FaPhone className={s.iconStyle} style={{color:"#448153"}} /></span> <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>{t('cellphone')}:</span><span style={{fontSize:"13px"}}> +63 9XX XXXX XXXX</span>
                                 </div>
                                 <div className="mb-2">
-                                    <span><FaEnvelope className={s.iconStyle} style={{color:"#448153"}} /></span> <span className="title" style={{fontSize:"15px", fontWeight:"bold"}}>{t('email')}:</span><span> sample@gmail.com</span>
+                                    <span><FaEnvelope className={s.iconStyle} style={{color:"#448153"}} /></span> <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>{t('email')}:</span><span style={{fontSize:"13px"}}> jobs@placewellinternational.com</span>
                                 </div>
                                 <div className="mb-2">
-                                    <span><FaLocationDot className={s.iconStyle} style={{color:"#448153"}} /></span> <span className="title" style={{fontSize:"15px", fontWeight:"bold"}}>{t('address')}:</span><span> JMC Building, 123 JMC Street, Makati City, Metro Manila, Philippines</span>
+                                    <span><FaLocationDot className={s.iconStyle} style={{color:"#448153"}} /></span> <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>{t('address')}:</span><span style={{fontSize:"13px"}}> JMC Building, 123 JMC Street, Makati City, Metro Manila, Philippines</span>
                                 </div>
                                 
                             </div>

@@ -7,10 +7,11 @@ interface RollingProps {
     data: any[]
     perSlide?: number
     isLoop?: boolean
-    isAutoplay?: boolean
+    isAutoplay?: boolean,
+    isContain?: boolean
 }
 
-export default function Rolling({ data, perSlide, isLoop, isAutoplay }: RollingProps) {
+export default function Rolling({ data, perSlide, isLoop, isAutoplay,isContain=true }: RollingProps) {
     return (
         <Swiper
             spaceBetween={20}
@@ -42,7 +43,7 @@ export default function Rolling({ data, perSlide, isLoop, isAutoplay }: RollingP
                     <SwiperSlide key={index}>
                         <div>
                             <div>
-                                <img className={s.styleImage} src={item.image} alt="" />
+                                <img className={isContain?s.styleImage:s.styleImage2} src={item.image} alt="" />
                             </div>
                             <div className="mt-3">
                                 {/* <h4 style={{color:"#448153"}}>{item.title}</h4> */}

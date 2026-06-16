@@ -16,22 +16,27 @@ interface Branch {
 }
 
 const BRANCHES: Branch[] = [
-  { id: 1,  name: "Tuguegarao",     region: "Luzon",    lat: 17.6132, lng: 121.7270, address: "Unit C-1 3rd Floor, E.M Torres Bldg., Diversion Road, Ugac Norte, Tuguegarao City" },
-  { id: 2,  name: "Isabela",        region: "Luzon",    lat: 16.9754, lng: 121.8107, address: "Door1B, Majesty Commercial Building Cauayan City, Isabela" },
-  { id: 3,  name: "Pampanga",       region: "Luzon",    lat: 15.0794, lng: 120.6200, address: "R5, 2nd Floor, FF Paras Building corner Jose Abad Santos Ave., Dolores, San Fernando City, Pampanga" },
-  { id: 4,  name: "Cabanatuan City",region: "Luzon",    lat: 15.4890, lng: 120.9660, address: "2nd Floor, Unit 2B, V.P. Building Maharlika highway, H. Concepcion District, Cabanatuan City" },
-  { id: 5,  name: "Laguna",         region: "Luzon",    lat: 14.3294, lng: 121.1700, address: "LTO/Areza Compound, Barangay Canlalay Binan National Highway, Binan, Laguna" },
-  { id: 6,  name: "Bicol",          region: "Luzon",    lat: 13.1391, lng: 123.7438, address: "3rd Floor, Tower Building II, Landco Business Park, Legazpi City" },
-  { id: 7,  name: "Iloilo",         region: "Visayas",  lat: 10.7202, lng: 122.5621, address: "2nd Floor, Robinsons Place Iloilo, Ledesma St., Iloilo City" },
-  { id: 8,  name: "Cebu",           region: "Visayas",  lat: 10.3157, lng: 123.8854, address: "Unit 301, 3rd Floor, Keppel Center, Samar Loop cor. Cardinal Rosales Ave., Cebu Business Park" },
-  { id: 9,  name: "Tacloban",       region: "Visayas",  lat: 11.2543, lng: 125.0000, address: "Door 4, Ground Floor, Robinsons Place Tacloban, Justice Romualdez St., Tacloban City" },
-  { id: 10, name: "Dumaguete",      region: "Visayas",  lat:  9.3068, lng: 123.3054, address: "3rd Floor, Lee Plaza, Dumaguete City, Negros Oriental" },
-  { id: 11, name: "Cagayan de Oro", region: "Mindanao", lat:  8.4542, lng: 124.6319, address: "Unit 301, Limketkai Center, Limketkai Drive, Cagayan de Oro City" },
-  { id: 12, name: "Davao",          region: "Mindanao", lat:  7.0707, lng: 125.6087, address: "Unit 302-303, 3rd Floor, Davao Chinatown Square, F. Torres St., Davao City" },
-  { id: 13, name: "General Santos", region: "Mindanao", lat:  6.1164, lng: 125.1716, address: "Unit 3B, 3rd Floor, Robinsons Place General Santos, General Santos City" },
-  { id: 14, name: "Zamboanga",      region: "Mindanao", lat:  6.9214, lng: 122.0790, address: "3rd Floor, Grand Astoria Hotel, Mayor Jaldon St., Zamboanga City" },
-  { id: 15, name: "Butuan",         region: "Mindanao", lat:  8.9475, lng: 125.5406, address: "2nd Floor, Robinsons Place Butuan, National Highway, Butuan City" },
+  { id: 1,  name: "ANGONO",                               region: "Luzon",  lat: 17.6132, lng: 121.7270, address: "Unit C-1 3rd Floor, E.M Torres Bldg., Diversion Road, Ugac Norte, Tuguegarao City" },
+  { id: 2,  name: "BICOL",                                region: "Luzon",    lat: 13.1476712, lng: 123.7521332, address: "Room 202 RR Sarte Building, Quezon Avenue, Brangay 34 Oro Site, Legazpi City" },
+  { id: 7,  name: "BACOLOD",                              region: "Visayas",  lat: 10.67056, lng: 122.94933, address: "CENTROPLEX MALL CORNER GONZAGA-LOCSIN ST., BACOLOD CITY" },
+  { id: 8,  name: "KALIBO",                               region: "Visayas",  lat: 11.6845344, lng: 122.2482259, address: "REFINDOR BLDG 2nd floor unit 3 OSMEÑA AVENUE, KALIBO, AKLAN" },
+  { id: 9,  name: "CEBU",                                 region: "Visayas",  lat: 10.30068733143866, lng: 123.89935281771659, address: "Unit B, Cor. Sanciangko & Junquera Streets, Cebu City (beside Silogan ni Gian / across Clean Day)" },
+  { id: 10, name: "DUMAGUETE (TRIPLEONE)",                region: "Visayas",  lat:  9.30875573049183, lng: 123.30882164223914, address: "2ND FLOOR QUIAMCO BUILDING NOBLEFRANCA STREET DUMAGUETE CITY, 6200 PHILIPPINES (IN FRONT OF HOLY CROSS HIGH SCHOOL)" },
+  { id: 11, name: "Cagayan de Oro",                       region: "Mindanao", lat:  8.4818634, lng: 124.6426148, address: "3rd Floor, Room 308 Knights of the Columbus Bldg. beside Main Graphics Store along Centrio Ayala Mall Brgy. 27, Captain Vicen                      te Roa St. Cagayan de Oro City, Mis. Or." },
+  { id: 12, name: "Davao",                                region: "Mindanao", lat:  7.0707, lng: 125.6087, address: "Hermosa Bldg. Cor. Mitsui St. J. P. Laurel Ave. Bajada, Davao City (infront of Victoria Plaza Mall, near NBI office)" },                     
+  { id: 13, name: "General Santos",                       region: "Mindanao", lat:  6.116616484561059, lng: 125.16901292452214, address: "J.P Laurel corner Recto Sts, Dadiangas North, GSC (sa itaas ng Ishmael Clinic)" },                      
+
+  { id: 15, name: "Butuan",                               region: "Mindanao", lat:  8.9307698, lng: 125.4848411, address: "2nd Floor Empress Building Montilla Blvd., Butuan City Landmark: Above of Hi-Seas Pharmacy & Digi Life" },                     
+  { id: 16, name: "ILOILO",                               region: "Visayas", lat:  10.722536704043904, lng: 122.56553444254877, address: "3RD FLOOR ROOM 301, JESENA BLDG. JALANDONI ST., ILOILO CITY" },
+  { id: 16, name: "ISABELA (TRIPLEONE)",         region: "Luzon", lat:  16.94182924823973, lng: 121.76893635167006, address: "Majestic Bldg, Nisperos St., Cabaruan, Cauayan City, Isabela (beside Bank of Commerce near Addessa)" },
+  { id: 17,  name: "KORONADAL ",     region: "Mindanao",    lat: 6.491168207122304, lng: 124.84491306326093, address: "STALL 16 2ND FLOOR MED ARCADE BLDG., ALONG ARELLANO ST. CORNER MARIANO-PONCE ST., KORONADAL CITY" },
+  { id: 18,  name: "PAMPANGA",                               region: "Luzon",  lat: 15.039433995166709, lng: 120.68153060868316, address: "R5, 2F PARAS BLDG., COR. JOSE ABAD SANTOS AVE. DOLORES, SAN FERNANDO, PAMPANGA" },
+  { id: 19,  name: "TUGUEGARAO",                               region: "Luzon",  lat: 17.613965096680353, lng: 121.70606572284926, address: "Stall No. C-1 3rd floor EM Torres Building Diversion Road Ugac Norte, Tuguegarao City" },
+  { id: 19,  name: "TACURONG (TRIPLEONE)",  region: "Mindanao",  lat: 6.683575079580638, lng: 124.66688197849201, address: "UNIT 2-C 2F, MERVIC COMMERCIAL BLDG., NATIONAL HIGHWAY, TACURONG CITY" },
+  { id: 20,  name: "ZAMBOANGA",  region: "Mindanao",  lat: 6.9165948427794435, lng: 122.07584062854997, address: "3rd FLOOR FLK BUILDING NUÑEZ EXTENSION, CAMINO NUEVO, CANELAR ZAMBOANGA CITY LANDMARK INFRONT REMEDIOS CREMATORY BESIDE EAST WEST BANK NUÑEZ EXTENSION BRANCH" },
 ];
+
+
 
 const REGION_ICONS: Record<Region, string> = { Luzon: "🌿", Visayas: "🍇", Mindanao: "🦀" };
 const REGION_COLORS: Record<Region, string> = { Luzon: "#2d7a4f", Visayas: "#3b82f6", Mindanao: "#f59e0b" };
