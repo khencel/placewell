@@ -261,7 +261,22 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/default.png",
+                    image:"/img/branches/duma.jpeg",
+                },
+                {
+                    image:"/img/branches/duma1.jpeg",
+                },
+                {
+                    image:"/img/branches/duma2.jpeg",
+                },
+                {
+                    image:"/img/branches/duma3.jpeg",
+                },
+                {
+                    image:"/img/branches/duma4.jpeg",
+                },
+                {
+                    image:"/img/branches/duma5.jpeg",
                 }
             ]
         }
@@ -328,7 +343,19 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/default.png",
+                    image:"/img/branches/isa.jpeg",
+                },
+                {
+                    image:"/img/branches/isa1.jpeg",
+                },
+                {
+                    image:"/img/branches/isa2.jpeg",
+                },
+                {
+                    image:"/img/branches/isa3.jpeg",
+                },
+                {
+                    image:"/img/branches/isa4.jpeg",
                 }
             ]
         },
@@ -433,7 +460,22 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/default.png",
+                    image:"/img/branches/tacu.jpeg",
+                },
+                {
+                    image:"/img/branches/tacu1.jpeg",
+                },
+                {
+                    image:"/img/branches/tacu2.jpeg",
+                },
+                {
+                    image:"/img/branches/tacu3.jpeg",
+                },
+                {
+                    image:"/img/branches/tacu4.jpeg",
+                },
+                {
+                    image:"/img/branches/tacu5.jpeg",
                 }
             ]
         },
