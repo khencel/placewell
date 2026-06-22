@@ -1,7 +1,7 @@
 .contSection{
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  
+  background-color: #c9ebff;
 }
 
 .title {
@@ -21,8 +21,8 @@
 
 .leftContent{
   height: 100%;
-  background-image: url('/img/959467_OF8H7W0.jpg');
+  background-image: url('/img/myra/myra2.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:contain;
 }

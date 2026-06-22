@@ -12,8 +12,8 @@ export default function Myra(){
                     <div className={`${style.contSection} col-md-10 border`}>
                         <div className="row">
                             <div className="col-md-6 d-flex">
-                                <div style={{width:"15%"}}>
-                                    <img src="/img/icon/line.png" style={{width:"100%"}} alt="" />
+                                <div className='mt-3' style={{width:"15%"}}>
+                                    <img src="/img/myra/myra_logo.png" style={{width:"100%"}} alt="" />
                                 </div>
                                 <div style={{width:"85%"}} className='p-3'>
                                     <h2 className={style.title}>Myra</h2>

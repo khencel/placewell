@@ -12,7 +12,19 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/default.png",
+                    image:"/img/img2.jpg",
+                },
+                {
+                    image:"/img/mainOffice/IMG_2356.JPG",
+                },
+                {
+                    image:"/img/mainOffice/DSC04913.jpg",
+                },
+                {
+                    image:"/img/mainOffice/DSC03356.jpeg",
+                },
+                {
+                    image:"/img/mainOffice/DSC03475.jpeg",
                 }
             ]
         },
@@ -28,6 +40,9 @@ export function getBranchData(){
                 "+639623275470"
             ],
             imgs:[
+                {
+                    image:"/img/branches/angono1.jpeg",
+                },
                 {
                     image:"/img/branches/angono2.jpeg",
                 },
@@ -293,10 +308,10 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/branches/gen.jpeg",
+                    image:"/img/branches/gen1.jpeg",
                 },
                 {
-                    image:"/img/branches/gen1.jpeg",
+                    image:"/img/branches/gen.jpeg",
                 },
                 {
                     image:"/img/branches/gen2.jpeg",
@@ -319,6 +334,9 @@ export function getBranchData(){
             ],
             imgs:[
                 {
+                    image:"/img/branches/ilo3.jpeg",
+                },
+                {
                     image:"/img/branches/ilo.jpeg",
                 },
                 {
@@ -326,10 +344,8 @@ export function getBranchData(){
                 },
                 {
                     image:"/img/branches/ilo2.jpeg",
-                },
-                {
-                    image:"/img/branches/ilo3.jpeg",
                 }
+                
             ]
         },
         {
@@ -343,10 +359,10 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/branches/isa.jpeg",
+                    image:"/img/branches/isa1.jpeg",
                 },
                 {
-                    image:"/img/branches/isa1.jpeg",
+                    image:"/img/branches/isa.jpeg",
                 },
                 {
                     image:"/img/branches/isa2.jpeg",
@@ -372,14 +388,15 @@ export function getBranchData(){
             ],
             imgs:[
                 {
+                    image:"/img/branches/koro2.jpeg",
+                },
+                {
                     image:"/img/branches/koro.jpeg",
                 },
                 {
                     image:"/img/branches/koro1.jpeg",
                 },
-                {
-                    image:"/img/branches/koro2.jpeg",
-                },
+                
                 {
                     image:"/img/branches/koro3.jpeg",
                 }
@@ -460,6 +477,9 @@ export function getBranchData(){
             ],
             imgs:[
                 {
+                    image:"/img/branches/tacu4.jpeg",
+                },
+                {
                     image:"/img/branches/tacu.jpeg",
                 },
                 {
@@ -471,9 +491,7 @@ export function getBranchData(){
                 {
                     image:"/img/branches/tacu3.jpeg",
                 },
-                {
-                    image:"/img/branches/tacu4.jpeg",
-                },
+                
                 {
                     image:"/img/branches/tacu5.jpeg",
                 }
@@ -490,11 +508,12 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/branches/zambo.jpeg",
-                },
-                {
                     image:"/img/branches/zambo1.jpeg",
                 },
+                {
+                    image:"/img/branches/zambo.jpeg",
+                },
+                
                 {
                     image:"/img/branches/zambo2.jpeg",
                 },
