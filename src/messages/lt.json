@@ -357,16 +357,15 @@
   },
 
   "gallery": {
-    "title": "Galerija",
-    "subtitle": "Naršykite mūsų galeriją",
-    "desc": "Atraskite įsimintinas akimirkas, veiklas, pasiekimus ir renginius, užfiksuotus mūsų galerijoje.",
-    "main": "Pagrindinis biuras",
-    "branch": "Filialas",
-    "dormitory": "Bendrabutis",
-    "interview": "Pokalbiai",
-    "trade": "Profesiniai testai",
-    "deployment": "Išvykimas",
-    "others": "Kita"
+      "title": "Galerija",
+      "subtitle": "Naršykite mūsų galeriją",
+      "desc": "Atraskite įsimintinas akimirkas, veiklas, pasiekimus ir renginius, užfiksuotus mūsų galerijoje.",
+      "ourWorkers": "Mūsų darbuotojai",
+      "interview": "Pokalbiai",
+      "tradetest": "Profesinių įgūdžių testai",
+      "facilities": "Patalpos",
+      "testimonials": "Atsiliepimai",
+      "others": "Kita"
   },
 
   "contact": {

@@ -352,12 +352,11 @@
         "title": "Gallery",
         "subtitle": "Explore Our Gallery",
         "desc":"Discover memorable moments, activities, achievements, and events captured through our gallery.",
-        "main":"Main Office",
-        "branch":"Branch Office",
-        "dormitory":"Dormitory",
-        "interview":"Interview",
-        "trade":"Trade Tests",
-        "deployment":"Deployment",
+        "ourWorkers":"Our Workers",
+        "interview":"Interviews",
+        "tradetest":"Trade Tests",
+        "facilities":"Facilities",
+        "testimonials":"Testimonies",
         "others":"Others"
     },
     "contact":{

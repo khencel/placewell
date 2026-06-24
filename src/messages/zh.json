@@ -345,16 +345,15 @@
     "what": "他们怎么说"
   },
   "gallery": {
-    "title": "画廊",
-    "subtitle": "探索画廊",
-    "desc": "活动与成就",
-    "main": "总部",
-    "branch": "分公司",
-    "dormitory": "宿舍",
-    "interview": "面试",
-    "trade": "技能测试",
-    "deployment": "派遣",
-    "others": "其他"
+      "title": "图库",
+      "subtitle": "探索我们的图库",
+      "desc": "通过我们的图库，探索记录下来的难忘时刻、活动、成就和精彩事件。",
+      "ourWorkers": "我们的员工",
+      "interview": "面试",
+      "tradetest": "技能测试",
+      "facilities": "设施",
+      "testimonials": "客户评价",
+      "others": "其他"
   },
   "contact": {
     "title": "联系我们",

@@ -346,14 +346,13 @@
   },
   "gallery": {
       "title": "ギャラリー",
-      "subtitle": "ギャラリーをご覧ください",
-      "desc": "ギャラリーを通して、思い出に残る瞬間や活動、実績、イベントをご覧いただけます。",
-      "main": "本社",
-      "branch": "支店",
-      "dormitory": "寮",
+      "subtitle": "ギャラリーを見る",
+      "desc": "ギャラリーを通して、思い出に残る瞬間、活動、成果、イベントをご覧ください。",
+      "ourWorkers": "当社の労働者",
       "interview": "面接",
-      "trade": "技能試験",
-      "deployment": "派遣",
+      "tradetest": "技能試験",
+      "facilities": "施設",
+      "testimonials": "お客様の声",
       "others": "その他"
   },
   "contact": {

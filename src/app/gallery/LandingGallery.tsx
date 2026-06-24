@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, useCallback, CSSProperties } from "react"
 import { getGallery } from "@/data/gallery";
 import { useTranslations } from "next-intl";
 
-type Category = "mainOffice" | "branchOffice" | "dormitory" | "interview" | "tradeTests" | "deployment" | "others";
+type Category = "ourWorkers" | "interview" | "tradetest" | "facilities" | "testimonials" | "others";
 
 
 interface Project {
@@ -17,42 +17,39 @@ interface Project {
 
 const projects: Project[] = getGallery() as Project[];
 
-type FilterKey = "main" | "branch" | "dormitory" |
-  "interview" | "trade" | "deployment" | "others";
+type FilterKey = "ourWorkers" | "interview" | "tradetest" |
+  "facilities" | "testimonials" | "others";
 
 const FILTER_KEYS: FilterKey[] = [
-  "main", "branch", "dormitory",
-  "interview", "trade", "deployment", "others"
+  "ourWorkers", "interview", "tradetest",
+  "facilities", "testimonials", "others"
 ];
 
 
 const categoryIcons: Record<Category, string> = {
   interview: "⚙️",
-  mainOffice: "🏗️",
-  branchOffice: "🏢",
-  dormitory: "⚡",
-  tradeTests: "🧪",
-  deployment: "🚀",
+  ourWorkers: "🏗️",
+  facilities: "🏢",
+  testimonials: "⚡",
+  tradetest: "🧪",
   others: "📦"
 };
 
 const tagColors: Record<Category, string> = {
   interview: "#E24B4A",
-  mainOffice: "#378ADD",
-  branchOffice: "#F59E0B",
-  dormitory: "#639922",
-  tradeTests: "#E24B4A",
-  deployment: "#378ADD",
+  ourWorkers: "#378ADD",
+  facilities: "#F59E0B",
+  testimonials: "#639922",
+  tradetest: "#E24B4A",
   others: "#F59E0B"
 };
 
 const placeholderBg: Record<Category, string> = {
   interview: "#fff1f1",
-  mainOffice: "#eff6ff",
-  branchOffice: "#fffbeb",
-  dormitory: "#f0fdf4",
-  tradeTests: "#fff1f1",
-  deployment: "#eff6ff",
+  ourWorkers: "#eff6ff",
+  facilities: "#fffbeb",
+  testimonials: "#f0fdf4",
+  tradetest: "#fff1f1",
   others: "#fffbeb" 
 };
 
@@ -423,18 +420,17 @@ interface ProjectsGalleryProps {
 
 export default function ProjectsGallery({ data = projects }: ProjectsGalleryProps) {
   const t = useTranslations("gallery");
-  const [activeFilter, setActiveFilter] = useState<FilterKey>("main");
+  const [activeFilter, setActiveFilter] = useState<FilterKey>("ourWorkers");
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   const filtered = useMemo<Project[]>(() => {
     const categoryMap: Record<FilterKey, Category> = {
-      main:       "mainOffice",
-      branch:     "branchOffice",
-      dormitory:  "dormitory",
-      interview:  "interview",
-      trade:      "tradeTests",
-      deployment: "deployment",
-      others:     "others",
+      ourWorkers:         "ourWorkers",
+      interview:          "interview",
+      tradetest:          "tradetest",
+      facilities:         "facilities",
+      testimonials:       "testimonials",
+      others:             "others",
     };
 
     const mapped = categoryMap[activeFilter];

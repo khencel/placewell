@@ -346,14 +346,13 @@
   },
   "gallery": {
     "title": "相簿",
-    "subtitle": "瀏覽相片集",
-    "desc": "探索我哋活動、成就及重要時刻。",
-    "main": "總部",
-    "branch": "分公司",
-    "dormitory": "宿舍",
+    "subtitle": "探索我哋嘅相簿",
+    "desc": "透過我哋嘅相簿，發掘值得紀念嘅時刻、活動、成就同精彩事件。",
+    "ourWorkers": "我哋嘅員工",
     "interview": "面試",
-    "trade": "技能測試",
-    "deployment": "外派",
+    "tradetest": "技能測試",
+    "facilities": "設施",
+    "testimonials": "見證分享",
     "others": "其他"
   },
   "contact": {

@@ -351,16 +351,15 @@
   },
 
   "gallery": {
-    "title": "Galeria",
-    "subtitle": "Zobacz naszą galerię",
-    "desc": "Odkryj niezapomniane chwile, wydarzenia i osiągnięcia.",
-    "main": "Biuro główne",
-    "branch": "Oddziały",
-    "dormitory": "Akademik",
-    "interview": "Rozmowy kwalifikacyjne",
-    "trade": "Testy kwalifikacyjne",
-    "deployment": "Wysyłka",
-    "others": "Inne"
+      "title": "Galeria",
+      "subtitle": "Przeglądaj naszą galerię",
+      "desc": "Odkryj niezapomniane chwile, aktywności, osiągnięcia i wydarzenia uchwycone w naszej galerii.",
+      "ourWorkers": "Nasi pracownicy",
+      "interview": "Wywiady",
+      "tradetest": "Testy umiejętności",
+      "facilities": "Obiekty",
+      "testimonials": "Opinie",
+      "others": "Inne"
   },
 
   "contact": {

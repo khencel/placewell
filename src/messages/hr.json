@@ -320,16 +320,15 @@
     "what": "Što naši OFW radnici kažu"
   },
   "gallery": {
-    "title": "Galerija",
-    "subtitle": "Istražite našu galeriju",
-    "desc": "Otkrijte nezaboravne trenutke, aktivnosti, postignuća i događaje prikazane u našoj galeriji.",
-    "main": "Glavni ured",
-    "branch": "Podružnice",
-    "dormitory": "Smještajni objekt",
-    "interview": "Intervjui",
-    "trade": "Stručna testiranja",
-    "deployment": "Slanje radnika",
-    "others": "Ostalo"
+      "title": "Galerija",
+      "subtitle": "Istražite našu galeriju",
+      "desc": "Otkrijte nezaboravne trenutke, aktivnosti, postignuća i događaje prikazane u našoj galeriji.",
+      "ourWorkers": "Naši radnici",
+      "interview": "Intervjui",
+      "tradetest": "Stručni testovi",
+      "facilities": "Objekti",
+      "testimonials": "Svjedočanstva",
+      "others": "Ostalo"
   },
   "contact": {
     "title": "Kontaktirajte nas",

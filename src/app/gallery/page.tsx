@@ -19,4 +19,12 @@ export default function Gallery(){
             <ProjectsGallery />
         </>
     )
+
+
+// Our Workers
+// Interviews 
+// Trade Tests 
+// Facilities
+// Testimonies 
+// Others
 }
