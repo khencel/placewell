@@ -17,7 +17,7 @@ export default function Slide4(){
                             <h1 className={styles.header_1} style={{color:"#8F6843"}}>Delivered</h1>
                             <h4 className={styles.header_1}>Experience. Modern Facilities. Skilled Workforce</h4>
 
-                            <div style={{ marginLeft: "15%", marginTop: "15%" }}>
+                            <div style={{ marginLeft: "15%", marginTop: "5%" }}>
                                 <div className="d-flex align-items-center mb-3">
                                     <span className="badge bg-success rounded-5 p-2"><FaCheckCircle size={34}/></span>
                                     
