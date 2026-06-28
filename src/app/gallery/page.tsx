@@ -20,11 +20,4 @@ export default function Gallery(){
         </>
     )
 
-
-// Our Workers
-// Interviews 
-// Trade Tests 
-// Facilities
-// Testimonies 
-// Others
 }

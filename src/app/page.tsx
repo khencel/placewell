@@ -17,6 +17,7 @@ import { useTranslations } from "next-intl";
 import Banner from "@/components/Banner";
 
 import { FaClipboardList } from "react-icons/fa";
+import Slide4 from "./slide4";
 export default function Home() {
   const rollingData = getRollingData();
   const whyHireFilipino = getWhyHireFilipino();
@@ -106,7 +107,7 @@ export default function Home() {
         spaceBetween={20}
         slidesPerView={1}
         loop={true}
-        modules={[Autoplay]}
+        // modules={[Autoplay]}
         autoplay={{ delay: 2000 }}
         speed={800}
       >
@@ -221,6 +222,10 @@ export default function Home() {
             </div>
           </section>
           
+        </SwiperSlide>
+
+        <SwiperSlide>
+              <Slide4 />
         </SwiperSlide>
         
       </Swiper>
