@@ -19,7 +19,7 @@ import Banner from "@/components/Banner";
 import { FaClipboardList } from "react-icons/fa";
 import Slide4 from "./slide4";
 import Image from "next/image";
-
+import Link from "next/link";
 
 
 export default function Home() {
@@ -215,7 +215,15 @@ export default function Home() {
                 <p>
                   We conduct training and trade tests across a number of skills all at our own top-tier facilities.
                 </p>
+                <Link href="/trade-test">
+                  <button className={`${s.btnprimary} mt-3`}>More Details</button>
+                </Link>
               </div>
+
+              
+                
+                
+              
 
               <div className={slide3.right}>
                 {cards.map((card) => (

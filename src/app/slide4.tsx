@@ -11,7 +11,7 @@ export default function Slide4(){
         <>
             <section className={styles.sectionStyle}>
                 <div className="row">
-                    <div className="col-md-6 border">
+                    <div className="col-md-6">
                         <div>
                             <h2 className={styles.header_1} style={{marginTop:"10%"}}>Excellence</h2>
                             <h1 className={styles.header_1} style={{color:"#8F6843"}}>Delivered</h1>

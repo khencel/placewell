@@ -63,8 +63,8 @@ export default function Footer() {
 
       <div className={s.bottom}>
         <div className={s.bottomLeft}>
-          <p>Legal & Compliance</p>
-          <p>Privacy Policy</p>
+          {/* <p>Legal & Compliance</p>
+          <p>Privacy Policy</p> */}
         </div>
 
         {/* <div className={s.bottomRight}>
