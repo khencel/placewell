@@ -34,7 +34,7 @@ export default function BranchOffices() {
                                             address={item.address} 
                                             contact={item.contact}
                                             mon={item.mon}
-                                            sat={item.sat}
+                                            // sat={item.sat}
                                             imgs={item.imgs}
                                         />
                                     </div>

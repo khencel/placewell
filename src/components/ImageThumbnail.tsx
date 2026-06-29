@@ -101,10 +101,10 @@ export default function ImageThumbnail({
                             <span><FaCalendarAlt style={{ color: "#448153" }} /></span>
                             <span className="subtitle" style={{ fontSize: "12px" }}>{mon}</span>
                         </div>
-                        <div className="d-flex align-items-center ">
+                        {/* <div className="d-flex align-items-center ">
                             <span><FaCalendarAlt style={{ color: "#448153" }} /></span>
                             <span className="subtitle" style={{ fontSize: "12px" }}>{sat}</span>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="d-flex align-items-center justify-content-between mt-3">

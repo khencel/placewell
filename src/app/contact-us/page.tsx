@@ -11,6 +11,7 @@ export default function ContactUs(){
                 title="Contact Us"
                 subtitle="We’re here to assist you"
                 description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!"
+                customFontSize={true}
             />
 
             <section  className={`${s.testimonialSection} `}>
@@ -20,7 +21,7 @@ export default function ContactUs(){
                         
                         <div className="header">
                             <h2 className="title">Let’s Connect</h2>
-                            <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
                         </div>
 
                         {/* MAIN */}

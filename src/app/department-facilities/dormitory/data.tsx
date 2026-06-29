@@ -39,7 +39,7 @@ export function getDormitory(){
         },
         {
             icon:<BiMaleFemale style={{fontSize:"20px"}}/>,
-            title:"Comfort Room Area",
+            title:"Restrooms ",
             desc:"Our dormitory comfort room is designed to provide residents with a clean, safe, and well-maintained hygiene space. It features modern restroom cubicles with privacy partitions, properly tiled flooring and walls for easy maintenance, and well-ventilated areas to ensure comfort and freshness.The facility is regularly cleaned and maintained to uphold high sanitation standards. With organized layouts, reliable fixtures, and a secure environment, residents can use the comfort rooms with ease and confidence at any time of the day.We prioritize cleanliness, privacy, and convenience to ensure a comfortable living experience for all dormitory occupants.",
             img:"/img/dormitory/comfort.jpg",
             img2:"/img/dormitory/comfort1.jpg",

@@ -198,7 +198,7 @@ export default function WorldWideCareers() {
                                                <br />
                                                domestic helpers to Hong Kong. We also 
                                                <br />
-                                               deploy place domestic helpers in the Middle 
+                                               deploy domestic helpers in the Middle 
                                                <br />
                                                East, Singapore, Malaysia, Mongolia, and Italy.
                                             </p>
@@ -212,15 +212,10 @@ export default function WorldWideCareers() {
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>{t("food")}</span>
                                             <p className="subtitle">
-                                                We implement a specialized recruitment 
-                                                <br />
-                                                system for truck drivers bound for Lithuania. 
-                                                <br />
-                                                We maintain a ready pool of pre-documented 
-                                                <br />
-                                                candidates and provide mock immigration 
-                                                <br />
-                                                interviews, resulting in high passing rates.
+                                                We take pride in training and deploying the highest <br /> 
+                                                quality of Filipino food service workers across the <br />
+                                                globe and setting standards for service and hospitality. 
+                                                
                                             </p>
                                         </span>
                                     </div>
@@ -327,7 +322,7 @@ export default function WorldWideCareers() {
                                                 <br />
                                                 We also deploy caregivers to Taiwan and 
                                                 <br />
-                                                SingaporeSaudi Arabia.
+                                                Saudi Arabia.
                                             </p>
                                         </span>
                                     </div>

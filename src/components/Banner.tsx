@@ -8,10 +8,11 @@ interface BannerProps {
     description?: string;
     haveBtnPrimary?:boolean;
     textButton?: string;
+    customFontSize?:boolean
 
 }
 
-export default function Banner({ backgroundImage, title, subtitle, description, haveBtnPrimary,textButton }: BannerProps) {
+export default function Banner({ backgroundImage, title, subtitle, description, haveBtnPrimary,textButton,customFontSize }: BannerProps) {
   return (
     <section
       className={s.banner}
@@ -22,9 +23,16 @@ export default function Banner({ backgroundImage, title, subtitle, description, 
       <div className={s.content}>
         <p className={s.tag}>{title}</p>
 
-        <h1 className={s.title}>
-          {subtitle}
-        </h1>
+        {customFontSize ? (
+          <h4 className={s.title1}>
+            {subtitle}
+          </h4>
+        ) : (
+          <h1 className={s.title}>
+            {subtitle}
+          </h1>
+        )}
+        
 
         <p className={s.desc}>
           {description}
