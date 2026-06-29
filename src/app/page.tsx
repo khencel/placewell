@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../node_modules/swiper/swiper-bundle.min.css";
 import s from "../components/styles/swiper.module.css"
-import { Autoplay } from "swiper/modules";
+import { Autoplay,Navigation, Pagination } from "swiper/modules";
 import YouTube from "react-youtube";
 import { CSSProperties } from "react";
 import CustomHR from "@/components/CustomHR";
@@ -18,6 +18,10 @@ import Banner from "@/components/Banner";
 
 import { FaClipboardList } from "react-icons/fa";
 import Slide4 from "./slide4";
+import Image from "next/image";
+
+
+
 export default function Home() {
   const rollingData = getRollingData();
   const whyHireFilipino = getWhyHireFilipino();
@@ -107,9 +111,11 @@ export default function Home() {
         spaceBetween={20}
         slidesPerView={1}
         loop={true}
-        modules={[Autoplay]}
+        modules={[Autoplay, Navigation, Pagination]}
         autoplay={{ delay: 2000 }}
         speed={800}
+        navigation
+        pagination={{ clickable: true }}
       >
         <SwiperSlide>
           <div className={s.hero}>
@@ -214,7 +220,18 @@ export default function Home() {
               <div className={slide3.right}>
                 {cards.map((card) => (
                   <div className={slide3.card} key={card.label}>
-                    <img src={card.img} alt={card.label} />
+                    {/* <img
+                      src={card.img}
+                      alt={card.label}
+                      loading="lazy"
+                    /> */}
+                    <Image
+                      src={card.img}
+                      alt={card.label}
+                      width={400}
+                      height={300}
+                      style={{ objectFit: "cover" }}
+                    />
                     <span>{card.label}</span>
                   </div>
                 ))}
