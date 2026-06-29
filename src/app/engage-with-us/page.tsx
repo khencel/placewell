@@ -38,7 +38,7 @@ export default function EngageWithUs() {
                     <div className="col-md-5">
                         <div className={`${s.leftCont} d-flex gap-2 `}>
                             <div style={{width:"40%"}}>
-                                <img src="/img/engage/firstAvatar.png" className={s.imageStyle} alt="" />
+                                <img src="/img/carl.jpg" className={s.imageStyle} alt="" />
                             </div>
                             <div className="" style={{width:"60%"}}>
                                 <span className="title" style={{fontSize:"20px", fontWeight:"bold"}}>Kim Carl Diestro</span>

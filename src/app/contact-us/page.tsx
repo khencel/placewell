@@ -74,7 +74,7 @@ export default function ContactUs(){
                                             <span><FaFacebookF /></span>
                                             <div>
                                             <strong>Facebook</strong>
-                                            <Link href="https://www.facebook.com/PlacewellInternational">
+                                            <Link href="https://www.facebook.com/PlacewellInternational" target="_blank" rel="noopener noreferrer">
                                                 <p style={{color:"blue"}}>Placewell International Services Corporation</p>
                                             </Link>
                                             </div>
