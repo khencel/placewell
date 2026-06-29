@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner"
 import s from "@/styles/contactUs.module.css"
 import { FaFacebookF } from "react-icons/fa6";
+import Link from "next/link";
 
 
 export default function ContactUs(){
@@ -53,19 +54,19 @@ export default function ContactUs(){
                                             </div>
                                         </div>
 
-                                        <div className={s.infoItem}>
+                                        {/* <div className={s.infoItem}>
                                             <span>📞</span>
                                             <div>
                                             <strong>Trunkline</strong>
                                             <p>+632 526 4838</p>
                                             </div>
-                                        </div>
+                                        </div> */}
 
                                         <div className={s.infoItem}>
                                             <span>📧</span>
                                             <div>
                                             <strong>Email</strong>
-                                            <p>manila@placewellinternational.com</p>
+                                            <p>jobs@placewellinternational.com</p>
                                             </div>
                                         </div>
 
@@ -73,7 +74,9 @@ export default function ContactUs(){
                                             <span><FaFacebookF /></span>
                                             <div>
                                             <strong>Facebook</strong>
-                                            <p>Placewell International Services Corporation</p>
+                                            <Link href="https://www.facebook.com/PlacewellInternational">
+                                                <p style={{color:"blue"}}>Placewell International Services Corporation</p>
+                                            </Link>
                                             </div>
                                         </div>
                                     </div>
