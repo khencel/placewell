@@ -12,6 +12,7 @@ import NavForMobile from "./NavForMobile";
 import NavForDesktop from "./NavForDesktop";
 import { useLocale } from "@/i18n/LocaleContext";
 import { LanguagePicker } from "./langSelector";
+import Link from "next/link";
 
 
 export default function Navigation() {
@@ -39,11 +40,21 @@ export default function Navigation() {
 
           {/* SOCIALS DESKTOP */}
           <div className={`socials ${open ? "hide" : ""}`}>
-            <span><FaFacebook className="social-icon" /></span>
-            <span><FaLinkedin className="social-icon" /></span>
-            <span><FaInstagram className="social-icon" /></span>
-            <span><FaYoutube className="social-icon" /></span>
-            <span><FaTiktok className="social-icon" /></span>
+            <Link href="https://www.facebook.com/PlacewellInternational" target="_blank" rel="noopener noreferrer">
+              <span><FaFacebook className="social-icon" /></span>
+            </Link>
+            <Link href="https://www.linkedin.com/company/placewell-international-services-corporation-pisco" target="_blank" rel="noopener noreferrer">
+              <span><FaLinkedin className="social-icon" /></span>
+            </Link>
+            <Link href="https://www.instagram.com/placewell_international/" target="_blank" rel="noopener noreferrer">
+              <span><FaInstagram className="social-icon" /></span>
+            </Link>
+            <Link href="https://www.youtube.com/@placewellinternationalserv4854" target="_blank" rel="noopener noreferrer">
+              <span><FaYoutube className="social-icon" /></span>
+            </Link>
+            <Link href="https://www.tiktok.com/@placewellmainoffice" target="_blank" rel="noopener noreferrer">
+              <span><FaTiktok className="social-icon" /></span>
+            </Link>
             <span>
               {/* <select
                 value={locale}
@@ -68,11 +79,21 @@ export default function Navigation() {
 
         {/* MOBILE SOCIALS */}
         <div className={`socials for-mobile pt-2 pb-3 ${open ? "show" : ""}`}>
-          <span><FaFacebook className="social-icon" /></span>
-          <span><FaLinkedin className="social-icon" /></span>
-          <span><FaInstagram className="social-icon" /></span>
-          <span><FaYoutube className="social-icon" /></span>
-          <span><FaTiktok className="social-icon" /></span>
+          <Link href="https://www.facebook.com/PlacewellInternational">
+            <span><FaFacebook className="social-icon" /></span>
+          </Link>
+          <Link href="https://www.linkedin.com/company/placewell-international-services-corporation-pisco" target="_blank" rel="noopener noreferrer">
+            <span><FaLinkedin className="social-icon" /></span>
+          </Link>
+          <Link href="https://www.instagram.com/placewell_international/" target="_blank" rel="noopener noreferrer">
+            <span><FaInstagram className="social-icon" /></span>
+          </Link>
+          <Link href="https://www.youtube.com/@placewellinternationalserv4854" target="_blank" rel="noopener noreferrer">
+            <span><FaYoutube className="social-icon" /></span>
+          </Link>
+          <Link href="https://www.tiktok.com/@placewellmainoffice" target="_blank" rel="noopener noreferrer">
+            <span><FaTiktok className="social-icon" /></span>
+          </Link>
         </div>
 
         {/* MENU */}
