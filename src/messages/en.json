@@ -40,7 +40,7 @@
         "bannerPrimaryBtn":"Contact Us",
         "videoTitle":"Featured Video",
         "videoDesc":"Watch our latest highlight and updates",
-        "whyPlacewell":"Why Placewell",
+        "whyPlacewell":"Why Placewell?",
         "whyPlacewellSub":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi excepturi odit deleniti, maxime, natus quibusdam unde accusantium aperiam aut esse reprehenderit tempora! Eos ducimus ut adipisci animi velit facilis perferendis?",
         "20Branch":"15 branches nationwide",
         "20BranchDesc":"With 15+ branch offices strategically placed in main component cities all over the Philippines, Placewell International is able to recruit workers and conduct interviews nationwide.",
@@ -57,7 +57,7 @@
         "exp":"Experience",
         "year":"Years",
         "whyFilipino":{
-            "title":"Why Hire Filipino Workers",
+            "title":"Why Hire Filipino Workers?",
             "itemList":[
                 {
                     "title":"Well-known as People who work abroad",
@@ -111,9 +111,9 @@
             "line1": "We are a people company that builds lasting relationships.",
             "line2": "We care for people because they are:",
             "reasons": {
-            "1": "Individuals with dignity to be respected and rights to be protected.",
-            "2": "Employers who generate economic value.",
-            "3": "Workers who need to be treated and rewarded fairly."
+            "1": "Filipino workers with dignity to be respected and rights to be protected.",
+            "2": "Clients who generate economic value.",
+            "3": "Employees who need to be treated and rewarded fairly."
             },
             "clientsTitle": "Clients count first.",
             "clientsDesc": "We exist for our clients and, thus, work to provide them with on-time job-ready, and competent workers as required, by employing only ethical and modern recruitment practices and strategies that conform to international standards.",
@@ -361,7 +361,7 @@
     },
     "contact":{
         "title": "Contact Us",
-        "subtitle":"We’re here to assist you",
+        "subtitle":"We’re here to assist you!",
         "desc":"",
         "let":"Let’s Connect",
         "contact":"Contact Information",

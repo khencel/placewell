@@ -14,6 +14,7 @@ export default function getMissionVision() {
         </ol>
         <strong>${t("corporateIdentity.corporatePhilosophy.clientsTitle")}</strong>
         <br>${t("corporateIdentity.corporatePhilosophy.clientsDesc")}
+        <br>
         <br><strong>${t("corporateIdentity.corporatePhilosophy.csrTitle")}</strong>
         <br>${t("corporateIdentity.corporatePhilosophy.csrDesc")}
     `;
