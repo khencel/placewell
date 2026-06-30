@@ -222,25 +222,25 @@ export default function Home() {
                   <button className={`${s.btnprimary} mt-3`}>More Details</button>
                 </Link>
 
-                <div className="row mt-3">
-                  <div className="col text-center">
+                <div className="row justify-content-center" style={{paddingTop:"15%"}}>
+                  <div className="col-md-5 text-center">
                     <img 
                       src="/TESDA-Logo.png"
                       alt=""
                       style={{
-                        width:"190px",
-                        height:"190px",
+                        width:"150px",
+                        height:"150px",
                         objectFit:"contain"
                       }} 
                     />
                   </div>
-                  <div className="col text-center">
+                  <div className="col-md-5 text-center">
                     <img 
                       src="/iso.png" 
                       alt="ISO" 
                       style={{
-                        width:"190px",
-                        height:"190px",
+                        width:"150px",
+                        height:"150px",
                         objectFit:"contain"
                       }} 
                     />
