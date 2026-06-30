@@ -144,7 +144,7 @@ export default function Home() {
                 <div className="col-lg-5">
                   <div className={slide2.leftPanel}>
 
-                    <div className="row jus">
+                    <div className="row justify-content-center">
 
                       <div className="col-5">
                         <div className={slide2.certCard}>
