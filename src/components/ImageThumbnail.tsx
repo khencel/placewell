@@ -97,7 +97,7 @@ export default function ImageThumbnail({
                         <span className="subtitle" style={{ fontSize: "12px" }}>{address}</span>
                     </div>
                     <div className="mt-3">
-                        <div className="d-flex align-items-center">
+                        <div className="d-flex align-items-center gap-3">
                             <span><FaCalendarAlt style={{ color: "#448153" }} /></span>
                             <span className="subtitle" style={{ fontSize: "12px" }}>{mon}</span>
                         </div>

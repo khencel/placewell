@@ -71,11 +71,12 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/branches/bacolod.jpeg",
-                },
-                {
                     image:"/img/branches/bacolod1.jpeg",
                 },
+                {
+                    image:"/img/branches/bacolod.jpeg",
+                },
+                
                 {
                     image:"/img/branches/bacolod2.jpeg",
                 },
@@ -100,11 +101,12 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/branches/bicol.jpeg",
-                },
-                {
                     image:"/img/branches/bicol1.jpeg",
                 },
+                {
+                    image:"/img/branches/bicol.jpeg",
+                },
+                
                 {
                     image:"/img/branches/bicol2.jpeg",
                 },
@@ -129,11 +131,12 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/branches/butuan.jpeg",
-                },
-                {
                     image:"/img/branches/butuan1.jpeg",
                 },
+                {
+                    image:"/img/branches/butuan.jpeg",
+                },
+                
                 {
                     image:"/img/branches/butuan2.jpeg",
                 },
@@ -165,11 +168,12 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/branches/cdo.jpeg",
-                },
-                {
                     image:"/img/branches/cdo1.jpeg",
                 },
+                {
+                    image:"/img/branches/cdo.jpeg",
+                },
+                
                 {
                     image:"/img/branches/cdo2.jpeg",
                 },
@@ -245,14 +249,15 @@ export function getBranchData(){
             ],
             imgs:[
                 {
+                    image:"/img/branches/davao2.jpeg",
+                },
+                {
                     image:"/img/branches/davao.jpeg",
                 },
                 {
                     image:"/img/branches/davao1.jpeg",
                 },
-                {
-                    image:"/img/branches/davao2.jpeg",
-                },
+                
                 {
                     image:"/img/branches/davao3.jpeg",
                 },
@@ -276,11 +281,12 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/branches/duma.jpeg",
-                },
-                {
                     image:"/img/branches/duma1.jpeg",
                 },
+                {
+                    image:"/img/branches/duma.jpeg",
+                },
+                
                 {
                     image:"/img/branches/duma2.jpeg",
                 },
@@ -334,6 +340,9 @@ export function getBranchData(){
             ],
             imgs:[
                 {
+                    image:"/img/branches/ilo2.jpeg",
+                },
+                {
                     image:"/img/branches/ilo3.jpeg",
                 },
                 {
@@ -342,9 +351,7 @@ export function getBranchData(){
                 {
                     image:"/img/branches/ilo1.jpeg",
                 },
-                {
-                    image:"/img/branches/ilo2.jpeg",
-                }
+                
                 
             ]
         },
@@ -388,11 +395,12 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/branches/koro2.jpeg",
-                },
-                {
                     image:"/img/branches/koro.jpeg",
                 },
+                {
+                    image:"/img/branches/koro2.jpeg",
+                },
+                
                 {
                     image:"/img/branches/koro1.jpeg",
                 },
@@ -444,14 +452,15 @@ export function getBranchData(){
             ],
             imgs:[
                 {
+                    image:"/img/branches/tugu2.jpeg",
+                },
+                {
                     image:"/img/branches/tugu.jpeg",
                 },
                 {
                     image:"/img/branches/tugu1.jpeg",
                 },
-                {
-                    image:"/img/branches/tugu2.jpeg",
-                },
+                
                 {
                     image:"/img/branches/tugu3.jpeg",
                 },
@@ -477,11 +486,12 @@ export function getBranchData(){
             ],
             imgs:[
                 {
-                    image:"/img/branches/tacu4.jpeg",
-                },
-                {
                     image:"/img/branches/tacu.jpeg",
                 },
+                {
+                    image:"/img/branches/tacu4.jpeg",
+                },
+                
                 {
                     image:"/img/branches/tacu1.jpeg",
                 },

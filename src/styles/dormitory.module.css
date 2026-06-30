@@ -46,6 +46,7 @@
     overflow: hidden;
     border: 1px solid #e5e5e5;
     transition: box-shadow 0.25s ease;
+    
 }
 
 .imgBox:hover {
@@ -53,9 +54,10 @@
 }
 
 .img {
-    object-fit: cover;
+    object-fit:cover;
     transition: transform 0.4s ease;
     will-change: transform;
+    object-position: center 100%;
 }
 
 .imgBox:hover .img {

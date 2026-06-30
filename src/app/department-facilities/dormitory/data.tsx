@@ -9,8 +9,8 @@ export function getDormitory(){
             icon:<FaBuilding style={{fontSize:"20px"}}/>,
             title:"Exterior",
             desc:"Our centrally located facility offers modern, safe, and comfortable accommodations, able to accommodate 300+ residents. Designed with the well-being of our workers in mind, it includes secure entry, recreational areas, and easy access to local amenities. We prioritize community and support for a positive living experience.",
-            img:"/img/dormitory/ext.png",
-            img2:"/img/dormitory/ext2.png",
+            img:"/img/banner/dorm.png",
+            img2:"/DSC04737.jpg",
             img3:"/img/dormitory/ext3.png"
         },
         {
@@ -40,7 +40,7 @@ export function getDormitory(){
         {
             icon:<BiMaleFemale style={{fontSize:"20px"}}/>,
             title:"Restrooms ",
-            desc:"Our dormitory comfort room is designed to provide residents with a clean, safe, and well-maintained hygiene space. It features modern restroom cubicles with privacy partitions, properly tiled flooring and walls for easy maintenance, and well-ventilated areas to ensure comfort and freshness.The facility is regularly cleaned and maintained to uphold high sanitation standards. With organized layouts, reliable fixtures, and a secure environment, residents can use the comfort rooms with ease and confidence at any time of the day.We prioritize cleanliness, privacy, and convenience to ensure a comfortable living experience for all dormitory occupants.",
+            desc:"Our dormitory comfort room is designed to provide residents with a clean, safe, and well-maintained hygiene space. The facility is regularly cleaned and maintained to uphold high sanitation standards. We prioritize cleanliness, privacy, and convenience to ensure a comfortable living experience for all dormitory occupants.",
             img:"/img/dormitory/comfort.jpg",
             img2:"/img/dormitory/comfort1.jpg",
             img3:"/img/dormitory/comfort2.jpg"

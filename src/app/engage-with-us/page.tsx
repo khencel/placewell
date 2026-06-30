@@ -23,8 +23,13 @@ export default function EngageWithUs() {
                 <div className="row m-0 justify-content-center">
                     <div className="col-md-10">
                         <div className="header">
-                            <h2 className="title">{t("engage")}</h2>
+                            {/* <h2 className="title">{t("engage")}</h2> */}
                             <p className="subtitle">{t("engageDesc")}</p>
+                        </div>
+
+                        <div className="header mt-5">
+                            <h2 className="title">{t("engage")}</h2>
+                            
                         </div>
                     </div>
                 </div>
@@ -36,24 +41,74 @@ export default function EngageWithUs() {
             <section>
                 <div className="row m-0 justify-content-center mt-5 mb-5">
                     <div className="col-md-5">
-                        <div className={`${s.leftCont} d-flex gap-2 `}>
+                        <div className={`${s.leftCont} d-flex gap-3 `}>
                             <div style={{width:"40%"}}>
                                 <img src="/img/carl.jpg" className={s.imageStyle} alt="" />
                             </div>
                             <div className="" style={{width:"60%"}}>
                                 <span className="title" style={{fontSize:"20px", fontWeight:"bold"}}>Kim Carl Diestro</span>
                                 <p className="subtitle"><i>{t('business')}</i></p>
-                                <div className="mb-2">
-                                    <span><FaSquareWhatsapp className={s.iconStyle} style={{color:"#25D366"}} /></span> <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>{t('whatsapp')}:</span><span style={{fontSize:"13px"}}>+63 9XX XXXX XXXX</span>
+                                <div className="mb-2 d-flex gap-1">
+                                    <div >
+                                        <span><FaSquareWhatsapp className={s.iconStyle} style={{color:"#25D366"}} /></span>
+                                    </div>
+                                    <div>
+                                        <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>
+                                            {t('whatsapp')}:
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style={{fontSize:"13px",fontWeight:"500"}}>
+                                            +63 928 862 4421
+                                            <br />
+                                            +63 998 586 4480
+                                        </span>
+                                    </div>
+                                     
                                 </div>
-                                <div className="mb-2">
-                                    <span><FaPhone className={s.iconStyle} style={{color:"#448153"}} /></span> <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>{t('cellphone')}:</span><span style={{fontSize:"13px"}}> +63 9XX XXXX XXXX</span>
+                                <div className="mb-2 d-flex gap-1">
+                                    <div className="pt-2">
+                                        <span><FaPhone className={s.iconStyle} style={{color:"#448153"}} /></span>
+                                    </div>
+                                    <div>
+                                        <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>{t('cellphone')}:</span>
+                                    </div>
+                                    <div>
+                                        <span style={{fontSize:"13px",fontWeight:"500"}}>
+                                            +63 928 862 4421
+                                            <br />
+                                            +63 998 586 4480
+                                        </span>
+                                    </div>
                                 </div>
-                                <div className="mb-2">
-                                    <span><FaEnvelope className={s.iconStyle} style={{color:"#448153"}} /></span> <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>{t('email')}:</span><span style={{fontSize:"13px"}}> jobs@placewellinternational.com</span>
+                                <div className="mb-2 d-flex gap-2">
+                                    <div className="pt-2">
+                                        <span><FaEnvelope className={s.iconStyle} style={{color:"#448153"}} /></span>
+                                    </div>
+                                    <div>
+                                        <span className="title" style={{fontSize:"12px", fontWeight:"bold"}}>{t('email')}:</span>
+                                        <br />
+                                        <span style={{fontSize:"13px",fontWeight:"500"}}> 
+                                            Marketing@placewellinternational.com
+                                            <br />
+                                            Jobs@placewellinternational.com
+                                        </span>
+                                    </div>
+                                    
+                                     
                                 </div>
-                                <div className="mb-2">
-                                    <span><FaLocationDot className={s.iconStyle} style={{color:"#448153"}} /></span> <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>{t('address')}:</span><span style={{fontSize:"13px"}}> JMC Building, 123 JMC Street, Makati City, Metro Manila, Philippines</span>
+                                <div className="mb-2 d-flex gap-2">
+                                    <div className="pt-2">
+                                        <span><FaLocationDot className={s.iconStyle} style={{color:"#448153"}} /></span>
+                                    </div>
+                                    <div>
+                                        <span className="title" style={{fontSize:"12px", fontWeight:"bold"}}>{t('address')}:</span>
+                                        <br />
+                                        <span style={{fontSize:"13px",fontWeight:"500"}}> 
+                                            6488 JMC Centre, Upper Ground Flr, Medina St, Brgy Pio Del Pillar, Makati
+                                        </span>
+                                    </div>
+                                     
                                 </div>
                                 
                             </div>
@@ -87,7 +142,8 @@ export default function EngageWithUs() {
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
                                 <div style={{width:"10%"}}><SiGoogledocs className={s.docsIcon} style={{color:"#1C6AB9"}} /></div>
                                 <div style={{width:"60%"}} className="d-flex align-items-center pt-2">
-                                    <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>{t('profilePlacewell')}</span>
+                                    <span className="title" 
+                                        style={{fontSize:"14px",fontWeight:"bold"}}>{t('profilePlacewell')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
                                     <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >{t('download')} <FaDownload/></button>
@@ -97,7 +153,7 @@ export default function EngageWithUs() {
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
                                 <div style={{width:"10%"}}><SiGoogledocs className={s.docsIcon} style={{color:"#11A17D"}} /></div>
                                 <div style={{width:"60%"}} className="d-flex align-items-center pt-2">
-                                    <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>{t('profileProtech')}</span>
+                                    <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('profileProtech')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
                                     <button className="btnprimary"style={{fontSize:"12px",padding:"10px"}} >{t('download')} <FaDownload/></button>
@@ -106,7 +162,7 @@ export default function EngageWithUs() {
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
                                 <div style={{width:"10%"}}><SiGoogledocs className={s.docsIcon} style={{color:"#D2A446"}} /></div>
                                 <div style={{width:"60%"}} className="d-flex align-items-center pt-2">
-                                    <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>{t('profileHashira')}</span>
+                                    <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('profileHashira')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
                                     <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >{t('download')} <FaDownload/></button>
@@ -115,7 +171,7 @@ export default function EngageWithUs() {
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
                                 <div style={{width:"10%"}}><IoBookSharp className={s.docsIcon} style={{color:"#553184"}} /></div>
                                 <div style={{width:"60%"}} className="d-flex align-items-center pt-2">
-                                    <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>{t('guide')}</span>
+                                    <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('guide')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
                                     <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >{t('download')} <FaDownload/></button>
@@ -124,7 +180,7 @@ export default function EngageWithUs() {
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
                                 <div style={{width:"10%"}}><FaFileShield  className={s.docsIcon} style={{color:"#D3282C"}} /></div>
                                 <div style={{width:"60%"}} className=" pt-2">
-                                    <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>{t('accreditation')}</span>
+                                    <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('accreditation')}</span>
                                     <br />
                                     {/* <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>{t('important')}</small> */}
                                 </div>

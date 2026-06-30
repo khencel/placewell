@@ -11,7 +11,7 @@ export default function TradeTest() {
     return (
         <>
             <Banner
-                backgroundImage="/img/trade/driving2.jpg"
+                backgroundImage="/img/trade/DSC03778.jpg"
                 title={t("tradeTest.title")}
                 subtitle={t("tradeTest.subtitle")}
                 description={t("tradeTest.desc")}
