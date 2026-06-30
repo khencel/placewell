@@ -126,7 +126,7 @@ export default function EngageWithUs() {
                                 <div style={{width:"60%"}} className=" pt-2">
                                     <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>{t('accreditation')}</span>
                                     <br />
-                                    <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>{t('important')}</small>
+                                    {/* <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>{t('important')}</small> */}
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
                                     <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >{t('download')} <FaDownload/></button>
