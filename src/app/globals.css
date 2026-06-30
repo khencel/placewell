@@ -521,3 +521,40 @@
   opacity: 1;
   transform: scale(1.3);
 }
+
+
+/* Previous & Next Button */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  padding: 9px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #448153 !important; /* arrow color */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: #448153;
+  color: #fff !important;
+  transform: scale(1.08);
+}
+
+/* Arrow Size */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+/* Position */
+.swiper-button-prev {
+  left: 20px !important;
+}
+
+.swiper-button-next {
+  right: 20px !important;
+}
