@@ -112,10 +112,10 @@ export default function Home() {
         slidesPerView={1}
         loop={true}
         modules={[Autoplay, Navigation, Pagination]}
-        // autoplay={{
-        //   delay: 12000, // 12 seconds
-        //   disableOnInteraction: false, // optional: tuloy pa rin autoplay kahit nag-click/swipe ang user
-        // }}
+        autoplay={{
+          delay: 12000, // 12 seconds
+          disableOnInteraction: false, // optional: tuloy pa rin autoplay kahit nag-click/swipe ang user
+        }}
         speed={800}
         navigation
         pagination={{ clickable: true }}
