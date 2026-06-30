@@ -221,12 +221,36 @@ export default function Home() {
                 <Link href="/trade-test">
                   <button className={`${s.btnprimary} mt-3`}>More Details</button>
                 </Link>
+
+                <div className="row mt-3">
+                  <div className="col text-center">
+                    <img 
+                      src="/TESDA-Logo.png"
+                      alt=""
+                      style={{
+                        width:"190px",
+                        height:"190px",
+                        objectFit:"contain"
+                      }} 
+                    />
+                  </div>
+                  <div className="col text-center">
+                    <img 
+                      src="/iso.png" 
+                      alt="ISO" 
+                      style={{
+                        width:"190px",
+                        height:"190px",
+                        objectFit:"contain"
+                      }} 
+                    />
+                  </div>
+                </div>
               </div>
 
               
                 
-                
-              
+
 
               <div className={slide3.right}>
                 {cards.map((card) => (
