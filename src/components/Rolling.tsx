@@ -22,7 +22,7 @@ export default function Rolling({ data, perSlide, isLoop, isAutoplay,isContain=t
             navigation={true}   
             breakpoints={{
                 0: {
-                slidesPerView: 4,
+                slidesPerView: 1,
                 spaceBetween: 10,
                 },
                 576: {
@@ -33,8 +33,8 @@ export default function Rolling({ data, perSlide, isLoop, isAutoplay,isContain=t
                 spaceBetween: 15,
                 },
                 992: {
-                slidesPerView: perSlide ?? 3,
-                spaceBetween: 20,
+                slidesPerView: perSlide ?? 4,
+                spaceBetween: 10,
                 },
             }}
         >

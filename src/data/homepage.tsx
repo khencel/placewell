@@ -131,6 +131,30 @@ export function getAllClient(){
         },
         {
             image:"/img/client/client21.png"
+        },
+        {
+            image:"/img/client/client22.png"
+        },
+        {
+            image:"/img/client/client23.png"
+        },
+        {
+            image:"/img/client/client24.png"
+        },
+        {
+            image:"/img/client/client25.png"
+        },
+        {
+            image:"/img/client/client26.png"
+        },
+        {
+            image:"/img/client/client27.png"
+        },
+        {
+            image:"/img/client/client28.png"
+        },
+        {
+            image:"/img/client/client29.png"
         }
     ]
 }
