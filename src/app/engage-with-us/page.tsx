@@ -2,7 +2,7 @@
 
 import Banner from "@/components/Banner"
 import s from "../../styles/engage.module.css"
-import { FaSquareWhatsapp, FaPhone, FaEnvelope, FaLocationDot,FaDownload, FaLock, FaFileShield  } from "react-icons/fa6";
+import { FaSquareWhatsapp, FaPhone, FaEnvelope, FaLocationDot,FaDownload, FaLock, FaFileShield, FaFileCircleQuestion} from "react-icons/fa6";
 import { SiGoogledocs } from "react-icons/si";
 import { IoBookSharp } from "react-icons/io5";
 import Process from "./process";   
@@ -235,6 +235,18 @@ export default function EngageWithUs() {
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
                                     <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "Sample of Completed Accreditation Documents.pdf")}>{t('download')} <FaDownload/></button>
+                                </div>
+                            </div>
+
+                            <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
+                                <div style={{width:"10%"}}><FaFileCircleQuestion  className={s.docsIcon} style={{color:"green"}} /></div>
+                                <div style={{width:"60%"}} className=" pt-2">
+                                    <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>Frequently Asked Questions</span>
+                                    <br />
+                                    {/* <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>{t('important')}</small> */}
+                                </div>
+                                <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "FAQ.docx")}>{t('download')} <FaDownload/></button>
                                 </div>
                             </div>
                             {/* <div className="d-flex">
