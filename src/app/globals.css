@@ -456,7 +456,7 @@
 }
 
 .btnprimary {
-  background: #709C6B;
+  background: #709C6B !important;
   border: none;
   padding: 12px 24px;
   color: white;
@@ -466,7 +466,7 @@
 }
 
 .btnprimary:hover {
-  background: #8F6843;
+  background: #8F6843 !important;
 }
 
 .btnoutline {
@@ -477,6 +477,10 @@
   transition: 0.3s;
   border: 1px solid #709C6B;
   color: #709C6B;
+}
+
+.no-caret::after {
+    display: none !important;
 }
 
 .btnoutline:hover {

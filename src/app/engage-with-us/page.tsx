@@ -7,9 +7,24 @@ import { SiGoogledocs } from "react-icons/si";
 import { IoBookSharp } from "react-icons/io5";
 import Process from "./process";   
 import { useTranslations } from "next-intl";
+import Dropdown from "react-bootstrap/Dropdown";
 
 export default function EngageWithUs() {
     const t = useTranslations("engage");
+
+    const handleDownload = (lang: "en" | "jp", docsFile: string) => {
+        const files = {
+            en: `/file/${docsFile}`,
+            jp: `/file/${docsFile}`,
+        };
+
+        const link = document.createElement("a");
+        link.href = files[lang];
+        link.download = docsFile;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <>
             <Banner
@@ -146,7 +161,24 @@ export default function EngageWithUs() {
                                         style={{fontSize:"14px",fontWeight:"bold"}}>{t('profilePlacewell')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >{t('download')} <FaDownload/></button>
+                                    <Dropdown >
+                                        <Dropdown.Toggle
+                                            className="btnprimary no-caret"
+                                            style={{ fontSize: "12px", padding: "10px", border: "none" }}
+                                        >
+                                            {t("download")} <FaDownload />
+                                        </Dropdown.Toggle>
+
+                                        <Dropdown.Menu>
+                                            <Dropdown.Item onClick={() => handleDownload("en", "Placewell International - Company Profile.pdf")}>
+                                                English
+                                            </Dropdown.Item>
+
+                                            <Dropdown.Item onClick={() => handleDownload("jp", "PISCO概要署.pdf")}>
+                                                Japanese
+                                            </Dropdown.Item>
+                                        </Dropdown.Menu>
+                                    </Dropdown>
                                 </div>
                             </div>
 
@@ -156,7 +188,24 @@ export default function EngageWithUs() {
                                     <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('profileProtech')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary"style={{fontSize:"12px",padding:"10px"}} >{t('download')} <FaDownload/></button>
+                                    <Dropdown >
+                                        <Dropdown.Toggle
+                                            className="btnprimary no-caret"
+                                            style={{ fontSize: "12px", padding: "10px", border: "none" }}
+                                        >
+                                            {t("download")} <FaDownload />
+                                        </Dropdown.Toggle>
+
+                                        <Dropdown.Menu>
+                                            <Dropdown.Item onClick={() => handleDownload("en", "Pro-Tech Skills - Company Profile.pdf")}>
+                                                English
+                                            </Dropdown.Item>
+
+                                            <Dropdown.Item onClick={() => handleDownload("jp", "プロテクパンフレット.pdf")}>
+                                                Japanese
+                                            </Dropdown.Item>
+                                        </Dropdown.Menu>
+                                    </Dropdown>
                                 </div>
                             </div>
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
@@ -165,7 +214,7 @@ export default function EngageWithUs() {
                                     <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('profileHashira')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >{t('download')} <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "柱日本語学校パンフレット.pdf")} >{t('download')} <FaDownload/></button>
                                 </div>
                             </div>
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
@@ -174,7 +223,7 @@ export default function EngageWithUs() {
                                     <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('guide')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >{t('download')} <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "Guide to Accreditation Process.pdf")}>{t('download')} <FaDownload/></button>
                                 </div>
                             </div>
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
@@ -185,7 +234,7 @@ export default function EngageWithUs() {
                                     {/* <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>{t('important')}</small> */}
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} >{t('download')} <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "Sample of Completed Accreditation Documents.pdf")}>{t('download')} <FaDownload/></button>
                                 </div>
                             </div>
                             {/* <div className="d-flex">
