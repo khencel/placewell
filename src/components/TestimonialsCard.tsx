@@ -1,5 +1,12 @@
 import s from "../components/styles/Testimonials.module.css"
 
+interface TestimonialCardProps {
+  name?: string;
+  position?: string;
+  company?: string;
+  imageUrl?: string;
+}
+
 export default function TestimonialCard() {
   return (
     <div className={s.testimonialCard}>
