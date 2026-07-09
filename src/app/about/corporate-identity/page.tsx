@@ -6,6 +6,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import s from "./style.module.css"
 import MissionVision from "@/components/MissionVision";
 import { useTranslations } from "next-intl";
+import HistoryList from "./HistoryList";
+import { Autoplay,Navigation, Pagination } from "swiper/modules";
 
 
 export default function About() {
@@ -137,12 +139,14 @@ export default function About() {
 
                 <hr className={s.customLine} />
                 <Swiper
-                spaceBetween={20}
+                spaceBetween={10}
                 // slidesPerView={4}
                 loop={false}
-                // modules={[Autoplay]}
+                modules={[Navigation, Pagination]}
                 autoplay={{ delay: 2000 }}
                 speed={800}
+                navigation
+                // pagination={{ clickable: true }}
                 breakpoints={{
                   0: {
                   slidesPerView: 2,
@@ -161,125 +165,32 @@ export default function About() {
                   },
               }}
               >
-                <SwiperSlide>
-                    <div className={s.badgeCont}>
-                      <span className={`badge bg-danger`}>2021</span>
-                    </div>
-                    <div className={` ${s.historyInfo} mt-2`}>
-                      <div>
-                        <img src="/img/why_hire/Bartender-400x267.jpg" style={{width:"100%"}} alt="" />
-                      </div>
-                      <div>
-                          <span className="title" style={{fontSize:"24px"}}>Sample Text</span>
-                          <p className="cardText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus quibusdam molestiae voluptate fugiat quia animi eaque nisi vel? Magnam cum dolorum minus ut tenetur! Alias eum pariatur odio ad?</p>
-                      </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <div className={s.badgeCont}>
-                     
-                    </div>
-                    <div className={` ${s.historyInfo} mt-2`}>
-                      <div>
-                        <img src="/img/why_hire/Bartender-400x267.jpg" style={{width:"100%"}} alt="" />
-                      </div>
-                      <div>
-                          <span className="title" style={{fontSize:"24px"}}>Sample Text</span>
-                          <p className="cardText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus quibusdam molestiae voluptate fugiat quia animi eaque nisi vel? Magnam cum dolorum minus ut tenetur! Alias eum pariatur odio ad?</p>
-                      </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <div className={s.badgeCont}>
-                      <span className={`badge bg-danger`}>2022</span>
-                    </div>
-                    <div className={` ${s.historyInfo} mt-2`}>
-                      <div>
-                        <img src="/img/why_hire/Bartender-400x267.jpg" style={{width:"100%"}} alt="" />
-                      </div>
-                      <div>
-                          <span className="title" style={{fontSize:"24px"}}>Sample Text</span>
-                          <p className="cardText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus quibusdam molestiae voluptate fugiat quia animi eaque nisi vel? Magnam cum dolorum minus ut tenetur! Alias eum pariatur odio ad?</p>
-                      </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <div className={s.badgeCont}>
-                      <span className={`badge bg-danger`}>2021</span>
-                    </div>
-                    <div className={` ${s.historyInfo} mt-2`}>
-                      <div>
-                        <img src="/img/why_hire/Bartender-400x267.jpg" style={{width:"100%"}} alt="" />
-                      </div>
-                      <div>
-                          <span className="title" style={{fontSize:"24px"}}>Sample Text</span>
-                          <p className="cardText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus quibusdam molestiae voluptate fugiat quia animi eaque nisi vel? Magnam cum dolorum minus ut tenetur! Alias eum pariatur odio ad?</p>
-                      </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <div className={s.badgeCont}>
-                      <span className={`badge bg-danger`}>2021</span>
-                    </div>
-                    <div className={` ${s.historyInfo} mt-2`}>
-                      <div>
-                        <img src="/img/why_hire/Bartender-400x267.jpg" style={{width:"100%"}} alt="" />
-                      </div>
-                      <div>
-                          <span className="title" style={{fontSize:"24px"}}>Sample Text</span>
-                          <p className="cardText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus quibusdam molestiae voluptate fugiat quia animi eaque nisi vel? Magnam cum dolorum minus ut tenetur! Alias eum pariatur odio ad?</p>
-                      </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <div className={s.badgeCont}>
-                      <span className={`badge bg-danger`}>2021</span>
-                    </div>
-                    <div className={` ${s.historyInfo} mt-2`}>
-                      <div>
-                        <img src="/img/why_hire/Bartender-400x267.jpg" style={{width:"100%"}} alt="" />
-                      </div>
-                      <div>
-                          <span className="title" style={{fontSize:"24px"}}>Sample Text</span>
-                          <p className="cardText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus quibusdam molestiae voluptate fugiat quia animi eaque nisi vel? Magnam cum dolorum minus ut tenetur! Alias eum pariatur odio ad?</p>
-                      </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <div className={s.badgeCont}>
-                      <span className={`badge bg-danger`}>2021</span>
-                    </div>
-                    <div className={` ${s.historyInfo} mt-2`}>
-                      <div>
-                        <img src="/img/why_hire/Bartender-400x267.jpg" style={{width:"100%"}} alt="" />
-                      </div>
-                      <div>
-                          <span className="title" style={{fontSize:"24px"}}>Sample Text</span>
-                          <p className="cardText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus quibusdam molestiae voluptate fugiat quia animi eaque nisi vel? Magnam cum dolorum minus ut tenetur! Alias eum pariatur odio ad?</p>
-                      </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <div className={s.badgeCont}>
-                      <span className={`badge bg-danger`}>2021</span>
-                    </div>
-                    <div className={` ${s.historyInfo} mt-2`}>
-                      <div>
-                        <img src="/img/why_hire/Bartender-400x267.jpg" style={{width:"100%"}} alt="" />
-                      </div>
-                      <div>
-                          <span className="title" style={{fontSize:"24px"}}>Sample Text</span>
-                          <p className="cardText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus quibusdam molestiae voluptate fugiat quia animi eaque nisi vel? Magnam cum dolorum minus ut tenetur! Alias eum pariatur odio ad?</p>
-                      </div>
-                    </div>
-                </SwiperSlide>
+                {
+                  HistoryList().map((item, index) => (
+                      <SwiperSlide>
+                          <div className={s.badgeCont} key={index}>
+                            <span className={`badge bg-danger`}>{item.year}</span>
+                          </div>
+                          <div className={` ${s.historyInfo} mt-2`}>
+                            <div className={s.imgCont}>
+                              <img src={item.image} style={{
+                                                      width:"100%",
+                                                      height:"170px",
+                                                      objectFit: item.imageObjectFit as any,
+                                                      objectPosition: "center 36%",
+                                                    }} alt="" />
+                            </div>
+                            <hr />
+                            <div className="mt-3 ms-2 me-2">
+                                <span className="title" style={{fontSize:"15px",fontWeight:"600"}}>{item.title}</span>
+                                <p className="cardText" style={{fontSize:"14px"}}>
+                                  {item.description}
+                                </p>
+                            </div>
+                          </div>
+                      </SwiperSlide>
+                  ))
+                }
                 
               </Swiper>
               </div>

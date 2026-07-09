@@ -9,9 +9,10 @@
 }
 .historyInfo{
     padding: 10px;
-    border: 1px solid #94a3b8;
+    border: 1px solid #d1d6dd;
     border-radius: 16px;
     box-shadow: 0px 4px 10px rgba(10, 0, 10, 0.5);
+    height: 450px;
 }
 
 
@@ -26,6 +27,14 @@
     padding: 20px;
     
 }
+
+.imgCont{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
