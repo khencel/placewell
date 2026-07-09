@@ -254,7 +254,7 @@ function ChevronIcon({ open }: { open: boolean }) {
 }
 
 export default function NintendoSwitchOnlineFAQ() {
-  const [activeTab, setActiveTab] = useState('FAQ');
+  const [activeTab, setActiveTab] = useState('General Information');
   const [openIndex, setOpenIndex] = useState(0);
 
   const toggleItem = (index: number) => {
