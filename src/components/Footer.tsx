@@ -9,6 +9,8 @@ import {
     FaTiktok 
 } from "react-icons/fa6";
 
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className={s.footer}>
@@ -32,7 +34,9 @@ export default function Footer() {
             <p>Testimonials</p>
             <p>Gallery</p>
             <p>Contact Us</p>
-            <p>FAQ</p>
+            <p>
+              <Link style={{textDecoration:"none",color:"white"}} href="/faq">FAQ</Link>
+            </p>
           </div>
         </div>
 
