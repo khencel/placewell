@@ -50,7 +50,7 @@ export default function HistoryList() {
             description:"Placewell International was able to build and move into its own five-storey headquarters in Makati where it currently runs its operations."
         },
         {
-            imageObjectFit: "contain",
+            imageObjectFit: "cover",
             year: "2017",
             image:"/img/banner/proTechBanner.png",
             title:"Establishment of Pro-Tech Skills",
@@ -69,6 +69,13 @@ export default function HistoryList() {
             image:"/hashira.jpg",
             title:"Establishment of Hashira Skills",
             description:"Hashira Skills was established in 2020 as a stay-in Japanese language school to fulfill the language training requirements of Japanese employers. Hashira Skills is also TESDA-accredited in numerous construction-based courses."
+        },
+        {
+            imageObjectFit: "contain",
+            year: "2023",
+            image:"/europe.avif",
+            title:"First Deployment to Europe",
+            description:"Placewell International started deploying skilled workers to European countries such as Croatia, Slovenia, Italy, Lithuania and more in 2023. Over the next years, the company quickly gained popularity among Filipino applicants who aspire to work in Europe."
         }
     ]
 }
