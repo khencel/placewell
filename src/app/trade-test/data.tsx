@@ -10,8 +10,8 @@ export function getData(){
             description:t("tradeTest.weldingDesc"),
             videoId:"/video/welding.mp4",
             image1:"/img/trade/DSC03612.jpg",
-            image2:"/img/trade/DSC03614.jpeg",
-            image3:"/img/trade/DSC03616.jpg",
+            image2:"/img/trade/welding3.jpg",
+            image3:"/img/trade/welding2.jpg",
         },
         {
             number:2,
@@ -91,7 +91,7 @@ export function getData(){
             description:t("tradeTest.cleaningDesc"),
             videoId:"/video/house.mp4",
             image1:"/img/trade/clean4.jpeg",
-            image2:"/img/trade/clean1.jpeg",
+            image2:"/img/trade/DSC03158.jpg",
             image3:"/img/trade/clean3.jpeg",
         }
     ]
