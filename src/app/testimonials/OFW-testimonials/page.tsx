@@ -5,9 +5,11 @@ import YouTube from "react-youtube";
 import TestimonialCard from "@/components/TestimonialsCard";
 import s from "../../../styles/testimonials.module.css"
 import { useTranslations } from "next-intl";
+import OFWTestimonials from "./data";
 
 export default function ClientTestimonial() {
     const t = useTranslations("OFWTestimonial");
+    const items = OFWTestimonials()
     return (
         <>
             <Banner
@@ -58,12 +60,16 @@ export default function ClientTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/video/trailer.mp4' type="video/mp4" />
+                                        <source src='/video/domestic2.mp4' type="video/mp4" />
                                     </video>
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>Mark Anthony Reyes</span>
-                                    <p className="subtitle">Operations Manager</p>
+                                    <span className="title" style={{fontSize:"18px"}}>Maria Aileen Relion</span>
+                                    <p className="subtitle">
+                                        Domestic Helper
+                                        <br />
+                                        Saudi Arabia
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -80,15 +86,19 @@ export default function ClientTestimonial() {
                                 {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p> */}
                             </div>
                             <div className="row">
-                                <div className="col-md-4">
-                                    <TestimonialCard />
-                                </div>
-                                <div className="col-md-4">
-                                    <TestimonialCard />
-                                </div>
-                                <div className="col-md-4">
-                                    <TestimonialCard />
-                                </div>
+                                {
+                                    items.map((item,index) => (
+                                        <div className="col-md-4" key={index}>
+                                            <TestimonialCard
+                                                name={item.name}
+                                                position={item.position}
+                                                company={item.company}
+                                                avatar={item.avatar}
+                                                info={item.info}
+                                            />
+                                        </div>
+                                    ))
+                                }
                             </div>
                         </div>
                     </div>

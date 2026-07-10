@@ -4,17 +4,17 @@ interface TestimonialCardProps {
   name?: string;
   position?: string;
   company?: string;
-  imageUrl?: string;
+  avatar?: string;
+  info?:string
 }
 
-export default function TestimonialCard() {
+export default function TestimonialCard({name, position, company, avatar, info}:TestimonialCardProps) {
   return (
     <div className={s.testimonialCard}>
       <div className={s.quote}>“</div>
 
       <p className={s.testimonialText}>
-        Working with this team was an absolute pleasure. They delivered exactly
-        what we needed, on time and beyond our expectations.
+        {info}
       </p>
 
       <div className={s.divider}></div>
@@ -22,13 +22,13 @@ export default function TestimonialCard() {
       <div className={s.testimonialFooter}>
         <div className={s.userInfo}>
           <img
-            src="https://randomuser.me/api/portraits/women/44.jpg"
+            src={avatar}
             alt="user"
             className={s.avatar}
           />
           <div>
-            <h4 className={s.name}>Sarah Johnson</h4>
-            <p className={s.role}>Marketing Manager,<br />BrightWave Inc.</p>
+            <h4 className={s.name}>{name}</h4>
+            <p className={s.role}>{position},<br />{company}</p>
           </div>
         </div>
 
