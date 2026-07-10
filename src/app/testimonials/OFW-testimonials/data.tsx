@@ -1,19 +1,20 @@
 export default function OFWTestimonials(){
     return [
         {
-            "avatar":"John Alinsag",
-            "name":"John Alinsag",
+            "avatar":"/jerome.png",
+            "name":"Jerome Salubod",
             "position":"Hospitality Worker",
             "company":"Tamkeen Human Resources",
-            "info":`Isa pong malaking karangalan ang mabigyan ng pagkakataong makapagtrabaho abroad 
-                    Malaki ang naitulong ng Placewell International Services Corporation sa aking paglalakbay. Mula sa application hanggang deployment ay naging maayos ang lahat.
+            "info":`Taos-puso po akong nagpapasalamat sa Placewell International Services Corporation dahil sa inyong tulong mula sa pagproseso ng aking aplikasyon hanggang sa aking deployment.
 
-                    Hindi lang po ako kumikita nang mas maayos ngayon, mas lumawak din ang aking karanasan at mas gumanda ang aking career
+            Sa ngayon, masaya po akong nakakapagtrabaho at unti-unti kong naaabot ang aking mga pangarap habang natutulungan ko ang aking pamilya.
 
-                    Maraming salamat po sa Placewell International Services Corporation sa oportunidad na ito.`
+            Sa lahat ng kapwa kong hospitality workers na gustong magtrabaho abroad, huwag kayong matakot na subukan ang inyong kakayahan. Ang bawat sakripisyo ay may magandang kapalit.
+
+            Maraming salamat po sa Placewell International Services Corporation sa pagkakataon at tiwala.`
         },
         {
-            "avatar":"John Alinsag",
+            "avatar":"/janele.png",
             "name":"Janella E. Carbonel",
             "position":"On-call Cleaner",
             "company":"Al Mawarid Manpower Company",
