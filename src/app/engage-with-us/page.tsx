@@ -36,7 +36,7 @@ export default function EngageWithUs() {
             <Process />
             <section>
                 <div className="row m-0 justify-content-center">
-                    <div className="col-md-10">
+                    <div className="col-md-10 mt-5">
                         <div className="header">
                             {/* <h2 className="title">{t("engage")}</h2> */}
                             <p className="subtitle">{t("engageDesc")}</p>
