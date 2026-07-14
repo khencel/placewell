@@ -21,7 +21,7 @@ export default function getData (){
                 Sincerely,`
         },
         {
-            "avatar":"/images.jpg",
+            "avatar":"/7c76e4d7-7e13-4122-b9c8-c685e48dbe36.jpg",
             "name":"Ada Ng",
             "position":"Director",
             "company":"Mia Employment Services",
@@ -30,5 +30,14 @@ export default function getData (){
             We would like to take this opportunity to commend Placewell for their excellent service and wish them continued success in the future.
             Yours faithfully,`
         },
+        {
+            "avatar":"/images.jpg",
+            "name":"Steven Ong",
+            "position":"Director",
+            "company":"Assured Employment Services Pte Ltd",
+            "info":`Our partnership with Placewell International Services Corporation began well before the COVID-19 pandemic, and throughout all the global challenges since, they have remained an invaluable partner. It has been a true privilege to collaborate with them in successfully deploying skilled and dedicated Filipino workers to Singapore.
+                The day-to-day team at Placewell is remarkably helpful, ensuring our collaborative efforts run seamlessly and efficiently. Furthermore, their management team has consistently shown incredible flexibility and unwavering support, making them a truly trusted counterpart. We highly value this long-standing relationship and look forward to many more years of shared success.`
+        }
+        
     ]
 }

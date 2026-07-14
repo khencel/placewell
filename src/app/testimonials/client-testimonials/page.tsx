@@ -6,6 +6,8 @@ import TestimonialCard from "@/components/TestimonialsCard";
 import s from "../../../styles/testimonials.module.css"
 import { useTranslations } from "next-intl";
 import getData from "./data";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay,Navigation, Pagination } from "swiper/modules";
 
 export default function ClientTestimonial() {
     const t = useTranslations("clientTestimonial");
@@ -92,21 +94,43 @@ export default function ClientTestimonial() {
                                 <h2 className="title">{t("what")}</h2>
                                 {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p> */}
                             </div>
-                            <div className="row">
-                                {
-                                    items.map((item,index) => (
-                                        <div className="col-md-4" key={index}>
-                                            <TestimonialCard
-                                                name={item.name}
-                                                role={item.position}
-                                                company={item.company}
-                                                avatar={item.avatar}
-                                                statement={item.info}
-                                            />
-                                        </div>
-                                    ))
-                                }
-                            </div>
+
+                            <Swiper
+                                    spaceBetween={20}
+                                    slidesPerView={3}
+                                    loop={true}
+                                    modules={[Autoplay, Navigation, Pagination]}
+                                    autoplay={{
+                                      delay: 12000, // 12 seconds
+                                      disableOnInteraction: false, // optional: tuloy pa rin autoplay kahit nag-click/swipe ang user
+                                    }}
+                                    speed={800}
+                                    navigation
+                                    pagination={{ clickable: true }}
+                                  >
+
+                                    {
+                                        items.map((item,index) => (
+                                            <SwiperSlide>
+                                                <div key={index}>
+                                                    <TestimonialCard
+                                                        name={item.name}
+                                                        role={item.position}
+                                                        company={item.company}
+                                                        avatar={item.avatar}
+                                                        statement={item.info}
+                                                    />
+                                                </div>
+                                                
+                                            </SwiperSlide>
+                                            
+                                        ))
+                                    }
+                                
+                            </Swiper>
+                            
+                                
+                           
                         </div>
                     </div>
                 </div>
