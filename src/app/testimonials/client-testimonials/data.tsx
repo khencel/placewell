@@ -4,7 +4,7 @@ export default function getData (){
             "avatar":"/Screenshot 2026-07-14 142059.png",
             "name":"David Tan Chai Chun",
             "position":"Director",
-            "company":"INNOVEDGE RECRUITMENT AGENCY PVT. LTD.",
+            "company":"Innovedge Recruitment Agency PVT. LTD.",
             "info":`We have had a very positive experience working with PLACEWELL INTERNATIONAL SERVICES CORPORATION as our recruitment counterpart in the Philippines for more than 10 years. Their team is professional, responsive, and cooperative throughout the entire recruitment process, from candidate sourcing and interview coordination to documentation and deployment.
                 One of the main strengths of partnering with them is their commitment to providing suitable candidates based on our clients’ requirements. They communicate updates clearly, respond quickly whenever assistance is needed, and work closely with us to resolve any issues that may arise.
                 Based on our experience, many Filipino workers are also highly valued by employers because of their good English communication skills, adaptability, professionalism, and willingness to learn. They are often able to communicate well with both employers and family members, which helps them adjust more smoothly to the working environment.
