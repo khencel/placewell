@@ -37,6 +37,19 @@ export default function getData (){
             "company":"Assured Employment Services Pte Ltd, Singapore",
             "info":`Our partnership with Placewell International Services Corporation began well before the COVID-19 pandemic, and throughout all the global challenges since, they have remained an invaluable partner. It has been a true privilege to collaborate with them in successfully deploying skilled and dedicated Filipino workers to Singapore.
                 The day-to-day team at Placewell is remarkably helpful, ensuring our collaborative efforts run seamlessly and efficiently. Furthermore, their management team has consistently shown incredible flexibility and unwavering support, making them a truly trusted counterpart. We highly value this long-standing relationship and look forward to many more years of shared success.`
+        },
+        {
+            "avatar":"/37a029c7-b04e-4b38-a3fc-29dd143a66dc.jpg",
+            "name":"Takumi Nakanishi",
+            "position":"President & CEO",
+            "company":"Nikken Holdings, Japan",
+            "info":`The labor shortage in Japan's housing industry has become a serious social issue. Without hiring foreign workers, it will be impossible to sustain residential construction in Japan.
+                    The three major challenges in hiring foreign workers are:
+                    Recruiting high-quality personnel
+                    Providing proper education and training
+                    Preventing workers from going missing or absconding
+                    However, by entrusting these responsibilities to Placewell, a well-established sending organization, and Hashira Japanese Language School, all of these challenges can be effectively addressed.
+                    We look forward to continuing our partnership in the years ahead.`
         }
         
     ]
