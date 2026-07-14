@@ -15,11 +15,9 @@
 }
 
 .testimonialText {
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
   line-height: 1.6;
-  /* border: 1px solid black; */
-  height: 350px;
 }
 
 .divider {
@@ -32,6 +30,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 50px;
 }
 
 .userInfo {
@@ -62,4 +61,29 @@
 .stars {
   color: #f5a623;
   font-size: 16px;
+}
+
+.clamped {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.expanded {
+  display: block;
+}
+
+.showMore {
+  margin-top: 8px;
+  background: none;
+  border: none;
+  color: #448153;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0;
+}
+
+.showMore:hover {
+  text-decoration: underline;
 }

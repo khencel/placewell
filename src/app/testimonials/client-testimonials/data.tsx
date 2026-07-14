@@ -1,0 +1,34 @@
+export default function getData (){
+    return [
+        {
+            "avatar":"/Screenshot 2026-07-14 142059.png",
+            "name":"David Tan Chai Chun",
+            "position":"Director",
+            "company":"INNOVEDGE RECRUITMENT AGENCY PVT. LTD.",
+            "info":`We have had a very positive experience working with PLACEWELL INTERNATIONAL SERVICES CORPORATION as our recruitment counterpart in the Philippines for more than 10 years. Their team is professional, responsive, and cooperative throughout the entire recruitment process, from candidate sourcing and interview coordination to documentation and deployment.
+                One of the main strengths of partnering with them is their commitment to providing suitable candidates based on our clients’ requirements. They communicate updates clearly, respond quickly whenever assistance is needed, and work closely with us to resolve any issues that may arise.
+                Based on our experience, many Filipino workers are also highly valued by employers because of their good English communication skills, adaptability, professionalism, and willingness to learn. They are often able to communicate well with both employers and family members, which helps them adjust more smoothly to the working environment.
+                We look forward to building an even stronger and long-term partnership with their team and would highly recommend them as a trusted recruitment partner in the Philippines.`
+        },
+        {
+            "avatar":"/7f096ee8-955d-4787-a6e8-56ec10584176.jpg",
+            "name":"Marijan Kutnjak",
+            "position":"Director",
+            "company":"Connect Human Resources d.o.o. Croatia",
+            "info":`We are pleased to recommend Placewell International Services Corporation as a trusted recruitment partner.
+                Our cooperation with Placewell International has been characterized by professionalism, reliability, and efficient communication. Their team has consistently provided qualified Filipino candidates and has managed the recruitment and deployment process with a high level of competence and dedication.
+                Based on our experience, we consider Placewell International a dependable and ethical business partner, and we look forward to continuing our successful cooperation.
+                Sincerely,`
+        },
+        {
+            "avatar":"/images.jpg",
+            "name":"Ada Ng",
+            "position":"Director",
+            "company":"Mia Employment Services",
+            "info":`We would like to express our sincere appreciation to Placewell for their outstanding service and support. Our experience working with Placewell has been consistently positive. As a well-established and highly organized agency, they have a strong and capable team that provides attentive follow-up and reliable support throughout the entire process. Their professionalism and efficiency have made our collaboration smooth and dependable.
+            In addition, hiring Filipino workers through Placewell has been highly beneficial. They are generally hardworking, responsible, and adaptable, with a positive attitude toward their duties. Their strong communication skills and dedication make them a valuable addition to any household or workplace.
+            We would like to take this opportunity to commend Placewell for their excellent service and wish them continued success in the future.
+            Yours faithfully,`
+        },
+    ]
+}

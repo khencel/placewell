@@ -91,10 +91,10 @@ export default function ClientTestimonial() {
                                         <div className="col-md-4" key={index}>
                                             <TestimonialCard
                                                 name={item.name}
-                                                position={item.position}
+                                                role={item.position}
                                                 company={item.company}
                                                 avatar={item.avatar}
-                                                info={item.info}
+                                                statement={item.info}
                                             />
                                         </div>
                                     ))

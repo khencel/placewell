@@ -36,3 +36,29 @@ section.testimonialSection .containerContent {
   position: relative;
   z-index: 1;
 }
+
+
+.clamped {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.expanded {
+  display: block;
+}
+
+.showMore {
+  margin-top: 8px;
+  background: none;
+  border: none;
+  color: #104675;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0;
+}
+
+.showMore:hover {
+  text-decoration: underline;
+}
