@@ -66,14 +66,14 @@ export default function ClientTestimonial() {
                                     </video>
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>John Paul Cruz</span>
+                                    <span className="title" style={{fontSize:"18px"}}>Kennsuke Hashida</span>
                                     <p className="subtitle">General Manager</p>
                                 </div>
                             </div>
                             <div className="col-md-4 p-2">
                                 <div>
                                     <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/video/client1.mp4' type="video/mp4" />
+                                        <source src='/video/low format - kuwait.mp4' type="video/mp4" />
                                     </video>
                                 </div>
                                 <div>
