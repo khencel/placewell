@@ -62,7 +62,7 @@ export default function ClientTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/video/client1.mp4' type="video/mp4" />
+                                        <source src='/video/low mb format - japan.mp4' type="video/mp4" />
                                     </video>
                                 </div>
                                 <div>
