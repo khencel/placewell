@@ -68,7 +68,7 @@ export default function ClientTestimonial() {
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Kennsuke Hashida</span>
                                     <p className="subtitle">
-                                        World Star International Exchange Business Cooperative, Hong Kong
+                                        World Star International Exchange Business Cooperative, Japan
                                     </p>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ export default function ClientTestimonial() {
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Fahad Al-Shammari Abu Nayef</span>
-                                    <p className="subtitle">Boubyan <br />Kuwait   </p>
+                                    <p className="subtitle">Boubyan Company <br />Kuwait   </p>
                                 </div>
                             </div>
                         </div>
