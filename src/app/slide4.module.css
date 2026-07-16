@@ -9,7 +9,7 @@
 /* Left Section */
 .leftSection {
   flex: 1;
-  padding: 60px 50px;
+  padding: 40px 50px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -289,6 +289,12 @@
   background-color: #448153;
   width: 12px;
   height: 12px;
+}
+
+.logoSlide4{
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
 }
 
 /* Responsive Design */

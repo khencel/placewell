@@ -25,6 +25,15 @@ const FILTER_KEYS: FilterKey[] = [
   "facilities", "testimonials", "others"
 ];
 
+const categoryLabels: Record<Category, string> = {
+    ourWorkers: "Our Workers",
+    interview: "Interview",
+    tradetest: "Trade Test",
+    facilities: "Facilities",
+    testimonials: "Testimonials",
+    others: "Others",
+};
+
 
 const categoryIcons: Record<Category, string> = {
   interview: "⚙️",
@@ -141,7 +150,7 @@ const getCardTagStyle = (category: Category): CSSProperties => ({
   fontSize: "11px",
   fontWeight: 700,
   letterSpacing: "0.1em",
-  textTransform: "uppercase",
+  // textTransform: "uppercase",
   color: tagColors[category],
   marginBottom: "2px",
 });
@@ -312,7 +321,9 @@ function Lightbox({ projects, currentIndex, onClose, onPrev, onNext, onJump }: L
         style={{ marginTop: "14px", textAlign: "center" }}
         onClick={(e) => e.stopPropagation()}
       >
-        <span style={{ ...getCardTagStyle(project.category), display: "block" }}>{project.category}</span>
+        <span style={{ ...getCardTagStyle(project.category), display: "block" }}>
+            {categoryLabels[project.category]}
+        </span>
         <p style={{ color: "#fff", fontSize: "15px", fontWeight: 600, margin: "4px 0 0" }}>{project.title}</p>
       </div>
 
@@ -402,7 +413,9 @@ function ProjectCard({ project, onClick }: ProjectCardProps) {
         </div>
       )}
       <div style={baseStyles.cardBody}>
-        <span style={getCardTagStyle(project.category)}>{project.category}</span>
+        <span style={getCardTagStyle(project.category)}>
+            {categoryLabels[project.category]}
+        </span>
         <div style={baseStyles.cardFooter}>
           <span style={baseStyles.cardTitle}>{project.title}</span>
           <div style={getArrowStyle(hovered)} aria-hidden="true">→</div>

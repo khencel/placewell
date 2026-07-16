@@ -54,15 +54,7 @@ export default function ExcellenceSlide() {
           <h1 className={styles.mainHeadingGold}>Providing world class Filipino workers since 1978</h1>
         </div>
 
-        {/* Subheading */}
         
-        
-        {/* Description */}
-        {/* <p className={styles.description}>
-          We provide world-class training, state-of-the-art facilities, and industry-ready skills to build your future.
-        </p> */}
-
-        {/* Features Grid */}
         <div className={styles.featuresContainer}>
           {features.map((feature, index) => {
             const IconComponent = feature.icon;
@@ -78,6 +70,22 @@ export default function ExcellenceSlide() {
               </div>
             );
           })}
+
+          
+        </div>
+        <div className="row mt-3">
+            <div className="col-md-3">
+                <img src="/triple.png" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
+            </div>
+            <div className="col-md-3">
+                <img src="/sky.jpg" className={styles.logoSlide4} alt="" />
+            </div>
+            <div className="col-md-3">
+              <img src="/protech.jpg" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
+            </div>
+            <div className="col-md-3">
+              <img src="/hashira.jpg" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
+            </div>
         </div>
       </div>
 
