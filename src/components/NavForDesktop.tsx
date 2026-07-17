@@ -70,6 +70,14 @@ export default function NavForDesktop() {
                             </div>
                         </div>
 
+                        <Link href="/about/competitive-advantages" className="mega-item">
+                            <FaSyringe className="social-icon" />
+                            <div>
+                            <h4>Competitive Advantages </h4>
+                            <p>See what sets us apart</p>
+                            </div>
+                        </Link>
+
                         <Link href="/about/branches" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
