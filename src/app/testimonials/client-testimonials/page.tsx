@@ -9,6 +9,7 @@ import getData from "./data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay,Navigation, Pagination } from "swiper/modules";
 
+
 export default function ClientTestimonial() {
     const t = useTranslations("clientTestimonial");
     const items = getData()
@@ -62,7 +63,7 @@ export default function ClientTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/video/low mb format - japan.mp4' type="video/mp4" />
+                                        <source src='/video/world star - japan.mp4' type="video/mp4" />
                                     </video>
                                 </div>
                                 <div>
@@ -75,7 +76,7 @@ export default function ClientTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/video/low format - kuwait.mp4' type="video/mp4" />
+                                        <source src='/video/boubyan - kuwait.mp4' type="video/mp4" />
                                     </video>
                                 </div>
                                 <div>
