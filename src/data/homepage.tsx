@@ -35,12 +35,14 @@ export function getRollingData() {
     ]
 }
 
-const workerImages = getGallery()
-    .filter(item => item.category === "ourWorkers")
+const images = getGallery()
+    .filter(item =>
+        ["interview", "tradetest"].includes(item.category)
+    )
     .map(item => item.imageUrl);
 
 const getRandomImage = () => {
-    return workerImages[Math.floor(Math.random() * workerImages.length)];
+    return images[Math.floor(Math.random() * images.length)];
 };
 
 export function getWhyHireFilipino() {
@@ -64,6 +66,26 @@ export function getWhyHireFilipino() {
             image: getRandomImage(),
             title: "Cost-effective high quality labor",
             description: "Although it may cost less to hire Filipino workers than locals, there will be no sacrifice in the quality of work. In fact, Filipinos who work abroad tend to work even harder than locals because of their feelings of gratitude and urgency to perform.",
+        },
+        {
+            image: getRandomImage(),
+            title: "Low minimum wage",
+            description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
+        },
+        {
+            image: getRandomImage(),
+            title: "Low minimum wage",
+            description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
+        },
+        {
+            image: getRandomImage(),
+            title: "Low minimum wage",
+            description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
+        },
+        {
+            image: getRandomImage(),
+            title: "Low minimum wage",
+            description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
         },
         {
             image: getRandomImage(),
