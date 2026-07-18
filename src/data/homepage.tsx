@@ -35,14 +35,14 @@ export function getRollingData() {
     ]
 }
 
-const images = getGallery()
+const workerImages = getGallery()
     .filter(item =>
         ["interview", "tradetest"].includes(item.category)
     )
     .map(item => item.imageUrl);
 
 const getRandomImage = () => {
-    return images[Math.floor(Math.random() * images.length)];
+    return workerImages[Math.floor(Math.random() * workerImages.length)];
 };
 
 export function getWhyHireFilipino() {
@@ -86,14 +86,8 @@ export function getWhyHireFilipino() {
             image: getRandomImage(),
             title: "Low minimum wage",
             description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
-        },
-        {
-            image: getRandomImage(),
-            title: "Low minimum wage",
-            description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
-        },
-        
-        
+        }
+ 
     ]
 }
 

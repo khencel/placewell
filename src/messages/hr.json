@@ -56,6 +56,44 @@
     "branchOffices": "Podružnice",
     "exp": "Iskustvo",
     "year": "Godina",
+    "whyFilipino":{
+            "title":"Why Hire Filipino Workers?",
+            "itemList":[
+                {
+                    "title":"Well-known as People Who Work Abroad",
+                    "desc":"There are Filipinos all over the world from Europe to the Middle East, North America, and all across Asia. Filipino workers have been known to be hard-working, friendly, and loyal to their employers."
+                },
+                {
+                    "title":"Low Average Age",
+                    "desc":"The average in the Philippines is around 25 years old, which means that there is a lot of youthful energy available for work."
+                },
+                {
+                    "title":"English Speaking",
+                    "desc":"The demand for workers who are competent in the English language is growing with the rise of Globalization. The English language is especially important in the hotel and restaurant industry. Almost all Filipinos are proficient in English and are happy to share and utilize their skills."
+                },
+                {
+                    "title":"Cost-effective High Quality Labor",
+                    "desc":"Although it may cost less to hire Filipino workers than locals, there will be no sacrifice in the quality of work. In fact, Filipinos who work abroad tend to work even harder than locals because of their feelings of gratitude and urgency to perform."
+                },
+                {
+                    "title":"Low Minimum Wage",
+                    "desc":"The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad."
+                },
+                {
+                    "title":"Low Minimum Wage",
+                    "desc":"The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad."
+                },
+                {
+                    "title":"Low Minimum Wage",
+                    "desc":"The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad."
+                },
+                {
+                    "title":"Low Minimum Wage",
+                    "desc":"The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad."
+                }
+            ]
+
+        },
     "ourClients": "Naši klijenti",
     "gallery": "Naša galerija",
     "gallerydesc": "Istaknuti trenuci naših aktivnosti"

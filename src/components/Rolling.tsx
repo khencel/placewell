@@ -46,8 +46,7 @@ export default function Rolling({ data, perSlide, isLoop, isAutoplay,isContain=t
                                 <img className={isContain?s.styleImage:s.styleImage2} src={item.image} alt="" />
                             </div>
                             <div className="mt-3">
-                                {/* <h4 style={{color:"#448153"}}>{item.title}</h4> */}
-                                {/* <p>{item.description}</p> */}
+                                
                             </div>
                         </div>
                     </SwiperSlide>
