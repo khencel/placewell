@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, useCallback, CSSProperties } from "react"
 import { getGallery } from "@/data/gallery";
 import { useTranslations } from "next-intl";
 
-type Category = "ourWorkers" | "interview" | "tradetest" | "facilities" | "testimonials" | "others";
+type Category = "ourWorkers" | "interview" | "tradetest" | "facilities" | "others";
 
 
 interface Project {
@@ -18,11 +18,11 @@ interface Project {
 const projects: Project[] = getGallery() as Project[];
 
 type FilterKey = "ourWorkers" | "interview" | "tradetest" |
-  "facilities" | "testimonials" | "others";
+  "facilities" | "others";
 
 const FILTER_KEYS: FilterKey[] = [
   "ourWorkers", "interview", "tradetest",
-  "facilities", "testimonials", "others"
+  "facilities", "others"
 ];
 
 const categoryLabels: Record<Category, string> = {
@@ -30,7 +30,6 @@ const categoryLabels: Record<Category, string> = {
     interview: "Interview",
     tradetest: "Trade Test",
     facilities: "Facilities",
-    testimonials: "Testimonials",
     others: "Others",
 };
 
@@ -39,7 +38,6 @@ const categoryIcons: Record<Category, string> = {
   interview: "⚙️",
   ourWorkers: "🏗️",
   facilities: "🏢",
-  testimonials: "⚡",
   tradetest: "🧪",
   others: "📦"
 };
@@ -48,7 +46,6 @@ const tagColors: Record<Category, string> = {
   interview: "#E24B4A",
   ourWorkers: "#378ADD",
   facilities: "#F59E0B",
-  testimonials: "#639922",
   tradetest: "#E24B4A",
   others: "#F59E0B"
 };
@@ -57,7 +54,6 @@ const placeholderBg: Record<Category, string> = {
   interview: "#fff1f1",
   ourWorkers: "#eff6ff",
   facilities: "#fffbeb",
-  testimonials: "#f0fdf4",
   tradetest: "#fff1f1",
   others: "#fffbeb" 
 };
@@ -442,7 +438,6 @@ export default function ProjectsGallery({ data = projects }: ProjectsGalleryProp
       interview:          "interview",
       tradetest:          "tradetest",
       facilities:         "facilities",
-      testimonials:       "testimonials",
       others:             "others",
     };
 

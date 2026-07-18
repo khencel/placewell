@@ -31,7 +31,7 @@ export default function getData (){
             Yours faithfully,`
         },
         {
-            "avatar":"/images.jpg",
+            "avatar":"/935f8ed0-8dfa-4728-a386-428eea80aad0.jpg",
             "name":"Steven Ong",
             "position":"Director",
             "company":"Assured Employment Services Pte Ltd, Singapore",
