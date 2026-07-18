@@ -147,5 +147,16 @@ export function getGallery(){
         { id: 118, category: "facilities", title:"Cebu" , imageUrl:"/img/gallery/facilities/cebu2.jpeg" },
         { id: 119, category: "facilities", title:"Cebu" , imageUrl:"/img/gallery/facilities/cebu3.jpeg" },
         { id: 120, category: "facilities", title:"Cebu" , imageUrl:"/img/gallery/facilities/cebu4.jpeg" },
+
+        { id: 45, category: "others", imageUrl:"/img/gallery/others/1.jpg" },
+        { id: 46, category: "others", imageUrl:"/img/gallery/others/2.jpg" },
+        { id: 47, category: "others", imageUrl:"/img/gallery/others/3.jpg" },
+        { id: 48, category: "others", imageUrl:"/img/gallery/others/4.jpg" },
+        { id: 49, category: "others", imageUrl:"/img/gallery/others/5.jpg" },
+        { id: 50, category: "others",  imageUrl:"/img/gallery/others/6.jpg" },
+        { id: 51, category: "others",  imageUrl:"/img/gallery/others/7.jpg" },
+        { id: 52, category: "others",  imageUrl:"/img/gallery/others/8.jpg" },
+        { id: 53, category: "others",  imageUrl:"/img/gallery/others/9.jpg" },
+        { id: 54, category: "others",  imageUrl:"/img/gallery/others/10.jpg" },
     ]
 }
