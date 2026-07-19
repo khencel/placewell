@@ -69,7 +69,7 @@ export default function ClientTestimonial() {
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Kennsuke Hashida</span>
                                     <p className="subtitle">
-                                        World Star International Exchange Business Cooperative, Japan
+                                        World Star International Japan
                                     </p>
                                 </div>
                             </div>

@@ -6,10 +6,15 @@ import TestimonialCard from "@/components/TestimonialsCard";
 import s from "../../../styles/testimonials.module.css"
 import { useTranslations } from "next-intl";
 import OFWTestimonials from "./data";
+import { useRef } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay,Navigation, Pagination } from "swiper/modules";
+
 
 export default function ClientTestimonial() {
     const t = useTranslations("OFWTestimonial");
     const items = OFWTestimonials()
+    const videoRef = useRef<HTMLVideoElement>(null);
     return (
         <>
             <Banner
@@ -29,16 +34,29 @@ export default function ClientTestimonial() {
                         <div className="row">
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/video/domestic.mp4' type="video/mp4" />
+                                    <video
+                                        ref={videoRef}
+                                        width="100%"
+                                        height={300}
+                                        controls
+                                        muted
+                                        loop
+                                        playsInline
+                                        onLoadedMetadata={() => {
+                                            if (videoRef.current) {
+                                            videoRef.current.currentTime = 0.9; 
+                                            }
+                                        }}
+                                        >
+                                        <source src="/video/JAPAN - WORKER TESTIMONIAL.mp4" type="video/mp4" />
                                     </video>
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>Darlene Cañete</span>
+                                    <span className="title" style={{fontSize:"18px"}}>Romel De Leon</span>
                                     <p className="subtitle">
                                         Domestic Helper
                                         <br />
-                                        Hong Kong
+                                        Japan
                                     </p>
                                 </div>
                             </div>
@@ -85,21 +103,41 @@ export default function ClientTestimonial() {
                                 <h2 className="title">{t("what")}</h2>
                                 {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p> */}
                             </div>
-                            <div className="row">
-                                {
-                                    items.map((item,index) => (
-                                        <div className="col-md-4" key={index}>
-                                            <TestimonialCard
-                                                name={item.name}
-                                                role={item.position}
-                                                company={item.company}
-                                                avatar={item.avatar}
-                                                statement={item.info}
-                                            />
-                                        </div>
-                                    ))
-                                }
-                            </div>
+
+                            <Swiper
+                                    spaceBetween={20}
+                                    slidesPerView={3}
+                                    loop={true}
+                                    modules={[Autoplay, Navigation, Pagination]}
+                                    autoplay={{
+                                        delay: 12000, // 12 seconds
+                                        disableOnInteraction: false, // optional: tuloy pa rin autoplay kahit nag-click/swipe ang user
+                                    }}
+                                    speed={800}
+                                    navigation
+                                    pagination={{ clickable: true }}
+                                    >
+
+                                    {
+                                        items.map((item,index) => (
+                                            <SwiperSlide>
+                                                <div key={index}>
+                                                    <TestimonialCard
+                                                        name={item.name}
+                                                        role={item.position}
+                                                        company={item.company}
+                                                        avatar={item.avatar}
+                                                        statement={item.info}
+                                                    />
+                                                </div>
+                                                
+                                            </SwiperSlide>
+                                            
+                                        ))
+                                    }
+                                
+                            </Swiper>
+                        
                         </div>
                     </div>
                 </div>

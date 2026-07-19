@@ -67,7 +67,7 @@ export default function CompetitiveAdvantages() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/competitive.jpeg"
+                backgroundImage="/13698 (1).jpg"
                 title={t("title")}
                 subtitle="Competitive Advantages"
                 description="See what sets us apart"
