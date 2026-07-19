@@ -73,20 +73,39 @@ export default function ExcellenceSlide() {
 
           
         </div>
-        <div className="row mt-3">
-            <div className="col-md-3">
+
+        {/* 4 logos  */}
+        {/* <div className="row mt-3">
+            <div className="col-3">
                 <img src="/triple.png" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
             </div>
-            <div className="col-md-3">
+            <div className="col-3">
                 <img src="/sky.jpg" className={styles.logoSlide4} alt="" />
             </div>
-            <div className="col-md-3">
+            <div className="col-3">
               <img src="/protech.jpg" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
             </div>
-            <div className="col-md-3">
+            <div className="col-3">
               <img src="/hashira.jpg" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
             </div>
+        </div> */}
+
+
+        <div className={styles.logoStyle}>
+          <div className={styles.logoDiv}>
+            <img src="/triple.png" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
+          </div>
+          <div className={styles.logoDiv}>
+            <img src="/sky.jpg" className={styles.logoSlide4}  alt="" />
+          </div>
+          <div className={styles.logoDiv}>
+            <img src="/protech.jpg" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
+          </div>
+          <div className={styles.logoDiv}>
+            <img src="/hashira.jpg" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
+          </div>
         </div>
+
       </div>
 
       {/* Right Image Section */}
