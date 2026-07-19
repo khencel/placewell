@@ -50,7 +50,7 @@ export default function ContactUs(){
                                             <span>📞</span>
                                             <div>
                                             <strong>Phone</strong>
-                                            <p>+63 908 850 8508</p>
+                                            <p>+63 928 862 4421</p>
                                             </div>
                                         </div>
 
@@ -66,7 +66,7 @@ export default function ContactUs(){
                                             <span>📧</span>
                                             <div>
                                             <strong>Email</strong>
-                                            <p>jobs@placewellinternational.com</p>
+                                            <p>Marketing@placewellinternational.com</p>
                                             </div>
                                         </div>
 

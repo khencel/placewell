@@ -7,7 +7,7 @@ import YouTube from "react-youtube";
 import { CSSProperties } from "react";
 import CustomHR from "@/components/CustomHR";
 import Rolling from "@/components/Rolling";
-import { getRollingData, getWhyHireFilipino, getAllClient } from "@/data/homepage";
+import { getRollingData, getWhyHireFilipino, getAllClient, ShowGallery } from "@/data/homepage";
 import WhyPlacewell from "@/components/WhyPlacewell";
 import WhyHire from "@/components/WhyHire";
 import slide2 from "@/styles/slide2.module.css"
@@ -26,6 +26,7 @@ export default function Home() {
   const rollingData = getRollingData();
   const whyHireFilipino = getWhyHireFilipino();
   const allClient = getAllClient();
+  const gallery = ShowGallery()
 
   const t = useTranslations();
   const styles: { section: CSSProperties; header: CSSProperties; title: CSSProperties; subtitle: CSSProperties; videoCard: CSSProperties; videoWrapper: CSSProperties; youtube: CSSProperties; gradientBg: CSSProperties } = {
@@ -329,7 +330,7 @@ export default function Home() {
         
         <div className="row justify-content-center m-0">
           <div className="col-md-10">
-              <Rolling isContain={false} data={whyHireFilipino}  />
+              <Rolling isContain={false} isLoop={true} data={gallery}  />
               
               <CustomHR />
           </div>

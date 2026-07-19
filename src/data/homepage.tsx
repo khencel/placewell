@@ -71,21 +71,6 @@ export function getWhyHireFilipino() {
             image: getRandomImage(),
             title: "Low minimum wage",
             description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
-        },
-        {
-            image: getRandomImage(),
-            title: "Low minimum wage",
-            description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
-        },
-        {
-            image: getRandomImage(),
-            title: "Low minimum wage",
-            description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
-        },
-        {
-            image: getRandomImage(),
-            title: "Low minimum wage",
-            description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
         }
  
     ]
@@ -179,6 +164,41 @@ export function getAllClient(){
         },
         {
             image:"/img/client/client29.png"
+        }
+    ]
+}
+
+export function ShowGallery(){
+    return [
+        {
+            image: getRandomImage(),
+        },
+        {
+            image: getRandomImage(),
+        },
+        {
+            image: getRandomImage(),
+        },
+        {
+            image: getRandomImage(),
+        },
+        {
+            image: getRandomImage(),
+        },
+        {
+            image: getRandomImage(),
+        },
+        {
+            image: getRandomImage(),
+        },
+        {
+            image: getRandomImage(),
+        },
+        {
+            image: getRandomImage(),
+        },
+        {
+            image: getRandomImage(),
         }
     ]
 }
