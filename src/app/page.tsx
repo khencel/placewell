@@ -113,10 +113,10 @@ export default function Home() {
         slidesPerView={1}
         loop={true}
         modules={[Autoplay, Navigation, Pagination]}
-        // autoplay={{
-        //   delay: 12000, 
-        //   disableOnInteraction: false, 
-        // }}
+        autoplay={{
+          delay: 12000, 
+          disableOnInteraction: false, 
+        }}
         speed={800}
         navigation
         pagination={{ clickable: true }}
