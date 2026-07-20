@@ -95,7 +95,12 @@
     },
     "ourClients": "Nasi klienci",
     "gallery": "Nasza galeria",
-    "gallerydesc": "Najważniejsze momenty naszych działań"
+    "gallerydesc": "Najważniejsze momenty naszych działań",
+    "slide2": {
+      "trusted": "ZAUFANIE, DOŚWIADCZENIE, ZAANGAŻOWANIE",
+      "placewell": "Placewell International <br />Services Corporation",
+      "IsATrusted": "Placewell International Services Corporation to zaufana filipińska agencja rekrutacji zagranicznej z ponad 50-letnim doświadczeniem w pozyskiwaniu i kierowaniu wykwalifikowanych filipińskich pracowników do pracodawców na całym świecie. Dzięki doświadczonemu zespołowi i kompleksowemu procesowi rekrutacji zapewniamy niezawodne rozwiązania kadrowe, kierując się profesjonalizmem, uczciwością oraz silnym zaangażowaniem wobec naszych klientów i pracowników."
+    }
   },
   "corporateIdentity": {
     "title": "O nas",

@@ -95,7 +95,12 @@
     },
     "ourClients": "Mūsų klientai",
     "gallery": "Mūsų galerija",
-    "gallerydesc": "Mūsų veiklos akimirkos"
+    "gallerydesc": "Mūsų veiklos akimirkos",
+    "slide2": {
+      "trusted": "PATIKIMA, PATIRTIS, ĮSIPAREIGOJIMAS",
+      "placewell": "Placewell International <br />Services Corporation",
+      "IsATrusted": "„Placewell International Services Corporation“ yra patikima Filipinų tarptautinio įdarbinimo agentūra, turinti daugiau nei 50 metų patirtį atrenkant ir įdarbinant kvalifikuotus Filipinų specialistus darbdaviams visame pasaulyje. Remdamiesi profesionalia komanda ir visapusišku atrankos procesu, teikiame patikimus darbo jėgos sprendimus, laikydamiesi profesionalumo, sąžiningumo ir tvirto įsipareigojimo savo klientams bei darbuotojams."
+    }
   },
   "corporateIdentity": {
     "title": "Apie mus",

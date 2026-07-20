@@ -29,6 +29,7 @@ export default function Home() {
   const gallery = ShowGallery()
 
   const t = useTranslations();
+  const home = useTranslations('home');
   const styles: { section: CSSProperties; header: CSSProperties; title: CSSProperties; subtitle: CSSProperties; videoCard: CSSProperties; videoWrapper: CSSProperties; youtube: CSSProperties; gradientBg: CSSProperties } = {
   section: {
     padding: "60px 20px",
@@ -99,12 +100,12 @@ export default function Home() {
   };
 
   const cards = [
-    { img: "/img/slide3/pic1.png", label: 'Welding' },
-    { img: "/img/slide3/pic2.png", label: 'Construction' },
-    { img: "/img/slide3/pic3.png", label: 'Trailer Truck Driving' },
-    { img: "/img/slide3/pic4.png", label: 'Domestic Work' },
-    { img: "/img/slide3/pic5.png", label: 'Caregiving' },
-    { img: "/img/slide3/pic6.png", label: 'Food Service' },
+    { img: "/img/slide3/pic1.png", label: home('slide3.Welding') },
+    { img: "/img/slide3/pic2.png", label: home('slide3.Construction') },
+    { img: "/img/slide3/pic3.png", label: home('slide3.Trailer') },
+    { img: "/img/slide3/pic4.png", label: home('slide3.Domestic') },
+    { img: "/img/slide3/pic5.png", label: home('slide3.Caregiving') },
+    { img: "/img/slide3/pic6.png", label: home('slide3.Food') },
   ];
   return (
     <>
@@ -113,10 +114,10 @@ export default function Home() {
         slidesPerView={1}
         loop={true}
         modules={[Autoplay, Navigation, Pagination]}
-        autoplay={{
-          delay: 12000, 
-          disableOnInteraction: false, 
-        }}
+        // autoplay={{
+        //   delay: 12000, 
+        //   disableOnInteraction: false, 
+        // }}
         speed={800}
         navigation
         pagination={{ clickable: true }}
@@ -175,19 +176,19 @@ export default function Home() {
                   <div className={slide2.content}>
 
                     <span className={slide2.subtitle}>
-                      TRUSTED. EXPERIENCED. COMMITTED.
+                      {home('slide2.trusted')}
                     </span>
 
                     <h1 className={slide2.title}>
-                      Placewell International
-                      <br />
-                      Services Corporation
+                      <span dangerouslySetInnerHTML={{__html:home('slide2.placewell')}}></span>
+                      
+                      
                     </h1>
 
                     <div className={slide2.line}></div>
 
                     <p className={slide2.description}>
-                      Is a trusted Philippine overseas recruitment agency with more than 50 years of experience in sourcing and deploying qualified Filipino talent to employers around the world. Backed by a dedicated team and a comprehensive recruitment process, we provide reliable workforce solutions while upholding professionalism, integrity, and a strong commitment to both our clients and the workers we serve.
+                      {home('slide2.IsATrusted')}
                     </p>
 
                     {/* <button className={slide2.ctaBtn}>
@@ -215,12 +216,12 @@ export default function Home() {
                 <div className={slide3.icon}>
                   <FaClipboardList />
                 </div>
-                <h2>Training and Trade Tests</h2>
+                <h2>{home('slide3.Training')}</h2>
                 <p>
-                  We conduct training and trade tests across a number of skills all at our own top-tier facilities.
+                  {home('slide3.Weconduct')}
                 </p>
                 <Link href="/trade-test">
-                  <button className={`${s.btnprimary} mt-3`}>More Details</button>
+                  <button className={`${s.btnprimary} mt-3`}>{home('slide3.MoreDetails')}</button>
                 </Link>
 
                 <div className="row justify-content-center" style={{paddingTop:"15%"}}>

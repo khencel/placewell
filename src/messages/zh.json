@@ -95,7 +95,12 @@
     },
     "ourClients": "我们的客户",
     "gallery": "我们的画廊",
-    "gallerydesc": "活动精彩瞬间"
+    "gallerydesc": "活动精彩瞬间",
+    "slide2": {
+      "trusted": "值得信赖 · 经验丰富 · 恪守承诺",
+      "placewell": "Placewell International <br />Services Corporation",
+      "IsATrusted": "Placewell International Services Corporation 是一家值得信赖的菲律宾海外招聘机构，拥有50多年的经验，为全球雇主招募和派遣合格的菲律宾人才。凭借专业团队和完善的招聘流程，我们提供可靠的人力资源解决方案，同时始终坚持专业精神、诚信以及对客户和员工的坚定承诺。"
+    }
   },
   "corporateIdentity": {
     "title": "关于我们",

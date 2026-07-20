@@ -96,10 +96,24 @@
         },
         "ourClients":"Our Clients",
         "gallery":"Our Gallery",
-        "gallerydesc":"Highlights of Our Activities"
-
-        ,
-        "subtitle":"Placewell International Services Corporation is a trusted Philippine overseas recruitment agency with more than 50 years of experience in sourcing and deploying qualified Filipino talent to employers around the world. Backed by a dedicated team and a comprehensive recruitment process, we provide reliable workforce solutions while upholding professionalism, integrity, and a strong commitment to both our clients and the workers we serve."
+        "gallerydesc":"Highlights of Our Activities",
+        "subtitle":"Placewell International Services Corporation is a trusted Philippine overseas recruitment agency with more than 50 years of experience in sourcing and deploying qualified Filipino talent to employers around the world. Backed by a dedicated team and a comprehensive recruitment process, we provide reliable workforce solutions while upholding professionalism, integrity, and a strong commitment to both our clients and the workers we serve.",
+        "slide2":{
+            "trusted":"TRUSTED, EXPERIENCE, COMMITED",
+            "placewell":"Placewell International <br />Services Corporation",
+            "IsATrusted":"Is a trusted Philippine overseas recruitment agency with more than 50 years of experience in sourcing and deploying qualified Filipino talent to employers around the world. Backed by a dedicated team and a comprehensive recruitment process, we provide reliable workforce solutions while upholding professionalism, integrity, and a strong commitment to both our clients and the workers we serve."
+        },
+        "slide3":{
+            "Training":"Training and Trade Tests",
+            "Weconduct":"We conduct training and trade tests across a number of skills all at our own top-tier facilities.",
+            "MoreDetails":"More Details",
+            "Welding":"Welding",
+            "Construction":"Construction",
+            "Trailer":"Trailer Truck Driving",
+            "Domestic":"Domestic Work",
+            "Caregiving":"Caregiving",
+            "Food":"Food Service"
+        }
     },
     "corporateIdentity": {
         "title": "About Us",

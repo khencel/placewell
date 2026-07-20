@@ -95,7 +95,12 @@
     },
     "ourClients": "我們的客戶",
     "gallery": "圖片集",
-    "gallerydesc": "活動精彩回顧"
+    "gallerydesc": "活動精彩回顧",
+    "slide2": {
+      "trusted": "值得信賴 · 經驗豐富 · 信守承諾",
+      "placewell": "Placewell International <br />Services Corporation",
+      "IsATrusted": "Placewell International Services Corporation 係一間值得信賴嘅菲律賓海外招聘機構，擁有超過50年為全球僱主招聘同派遣合資格菲律賓人才嘅經驗。憑藉專業團隊同完善嘅招聘流程，我哋提供可靠嘅人力資源方案，並一直秉持專業、誠信，同時致力服務客戶同外派員工。"
+    }
   },
   "corporateIdentity": {
     "title": "關於我們",

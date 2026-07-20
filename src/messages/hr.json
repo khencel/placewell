@@ -96,7 +96,12 @@
         },
     "ourClients": "Naši klijenti",
     "gallery": "Naša galerija",
-    "gallerydesc": "Istaknuti trenuci naših aktivnosti"
+    "gallerydesc": "Istaknuti trenuci naših aktivnosti",
+    "slide2": {
+      "trusted": "POUZDANOST, ISKUSTVO, PREDANOST",
+      "placewell": "Placewell International <br />Services Corporation",
+      "IsATrusted": "Placewell International Services Corporation pouzdana je filipinska agencija za zapošljavanje u inozemstvu s više od 50 godina iskustva u pronalaženju i zapošljavanju kvalificiranih filipinskih radnika za poslodavce diljem svijeta. Uz predan tim i sveobuhvatan proces zapošljavanja pružamo pouzdana rješenja za radnu snagu, uz profesionalnost, integritet i snažnu predanost našim klijentima i radnicima koje zastupamo."
+    }
   },
   "corporateIdentity":{
       "title":"O nama",

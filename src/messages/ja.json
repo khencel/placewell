@@ -95,7 +95,12 @@
       },
     "ourClients": "クライアント企業",
     "gallery": "ギャラリー",
-    "gallerydesc": "活動のハイライト"
+    "gallerydesc": "活動のハイライト",
+    "slide2": {
+      "trusted": "信頼・実績・誠実",
+      "placewell": "Placewell International <br />Services Corporation",
+      "IsATrusted": "Placewell International Services Corporationは、50年以上にわたり、世界中の雇用主へ優秀なフィリピン人材を紹介・派遣してきた実績を持つ、信頼されるフィリピンの海外人材紹介会社です。専門性の高いチームと包括的な採用プロセスを通じて、プロフェッショナリズム、誠実さ、そしてお客様と求職者双方への強い責任感を持ち、信頼できる人材ソリューションを提供しています。"
+    }
   },
   "corporateIdentity": {
     "title": "会社概要",
