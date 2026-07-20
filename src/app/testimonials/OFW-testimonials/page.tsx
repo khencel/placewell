@@ -54,7 +54,7 @@ export default function ClientTestimonial() {
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Romel De Leon</span>
                                     <p className="subtitle">
-                                        Domestic Helper
+                                        Construction Worker
                                         <br />
                                         Japan
                                     </p>
