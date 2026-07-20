@@ -7,16 +7,16 @@ import WhatsApp from "../whatsApp";
 import FacebookMarketing from "../facebook";
 
 export default function CompetitiveAdvantages() {
-    const t = useTranslations("branch");
+    const t = useTranslations("competitive");
 
     const countries = [
         {
-            name: "Saudi Arabia",
+            name: t("Saudi"),
             flag: "🇸🇦",
             color: "#448153",
             softBg: "#EAF3EC",
             description:
-                "We have a large worker pool and fast processing times because of our good track record and strong relationship with the DMW and Embassy of Saudi Arabia. ",
+                t("SaudiDesc"),
             items: [
                 { title: "Large Worker Pool", image: "/img/competitive/DSC04559.jpg" },
                 { title: "Fast Processing", image: "/img/competitive/2b935ffd-c4bc-4b08-813d-23ca50e65458.jpg" },
@@ -24,12 +24,12 @@ export default function CompetitiveAdvantages() {
             ],
         },
         {
-            name: "Japan",
+            name: t("Japan"),
             flag: "🇯🇵",
             color: "#D32F2F",
             softBg: "#FCEAEA",
             description:
-                "In our affiliated Japanese school, we recruit, screen and train workers before lining them up for interviews. Thanks to this system, our clients are able to interview candidates who are already JFT A2 passers or JLPT N4 passers.",
+                t("JapanDesc"),
             items: [
                 { title: "Recruit & Screen", image: "/img/competitive/DSC03883.jpg" },
                 { title: "Train & Prepare", image: "/img/competitive/DSC04481.jpg" },
@@ -37,12 +37,12 @@ export default function CompetitiveAdvantages() {
             ],
         },
         {
-            name: "Europe",
+            name: t("Europe"),
             flag: "🇪🇺",
             color: "#1565C0",
             softBg: "#E8F1FB",
             description:
-                "We have a pool of workers who are already screened for English proficiency and are actively gathering their required documents, making the process for deployment much faster and more efficient.",
+                t("EuropeDesc"),
             items: [
                 { title: "English Proficiency", subtitle: "Screened", image: "/img/competitive/WhatsApp Image 2026-04-13 at 8.18.08 PM (11).jpg" },
                 { title: "Complete Document", subtitle: "Preparation", image: "/img/competitive/DSC03616.jpg" },
@@ -50,12 +50,12 @@ export default function CompetitiveAdvantages() {
             ],
         },
         {
-            name: "Hong Kong",
+            name: t("Hong"),
             flag: "🇭🇰",
             color: "#EF6C00",
             softBg: "#FDF0E3",
             description:
-                "Our Myra system has well-made videos of hundreds of highly qualified domestic helpers who are available for reservation with just the click of a button.",
+                t("HongDesc"),
             items: [
                 { title: "Hundreds of Video", subtitle: "Profiles", image: "/img/competitive/DSC04895.jpg" },
                 { title: "Easy Search &", subtitle: "Browse", image: "/img/competitive/73b3c255-2165-4005-8773-67261f92763e.jpg" },
@@ -69,18 +69,17 @@ export default function CompetitiveAdvantages() {
             <Banner
                 backgroundImage="/13698 (1).jpg"
                 title={t("title")}
-                subtitle="Competitive Advantages"
-                description="See what sets us apart"
+                subtitle={t("subtitle")}
+                description={t("desc")}
                 customFontSize
             />
 
             <section className="py-5">
                 <div className="container">
                     <div className="text-center mb-5">
-                        <h2 className="fw-bold">Our Competitive Advantages</h2>
+                        <h2 className="fw-bold">{t("Our")}</h2>
                         <p className="text-muted">
-                            Discover what makes Placewell International a trusted
-                            recruitment partner across multiple global markets.
+                            {t("Discover")}
                         </p>
                     </div>
 

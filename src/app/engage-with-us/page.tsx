@@ -241,7 +241,7 @@ export default function EngageWithUs() {
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
                                 <div style={{width:"10%"}}><FaFileCircleQuestion  className={s.docsIcon} style={{color:"green"}} /></div>
                                 <div style={{width:"60%"}} className=" pt-2">
-                                    <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>Frequently Asked Questions</span>
+                                    <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('faq')}</span>
                                     <br />
                                     {/* <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>{t('important')}</small> */}
                                 </div>

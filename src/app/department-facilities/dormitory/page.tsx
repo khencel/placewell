@@ -7,7 +7,6 @@ import { getDormitory } from "../dormitory/data"
 
 export default function Dormitory() {
     const t = useTranslations('dormitory');
-    const dormitory = getDormitory();
     return (
         <>
             <Banner
@@ -18,7 +17,7 @@ export default function Dormitory() {
             />
 
             <section className={`container ${s.section}`}>
-                {dormitory.map((item, index) => (
+                {getDormitory(t).map((item, index) => (
                     <div className={`row align-items-center g-4 ${s.row}`} key={index}>
                         <div className="col-md-4">
                             <div className={`border ${s.infoCard}`}>

@@ -311,6 +311,7 @@
         "profileHashira":"Company Profile - Hashira Skills",
         "guide":"Guide to Accreditation Process",
         "accreditation":"Sample Accreditation Documents",
+        "faq":"Frequently Asked Questions",
         "important":"Important Information BLURRED",
         "download":"Download"
     },
@@ -354,7 +355,17 @@
         "title": "Departments and Facilities",
         "subtitle": "Dormitory",
         "desc": "View our well-maintained housing facilities for selected workers",
-        "our": "Our Dormitory"
+        "our": "Our Dormitory",
+        "Exterior":"Exterior",
+        "ExteriorDesc":"Our centrally located facility offers modern, safe, and comfortable accommodations, able to accommodate 300+ residents. Designed with the well-being of our workers in mind, it includes secure entry, recreational areas, and easy access to local amenities. We prioritize community and support for a positive living experience.",
+        "Rooms":"Rooms",
+        "RoomsDesc":"Our rooms are thoughtfully designed to provide a comfortable and restful living space. Each unit features secure storage, proper ventilation, and a clean, organized layout, with double-deck beds arranged to maximize space and privacy. We prioritize comfort, hygiene, and a sense of community in every room.",
+        "Cafeteria":"Cafeteria",
+        "CafeteriaDesc":"Our cafeteria provides a clean and welcoming space where workers can enjoy their meals comfortably. With ample seating, good ventilation, and natural lighting, it's designed to accommodate large groups while maintaining a relaxed atmosphere. We prioritize cleanliness, proper food handling areas, and a space that encourages rest and community during meal times.",
+        "Laundry":"Laundry Area",
+        "LaundryDesc":"Our laundry area provides workers with a convenient and well-maintained space to keep their belongings clean. Equipped with reliable washing facilities and designated drying areas, it's designed for easy access and efficient use. We prioritize cleanliness, proper organization, and a hassle-free laundry experience for all residents.",
+        "Restrooms":"Restrooms",
+        "RestroomsDesc":"Our dormitory comfort room is designed to provide residents with a clean, safe, and well-maintained hygiene space. The facility is regularly cleaned and maintained to uphold high sanitation standards. We prioritize cleanliness, privacy, and convenience to ensure a comfortable living experience for all dormitory occupants."
     },
     "protech":{
         "title": "Departments and Facilities",
@@ -441,5 +452,21 @@
         "EstablishmentHashiraDesc":"Hashira Skills was established in 2020 as a stay-in Japanese language school to fulfill the language training requirements of Japanese employers. Hashira Skills is also TESDA-accredited in numerous construction-based courses.",
         "FirstEurope":"First Deployment to Europe",
         "FirstEuropeDesc":"Placewell International started deploying skilled workers to European countries such as Croatia, Slovenia, Italy, Lithuania and more in 2023. Over the next years, the company quickly gained popularity among Filipino applicants who aspire to work in Europe."
-    }
+    },
+    "competitive":{
+        "title": "About Us",
+        "subtitle":"Competitive Advantages",
+        "desc":"See what sets us apart",
+        "Our":"Our Competitive Advantages",
+        "Discover":"Discover what makes Placewell International a trusted recruitment partner across multiple global markets.",
+        "Saudi":"Saudi Arabia",
+        "SaudiDesc":"We have a large worker pool and fast processing times because of our good track record and strong relationship with the DMW and Embassy of Saudi Arabia.",
+        "Japan":"Japan",
+        "JapanDesc":"In our affiliated Japanese school, we recruit, screen and train workers before lining them up for interviews. Thanks to this system, our clients are able to interview candidates who are already JFT A2 passers or JLPT N4 passers.",
+        "Europe":"Europe",
+        "EuropeDesc":"We have a pool of workers who are already screened for English proficiency and are actively gathering their required documents, making the process for deployment much faster and more efficient.",
+        "Hong":"Hong Kong",
+        "HongDesc":"Our Myra system has well-made videos of hundreds of highly qualified domestic helpers who are available for reservation with just the click of a button."
+    },
+    "viewAll":"View All"
 }   

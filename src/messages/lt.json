@@ -313,6 +313,7 @@
     "profileHashira": "Įmonės profilis - Hashira",
     "guide": "Akreditacijos proceso vadovas",
     "accreditation": "Akreditacijos dokumentai (užpildyti)",
+    "faq": "Dažniausiai užduodami klausimai",
     "important": "Svarbi informacija (PASLĖPTA)",
     "download": "Atsisiųsti"
   },
@@ -357,10 +358,20 @@
   },
 
   "dormitory": {
-    "title": "Skyriai ir infrastruktūra",
-    "subtitle": "Bendrabutis",
-    "desc": "Apžiūrėkite mūsų gerai prižiūrimas apgyvendinimo patalpas atrinktiems darbuotojams",
-    "our": "Mūsų bendrabutis"
+    "title": "Skyriai ir patalpos",
+    "subtitle": "Bendrabučiai",
+    "desc": "Peržiūrėkite mūsų kruopščiai prižiūrimas apgyvendinimo patalpas atrinktiems darbuotojams",
+    "our": "Mūsų bendrabutis",
+    "Exterior": "Išorė",
+    "ExteriorDesc": "Mūsų patogioje vietoje įsikūręs bendrabutis siūlo modernų, saugų ir komfortišką apgyvendinimą, kuriame gali apsistoti daugiau nei 300 gyventojų. Darbuotojų gerovei pritaikytame objekte įrengta saugi įėjimo kontrolė, poilsio zonos ir patogus susisiekimas su netoliese esančiomis paslaugomis. Siekiame kurti draugišką bendruomenę ir užtikrinti malonią gyvenimo aplinką.",
+    "Rooms": "Kambariai",
+    "RoomsDesc": "Mūsų kambariai yra kruopščiai suprojektuoti taip, kad suteiktų patogią ir ramią gyvenamąją erdvę. Kiekviename kambaryje yra saugios daiktų laikymo vietos, gera ventiliacija ir tvarkingas išplanavimas. Dviaukštės lovos išdėstytos taip, kad būtų maksimaliai išnaudota erdvė ir išlaikytas privatumas. Didelį dėmesį skiriame komfortui, švarai ir bendruomeniškumo jausmui.",
+    "Cafeteria": "Valgykla",
+    "CafeteriaDesc": "Mūsų valgykla suteikia švarią ir jaukią aplinką, kurioje darbuotojai gali patogiai mėgautis maistu. Erdvėje yra pakankamai sėdimų vietų, gera ventiliacija ir natūralus apšvietimas, todėl ji pritaikyta aptarnauti dideles žmonių grupes išlaikant ramią atmosferą. Pirmenybę teikiame švarai, tinkamoms maisto tvarkymo zonoms ir erdvei, skatinančiai poilsį bei bendravimą valgymo metu.",
+    "Laundry": "Skalbykla",
+    "LaundryDesc": "Mūsų skalbykla suteikia darbuotojams patogią ir gerai prižiūrimą vietą drabužiams bei asmeniniams daiktams skalbti. Ji aprūpinta patikima skalbimo įranga ir specialiai skirtomis džiovinimo zonomis, užtikrinančiomis patogų ir efektyvų naudojimą. Siekiame užtikrinti švarą, tvarką ir patogią skalbimo patirtį visiems gyventojams.",
+    "Restrooms": "Tualetai",
+    "RestroomsDesc": "Mūsų bendrabučio tualetai ir prausyklos suprojektuoti taip, kad gyventojams būtų užtikrinta švari, saugi ir gerai prižiūrima higienos erdvė. Patalpos reguliariai valomos ir prižiūrimos, siekiant išlaikyti aukštus higienos standartus. Pirmenybę teikiame švarai, privatumui ir patogumui, kad visi bendrabučio gyventojai galėtų mėgautis komfortiška gyvenimo aplinka."
   },
 
   "protech": {
@@ -451,5 +462,21 @@
     "EstablishmentHashiraDesc": "„Hashira Skills“ buvo įkurta 2020 m. kaip gyvenamojo tipo japonų kalbos mokykla, skirta įvykdyti Japonijos darbdavių keliamus kalbos mokymo reikalavimus. „Hashira Skills“ taip pat yra TESDA akredituota ir siūlo įvairias su statybomis susijusias mokymo programas.",
     "FirstEurope": "Pirmasis darbuotojų siuntimas į Europą",
     "FirstEuropeDesc": "2023 m. „Placewell International“ pradėjo siųsti kvalifikuotus darbuotojus į Europos šalis, tokias kaip Kroatija, Slovėnija, Italija, Lietuva ir kitos. Per kelerius metus bendrovė greitai pelnė populiarumą tarp filipiniečių, siekiančių dirbti Europoje."
-  }
+  },
+  "competitive": {
+    "title": "Apie mus",
+    "subtitle": "Konkurenciniai pranašumai",
+    "desc": "Sužinokite, kuo mes išsiskiriame",
+    "Our": "Mūsų konkurenciniai pranašumai",
+    "Discover": "Sužinokite, kodėl „Placewell International“ yra patikimas įdarbinimo partneris įvairiose pasaulio rinkose.",
+    "Saudi": "Saudo Arabija",
+    "SaudiDesc": "Turime didelį darbuotojų rezervą ir užtikriname greitą dokumentų tvarkymą dėl puikios reputacijos bei tvirtų ryšių su DMW ir Saudo Arabijos ambasada.",
+    "Japan": "Japonija",
+    "JapanDesc": "Mūsų partnerių japonų kalbos mokykloje darbuotojai yra atrenkami, įvertinami ir apmokomi prieš organizuojant darbo pokalbius. Dėl šios sistemos mūsų klientai gali kalbinti kandidatus, kurie jau yra išlaikę JFT A2 arba JLPT N4 egzaminus.",
+    "Europe": "Europa",
+    "EuropeDesc": "Turime kandidatų rezervą, kurie jau yra įvertinti pagal anglų kalbos žinias ir aktyviai rengia reikalingus dokumentus, todėl įdarbinimo procesas vyksta greičiau ir efektyviau.",
+    "Hong": "Honkongas",
+    "HongDesc": "Mūsų „Myra“ sistemoje pateikiami profesionaliai parengti šimtų aukštos kvalifikacijos namų ūkio darbuotojų vaizdo įrašai, kuriuos galima rezervuoti vos vienu mygtuko paspaudimu."
+},
+"viewAll": "Peržiūrėti viską"
 }

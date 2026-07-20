@@ -310,6 +310,7 @@
     "profileHashira": "Profil tvrtke - Hashira",
     "guide": "Vodič kroz proces akreditacije",
     "accreditation": "Akreditacijski dokumenti (završeni)",
+    "faq": "Često postavljana pitanja",
     "important": "Važne informacije ZAMAGLJENO",
     "download": "Preuzmi"
   },
@@ -350,10 +351,20 @@
     "our": "Naše podružnice"
   },
   "dormitory": {
-    "title": "Odjeli i objekti",
-    "subtitle": "Studentski/Smještajni dom",
-    "desc": "Pogledajte naše dobro održavane smještajne objekte za odabrane radnike",
-    "our": "Naš smještaj"
+    "title": "Odjeli i sadržaji",
+    "subtitle": "Studentski dom",
+    "desc": "Pogledajte naše pažljivo održavane smještajne objekte za odabrane radnike",
+    "our": "Naš studentski dom",
+    "Exterior": "Vanjski izgled",
+    "ExteriorDesc": "Naš objekt nalazi se na odličnoj lokaciji te nudi moderan, siguran i udoban smještaj za više od 300 stanara. Dizajniran imajući na umu dobrobit naših radnika, uključuje siguran ulaz, prostore za rekreaciju i jednostavan pristup lokalnim sadržajima. Prioritet nam je stvaranje zajednice koja pruža podršku i ugodno životno okruženje.",
+    "Rooms": "Sobe",
+    "RoomsDesc": "Naše sobe pažljivo su osmišljene kako bi pružile udoban i miran životni prostor. Svaka soba ima siguran prostor za pohranu, dobru ventilaciju i uredan raspored, s krevetima na kat koji maksimalno iskorištavaju prostor uz očuvanje privatnosti. Posebnu važnost pridajemo udobnosti, higijeni i osjećaju zajedništva u svakoj sobi.",
+    "Cafeteria": "Blagovaonica",
+    "CafeteriaDesc": "Naša blagovaonica pruža čist i ugodan prostor u kojem radnici mogu udobno uživati u obrocima. S dovoljno sjedećih mjesta, dobrom ventilacijom i prirodnim osvjetljenjem, osmišljena je za prihvat većeg broja ljudi uz zadržavanje opuštene atmosfere. Posebnu pažnju posvećujemo čistoći, pravilnom rukovanju hranom i stvaranju prostora koji potiče odmor i druženje tijekom obroka.",
+    "Laundry": "Praonica rublja",
+    "LaundryDesc": "Naša praonica rublja radnicima pruža praktičan i dobro održavan prostor za održavanje njihove odjeće i osobnih stvari čistima. Opremljena je pouzdanim perilicama i posebno označenim prostorima za sušenje, omogućujući jednostavno i učinkovito korištenje. Prioritet su nam čistoća, dobra organizacija i ugodno iskustvo korištenja za sve stanare.",
+    "Restrooms": "Sanitarni čvorovi",
+    "RestroomsDesc": "Sanitarni čvorovi u našem domu osmišljeni su kako bi stanarima pružili čist, siguran i dobro održavan prostor za osobnu higijenu. Prostorije se redovito čiste i održavaju kako bi se osigurali visoki higijenski standardi. Prioritet nam je čistoća, privatnost i praktičnost kako bismo svim stanarima omogućili ugodno životno okruženje."
   },
   "protech": {
     "title": "Odjeli i objekti",
@@ -439,5 +450,20 @@
     "EstablishmentHashiraDesc": "Hashira Skills osnovan je 2020. godine kao internatska škola japanskog jezika kako bi zadovoljio zahtjeve japanskih poslodavaca za jezičnom obukom. Također je akreditiran od strane TESDA-e za brojne programe vezane uz građevinsku industriju.",
     "FirstEurope": "Prvo upućivanje radnika u Europu",
     "FirstEuropeDesc": "Placewell International počeo je 2023. godine upućivati kvalificirane radnike u europske zemlje poput Hrvatske, Slovenije, Italije, Litve i drugih. Tijekom sljedećih godina tvrtka je brzo stekla popularnost među filipinskim kandidatima koji žele raditi u Europi."
-  }
+  },
+  "competitive": {
+    "title": "O nama",
+    "subtitle": "Naše konkurentske prednosti",
+    "desc": "Otkrijte po čemu se izdvajamo",
+    "Our": "Naše konkurentske prednosti",
+    "Discover": "Saznajte zašto je Placewell International pouzdan partner za zapošljavanje na brojnim međunarodnim tržištima.",
+    "Saudi": "Saudijska Arabija",
+    "SaudiDesc": "Imamo velik broj dostupnih radnika i brzo obrađujemo dokumentaciju zahvaljujući našem izvrsnom ugledu te snažnim odnosima s DMW-om i Veleposlanstvom Saudijske Arabije.",
+    "Japan": "Japan",
+    "JapanDesc": "U našoj partnerskoj japanskoj školi zapošljavamo, provjeravamo i obučavamo radnike prije nego što ih prijavimo za razgovore za posao. Zahvaljujući ovom sustavu, naši klijenti mogu intervjuirati kandidate koji su već položili JFT A2 ili JLPT N4 ispite.",
+    "Europe": "Europa",
+    "EuropeDesc": "Raspolažemo bazom radnika koji su već prošli provjeru znanja engleskog jezika i aktivno prikupljaju potrebnu dokumentaciju, što omogućuje brži i učinkovitiji proces zapošljavanja i odlaska na rad.",
+    "Hong": "Hong Kong",
+    "HongDesc": "Naš sustav Myra sadrži profesionalno izrađene videozapise stotina visokokvalificiranih kućnih pomoćnika koji su dostupni za rezervaciju jednim klikom."
+},"viewAll": "Prikaži sve"
 }

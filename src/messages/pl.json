@@ -309,6 +309,7 @@
     "profileHashira": "Profil firmy - Hashira",
     "guide": "Przewodnik po akredytacji",
     "accreditation": "Dokumenty akredytacyjne (ukończone)",
+    "faq": "Najczęściej zadawane pytania",
     "important": "Ważne informacje (ZABLOKOWANE)",
     "download": "Pobierz"
   },
@@ -351,10 +352,20 @@
   },
 
   "dormitory": {
-    "title": "Działy i obiekty",
+    "title": "Działy i udogodnienia",
     "subtitle": "Akademik",
-    "desc": "Zobacz nasze dobrze utrzymane zakwaterowanie dla wybranych pracowników",
-    "our": "Nasz akademik"
+    "desc": "Zapoznaj się z naszymi starannie utrzymanymi obiektami mieszkalnymi dla wybranych pracowników",
+    "our": "Nasz akademik",
+    "Exterior": "Wygląd zewnętrzny",
+    "ExteriorDesc": "Nasz obiekt, położony w dogodnej lokalizacji, oferuje nowoczesne, bezpieczne i komfortowe zakwaterowanie dla ponad 300 mieszkańców. Został zaprojektowany z myślą o dobrostanie naszych pracowników i obejmuje bezpieczne wejście, strefy rekreacyjne oraz łatwy dostęp do lokalnych udogodnień. Stawiamy na budowanie przyjaznej społeczności i zapewnienie pozytywnych warunków do życia.",
+    "Rooms": "Pokoje",
+    "RoomsDesc": "Nasze pokoje zostały starannie zaprojektowane, aby zapewnić komfortową i spokojną przestrzeń do życia. Każdy pokój wyposażony jest w bezpieczne miejsce do przechowywania, odpowiednią wentylację oraz czysty i funkcjonalny układ. Łóżka piętrowe zostały rozmieszczone tak, aby maksymalnie wykorzystać przestrzeń, jednocześnie zapewniając prywatność mieszkańcom. Dbamy o komfort, higienę oraz poczucie wspólnoty w każdym pokoju.",
+    "Cafeteria": "Stołówka",
+    "CafeteriaDesc": "Nasza stołówka zapewnia czyste i przyjazne miejsce, w którym pracownicy mogą komfortowo spożywać posiłki. Dzięki dużej liczbie miejsc siedzących, dobrej wentylacji i naturalnemu oświetleniu została zaprojektowana tak, aby obsługiwać większe grupy, zachowując jednocześnie spokojną atmosferę. Priorytetem są dla nas czystość, odpowiednie warunki przygotowywania posiłków oraz przestrzeń sprzyjająca odpoczynkowi i integracji podczas posiłków.",
+    "Laundry": "Pralnia",
+    "LaundryDesc": "Nasza pralnia zapewnia pracownikom wygodne i dobrze utrzymane miejsce do prania oraz dbania o czystość odzieży i rzeczy osobistych. Jest wyposażona w niezawodne urządzenia pralnicze oraz wyznaczone miejsca do suszenia, co gwarantuje łatwe i efektywne użytkowanie. Dbamy o czystość, dobrą organizację oraz wygodne korzystanie z pralni przez wszystkich mieszkańców.",
+    "Restrooms": "Toalety",
+    "RestroomsDesc": "Toalety w naszym akademiku zostały zaprojektowane tak, aby zapewnić mieszkańcom czystą, bezpieczną i odpowiednio utrzymaną przestrzeń do zachowania higieny. Obiekty są regularnie sprzątane i konserwowane zgodnie z wysokimi standardami sanitarnymi. Priorytetem są dla nas czystość, prywatność i wygoda, aby zapewnić wszystkim mieszkańcom komfortowe warunki życia."
   },
 
   "protech": {
@@ -445,5 +456,21 @@
     "EstablishmentHashiraDesc": "Hashira Skills został założony w 2020 roku jako szkoła języka japońskiego z zakwaterowaniem, aby spełnić wymagania językowe japońskich pracodawców. Hashira Skills posiada również akredytację TESDA dla wielu kursów związanych z budownictwem.",
     "FirstEurope": "Pierwsze delegowanie pracowników do Europy",
     "FirstEuropeDesc": "W 2023 roku Placewell International rozpoczął wysyłanie wykwalifikowanych pracowników do krajów europejskich, takich jak Chorwacja, Słowenia, Włochy, Litwa i innych. W kolejnych latach firma szybko zyskała popularność wśród Filipińczyków, którzy marzą o pracy w Europie."
-  }
+  },
+  "competitive": {
+    "title": "O nas",
+    "subtitle": "Nasze przewagi konkurencyjne",
+    "desc": "Dowiedz się, co nas wyróżnia",
+    "Our": "Nasze przewagi konkurencyjne",
+    "Discover": "Dowiedz się, dlaczego Placewell International jest zaufanym partnerem rekrutacyjnym na wielu rynkach międzynarodowych.",
+    "Saudi": "Arabia Saudyjska",
+    "SaudiDesc": "Dysponujemy dużą bazą pracowników oraz zapewniamy szybki proces obsługi dzięki naszej doskonałej reputacji i silnym relacjom z DMW oraz Ambasadą Arabii Saudyjskiej.",
+    "Japan": "Japonia",
+    "JapanDesc": "W naszej partnerskiej japońskiej szkole rekrutujemy, weryfikujemy i szkolimy pracowników przed skierowaniem ich na rozmowy kwalifikacyjne. Dzięki temu nasi klienci mogą przeprowadzać rozmowy z kandydatami, którzy posiadają już certyfikat JFT A2 lub JLPT N4.",
+    "Europe": "Europa",
+    "EuropeDesc": "Posiadamy bazę kandydatów, którzy przeszli już weryfikację znajomości języka angielskiego i aktywnie kompletują wymagane dokumenty, co znacznie przyspiesza i usprawnia proces wyjazdu do pracy.",
+    "Hong": "Hongkong",
+    "HongDesc": "Nasz system Myra zawiera profesjonalnie przygotowane filmy przedstawiające setki wysoko wykwalifikowanych pomocy domowych, dostępnych do rezerwacji za pomocą jednego kliknięcia."
+},
+"viewAll": "Zobacz wszystko"
 }

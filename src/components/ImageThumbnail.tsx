@@ -6,6 +6,7 @@ import { FaCalendarAlt, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import s from "../components/styles/ImageThumbnail.module.css"
 import Rolling from "@/components/Rolling";
+import { useTranslations } from "next-intl";
 
 interface ImageThumbnailProps {
     src: string;
@@ -79,6 +80,7 @@ export default function ImageThumbnail({
         };
     }, [showModal, goPrev, goNext]);
 
+    const t = useTranslations();
     return (
         <>
             <div
@@ -126,7 +128,7 @@ export default function ImageThumbnail({
                             style={{ fontSize: "12px", padding: "5px 10px" }}
                             onClick={() => handleOpen(0)}
                         >
-                            View All
+                            {t('viewAll')}
                         </button>
                     </div>
                 </div>
