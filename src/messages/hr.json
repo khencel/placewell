@@ -9,6 +9,7 @@
     "contact": "Kontaktirajte nas",
     "identity": "Korporativni identitet",
     "services": "Naše usluge",
+    "Competitive": "Konkurentske prednosti",
     "branchOffices": "Podružnice",
     "worldWide": "Karijere diljem svijeta",
     "dept": "Odjeli",
@@ -22,6 +23,7 @@
   },
   "nav_sub": {
     "identity": "Saznajte sve o jednoj od vodećih agencija za zapošljavanje na Filipinima",
+    "CompetitiveDesc": "Pogledajte što nas izdvaja",
     "services": "Od stručne i jezične obuke do <br></br> <link>testiranja vještina</link> – radimo sve!",
     "branchOffices": "Prisutni smo diljem zemlje i zapošljavamo radnike iz cijelih Filipina",
     "worldWide": "Više od 200.000 Filipinaca zaposleno je u više od 30 zemalja",
@@ -101,6 +103,33 @@
       "trusted": "POUZDANOST, ISKUSTVO, PREDANOST",
       "placewell": "Placewell International <br />Services Corporation",
       "IsATrusted": "Placewell International Services Corporation pouzdana je filipinska agencija za zapošljavanje u inozemstvu s više od 50 godina iskustva u pronalaženju i zapošljavanju kvalificiranih filipinskih radnika za poslodavce diljem svijeta. Uz predan tim i sveobuhvatan proces zapošljavanja pružamo pouzdana rješenja za radnu snagu, uz profesionalnost, integritet i snažnu predanost našim klijentima i radnicima koje zastupamo."
+    },
+    "slide3": {
+      "Training": "Obuka i stručni testovi",
+      "Weconduct": "Provodimo obuku i stručna testiranja za različite vještine u našim vrhunski opremljenim centrima.",
+      "MoreDetails": "Više detalja",
+      "Welding": "Zavarivanje",
+      "Construction": "Građevinarstvo",
+      "Trailer": "Vožnja tegljača",
+      "Domestic": "Kućanski poslovi",
+      "Caregiving": "Njega",
+      "Food": "Usluge prehrane"
+    },
+    "slide4": {
+      "COMMITTED": "POSVEĆENI IZVRSNOSTI",
+      "Excellence": "Izvrsnost",
+      "Providing": "Od 1978. pružamo vrhunske filipinske radnike svjetske klase.",
+      "Proven": "Dokazana uspješnost",
+      "Alegacy": "Nasljeđe uspjeha izgrađeno na povjerenju, rezultatima i snažnim partnerstvima.",
+      "Massive": "Opsežna i organizirana regrutacija",
+      "Connecting": "Povezujemo pravi talent s pravim prilikama diljem svijeta.",
+      "Modern": "Moderni objekti",
+      "Equipped": "Opremljeni naprednom tehnologijom i poticajnim okruženjem za učenje.",
+      "InHouse": "Interna stručna i jezična obuka",
+      "Comprehensive": "Sveobuhvatni programi obuke za razvoj globalnih stručnjaka.",
+      "Building": "Gradimo budućnost.",
+      "Creating": "Stvaramo globalni utjecaj.",
+      "Shaping": "Oblikujemo kompetentne stručnjake za bolje sutra."
     }
   },
   "corporateIdentity":{
@@ -152,6 +181,8 @@
       "skillAndLangDesc":"Imamo školu za japanski jezik te centre za arapski i kantonski, kao i TESDA akreditirani centar.",
       "immigration":"Priprema za imigracijski intervju",
       "immigrationDesc":"Organiziramo simulacije intervjua za zemlje poput Litve kako bismo pripremili kandidate.",
+      "preDeparture": "Orijentacija prije odlaska",
+      "preDepartureDesc": "Kao akreditirani pružatelj usluga od 1988. godine, Placewell u vlastitim prostorijama provodi državni obvezni seminar za orijentaciju prije odlaska (PDOS). Ovaj jednodnevni seminar priprema odabrane kandidate pružajući im ključne informacije o zemlji odredišta te korisne savjete za rad u inozemstvu.",
       "deployment":"Slanje radnika",
       "deploymentDesc":"Organiziramo prijevoz i pripremu radnika za odlazak u inozemstvo.",
       "postDeployment":"Praćenje nakon odlaska",
@@ -384,5 +415,29 @@
     "trunkline": "Glavna linija",
     "email": "E-mail",
     "facebook": "Facebook"
+  },
+  "history": {
+    "Establishment": "Osnivanje",
+    "Placewell": "Placewell International osnovali su 1978. godine supružnici Filemon i Aida Escueta. U to vrijeme Placewell International bio je jedna od prvih deset agencija za zapošljavanje koje su dobile licencu tadašnje Filipinske uprave za zapošljavanje u inozemstvu (POEA).",
+    "First": "Prvo upućivanje radnika na Bliski istok",
+    "PlacewellInternational": "Placewell International počeo je slati filipinske radnike u inozemstvo tijekom 1980-ih godina, prvenstveno svojim klijentima na Bliskom istoku, osobito u Kraljevinu Saudijsku Arabiju.",
+    "Leadership": "Promjena vodstva",
+    "After": "Nakon dugogodišnjeg upravljanja tvrtkom, Aida Escueta povjerila je vođenje tvrtke svojoj kćeri Eleonor Escueta. Eleonor i danas uspješno vodi Placewell International.",
+    "FirstDeployment": "Prvo upućivanje radnika u Hong Kong",
+    "FirstDeploymentDesc": "Placewell International počeo je slati filipinske radnike u Hong Kong početkom 2000-ih godina te s tom djelatnošću nastavlja i danas.",
+    "COMELEC": "COMELEC",
+    "COMELECDesc": "Tijekom prvih automatiziranih izbora na Filipinima 2010. godine, Placewell International uspješno je pomogao mobilizirati 84.000 visokokvalificiranih IT stručnjaka kao jedna od 1.400 domaćih i međunarodnih agencija odabranih za podršku automatiziranom sustavu prebrojavanja glasova COMELEC-a.",
+    "ISO": "ISO certifikacija",
+    "ISODesc": "Nakon brojnih edukacija i revizija, uz podršku uglednih konzultanata, Placewell International uspješno je stekao ISO certifikat.",
+    "Moved": "Preseljenje sjedišta u Makati",
+    "MovedDesc": "Placewell International izgradio je vlastitu peterokatnu poslovnu zgradu u Makatiju te u nju preselio svoje sjedište, iz kojeg i danas posluje.",
+    "EstablishmentProtech": "Osnivanje Pro-Tech Skills",
+    "EstablishmentProtechDesc": "Pro-Tech Skills osnovan je kao TESDA akreditirani centar za obuku u vlasništvu Placewell Internationala, s ciljem pružanja kvalitetnijih mogućnosti osposobljavanja za čistače, kućne pomoćnike i njegovatelje.",
+    "FirstDeploymentJapan": "Prvo upućivanje radnika u Japan",
+    "FirstDeploymentJapanDesc": "Placewell International počeo je slati radnike u Japan 2018. godine u okviru Programa tehničkog stažiranja (TITP).",
+    "EstablishmentHashira": "Osnivanje Hashira Skills",
+    "EstablishmentHashiraDesc": "Hashira Skills osnovan je 2020. godine kao internatska škola japanskog jezika kako bi zadovoljio zahtjeve japanskih poslodavaca za jezičnom obukom. Također je akreditiran od strane TESDA-e za brojne programe vezane uz građevinsku industriju.",
+    "FirstEurope": "Prvo upućivanje radnika u Europu",
+    "FirstEuropeDesc": "Placewell International počeo je 2023. godine upućivati kvalificirane radnike u europske zemlje poput Hrvatske, Slovenije, Italije, Litve i drugih. Tijekom sljedećih godina tvrtka je brzo stekla popularnost među filipinskim kandidatima koji žele raditi u Europi."
   }
 }

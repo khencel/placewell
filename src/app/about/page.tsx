@@ -155,9 +155,9 @@ export default function About() {
               <div className="row justify-content-center align-items-center">
                 <div className="col-md-7 p-4">
                   <div className="header" style={{textAlign:"left"}}>
-                    <h2 className="title" style={{fontSize:"24px"}}>Pre-Departure Orientation </h2>
+                    <h2 className="title" style={{fontSize:"24px"}}>{t("ourServices.preDeparture")} </h2>
                     <p className="subtitle">
-                      An accredited provider since 1988, Placewell conducts the government-required Pre-Departure Orientation Seminar (PDOS) in its own facility. This one-day seminar prepares selected candidates by providing essential information about their destination country and useful advice about working abroad.
+                      {t("ourServices.preDepartureDesc")}
                     </p>
                   </div>
                 </div>

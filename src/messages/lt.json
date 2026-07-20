@@ -9,6 +9,7 @@
     "contact": "Kontaktai",
     "identity": "Įmonės identitetas",
     "services": "Mūsų paslaugos",
+    "Competitive": "Konkurenciniai pranašumai",
     "branchOffices": "Filialai",
     "worldWide": "Karjeros galimybės visame pasaulyje",
     "dept": "Skyriai",
@@ -22,6 +23,7 @@
   },
   "nav_sub": {
     "identity": "Sužinokite viską apie vieną iš pirmaujančių Filipinų įdarbinimo agentūrų",
+    "CompetitiveDesc": "Sužinokite, kuo mes išsiskiriame",
     "services": "Nuo profesinių ir kalbų mokymų iki <br></br> <link>profesinių testų</link> – mes darome viską!",
     "branchOffices": "Veikiame visoje šalyje ir įdarbiname darbuotojus iš visų Filipinų regionų",
     "worldWide": "Daugiau nei 200 000 filipiniečių įdarbinta daugiau nei 30 šalių",
@@ -100,6 +102,33 @@
       "trusted": "PATIKIMA, PATIRTIS, ĮSIPAREIGOJIMAS",
       "placewell": "Placewell International <br />Services Corporation",
       "IsATrusted": "„Placewell International Services Corporation“ yra patikima Filipinų tarptautinio įdarbinimo agentūra, turinti daugiau nei 50 metų patirtį atrenkant ir įdarbinant kvalifikuotus Filipinų specialistus darbdaviams visame pasaulyje. Remdamiesi profesionalia komanda ir visapusišku atrankos procesu, teikiame patikimus darbo jėgos sprendimus, laikydamiesi profesionalumo, sąžiningumo ir tvirto įsipareigojimo savo klientams bei darbuotojams."
+    },
+    "slide3": {
+      "Training": "Mokymai ir profesiniai testai",
+      "Weconduct": "Savo moderniose mokymo patalpose rengiame mokymus ir profesinių įgūdžių testus įvairiose srityse.",
+      "MoreDetails": "Daugiau informacijos",
+      "Welding": "Suvirinimas",
+      "Construction": "Statyba",
+      "Trailer": "Vilkikų vairavimas",
+      "Domestic": "Namų ūkio darbai",
+      "Caregiving": "Slauga",
+      "Food": "Maitinimo paslaugos"
+    },
+    "slide4": {
+      "COMMITTED": "ĮSIPAREIGOJĘ SIEKTI TOBULUMO",
+      "Excellence": "Tobulumas",
+      "Providing": "Nuo 1978 metų teikiame pasaulinio lygio Filipinų darbuotojus.",
+      "Proven": "Patikrinta sėkmės istorija",
+      "Alegacy": "Sėkmės palikimas, paremtas pasitikėjimu, rezultatais ir tvirta partneryste.",
+      "Massive": "Plati ir organizuota darbuotojų atranka",
+      "Connecting": "Jungiame tinkamus talentus su tinkamomis galimybėmis visame pasaulyje.",
+      "Modern": "Modernios patalpos",
+      "Equipped": "Aprūpintos pažangiomis technologijomis ir puikia mokymosi aplinka.",
+      "InHouse": "Vidiniai profesinių įgūdžių ir kalbų mokymai",
+      "Comprehensive": "Išsamios mokymo programos, skirtos ugdyti pasaulinio lygio specialistus.",
+      "Building": "Kuriame ateitį.",
+      "Creating": "Kuriame pasaulinį poveikį.",
+      "Shaping": "Ruošiame kompetentingus specialistus geresniam rytojui."
     }
   },
   "corporateIdentity": {
@@ -151,6 +180,8 @@
     "skillAndLangDesc": "Turime specializuotą japonų kalbos mokyklą bei atskiras arabų ir kantoniečių kalbos mokymo programas. Taip pat valdome savo TESDA akredituotą mokymo centrą.",
     "immigration": "Pasirengimas imigracijos pokalbiams",
     "immigrationDesc": "Darbuotojams, vykstantiems į šalis, kuriose būtini imigracijos pokalbiai, pavyzdžiui, Lietuvą, organizuojame bandomuosius pokalbius, kuriuose mūsų darbuotojai atlieka imigracijos pareigūnų vaidmenį. Taip pat nuo 1988 m. vykdome oficialų prieš išvykimą organizuojamą seminarą (PDOS), kuriame darbuotojai supažindinami su šalimi, į kurią vyksta, ir gauna naudingų patarimų darbui užsienyje.",
+    "preDeparture": "Išvykimo orientacija",
+    "preDepartureDesc": "Nuo 1988 m. akredituota organizacija „Placewell“ savo patalpose organizuoja vyriausybės reikalaujamą prieš išvykimą vykstančią orientacinę programą (PDOS). Šis vienos dienos seminaras parengia atrinktus kandidatus, suteikdamas svarbią informaciją apie paskirties šalį bei naudingų patarimų darbui užsienyje.",
     "deployment": "Išvykimo organizavimas",
     "deploymentDesc": "Organizuojame darbuotojų transportą į oro uostą ir užtikriname, kad jie laiku pasiektų savo skrydžius. Prieš išvykimą suteikiame visą reikalingą informaciją apie vietines ir tarptautines oro uostų procedūras.",
     "postDeployment": "Pagalba po išvykimo ir stebėsena",
@@ -396,5 +427,29 @@
     "trunkline": "Pagrindinė linija",
     "email": "El. paštas",
     "facebook": "Facebook"
+  },
+  "history": {
+    "Establishment": "Įkūrimas",
+    "Placewell": "„Placewell International“ buvo įkurta 1978 m. sutuoktinių Filemon ir Aida Escueta. Tuo metu „Placewell International“ buvo viena iš pirmųjų dešimties įdarbinimo agentūrų, gavusių tuometinės Filipinų užjūrio įdarbinimo administracijos (POEA) licenciją.",
+    "First": "Pirmasis darbuotojų siuntimas į Artimuosius Rytus",
+    "PlacewellInternational": "„Placewell International“ pradėjo siųsti Filipinų darbuotojus į užsienį 1980-aisiais. Pagrindiniai klientai buvo Artimuosiuose Rytuose, ypač Saudo Arabijos Karalystėje.",
+    "Leadership": "Vadovybės pasikeitimas",
+    "After": "Po daugelio metų vadovavimo ir įmonės valdymo Aida Escueta perdavė įmonės vadovavimą savo dukrai Eleonor Escueta. Eleonor iki šiol vadovauja „Placewell International“.",
+    "FirstDeployment": "Pirmasis darbuotojų siuntimas į Honkongą",
+    "FirstDeploymentDesc": "„Placewell International“ pradėjo siųsti Filipinų darbuotojus į Honkongą 2000-ųjų pradžioje ir šią veiklą tęsia iki šiol.",
+    "COMELEC": "COMELEC",
+    "COMELECDesc": "Per pirmuosius visiškai automatizuotus Filipinų rinkimus 2010 m. „Placewell International“ sėkmingai padėjo mobilizuoti 84 000 aukštos kvalifikacijos IT specialistų. Įmonė buvo viena iš 1 400 vietinių ir tarptautinių darbo jėgos tiekėjų, atrinktų aptarnauti COMELEC automatizuotas balsų skaičiavimo sistemas.",
+    "ISO": "ISO sertifikavimas",
+    "ISODesc": "Po daugybės mokymų ir auditų, bendradarbiaudama su patikimais konsultantais, „Placewell International“ sėkmingai gavo ISO sertifikatą.",
+    "Moved": "Pagrindinės būstinės perkėlimas į Makatį",
+    "MovedDesc": "„Placewell International“ pasistatė ir persikėlė į nuosavą penkių aukštų būstinę Makatyje, kurioje iki šiol vykdo savo veiklą.",
+    "EstablishmentProtech": "„Pro-Tech Skills“ įkūrimas",
+    "EstablishmentProtechDesc": "„Pro-Tech Skills“ buvo įkurta kaip TESDA akredituotas „Placewell International“ mokymo centras, siekiant suteikti kandidatams geresnes mokymo galimybes valytojų, namų ūkio darbuotojų ir slaugytojų srityse.",
+    "FirstDeploymentJapan": "Pirmasis darbuotojų siuntimas į Japoniją",
+    "FirstDeploymentJapanDesc": "„Placewell International“ pradėjo siųsti darbuotojus į Japoniją 2018 m. pagal Techninių praktikantų mokymo programą (TITP).",
+    "EstablishmentHashira": "„Hashira Skills“ įkūrimas",
+    "EstablishmentHashiraDesc": "„Hashira Skills“ buvo įkurta 2020 m. kaip gyvenamojo tipo japonų kalbos mokykla, skirta įvykdyti Japonijos darbdavių keliamus kalbos mokymo reikalavimus. „Hashira Skills“ taip pat yra TESDA akredituota ir siūlo įvairias su statybomis susijusias mokymo programas.",
+    "FirstEurope": "Pirmasis darbuotojų siuntimas į Europą",
+    "FirstEuropeDesc": "2023 m. „Placewell International“ pradėjo siųsti kvalifikuotus darbuotojus į Europos šalis, tokias kaip Kroatija, Slovėnija, Italija, Lietuva ir kitos. Per kelerius metus bendrovė greitai pelnė populiarumą tarp filipiniečių, siekiančių dirbti Europoje."
   }
 }

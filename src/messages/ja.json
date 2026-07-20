@@ -9,6 +9,7 @@
     "contact": "お問い合わせ",
     "identity": "企業理念",
     "services": "サービス内容",
+    "Competitive": "競争優位性",
     "branchOffices": "支店一覧",
     "worldWide": "海外就職情報",
     "dept": "部署紹介",
@@ -22,6 +23,7 @@
   },
   "nav_sub": {
     "identity": "フィリピンを代表する人材派遣会社についてご紹介します",
+    "CompetitiveDesc": "私たちの強みをご覧ください",
     "services": "技能訓練から語学教育、<br></br><link>技能試験</link>まで幅広く対応しています",
     "branchOffices": "フィリピン全国に拠点を持ち、各地域から人材を募集しています",
     "worldWide": "20万人以上のフィリピン人を30か国以上へ送り出してきました",
@@ -100,6 +102,33 @@
       "trusted": "信頼・実績・誠実",
       "placewell": "Placewell International <br />Services Corporation",
       "IsATrusted": "Placewell International Services Corporationは、50年以上にわたり、世界中の雇用主へ優秀なフィリピン人材を紹介・派遣してきた実績を持つ、信頼されるフィリピンの海外人材紹介会社です。専門性の高いチームと包括的な採用プロセスを通じて、プロフェッショナリズム、誠実さ、そしてお客様と求職者双方への強い責任感を持ち、信頼できる人材ソリューションを提供しています。"
+    },
+    "slide3": {
+      "Training": "研修・技能試験",
+      "Weconduct": "当社では、充実した自社施設において、さまざまな技能分野の研修および技能試験を実施しています。",
+      "MoreDetails": "詳しく見る",
+      "Welding": "溶接",
+      "Construction": "建設",
+      "Trailer": "トレーラートラック運転",
+      "Domestic": "家事支援",
+      "Caregiving": "介護",
+      "Food": "フードサービス"
+    },
+    "slide4": {
+      "COMMITTED": "卓越へのコミットメント",
+      "Excellence": "卓越",
+      "Providing": "1978年より、世界水準のフィリピン人材を提供しています。",
+      "Proven": "確かな実績",
+      "Alegacy": "信頼・実績・強固な業界パートナーシップによって築かれた成功の歴史。",
+      "Massive": "大規模かつ組織的な採用",
+      "Connecting": "最適な人材と最適な機会を世界中で結びつけます。",
+      "Modern": "最新設備",
+      "Equipped": "先進技術と充実した学習環境を備えています。",
+      "InHouse": "社内技能・語学研修",
+      "Comprehensive": "グローバル人材を育成するための総合的な研修プログラム。",
+      "Building": "未来を築く。",
+      "Creating": "世界へ価値を創造する。",
+      "Shaping": "より良い明日のために、優秀な人材を育成します。"
     }
   },
   "corporateIdentity": {
@@ -151,6 +180,8 @@
     "skillAndLangDesc": "日本語研修専用スクールに加え、アラビア語・広東語モジュールの施設を備えています。また、TESDA認定の研修センターも運営しています。",
     "immigration": "渡航前面接対策・オリエンテーション",
     "immigrationDesc": "リトアニアなど面接が必要な渡航先向けに、入国審査官を想定した模擬面接を実施し、候補者の準備を支援しています。さらに1988年から認定を受けている出国前オリエンテーション（PDOS）を実施し、渡航国情報や海外就労に関する重要な知識を提供しています。",
+    "preDeparture": "出国前オリエンテーション",
+    "preDepartureDesc": "Placewellは1988年より認定機関として、政府が義務付ける出国前オリエンテーションセミナー（PDOS）を自社施設で実施しています。この1日間のセミナーでは、選考を通過した応募者に対し、渡航先の国に関する重要な情報や海外で働くための実践的なアドバイスを提供し、出国前の準備を支援します。",
     "deployment": "渡航・配属",
     "deploymentDesc": "出発当日までに空港へ安全に送り届け、国内外の出国手続きについて事前に丁寧に案内します。",
     "postDeployment": "渡航後サポート・モニタリング",
@@ -383,5 +414,29 @@
       "trunkline": "代表番号",
       "email": "メールアドレス",
       "facebook": "Facebook"
+  },
+  "history": {
+    "Establishment": "設立",
+    "Placewell": "Placewell International は、1978 年に Filemon 氏と Aida Escueta 氏夫妻によって設立されました。当時、Placewell International は、当時のフィリピン海外雇用庁（POEA）から認可を受けた最初の 10 社の人材派遣会社の一つでした。",
+    "First": "中東への初派遣",
+    "PlacewellInternational": "Placewell International は 1980 年代より海外へのフィリピン人労働者の派遣を開始し、主にサウジアラビア王国を中心とした中東地域の顧客へ人材を送り出してきました。",
+    "Leadership": "経営体制の継承",
+    "After": "長年にわたり会社を経営・運営した後、Aida Escueta 氏は娘の Eleonor Escueta 氏に会社を引き継ぎました。現在も Eleonor Escueta 氏が Placewell International を率いています。",
+    "FirstDeployment": "香港への初派遣",
+    "FirstDeploymentDesc": "Placewell International は 2000 年代初頭より香港へのフィリピン人労働者の派遣を開始し、現在も継続しています。",
+    "COMELEC": "フィリピン選挙管理委員会（COMELEC）",
+    "COMELECDesc": "2010 年に実施されたフィリピン初の電子投票選挙において、Placewell International は、選挙管理委員会（COMELEC）の自動開票システムを支援するため、選ばれた 1,400 社の国内外人材サービス企業の一つとして、84,000 人の高度な IT 技術者の動員に貢献しました。",
+    "ISO": "ISO認証取得",
+    "ISODesc": "数多くの研修と監査を重ね、信頼あるコンサルタントの支援のもと、Placewell International は ISO 認証を取得しました。",
+    "Moved": "マカティ本社へ移転",
+    "MovedDesc": "Placewell International はマカティ市に自社所有の 5 階建て本社ビルを建設・移転し、現在もこの本社を拠点として事業を展開しています。",
+    "EstablishmentProtech": "Pro-Tech Skills の設立",
+    "EstablishmentProtechDesc": "Pro-Tech Skills は、清掃員、家事支援スタッフ、介護職を目指す人材へより質の高い研修機会を提供することを目的として、Placewell International の TESDA 認定研修センターとして設立されました。",
+    "FirstDeploymentJapan": "日本への初派遣",
+    "FirstDeploymentJapanDesc": "Placewell International は、2018 年より技能実習制度（TITP）のもとで日本への人材派遣を開始しました。",
+    "EstablishmentHashira": "Hashira Skills の設立",
+    "EstablishmentHashiraDesc": "Hashira Skills は、日本企業が求める日本語教育を提供する全寮制の日本語学校として 2020 年に設立されました。また、TESDA 認定を受けた建設関連コースも多数提供しています。",
+    "FirstEurope": "ヨーロッパへの初派遣",
+    "FirstEuropeDesc": "Placewell International は、2023 年よりクロアチア、スロベニア、イタリア、リトアニアなどのヨーロッパ諸国への技能人材派遣を開始しました。その後、ヨーロッパでの就労を希望する多くのフィリピン人求職者から高い支持を得ています。"
   }
 }

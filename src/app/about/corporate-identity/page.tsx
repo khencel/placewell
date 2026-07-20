@@ -12,6 +12,7 @@ import { Autoplay,Navigation, Pagination } from "swiper/modules";
 
 export default function About() {
     const t = useTranslations();
+    const historyT = useTranslations("history");
     return (
       <>
         <Banner
@@ -166,7 +167,7 @@ export default function About() {
               }}
               >
                 {
-                  HistoryList().map((item, index) => (
+                  HistoryList(historyT).map((item, index) => (
                       <SwiperSlide>
                           <div className={s.badgeCont} key={index}>
                             <span className={`badge bg-danger`}>{item.year}</span>

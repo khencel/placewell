@@ -9,6 +9,7 @@
     "contact": "聯絡我們",
     "identity": "企業簡介",
     "services": "我們的服務",
+    "Competitive": "競爭優勢",
     "branchOffices": "分公司",
     "worldWide": "全球就業機會",
     "dept": "部門",
@@ -22,6 +23,7 @@
   },
   "nav_sub": {
     "identity": "了解菲律賓其中一家領先人力資源公司的所有資訊",
+    "CompetitiveDesc": "了解我們的獨特優勢",
     "services": "由技能及語言培訓到 <br></br> <link>技能測試</link>－我們一手包辦！",
     "branchOffices": "我們遍佈全國，從菲律賓各地招聘工人",
     "worldWide": "超過 200,000 名菲律賓人已派遣至 30 多個國家",
@@ -100,6 +102,33 @@
       "trusted": "值得信賴 · 經驗豐富 · 信守承諾",
       "placewell": "Placewell International <br />Services Corporation",
       "IsATrusted": "Placewell International Services Corporation 係一間值得信賴嘅菲律賓海外招聘機構，擁有超過50年為全球僱主招聘同派遣合資格菲律賓人才嘅經驗。憑藉專業團隊同完善嘅招聘流程，我哋提供可靠嘅人力資源方案，並一直秉持專業、誠信，同時致力服務客戶同外派員工。"
+    },
+    "slide3": {
+      "Training": "培訓及技能測試",
+      "Weconduct": "我哋喺自設嘅一流培訓設施提供多種技能培訓同技能測試。",
+      "MoreDetails": "了解更多",
+      "Welding": "焊接",
+      "Construction": "建築",
+      "Trailer": "拖頭貨車駕駛",
+      "Domestic": "家務工作",
+      "Caregiving": "護理服務",
+      "Food": "餐飲服務"
+    },
+    "slide4": {
+      "COMMITTED": "致力追求卓越",
+      "Excellence": "卓越",
+      "Providing": "自1978年起提供世界級菲律賓專業人才。",
+      "Proven": "卓越往績",
+      "Alegacy": "憑藉信任、成果同穩固嘅業界合作建立成功傳承。",
+      "Massive": "大型及有系統招聘",
+      "Connecting": "將合適人才配對全球合適機會。",
+      "Modern": "現代化設施",
+      "Equipped": "配備先進科技及優質學習環境。",
+      "InHouse": "內部技能及語言培訓",
+      "Comprehensive": "全面培訓課程，培育具國際競爭力嘅專業人才。",
+      "Building": "建設未來。",
+      "Creating": "創造全球影響。",
+      "Shaping": "培育優秀專業人才，共創更美好明天。"
     }
   },
   "corporateIdentity": {
@@ -151,6 +180,8 @@
         "skillAndLangDesc": "我們設有專門的日語培訓學校，以及獨立的阿拉伯語及廣東話培訓設施。此外，我們亦營運自家獲 TESDA 認可的培訓中心。",
         "immigration": "移民面試模擬訓練",
         "immigrationDesc": "對於需要移民面試的海外工作地點（例如立陶宛），我們會安排模擬面試，由員工扮演移民官角色，協助求職者作充分準備。出發前培訓（PDOS）方面，Placewell 自1988年起已成為認可培訓機構，並於自設場地舉辦政府規定的出發前培訓課程。此一日課程為獲選工人提供目的地國家的重要資訊及海外工作建議。",
+        "preDeparture": "出發前培訓",
+        "preDepartureDesc": "Placewell 自1988年起成為認可服務機構，並於自設場地舉辦政府規定嘅出發前培訓講座（PDOS）。呢個為期一日嘅課程會為獲選申請人提供目的地國家嘅重要資訊，以及喺海外工作嘅實用建議，協助佢哋做好準備。",
         "deployment": "派遣",
         "deploymentDesc": "我們會安排工人前往機場，確保他們準時登機。在出發前，我們亦會講解所有本地及國際機場程序。",
         "postDeployment": "派遣後支援及跟進",
@@ -383,5 +414,29 @@
     "trunkline": "總線電話",
     "email": "電郵",
     "facebook": "Facebook"
+  },
+  "history": {
+    "Establishment": "成立",
+    "Placewell": "Placewell International 於 1978 年由 Filemon 同 Aida Escueta 夫婦創立。當時，Placewell International 係首批十間獲當時菲律賓海外就業管理局（POEA）發牌嘅人力資源公司之一。",
+    "First": "首次派遣到中東",
+    "PlacewellInternational": "Placewell International 喺 1980 年代開始派遣菲律賓勞工到海外，主要服務中東地區嘅客戶，尤其係沙特阿拉伯王國。",
+    "Leadership": "管理層交接",
+    "After": "經過多年經營同管理公司之後，Aida Escueta 將公司交畀佢嘅女兒 Eleonor Escueta 接手。Eleonor 至今一直帶領 Placewell International 繼續發展。",
+    "FirstDeployment": "首次派遣到香港",
+    "FirstDeploymentDesc": "Placewell International 喺 2000 年代初開始派遣菲律賓勞工到香港，並一直持續至今。",
+    "COMELEC": "菲律賓選舉委員會（COMELEC）",
+    "COMELECDesc": "喺菲律賓 2010 年首次採用電子化選舉期間，Placewell International 作為 1,400 間本地及國際人力資源機構之一，成功協助動員 84,000 名高技能電腦專業人員，支援 COMELEC 自動點票系統嘅運作。",
+    "ISO": "ISO 認證",
+    "ISODesc": "經過無數次培訓同審核，並喺專業顧問協助下，Placewell International 成功取得 ISO 認證。",
+    "Moved": "總部遷往馬卡蒂",
+    "MovedDesc": "Placewell International 建成並遷入位於馬卡蒂市嘅自置五層總部大樓，現時所有業務均喺該處運作。",
+    "EstablishmentProtech": "Pro-Tech Skills 成立",
+    "EstablishmentProtechDesc": "Pro-Tech Skills 成立為 Placewell International 旗下獲 TESDA 認證嘅培訓中心，旨在為清潔工、家庭傭工及護理員提供更優質嘅培訓機會。",
+    "FirstDeploymentJapan": "首次派遣到日本",
+    "FirstDeploymentJapanDesc": "Placewell International 於 2018 年透過日本技能實習制度（TITP）開始派遣工人到日本。",
+    "EstablishmentHashira": "Hashira Skills 成立",
+    "EstablishmentHashiraDesc": "Hashira Skills 於 2020 年成立，係一間提供住宿嘅日語學校，旨在滿足日本僱主對語言培訓嘅要求。同時，Hashira Skills 亦獲 TESDA 認證，提供多項建築相關課程。",
+    "FirstEurope": "首次派遣到歐洲",
+    "FirstEuropeDesc": "Placewell International 於 2023 年開始派遣技術工人到克羅地亞、斯洛文尼亞、意大利、立陶宛等歐洲國家。其後幾年，公司迅速受到希望到歐洲工作嘅菲律賓求職者歡迎。"
   }
 }

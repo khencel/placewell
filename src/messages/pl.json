@@ -9,6 +9,7 @@
     "contact": "Kontakt",
     "identity": "Tożsamość korporacyjna",
     "services": "Nasze usługi",
+    "Competitive": "Przewagi konkurencyjne",
     "branchOffices": "Oddziały",
     "worldWide": "Kariera międzynarodowa",
     "dept": "Działy",
@@ -22,6 +23,7 @@
   },
   "nav_sub": {
     "identity": "Dowiedz się więcej o jednej z wiodących agencji pracy na Filipinach",
+    "CompetitiveDesc": "Zobacz, co nas wyróżnia",
     "services": "Od szkoleń zawodowych i językowych po <br></br> <link>Testy kwalifikacyjne</link> – robimy wszystko!",
     "branchOffices": "Posiadamy ogólnokrajową sieć i rekrutujemy pracowników z całych Filipin",
     "worldWide": "Ponad 200 000 Filipińczyków zatrudnionych w ponad 30 krajach",
@@ -100,6 +102,33 @@
       "trusted": "ZAUFANIE, DOŚWIADCZENIE, ZAANGAŻOWANIE",
       "placewell": "Placewell International <br />Services Corporation",
       "IsATrusted": "Placewell International Services Corporation to zaufana filipińska agencja rekrutacji zagranicznej z ponad 50-letnim doświadczeniem w pozyskiwaniu i kierowaniu wykwalifikowanych filipińskich pracowników do pracodawców na całym świecie. Dzięki doświadczonemu zespołowi i kompleksowemu procesowi rekrutacji zapewniamy niezawodne rozwiązania kadrowe, kierując się profesjonalizmem, uczciwością oraz silnym zaangażowaniem wobec naszych klientów i pracowników."
+    },
+    "slide3": {
+      "Training": "Szkolenia i testy zawodowe",
+      "Weconduct": "Prowadzimy szkolenia i testy zawodowe w wielu specjalizacjach we własnych, nowoczesnych ośrodkach szkoleniowych.",
+      "MoreDetails": "Więcej informacji",
+      "Welding": "Spawalnictwo",
+      "Construction": "Budownictwo",
+      "Trailer": "Prowadzenie ciągników siodłowych",
+      "Domestic": "Prace domowe",
+      "Caregiving": "Opieka",
+      "Food": "Usługi gastronomiczne"
+    },
+    "slide4": {
+      "COMMITTED": "ZAANGAŻOWANI W DOSKONAŁOŚĆ",
+      "Excellence": "Doskonałość",
+      "Providing": "Od 1978 roku dostarczamy światowej klasy filipińskich pracowników.",
+      "Proven": "Sprawdzone osiągnięcia",
+      "Alegacy": "Dziedzictwo sukcesu oparte na zaufaniu, wynikach i silnych partnerstwach branżowych.",
+      "Massive": "Skuteczna i zorganizowana rekrutacja",
+      "Connecting": "Łączymy odpowiednich specjalistów z odpowiednimi możliwościami na całym świecie.",
+      "Modern": "Nowoczesne obiekty",
+      "Equipped": "Wyposażone w zaawansowaną technologię i sprzyjające środowisko nauki.",
+      "InHouse": "Wewnętrzne szkolenia zawodowe i językowe",
+      "Comprehensive": "Kompleksowe programy szkoleniowe przygotowujące specjalistów do pracy na rynku międzynarodowym.",
+      "Building": "Budujemy przyszłość.",
+      "Creating": "Tworzymy globalny wpływ.",
+      "Shaping": "Kształtujemy kompetentnych specjalistów dla lepszego jutra."
     }
   },
   "corporateIdentity": {
@@ -151,6 +180,8 @@
     "skillAndLangDesc": "Oferujemy szkolenia językowe i zawodowe w akredytowanych ośrodkach.",
     "immigration": "Przygotowanie do rozmów imigracyjnych",
     "immigrationDesc": "Symulacje rozmów i przygotowanie kandydatów do wyjazdu. Odprawa przedwyjazdowa (PDOS) – akredytowana od 1988 roku.",
+    "preDeparture": "Szkolenie przed wyjazdem",
+    "preDepartureDesc": "Jako akredytowany organizator od 1988 roku, Placewell prowadzi wymagane przez rząd szkolenie przedwyjazdowe (PDOS) we własnym ośrodku. To jednodniowe szkolenie przygotowuje wybranych kandydatów, dostarczając im niezbędnych informacji o kraju docelowym oraz praktycznych wskazówek dotyczących pracy za granicą.",
     "deployment": "Wysyłka pracowników",
     "deploymentDesc": "Organizujemy transport i przygotowanie do wyjazdu.",
     "postDeployment": "Wsparcie po wyjeździe",
@@ -390,5 +421,29 @@
     "trunkline": "Linia główna",
     "email": "E-mail",
     "facebook": "Facebook"
+  },
+  "history": {
+    "Establishment": "Założenie",
+    "Placewell": "Placewell International został założony w 1978 roku przez małżeństwo Filemona i Aidę Escueta. W tamtym czasie Placewell International był jedną z pierwszych dziesięciu agencji zatrudnienia, które otrzymały licencję od ówczesnej Filipińskiej Administracji Zatrudnienia Zagranicznego (POEA).",
+    "First": "Pierwsze delegowanie pracowników na Bliski Wschód",
+    "PlacewellInternational": "Placewell International rozpoczął wysyłanie filipińskich pracowników za granicę w latach 80. XX wieku, głównie do swoich klientów na Bliskim Wschodzie, zwłaszcza do Królestwa Arabii Saudyjskiej.",
+    "Leadership": "Zmiana kierownictwa",
+    "After": "Po wielu latach zarządzania firmą Aida Escueta przekazała jej kierownictwo swojej córce, Eleonor Escuecie. Eleonor do dziś z powodzeniem kieruje Placewell International.",
+    "FirstDeployment": "Pierwsze delegowanie pracowników do Hongkongu",
+    "FirstDeploymentDesc": "Placewell International rozpoczął wysyłanie filipińskich pracowników do Hongkongu na początku lat 2000. i kontynuuje tę działalność do dziś.",
+    "COMELEC": "COMELEC",
+    "COMELECDesc": "Podczas pierwszych w pełni zautomatyzowanych wyborów na Filipinach w 2010 roku Placewell International pomógł zmobilizować 84 000 wysoko wykwalifikowanych specjalistów IT jako jedna z 1 400 lokalnych i międzynarodowych agencji zatrudnienia wybranych do obsługi zautomatyzowanego systemu liczenia głosów COMELEC.",
+    "ISO": "Certyfikacja ISO",
+    "ISODesc": "Dzięki licznym szkoleniom i audytom oraz wsparciu renomowanych konsultantów Placewell International pomyślnie uzyskał certyfikat ISO.",
+    "Moved": "Przeniesienie siedziby do Makati",
+    "MovedDesc": "Placewell International wybudował i przeniósł się do własnej pięciopiętrowej siedziby w Makati, gdzie do dziś prowadzi swoją działalność.",
+    "EstablishmentProtech": "Założenie Pro-Tech Skills",
+    "EstablishmentProtechDesc": "Pro-Tech Skills został założony jako akredytowane przez TESDA centrum szkoleniowe Placewell International, którego celem jest zapewnienie kandydatom lepszych możliwości szkoleniowych dla pracowników sprzątających, pomocy domowych i opiekunów.",
+    "FirstDeploymentJapan": "Pierwsze delegowanie pracowników do Japonii",
+    "FirstDeploymentJapanDesc": "Placewell International rozpoczął wysyłanie pracowników do Japonii w 2018 roku w ramach Programu Praktyk Technicznych (TITP).",
+    "EstablishmentHashira": "Założenie Hashira Skills",
+    "EstablishmentHashiraDesc": "Hashira Skills został założony w 2020 roku jako szkoła języka japońskiego z zakwaterowaniem, aby spełnić wymagania językowe japońskich pracodawców. Hashira Skills posiada również akredytację TESDA dla wielu kursów związanych z budownictwem.",
+    "FirstEurope": "Pierwsze delegowanie pracowników do Europy",
+    "FirstEuropeDesc": "W 2023 roku Placewell International rozpoczął wysyłanie wykwalifikowanych pracowników do krajów europejskich, takich jak Chorwacja, Słowenia, Włochy, Litwa i innych. W kolejnych latach firma szybko zyskała popularność wśród Filipińczyków, którzy marzą o pracy w Europie."
   }
 }

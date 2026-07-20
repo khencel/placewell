@@ -73,8 +73,8 @@ export default function NavForDesktop() {
                         <Link href="/about/competitive-advantages" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
-                            <h4>Competitive Advantages </h4>
-                            <p>See what sets us apart</p>
+                            <h4>{t("nav.Competitive")} </h4>
+                            <p>{t("nav_sub.CompetitiveDesc")}</p>
                             </div>
                         </Link>
 

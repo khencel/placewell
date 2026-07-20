@@ -9,6 +9,7 @@
     "contact": "联系我们",
     "identity": "企业形象",
     "services": "我们的服务",
+    "Competitive": "竞争优势",
     "branchOffices": "分公司",
     "worldWide": "全球职业机会",
     "dept": "部门",
@@ -22,6 +23,7 @@
   },
   "nav_sub": {
     "identity": "了解菲律宾领先的人力资源机构之一",
+    "CompetitiveDesc": "了解我们的独特优势",
     "services": "从技能与语言培训到<br></br><link>行业考试</link>——我们一站式提供！",
     "branchOffices": "我们在全国设有分支机构，招聘覆盖整个菲律宾",
     "worldWide": "已派遣超过20万名菲律宾人到30多个国家",
@@ -100,6 +102,33 @@
       "trusted": "值得信赖 · 经验丰富 · 恪守承诺",
       "placewell": "Placewell International <br />Services Corporation",
       "IsATrusted": "Placewell International Services Corporation 是一家值得信赖的菲律宾海外招聘机构，拥有50多年的经验，为全球雇主招募和派遣合格的菲律宾人才。凭借专业团队和完善的招聘流程，我们提供可靠的人力资源解决方案，同时始终坚持专业精神、诚信以及对客户和员工的坚定承诺。"
+    },
+    "slide3": {
+      "Training": "培训与技能测试",
+      "Weconduct": "我们在自有的一流培训设施内，为多种技能领域提供培训和技能测试。",
+      "MoreDetails": "了解更多",
+      "Welding": "焊接",
+      "Construction": "建筑",
+      "Trailer": "拖车驾驶",
+      "Domestic": "家政服务",
+      "Caregiving": "护理",
+      "Food": "餐饮服务"
+    },
+    "slide4": {
+      "COMMITTED": "致力于卓越",
+      "Excellence": "卓越",
+      "Providing": "自1978年以来，持续输送世界级菲律宾人才。",
+      "Proven": "卓越的成功记录",
+      "Alegacy": "以信任、成果和牢固的行业合作关系建立的成功传统。",
+      "Massive": "大规模且有组织的招聘",
+      "Connecting": "将合适的人才与全球合适的机会精准连接。",
+      "Modern": "现代化设施",
+      "Equipped": "配备先进技术和优越的学习环境。",
+      "InHouse": "内部技能与语言培训",
+      "Comprehensive": "全面的培训课程，培养具有国际竞争力的专业人才。",
+      "Building": "建设未来。",
+      "Creating": "创造全球影响。",
+      "Shaping": "培养优秀专业人才，共创美好未来。"
     }
   },
   "corporateIdentity": {
@@ -151,6 +180,8 @@
     "skillAndLangDesc": "提供日语、阿拉伯语、粤语及TESDA认证培训。",
     "immigration": "移民面试模拟",
     "immigrationDesc": "为海外工作提供模拟移民面试培训。",
+    "preDeparture": "出发前培训",
+    "preDepartureDesc": "作为自1988年以来获得认证的服务机构，Placewell 在其自有设施内举办政府规定的出发前培训讲座（PDOS）。这项为期一天的培训旨在帮助获选申请人做好准备，提供有关目的地国家的重要信息以及海外工作的实用建议。",
     "deployment": "派遣",
     "deploymentDesc": "提供机场接送与出发指导。",
     "postDeployment": "派遣后支持",
@@ -383,5 +414,29 @@
     "trunkline": "总线",
     "email": "电子邮件",
     "facebook": "Facebook"
+  },
+  "history": {
+    "Establishment": "成立",
+    "Placewell": "Placewell International 由 Filemon 和 Aida Escueta 夫妇于 1978 年创立。当时，Placewell International 是首批获得菲律宾海外就业管理局（POEA）颁发执照的十家人力资源机构之一。",
+    "First": "首次派遣至中东",
+    "PlacewellInternational": "Placewell International 于 1980 年代开始向海外派遣菲律宾劳工，其主要客户位于中东地区，尤其是沙特阿拉伯王国。",
+    "Leadership": "领导层交接",
+    "After": "在多年经营和管理公司之后，Aida Escueta 将公司交由其女儿 Eleonor Escueta 接管。Eleonor 至今仍持续领导 Placewell International。",
+    "FirstDeployment": "首次派遣至香港",
+    "FirstDeploymentDesc": "Placewell International 于 2000 年代初开始向香港派遣菲律宾劳工，并持续至今。",
+    "COMELEC": "菲律宾选举委员会（COMELEC）",
+    "COMELECDesc": "在菲律宾于 2010 年首次实行自动化选举期间，Placewell International 作为 1,400 家本地及国际人力资源服务机构之一，成功协助动员了 84,000 名高技能计算机专业人员，为 COMELEC 的自动计票设备提供支持。",
+    "ISO": "ISO 认证",
+    "ISODesc": "通过无数次培训和严格审核，并在专业顾问的协助下，Placewell International 成功获得 ISO 认证。",
+    "Moved": "总部迁至马卡蒂",
+    "MovedDesc": "Placewell International 建成并迁入位于马卡蒂市的自有五层总部大楼，目前所有业务均在此运营。",
+    "EstablishmentProtech": "Pro-Tech Skills 成立",
+    "EstablishmentProtechDesc": "Pro-Tech Skills 成立为 Placewell International 旗下经 TESDA 认证的培训中心，旨在为清洁工、家庭帮佣及护理人员提供更优质的职业培训机会。",
+    "FirstDeploymentJapan": "首次派遣至日本",
+    "FirstDeploymentJapanDesc": "Placewell International 于 2018 年开始通过日本技能实习制度（TITP）向日本派遣劳工。",
+    "EstablishmentHashira": "Hashira Skills 成立",
+    "EstablishmentHashiraDesc": "Hashira Skills 于 2020 年成立，是一所提供住宿的日语学校，旨在满足日本雇主的语言培训要求。同时，Hashira Skills 还获得 TESDA 多项建筑相关课程的认证。",
+    "FirstEurope": "首次派遣至欧洲",
+    "FirstEuropeDesc": "Placewell International 于 2023 年开始向克罗地亚、斯洛文尼亚、意大利、立陶宛等欧洲国家派遣技术工人。在接下来的几年中，公司迅速受到希望赴欧洲工作的菲律宾求职者的广泛欢迎。"
   }
 }

@@ -8,30 +8,31 @@ import {
   FaChevronRight
 } from 'react-icons/fa';
 import styles from './slide4.module.css';
+import { useTranslations } from "next-intl";
 
 export default function ExcellenceSlide() {
   const [currentSlide, setCurrentSlide] = React.useState(0);
-
+  const t = useTranslations('home.slide4');
   const features = [
     {
       icon: FaCheckCircle,
-      title: 'Proven Track Record',
-      description: 'A legacy of success built on trust, results, and strong industry partnerships.'
+      title: t('Proven'),
+      description: t('Alegacy')
     },
     {
       icon: FaUsers,
-      title: 'Massive & Organized Recruitment',
-      description: 'Connecting the right talent with the right opportunities, globally.'
+      title: t('Massive'),
+      description: t('Connecting')
     },
     {
       icon: FaBuilding,
-      title: 'Modern Facilities',
-      description: 'Equipped with advanced technology and a conducive learning environment.'
+      title: t('Modern'),
+      description: t('Equipped')
     },
     {
       icon: FaGraduationCap,
-      title: 'In-House Skills & Language Training',
-      description: 'Comprehensive training programs designed to develop global professionals.'
+      title: t('InHouse'),
+      description: t('Comprehensive')
     }
   ];
 
@@ -42,16 +43,16 @@ export default function ExcellenceSlide() {
         {/* Badge */}
         <div className={styles.badge}>
           <span className={styles.badgeIcon}>🏆</span>
-          <span className={styles.badgeText}>COMMITTED TO EXCELLENCE</span>
+          <span className={styles.badgeText}>{t('COMMITTED')}</span>
         </div>
 
         {/* Main Heading */}
         <div className={styles.headingContainer}>
-          <h2 className={styles.mainHeading}>Excellence</h2>
+          <h2 className={styles.mainHeading}>{t('Excellence')}</h2>
           {/* <h3 className={styles.subHeading}>
             Experience. Modern Facilities. Skilled Workforce
             </h3> */}
-          <h1 className={styles.mainHeadingGold}>Providing world class Filipino workers since 1978</h1>
+          <h1 className={styles.mainHeadingGold}>{t('Providing')}</h1>
         </div>
 
         
@@ -120,10 +121,10 @@ export default function ExcellenceSlide() {
         <div className={styles.taglineBox}>
           <div className={styles.taglineIcon}>⭐</div>
           <div className={styles.taglineContent}>
-            <h3 className={styles.taglineMain}>Building Futures.</h3>
-            <h3 className={styles.taglineSub}>Creating Global Impact.</h3>
+            <h3 className={styles.taglineMain}>{t('Building')}</h3>
+            <h3 className={styles.taglineSub}>{t('Creating')}</h3>
             <p className={styles.taglineDesc}>
-              Shaping competent professionals for a better tomorrow.
+              {t('Shaping')}
             </p>
           </div>
         </div>
