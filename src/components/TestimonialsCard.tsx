@@ -61,8 +61,8 @@ export default function TestimonialCard({
           <div>
             <h4 className={s.name}>{name ?? "Sarah Johnson"}</h4>
             <p className={s.role}>
-              {role ?? "Sarah Johnson"}
-              <br />
+              
+              
               {company ?? "BrightWave Inc."}
             </p>
           </div>

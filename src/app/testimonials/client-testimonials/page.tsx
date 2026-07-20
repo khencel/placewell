@@ -29,59 +29,30 @@ export default function ClientTestimonial() {
                             <h2 className="title">{t("our")}</h2>
                             {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p> */}
                         </div>
-                        <div className="row">
-                            <div className="col-md-4 p-2">
+                        <div className="row justify-content-center">
+                            
+                            <div className="col-md-6 p-2">
                                 <div>
-                                    {/* <YouTube
-                                    videoId="1vIU3R-BIDQ"
-                                    opts={{
-                                        width: "100%",
-                                        height: "300px",
-                                        playerVars: {
-                                        autoplay: 0,
-                                        controls: 1,
-                                        mute: 1,
-                                        loop: 1,
-                                        playlist: "1vIU3R-BIDQ",
-                                        },
-                                    }}
-                                    /> */}
-                                    <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/video/client1.mp4' type="video/mp4" />
-                                    </video>
-                                </div>
-                                <div>
-                                    <span className="title" style={{fontSize:"18px"}}>Jenny Li</span>
-                                    <p className="subtitle">
-                                        Golden Win Employment Agency LTD.
-                                        <br />
-                                        Hong Kong
-                                    </p>
-                                    
-                                </div>
-                            </div>
-                            <div className="col-md-4 p-2">
-                                <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
+                                    <video width="100%" height="350px" controls muted loop playsInline>
                                         <source src='/video/world star - japan.mp4' type="video/mp4" />
                                     </video>
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Kennsuke Hashida</span>
                                     <p className="subtitle">
-                                        World Star International Japan
+                                        Japan
                                     </p>
                                 </div>
                             </div>
-                            <div className="col-md-4 p-2">
+                            <div className="col-md-6 p-2">
                                 <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
+                                    <video width="100%" height="350px" controls muted loop playsInline>
                                         <source src='/video/boubyan - kuwait.mp4' type="video/mp4" />
                                     </video>
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Fahad Al-Shammari Abu Nayef</span>
-                                    <p className="subtitle">Boubyan Company <br />Kuwait   </p>
+                                    <p className="subtitle">Kuwait</p>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +89,7 @@ export default function ClientTestimonial() {
                                                 <div key={index}>
                                                     <TestimonialCard
                                                         name={item.name}
-                                                        role={item.position}
+                                                        
                                                         company={item.company}
                                                         avatar={item.avatar}
                                                         statement={item.info}
