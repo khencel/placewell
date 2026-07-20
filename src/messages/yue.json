@@ -403,6 +403,17 @@
     "our": "我哋嘅海外工人見證",
     "what": "工人分享"
   },
+  "contactUs": {
+      "title": "聯絡我哋",
+      "subtitle": "我哋隨時為你提供協助",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!",
+      "connect": "立即聯絡",
+      "contactInformation": "聯絡資料",
+      "Address": "地址",
+      "Phone": "電話",
+      "Email": "電郵",
+      "Facebook": "Facebook"
+    },
   "gallery": {
     "title": "相簿",
     "subtitle": "探索我哋嘅相簿",

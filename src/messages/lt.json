@@ -414,6 +414,17 @@
     "our": "Mūsų OFW atsiliepimai",
     "what": "Ką sako mūsų OFW darbuotojai"
   },
+  "contactUs": {
+      "title": "Susisiekite su mumis",
+      "subtitle": "Esame pasiruošę jums padėti",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!",
+      "connect": "Susisiekime",
+      "contactInformation": "Kontaktinė informacija",
+      "Address": "Adresas",
+      "Phone": "Telefonas",
+      "Email": "El. paštas",
+      "Facebook": "Facebook"
+    },
 
   "gallery": {
       "title": "Galerija",

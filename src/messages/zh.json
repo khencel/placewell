@@ -403,6 +403,17 @@
     "our": "海外工人评价",
     "what": "他们怎么说"
   },
+  "contactUs": {
+      "title": "联系我们",
+      "subtitle": "我们随时为您提供帮助",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!",
+      "connect": "联系我们",
+      "contactInformation": "联系信息",
+      "Address": "地址",
+      "Phone": "电话",
+      "Email": "电子邮箱",
+      "Facebook": "Facebook"
+    },
   "gallery": {
       "title": "图库",
       "subtitle": "探索我们的图库",

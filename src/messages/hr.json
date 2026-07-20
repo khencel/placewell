@@ -404,6 +404,17 @@
     "our": "Naša OFW svjedočanstva",
     "what": "Što naši OFW radnici kažu"
   },
+  "contactUs": {
+      "title": "Kontaktirajte nas",
+      "subtitle": "Ovdje smo da vam pomognemo",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!",
+      "connect": "Povežimo se",
+      "contactInformation": "Kontakt informacije",
+      "Address": "Adresa",
+      "Phone": "Telefon",
+      "Email": "E-pošta",
+      "Facebook": "Facebook"
+    },
   "gallery": {
       "title": "Galerija",
       "subtitle": "Istražite našu galeriju",

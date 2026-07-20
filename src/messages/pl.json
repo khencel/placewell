@@ -408,6 +408,17 @@
     "our": "Opinie OFW",
     "what": "Co mówią nasi OFW"
   },
+  "contactUs": {
+      "title": "Skontaktuj się z nami",
+      "subtitle": "Jesteśmy tutaj, aby Ci pomóc",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!",
+      "connect": "Skontaktuj się z nami",
+      "contactInformation": "Informacje kontaktowe",
+      "Address": "Adres",
+      "Phone": "Telefon",
+      "Email": "E-mail",
+      "Facebook": "Facebook"
+    },
 
   "gallery": {
       "title": "Galeria",

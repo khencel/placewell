@@ -1,17 +1,20 @@
+"use client"
 import Banner from "@/components/Banner"
 import s from "@/styles/contactUs.module.css"
 import { FaFacebookF } from "react-icons/fa6";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 
 export default function ContactUs(){
+    const t = useTranslations("contactUs");
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/124009.jpg"
-                title="Contact Us"
-                subtitle="We’re here to assist you!"
-                description=""
+                title={t('title')}
+                subtitle={t('subtitle')}
+                // description={t('desc')}
                 customFontSize={true}
             />
 
@@ -21,7 +24,7 @@ export default function ContactUs(){
                         <div >
                         
                         <div className="header">
-                            <h2 className="title">Let’s Connect!</h2>
+                            <h2 className="title">{t('connect')}</h2>
                             {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
                         </div>
 
@@ -36,12 +39,12 @@ export default function ContactUs(){
                                 </div>
                                 <div className="col-md-6">
                                     <div className={`${s.contactCard} ${s.card}`}>
-                                        <h4>Contact Information</h4>
+                                        <h4>{t('contactInformation')}</h4>
 
                                         <div className={s.infoItem}>
                                             <span>📍</span>
                                             <div>
-                                            <strong>Address</strong>
+                                            <strong>{t('Address')}</strong>
                                             <p>JMC Centre 6488 P. Medina St. Brgy. Pio Del Pilar, Makati, Philippines</p>
                                             </div>
                                         </div>
@@ -49,7 +52,7 @@ export default function ContactUs(){
                                         <div className={s.infoItem}>
                                             <span>📞</span>
                                             <div>
-                                            <strong>Phone</strong>
+                                            <strong>{t('Phone')}</strong>
                                             <p>+63 928 862 4421</p>
                                             </div>
                                         </div>
@@ -65,7 +68,7 @@ export default function ContactUs(){
                                         <div className={s.infoItem}>
                                             <span>📧</span>
                                             <div>
-                                            <strong>Email</strong>
+                                            <strong>{t('Email')}</strong>
                                             <p>Marketing@placewellinternational.com</p>
                                             </div>
                                         </div>
@@ -73,7 +76,7 @@ export default function ContactUs(){
                                         <div className={s.infoItem}>
                                             <span><FaFacebookF /></span>
                                             <div>
-                                            <strong>Facebook</strong>
+                                            <strong>{t('Facebook')}</strong>
                                             <Link href="https://www.facebook.com/PlacewellInternational" target="_blank" rel="noopener noreferrer">
                                                 <p style={{color:"blue"}}>Placewell International Services Corporation</p>
                                             </Link>

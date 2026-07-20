@@ -403,6 +403,17 @@
       "our": "OFWの体験談",
       "what": "OFWの声"
   },
+  "contactUs": {
+      "title": "お問い合わせ",
+      "subtitle": "お気軽にお問い合わせください",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!",
+      "connect": "お問い合わせはこちら",
+      "contactInformation": "連絡先情報",
+      "Address": "住所",
+      "Phone": "電話番号",
+      "Email": "メールアドレス",
+      "Facebook": "Facebook"
+    },
   "gallery": {
       "title": "ギャラリー",
       "subtitle": "ギャラリーを見る",

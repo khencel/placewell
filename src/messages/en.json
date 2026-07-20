@@ -405,6 +405,17 @@
         "our":"Our OFW Testimonials",
         "what":"What Our OFWs Say"
     },
+    "contactUs":{
+        "title":"Contact Us",
+        "subtitle":"We’re here to assist you",
+        "desc":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!",
+        "connect":"Let’s Connect",
+        "contactInformation":"Contact Information",
+        "Address":"Address",
+        "Phone":"Phone",
+        "Email":"Email",
+        "Facebook":"Facebook"
+    },
     "gallery":{
         "title": "Gallery",
         "subtitle": "Explore Our Gallery",
