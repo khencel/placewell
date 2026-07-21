@@ -1,5 +1,5 @@
 
-import Image from "next/image";
+"use client"
 import s from "../components/styles/Footer.module.css"
 import { 
     FaFacebook,
@@ -10,8 +10,10 @@ import {
 } from "react-icons/fa6";
 
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations();
   return (
     <footer className={s.footer}>
       <div className={s.topSection}>
@@ -24,33 +26,103 @@ export default function Footer() {
         {/* Links */}
         <div className={s.links}>
           <div>
-            <p>Home</p>
-            <p>About Us</p>
-            <p>Engage with Us</p>
-            <p>Facilities and Divisions</p>
+              <p>
+                  <Link style={{textDecoration:"none",color:"white"}} href="/">{t("nav.home")}</Link>
+              </p>
+
+              <p>
+                  <Link style={{textDecoration:"none",color:"white"}} href="/about">{t("nav.about")}</Link>
+              </p>
+
+              <p>
+                  <Link style={{textDecoration:"none",color:"white"}} href="/engage-with-us">{t("nav.engage")}</Link>
+              </p>
+
+              <p>
+                  <Link style={{textDecoration:"none",color:"white"}} href="/department-facilities/department">
+                      {t("nav.department")}
+                  </Link>
+              </p>
           </div>
 
           <div>
-            <p>Testimonials</p>
-            <p>Gallery</p>
-            <p>Contact Us</p>
-            <p>
-              <Link style={{textDecoration:"none",color:"white"}} href="/faq">FAQ</Link>
-            </p>
+              <p>
+                  <Link style={{textDecoration:"none",color:"white"}} href="/testimonials/client-testimonials">
+                      {t("nav.client")}
+                  </Link>
+              </p>
+
+              <p>
+                  <Link style={{textDecoration:"none",color:"white"}} href="/testimonials/OFW-testimonials">
+                      {t("nav.ofw")}
+                  </Link>
+              </p>
+
+              <p>
+                  <Link style={{textDecoration:"none",color:"white"}} href="/gallery">
+                      {t("nav.gallery")}
+                  </Link>
+              </p>
+
+              <p>
+                  <Link style={{textDecoration:"none",color:"white"}} href="/contact-us">
+                      {t("nav.contact")}
+                  </Link>
+              </p>
+
+              <p>
+                  <Link style={{textDecoration:"none",color:"white"}} href="/faq">
+                      FAQ
+                  </Link>
+              </p>
           </div>
         </div>
 
         {/* Social + Badge */}
         <div className={s.right}>
-          <p className={s.connect}>CONNECT WITH US</p>
+                <p className={s.connect}>CONNECT WITH US</p>
 
-          <div className={s.socials}>
-            <span><FaFacebook className="social-icon" style={{color:"white"}} /></span>
-            <span><FaLinkedin className="social-icon" style={{color:"white"}} /></span>
-            <span><FaInstagram className="social-icon" style={{color:"white"}} /></span>
-            <span><FaYoutube className="social-icon" style={{color:"white"}} /></span>
-            <span><FaTiktok className="social-icon" style={{color:"white"}} /></span>
-          </div>
+                <div className={s.socials}>
+          <a
+              href="https://facebook.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+              <FaFacebook className="social-icon" style={{ color: "white" }} />
+          </a>
+
+          <a
+              href="https://linkedin.com/company/yourcompany"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+              <FaLinkedin className="social-icon" style={{ color: "white" }} />
+          </a>
+
+          <a
+              href="https://instagram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+              <FaInstagram className="social-icon" style={{ color: "white" }} />
+          </a>
+
+          <a
+              href="https://youtube.com/@yourchannel"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+              <FaYoutube className="social-icon" style={{ color: "white" }} />
+          </a>
+
+          <a
+              href="https://tiktok.com/@yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+              <FaTiktok className="social-icon" style={{ color: "white" }} />
+          </a>
+      </div>
 
           {/* <div className={s.badge}>
             <Image
