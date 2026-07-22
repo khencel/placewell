@@ -29,7 +29,7 @@ export default function MainOffice() {
                                                 <div style={{width:"60%"}} className="">
                                                     <div className="d-flex mb-3">
                                                         <div className="mt-3 d-flex justify-content-center align-items-center" style={{width:"30%"}}>
-                                                            <span className="badge p-3 rounded-circle" style={{background:"#709C6B"}}>{department?.icon}</span>
+                                                            <span className="badge p-2 rounded-circle" style={{background:"#709C6B"}}>{department?.icon}</span>
                                                         </div>
                                                         <div className="mt-3" style={{width:"70%"}}>
                                                             <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{department.title}</span>
@@ -69,7 +69,7 @@ export default function MainOffice() {
                                     <div style={{width:"60%"}} className="">
                                         <div className="d-flex mb-3">
                                             <div className="mt-3 d-flex justify-content-center align-items-center" style={{width:"30%"}}>
-                                                <span className="badge p-3 rounded-circle" style={{background:"#709C6B"}}>{cafeteria.icon}</span>
+                                                <span className="badge p-2 rounded-circle" style={{background:"#709C6B"}}>{cafeteria.icon}</span>
                                             </div>
                                             <div className="mt-3" style={{width:"70%"}}>
                                                 <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{cafeteria.title}</span>
@@ -105,7 +105,7 @@ export default function MainOffice() {
                                     <div style={{width:"30%"}} >
                                         <div className="d-flex mb-3">
                                             <div className="mt-3 d-flex justify-content-center align-items-center" style={{width:"30%"}}>
-                                                <span className="badge p-3 rounded-circle" style={{background:"#709C6B"}}>{cafeteria.icon}</span>
+                                                <span className="badge p-2 rounded-circle" style={{background:"#709C6B"}}>{cafeteria.icon}</span>
                                             </div>
                                             <div className="mt-3" style={{width:"70%"}}>
                                                 <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{cafeteria.title}</span>

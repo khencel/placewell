@@ -29,7 +29,7 @@ export default function Dormitory() {
                             </div>
                         </div>
 
-                        <div className="col-md-8">
+                        <div className="col-md-8 ">
                             <div className={s.collage}>
                                 <div className={`${s.imgBox} ${s.img1Box}`}>
                                     <Image

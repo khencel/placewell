@@ -9,7 +9,7 @@ export function getDataList(){
     const t = useTranslations('mainOffice');
     return [
         {
-            icon:<RiTeamFill style={{fontSize:"40px"}} />,
+            icon:<RiTeamFill style={{fontSize:"2rem"}} />,
             title: t("reception"),
             description: t("receptionDesc"),
             image:{
@@ -19,7 +19,7 @@ export function getDataList(){
             }
         },
         {
-            icon:<RiTeamFill style={{fontSize:"40px"}} />,
+            icon:<RiTeamFill style={{fontSize:"2rem"}} />,
             title: t("conferences"),
             description: t("conferencesDesc"),
             image:{
@@ -29,7 +29,7 @@ export function getDataList(){
             }
         },
         {
-            icon:<RiTeamFill style={{fontSize:"40px"}} />,
+            icon:<RiTeamFill style={{fontSize:"2rem"}} />,
             title: t("interview"),
             description: t("interviewDesc"),
             image:{
@@ -39,7 +39,7 @@ export function getDataList(){
             }
         },
         {
-            icon:<RiTeamFill style={{fontSize:"40px"}} />,
+            icon:<RiTeamFill style={{fontSize:"2rem"}} />,
             title: t("orientation"),
             description: t("orientationDesc"),
             image:{
@@ -54,7 +54,7 @@ export function getDataList(){
 export function getCafeteria(){
     const t = useTranslations('mainOffice');
     return {
-        icon:<RiTeamFill style={{fontSize:"40px"}} />,
+        icon:<RiTeamFill style={{fontSize:"2rem"}} />,
         title: t("cafeteria"),
         description: t("cafeteriaDesc"),
         image:{

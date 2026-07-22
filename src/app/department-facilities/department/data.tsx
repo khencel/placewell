@@ -9,7 +9,7 @@ export function getDepartmentList(){
     const t = useTranslations('department');
     return [
         {
-            icon:<RiTeamFill style={{fontSize:"40px"}} />,
+            icon:<RiTeamFill style={{fontSize:"2rem"}} />,
             title:t('international'),
             description: t('internationalDesc'),
             image:{
@@ -19,7 +19,7 @@ export function getDepartmentList(){
             }
         },
         {
-            icon:<FaUser style={{fontSize:"40px"}} />,
+            icon:<FaUser style={{fontSize:"2rem"}} />,
             title: t('manpower'),
             description: t('manpowerDesc'),
             image:{
@@ -29,7 +29,7 @@ export function getDepartmentList(){
             }
         },
         {
-            icon:<GiInjustice style={{fontSize:"40px"}} />,
+            icon:<GiInjustice style={{fontSize:"2rem"}} />,
             title: t('ofw'),
             description: t('ofwDesc'),
             image:{
@@ -39,7 +39,7 @@ export function getDepartmentList(){
             }
         },
         {
-            icon:<IoDocumentSharp style={{fontSize:"40px"}} />,
+            icon:<IoDocumentSharp style={{fontSize:"2rem"}} />,
             title: t('process'),
             description: t('processDesc'),
             image:{
@@ -56,7 +56,7 @@ export function getDepartmentList(){
 export function getAccount(){
     const t = useTranslations('department');
     return {
-            icon:<IoCalculator style={{fontSize:"40px"}} />,
+            icon:<IoCalculator style={{fontSize:"2rem"}} />,
             title: t('accounting'),
             description: t('accountingDesc'),
             image:{
