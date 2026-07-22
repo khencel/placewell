@@ -216,6 +216,13 @@
   .dots {
     display: none;
   }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    max-width: 750px;
+    padding: 10px 10px;
+  }
 }
 
 /* ========================= */

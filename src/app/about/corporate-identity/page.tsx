@@ -27,11 +27,13 @@ export default function About() {
             <div className="col-md-10">
               <div className="row">
                 <div className="col-md-6">
-                  <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>{t("corporateIdentity.placewellTitle")}</span>
+                  <div className={s.whoIsPlacewell}>
+                      <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>{t("corporateIdentity.placewellTitle")}</span>
                   
-                  <p className="subtitle longParagraph mt-3">
-                    {t("corporateIdentity.placewellInternational")}
-                  </p>
+                      <p className="subtitle longParagraph mt-3">
+                        {t("corporateIdentity.placewellInternational")}
+                      </p>
+                  </div>
                 </div>
                 <div className="col-md-6 text-center">
                   <img src="/logo.png" className="img-fluid" alt="" />
@@ -46,12 +48,14 @@ export default function About() {
               {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
             </div>
 
-            <div className="row m-0 mt-5 pt-5 justify-content-center">
+            <div className="row m-0 mt-0 mt-md-5 pt-0 pt-md-5 justify-content-center">
 
               <div className="col-md-5 p-3">
                   <div className="row">
-                    <div className="col-md-6"><ImageStyle image="/img/identity/Parents-resized-600x599.jpg"/></div>
-                    <div className="col-md-6 d-flex align-items-center">
+                    <div className="col-md-6 text-center">
+                      <ImageStyle image="/img/identity/Parents-resized-600x599.jpg"/>
+                    </div>
+                    <div className="col-md-6 mt-2 d-flex align-items-center">
                       <div>
                         <h5 className="title" style={{fontSize:"24px"}} >Filemon P. Escueta Jr.  and Aida H. Escueta</h5>
                         <small>
@@ -69,9 +73,11 @@ export default function About() {
 
               <div className="col-md-5 p-3">
                 <div className="row">
-                  <div className="col-md-6"><ImageStyle image="/img/eloisa.png"/></div>
+                  <div className="col-md-6 text-center">
+                    <ImageStyle image="/img/eloisa.png"/>
+                  </div>
                   <div className="col-md-6 d-flex align-items-center">
-                      <div>
+                      <div className="mt-2">
                         <h5 className="title" style={{fontSize:"24px"}} >Eleonor H. Escueta (Elo) </h5>
                         <small>
                             <strong>{t("corporateIdentity.vice")}</strong>
@@ -93,11 +99,13 @@ export default function About() {
 
             <div className="row m-0 justify-content-center">
               <div className="col-md-3">
-                  <div className="col"><ImageStyle image="/img/identity/jolo.jpg"/></div>
+                  <div className="text-center">
+                    <ImageStyle image="/img/identity/jolo.jpg"/>
+                  </div>
                   
               </div>
               <div className="col-md-3 d-flex align-items-center">
-                <div>
+                <div className="mt-2">
                   <h5 className="title" style={{fontSize:"24px"}} >Jose Lorenzo Escueta Beech  (Joelo)</h5>
                   <small>
                       <strong>{t("corporateIdentity.consultant")}</strong>

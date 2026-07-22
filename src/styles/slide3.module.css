@@ -180,7 +180,7 @@
 
   .card {
     height: auto;
-    min-height: 80px;
+    min-height: 75px;
     background: #448153;
     display: flex;
     align-items: center;

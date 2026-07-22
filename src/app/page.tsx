@@ -22,6 +22,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
+
 export default function Home() {
   const rollingData = getRollingData();
   const whyHireFilipino = getWhyHireFilipino();
@@ -114,10 +115,10 @@ export default function Home() {
         slidesPerView={1}
         loop={true}
         modules={[Autoplay, Navigation, Pagination]}
-        autoplay={{
-          delay: 12000, 
-          disableOnInteraction: false, 
-        }}
+        // autoplay={{
+        //   delay: 12000, 
+        //   disableOnInteraction: false, 
+        // }}
         speed={800}
         navigation
         pagination={{ clickable: true }}
@@ -142,7 +143,6 @@ export default function Home() {
             <div className="container-fluid h-100">
               <div className="row h-100 align-items-center">
 
-                {/* LEFT SIDE */}
                 <div className="col-lg-5">
                   <div className={slide2.leftPanel}>
 
@@ -171,7 +171,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* RIGHT SIDE */}
+               
                 <div className="col-lg-7">
                   <div className={slide2.content}>
 
@@ -191,10 +191,6 @@ export default function Home() {
                       {home('slide2.IsATrusted')}
                     </p>
 
-                    {/* <button className={slide2.ctaBtn}>
-                      Learn More →
-                    </button> */}
-
                   </div>
                 </div>
 
@@ -210,69 +206,61 @@ export default function Home() {
         <SwiperSlide>
           <section className={slide3.tradeTests}>
             <div className={slide3.accentCircleTop} />
-            <div className={slide3.accentCircleBottom} />
-            <div className={slide3.container}>
-              <div className={slide3.left}>
-                <div className={slide3.icon}>
-                  <FaClipboardList />
+              <div className={slide3.accentCircleBottom} />
+              <div className={slide3.container}>
+                <div className={slide3.left}>
+                  <div className={slide3.icon}>
+                    <FaClipboardList />
+                  </div>
+                  <h2>{home('slide3.Training')}</h2>
+                  <p>
+                    {home('slide3.Weconduct')}
+                  </p>
+                  <Link href="/trade-test">
+                    <button className={`${s.btnprimary} mt-3`}>{home('slide3.MoreDetails')}</button>
+                  </Link>
+
+                  <div className="row justify-content-center" style={{paddingTop:"15%"}}>
+                    <div className="col-5 text-center">
+                      <img 
+                        src="/TESDA-Logo.png"
+                        alt=""
+                        style={{
+                          width:"150px",
+                          height:"150px",
+                          objectFit:"contain"
+                        }} 
+                      />
+                    </div>
+                    <div className="col-5 text-center">
+                      <img 
+                        src="/iso.png" 
+                        alt="ISO" 
+                        style={{
+                          width:"150px",
+                          height:"150px",
+                          objectFit:"contain"
+                        }} 
+                      />
+                    </div>
+                  </div>
                 </div>
-                <h2>{home('slide3.Training')}</h2>
-                <p>
-                  {home('slide3.Weconduct')}
-                </p>
-                <Link href="/trade-test">
-                  <button className={`${s.btnprimary} mt-3`}>{home('slide3.MoreDetails')}</button>
-                </Link>
 
-                <div className="row justify-content-center" style={{paddingTop:"15%"}}>
-                  <div className="col-md-5 text-center">
-                    <img 
-                      src="/TESDA-Logo.png"
-                      alt=""
-                      style={{
-                        width:"150px",
-                        height:"150px",
-                        objectFit:"contain"
-                      }} 
-                    />
-                  </div>
-                  <div className="col-md-5 text-center">
-                    <img 
-                      src="/iso.png" 
-                      alt="ISO" 
-                      style={{
-                        width:"150px",
-                        height:"150px",
-                        objectFit:"contain"
-                      }} 
-                    />
-                  </div>
+                <div className={slide3.right}>
+                  {cards.map((card) => (
+                    <div className={slide3.card} key={card.label}>
+                     
+                      <Image
+                        src={card.img}
+                        alt={card.label}
+                        width={400}
+                        height={300}
+                        style={{ objectFit: "cover" }}
+                      />
+                      <span>{card.label}</span>
+                    </div>
+                  ))}
                 </div>
-              </div>
-
-              
-                
-
-
-              <div className={slide3.right}>
-                {cards.map((card) => (
-                  <div className={slide3.card} key={card.label}>
-                    {/* <img
-                      src={card.img}
-                      alt={card.label}
-                      loading="lazy"
-                    /> */}
-                    <Image
-                      src={card.img}
-                      alt={card.label}
-                      width={400}
-                      height={300}
-                      style={{ objectFit: "cover" }}
-                    />
-                    <span>{card.label}</span>
-                  </div>
-                ))}
-              </div>
             </div>
           </section>
           
@@ -283,7 +271,7 @@ export default function Home() {
         </SwiperSlide>
         
       </Swiper>
-      <section style={styles.section}>
+      <section style={styles.section} className={s.videoSection}>
         <div style={styles.gradientBg}></div>
         <div style={styles.header}>
           <h2 style={styles.title}>{t("home.videoTitle")}</h2>

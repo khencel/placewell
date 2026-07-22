@@ -35,6 +35,12 @@
     justify-content: center;
 }
 
+@media (max-width: 720px) {
+    .whoIsPlacewell{
+        padding: 15px;
+    }
+}
+
 
 
 

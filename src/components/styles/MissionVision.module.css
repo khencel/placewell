@@ -54,6 +54,9 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+    .section{
+        padding: 2rem;
+    }
     .grid {
         grid-template-columns: 1fr;
     }

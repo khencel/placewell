@@ -235,6 +235,17 @@
     padding: 60px 20px;
     flex-direction: column;
   }
+
+  .videoSection{
+    padding: 0px !important;
+    
+  }
+
+  .videoCard{
+    max-width: 90% !important;
+    border-radius: 12px !important;
+    padding: 10px !important;
+  }
 }
 
 

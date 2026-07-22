@@ -387,6 +387,10 @@
     width: 40px;
     height: 40px;
   }
+
+  .rightSection {
+    min-height: 25vh;
+  }
 }
 
 @media (max-width: 480px) {
