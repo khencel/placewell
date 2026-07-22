@@ -62,3 +62,10 @@ section.testimonialSection .containerContent {
 .showMore:hover {
   text-decoration: underline;
 }
+
+
+@media (max-width: 768px) {
+  .videoCont{
+    height: 200px;
+  }
+}

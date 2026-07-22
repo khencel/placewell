@@ -35,6 +35,7 @@ export default function ClientTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <video
+                                        className={s.videoCont}
                                         ref={videoRef}
                                         width="100%"
                                         height={300}
@@ -62,7 +63,7 @@ export default function ClientTestimonial() {
                             </div>
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
+                                    <video className={s.videoCont} width="100%" height="300px" controls muted loop playsInline>
                                         <source src='/video/trailer.mp4' type="video/mp4" />
                                     </video>
                                 </div>
@@ -77,7 +78,7 @@ export default function ClientTestimonial() {
                             </div>
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
+                                    <video className={s.videoCont} width="100%" height="300px" controls muted loop playsInline>
                                         <source src='/video/domestic2.mp4' type="video/mp4" />
                                     </video>
                                 </div>
@@ -106,7 +107,7 @@ export default function ClientTestimonial() {
 
                             <Swiper
                                     spaceBetween={20}
-                                    slidesPerView={3}
+                                    slidesPerView={1}
                                     loop={true}
                                     modules={[Autoplay, Navigation, Pagination]}
                                     autoplay={{
@@ -116,6 +117,24 @@ export default function ClientTestimonial() {
                                     speed={800}
                                     navigation
                                     pagination={{ clickable: true }}
+                                    breakpoints={{
+                                        576: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 15,
+                                        },
+                                        768: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 20,
+                                        },
+                                        992: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 20,
+                                        },
+                                        1200: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 25,
+                                        },
+                                    }}
                                     >
 
                                     {

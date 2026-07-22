@@ -36,7 +36,7 @@ export default function EngageWithUs() {
             <Process />
             <section>
                 <div className="row m-0 justify-content-center">
-                    <div className="col-md-10 mt-5">
+                    <div className="col-md-10">
                         <div className="header">
                             {/* <h2 className="title">{t("engage")}</h2> */}
                             <p className="subtitle">{t("engageDesc")}</p>
@@ -56,7 +56,83 @@ export default function EngageWithUs() {
             <section>
                 <div className="row m-0 justify-content-center mt-5 mb-5">
                     <div className="col-md-5">
-                        <div className={`${s.leftCont} d-flex gap-3 `}>
+                        <div className={`row ${s.leftCont}`}>
+                            <div className="col-md-5 p-0">
+                                <div style={{width:"100%"}}>
+                                    <img src="/img/carl.jpg" className={s.imageStyle} alt="" />
+                                </div>
+                            </div>
+                            <div className="col-md-7">
+                                <div className="" style={{width:"100%"}}>
+                                    <span className="title" style={{fontSize:"20px", fontWeight:"bold"}}>Kim Carl Diestro</span>
+                                    <p className="subtitle"><i>{t('business')}</i></p>
+                                    <div className="mb-2 d-flex gap-1">
+                                        <div >
+                                            <span><FaSquareWhatsapp className={s.iconStyle} style={{color:"#25D366"}} /></span>
+                                        </div>
+                                        <div>
+                                            <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>
+                                                {t('whatsapp')}:
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span style={{fontSize:"13px",fontWeight:"500"}}>
+                                                +63 928 862 4421
+                                                <br />
+                                                +63 998 586 4480
+                                            </span>
+                                        </div>
+                                        
+                                    </div>
+                                    <div className="mb-2 d-flex gap-1">
+                                        <div className="pt-2">
+                                            <span><FaPhone className={s.iconStyle} style={{color:"#448153"}} /></span>
+                                        </div>
+                                        <div>
+                                            <span className="title" style={{fontSize:"14px", fontWeight:"bold"}}>{t('cellphone')}:</span>
+                                        </div>
+                                        <div>
+                                            <span style={{fontSize:"13px",fontWeight:"500"}}>
+                                                +63 928 862 4421
+                                                <br />
+                                                +63 998 586 4480
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="mb-2 d-flex gap-2">
+                                        <div className="pt-2">
+                                            <span><FaEnvelope className={s.iconStyle} style={{color:"#448153"}} /></span>
+                                        </div>
+                                        <div>
+                                            <span className="title" style={{fontSize:"12px", fontWeight:"bold"}}>{t('email')}:</span>
+                                            <br />
+                                            <span style={{fontSize:"13px",fontWeight:"500"}}> 
+                                                Marketing@placewellinternational.com
+                                                <br />
+                                                Jobs@placewellinternational.com
+                                            </span>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div className="mb-2 d-flex gap-2">
+                                        <div className="pt-2">
+                                            <span><FaLocationDot className={s.iconStyle} style={{color:"#448153"}} /></span>
+                                        </div>
+                                        <div>
+                                            <span className="title" style={{fontSize:"12px", fontWeight:"bold"}}>{t('address')}:</span>
+                                            <br />
+                                            <span style={{fontSize:"13px",fontWeight:"500"}}> 
+                                                6488 JMC Centre, Upper Ground Flr, Medina St, Brgy Pio Del Pillar, Makati
+                                            </span>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        {/* <div className={`${s.leftCont} d-flex gap-3 `}>
                             <div style={{width:"40%"}}>
                                 <img src="/img/carl.jpg" className={s.imageStyle} alt="" />
                             </div>
@@ -127,7 +203,7 @@ export default function EngageWithUs() {
                                 </div>
                                 
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* <div className={`${s.leftCont} d-flex gap-2 mt-4 `}>
                             <div style={{width:"40%"}}>
@@ -166,7 +242,7 @@ export default function EngageWithUs() {
                                             className="btnprimary no-caret"
                                             style={{ fontSize: "12px", padding: "10px", border: "none" }}
                                         >
-                                            {t("download")} <FaDownload />
+                                            {t("download")} <FaDownload className={s.downloadIcon} />
                                         </Dropdown.Toggle>
 
                                         <Dropdown.Menu>
@@ -193,7 +269,8 @@ export default function EngageWithUs() {
                                             className="btnprimary no-caret"
                                             style={{ fontSize: "12px", padding: "10px", border: "none" }}
                                         >
-                                            {t("download")} <FaDownload />
+                                            {t("download")} 
+                                            <FaDownload className={s.downloadIcon} />
                                         </Dropdown.Toggle>
 
                                         <Dropdown.Menu>
@@ -214,7 +291,7 @@ export default function EngageWithUs() {
                                     <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('profileHashira')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "柱日本語学校パンフレット.pdf")} >{t('download')} <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "柱日本語学校パンフレット.pdf")} >{t('download')} <FaDownload className={s.downloadIcon} /></button>
                                 </div>
                             </div>
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
@@ -223,7 +300,7 @@ export default function EngageWithUs() {
                                     <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('guide')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "Guide to Accreditation Process.pdf")}>{t('download')} <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "Guide to Accreditation Process.pdf")}>{t('download')} <FaDownload className={s.downloadIcon} /></button>
                                 </div>
                             </div>
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
@@ -234,7 +311,7 @@ export default function EngageWithUs() {
                                     {/* <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>{t('important')}</small> */}
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "Sample of Completed Accreditation Documents.pdf")}>{t('download')} <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "Sample of Completed Accreditation Documents.pdf")}>{t('download')} <FaDownload className={s.downloadIcon} /></button>
                                 </div>
                             </div>
 
@@ -246,7 +323,7 @@ export default function EngageWithUs() {
                                     {/* <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>{t('important')}</small> */}
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "FAQ.docx")}>{t('download')} <FaDownload/></button>
+                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "FAQ.docx")}>{t('download')} <FaDownload className={s.downloadIcon} /></button>
                                 </div>
                             </div>
                             {/* <div className="d-flex">

@@ -2,12 +2,11 @@
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 16px;
-    height: 400px;
 }
 
 .imageStyle{
     width:100%;
-    height: 100%;
+    height: 340px;
     border-radius: 10px;
     object-fit: cover;
     border: 5px solid #448153;
@@ -41,4 +40,13 @@
     border: 1px solid #ccc;
     padding: 5px;
     border-radius: 16px;;
+}
+
+@media (max-width: 768px) {
+    .rightCont{
+        padding: 0px;
+    }
+    .downloadIcon{
+        display: none;
+    }
 }
