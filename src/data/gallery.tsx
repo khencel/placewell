@@ -5,9 +5,7 @@ export function getGallery(){
         { id: 2, category: "ourWorkers", imageUrl:"/img/gallery/workers/2.jpeg" },
         { id: 3, category: "ourWorkers", imageUrl:"/img/gallery/workers/3.jpeg" },
         { id: 4, category: "ourWorkers", imageUrl:"/img/gallery/workers/4.jpg" },
-        { id: 5, category: "ourWorkers", imageUrl:"/img/gallery/workers/5.jpg" },
-
-        { id: 6, category: "ourWorkers", imageUrl:"/img/gallery/workers/6.jpg" },
+       
         { id: 7, category: "ourWorkers", imageUrl:"/img/gallery/workers/7.jpg" },
         { id: 8, category: "ourWorkers", imageUrl:"/img/gallery/workers/8.jpg" },
         { id: 9, category: "ourWorkers", imageUrl:"/img/gallery/workers/9.jpeg" },
@@ -20,10 +18,7 @@ export function getGallery(){
         { id: 15, category: "ourWorkers", imageUrl:"/img/gallery/workers/15.jpg" },
 
         { id: 16, category: "ourWorkers", imageUrl:"/img/gallery/workers/16.jpg" },
-        { id: 17, category: "ourWorkers", imageUrl:"/img/gallery/workers/17.jpg" },
         { id: 18, category: "ourWorkers", imageUrl:"/img/gallery/workers/18.jpg" },
-        { id: 19, category: "ourWorkers", imageUrl:"/img/gallery/workers/19.jpg" },
-        { id: 20, category: "ourWorkers", imageUrl:"/img/gallery/workers/20.jpg" },
 
         { id: 21, category: "ourWorkers", imageUrl:"/img/gallery/workers/21.jpg" },
         { id: 22, category: "ourWorkers", imageUrl:"/img/gallery/workers/22.jpg" },
@@ -35,12 +30,8 @@ export function getGallery(){
         { id: 27, category: "ourWorkers", imageUrl:"/img/gallery/workers/27.jpeg" },
         { id: 28, category: "ourWorkers", imageUrl:"/img/gallery/workers/28.jpeg" },
         { id: 29, category: "ourWorkers", imageUrl:"/img/gallery/workers/29.jpeg" },
-        { id: 30, category: "ourWorkers", imageUrl:"/img/gallery/workers/30.jpeg" },
-
-        { id: 31, category: "ourWorkers", imageUrl:"/img/gallery/workers/31.jpeg" },
         { id: 32, category: "ourWorkers", imageUrl:"/img/gallery/workers/32.jpeg" },
         { id: 33, category: "ourWorkers", imageUrl:"/img/gallery/workers/33.jpeg" },
-        { id: 34, category: "ourWorkers", imageUrl:"/img/gallery/workers/34.jpeg" },
         { id: 35, category: "ourWorkers", imageUrl:"/img/gallery/workers/35.jpeg" },
 
         { id: 36, category: "ourWorkers", imageUrl:"/img/gallery/workers/36.jpeg" },
