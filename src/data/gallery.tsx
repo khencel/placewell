@@ -30,7 +30,6 @@ export function getGallery(){
         { id: 27, category: "ourWorkers", imageUrl:"/img/gallery/workers/27.jpeg" },
         { id: 28, category: "ourWorkers", imageUrl:"/img/gallery/workers/28.jpeg" },
         { id: 29, category: "ourWorkers", imageUrl:"/img/gallery/workers/29.jpeg" },
-        { id: 32, category: "ourWorkers", imageUrl:"/img/gallery/workers/32.jpeg" },
         { id: 33, category: "ourWorkers", imageUrl:"/img/gallery/workers/33.jpeg" },
         { id: 35, category: "ourWorkers", imageUrl:"/img/gallery/workers/35.jpeg" },
 
@@ -38,6 +37,19 @@ export function getGallery(){
         { id: 37, category: "ourWorkers", imageUrl:"/img/gallery/workers/37.jpeg" },
         { id: 38, category: "ourWorkers", imageUrl:"/img/gallery/workers/38.jpeg" },
         { id: 39, category: "ourWorkers", imageUrl:"/img/gallery/workers/39.jpeg" },
+
+        { id: 40, category: "ourWorkers", imageUrl:"/img/gallery/workers/40.jpg" },
+        { id: 41, category: "ourWorkers", imageUrl:"/img/gallery/workers/41.jpg" },
+        { id: 42, category: "ourWorkers", imageUrl:"/img/gallery/workers/42.jpg" },
+        { id: 43, category: "ourWorkers", imageUrl:"/img/gallery/workers/43.jpg" },
+        { id: 44, category: "ourWorkers", imageUrl:"/img/gallery/workers/44.jpg" },
+        { id: 45, category: "ourWorkers", imageUrl:"/img/gallery/workers/45.jpg" },
+        { id: 46, category: "ourWorkers", imageUrl:"/img/gallery/workers/46.jpg" },
+        { id: 47, category: "ourWorkers", imageUrl:"/img/gallery/workers/47.jpg" },
+        { id: 48, category: "ourWorkers", imageUrl:"/img/gallery/workers/48.jpg" },
+        { id: 49, category: "ourWorkers", imageUrl:"/img/gallery/workers/49.jpg" },
+
+
 
 
 
