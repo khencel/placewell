@@ -268,39 +268,40 @@ export function getBranchData(){
                     image:"/img/branches/davao5.jpeg",
                 }
             ]
-        },{
-            image: "/img/branches/8.jpg",
-            title: "Dumaguete (Triple One)",
-            address: "2nd Floor, Quiamco Building, Noblefranca Street, Dumaguete City 6200, Philippines (In front of Holy Cross High School)",
-            mon:"Monday to Friday - 9:30AM to 6:30PM",
-            sat:"Saturday - 9:30AM to 2:30PM",
-            contact:[
-                "+639088862404",
-                "+639985849294",
-                "+639985887147",
-            ],
-            imgs:[
-                {
-                    image:"/img/branches/duma1.jpeg",
-                },
-                {
-                    image:"/img/branches/duma.jpeg",
-                },
+        },
+        // {
+        //     image: "/img/branches/8.jpg",
+        //     title: "Dumaguete (Triple One)",
+        //     address: "2nd Floor, Quiamco Building, Noblefranca Street, Dumaguete City 6200, Philippines (In front of Holy Cross High School)",
+        //     mon:"Monday to Friday - 9:30AM to 6:30PM",
+        //     sat:"Saturday - 9:30AM to 2:30PM",
+        //     contact:[
+        //         "+639088862404",
+        //         "+639985849294",
+        //         "+639985887147",
+        //     ],
+        //     imgs:[
+        //         {
+        //             image:"/img/branches/duma1.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/duma.jpeg",
+        //         },
                 
-                {
-                    image:"/img/branches/duma2.jpeg",
-                },
-                {
-                    image:"/img/branches/duma3.jpeg",
-                },
-                {
-                    image:"/img/branches/duma4.jpeg",
-                },
-                {
-                    image:"/img/branches/duma5.jpeg",
-                }
-            ]
-        }
+        //         {
+        //             image:"/img/branches/duma2.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/duma3.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/duma4.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/duma5.jpeg",
+        //         }
+        //     ]
+        // }
         ,{
             image: "/img/img2.jpg",
             title: "General Santos",
@@ -355,33 +356,33 @@ export function getBranchData(){
                 
             ]
         },
-        {
-            image: "/img/img2.jpg",
-            title: "Isabela (Triple One)",
-            address: "Majestic Bldg, Nisperos St., Cabaruan, Cauayan City, Isabela (beside Bank of Commerce near Addessa)",
-            mon:"Monday to Friday - 9:30AM to 6:30PM",
-            sat:"Saturday - 9:30AM to 2:30PM",
-            contact:[
+        // {
+        //     image: "/img/img2.jpg",
+        //     title: "Isabela (Triple One)",
+        //     address: "Majestic Bldg, Nisperos St., Cabaruan, Cauayan City, Isabela (beside Bank of Commerce near Addessa)",
+        //     mon:"Monday to Friday - 9:30AM to 6:30PM",
+        //     sat:"Saturday - 9:30AM to 2:30PM",
+        //     contact:[
                 
-            ],
-            imgs:[
-                {
-                    image:"/img/branches/isa1.jpeg",
-                },
-                {
-                    image:"/img/branches/isa.jpeg",
-                },
-                {
-                    image:"/img/branches/isa2.jpeg",
-                },
-                {
-                    image:"/img/branches/isa3.jpeg",
-                },
-                {
-                    image:"/img/branches/isa4.jpeg",
-                }
-            ]
-        },
+        //     ],
+        //     imgs:[
+        //         {
+        //             image:"/img/branches/isa1.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/isa.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/isa2.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/isa3.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/isa4.jpeg",
+        //         }
+        //     ]
+        // },
         {
             image: "/img/img2.jpg",
             title: "Koronadal",
@@ -472,41 +473,41 @@ export function getBranchData(){
                 }
             ]
         },
-        {
-            image: "/img/img2.jpg",
-            title: "Tacurong (Triple One)",
-            address: "Unit 2-C, 2nd Floor, Mervic Commercial Building, National Highway, Tacurong City",
-            mon:"Monday to Friday - 9:30AM to 6:30PM",
-            sat:"Saturday - 9:30AM to 2:30PM",
-            contact:[
-                "+639399090389",
-                "+639989686311",
-                "+639989626917",
-                "+639985849295",
-            ],
-            imgs:[
-                {
-                    image:"/img/branches/tacu.jpeg",
-                },
-                {
-                    image:"/img/branches/tacu4.jpeg",
-                },
+        // {
+        //     image: "/img/img2.jpg",
+        //     title: "Tacurong (Triple One)",
+        //     address: "Unit 2-C, 2nd Floor, Mervic Commercial Building, National Highway, Tacurong City",
+        //     mon:"Monday to Friday - 9:30AM to 6:30PM",
+        //     sat:"Saturday - 9:30AM to 2:30PM",
+        //     contact:[
+        //         "+639399090389",
+        //         "+639989686311",
+        //         "+639989626917",
+        //         "+639985849295",
+        //     ],
+        //     imgs:[
+        //         {
+        //             image:"/img/branches/tacu.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/tacu4.jpeg",
+        //         },
                 
-                {
-                    image:"/img/branches/tacu1.jpeg",
-                },
-                {
-                    image:"/img/branches/tacu2.jpeg",
-                },
-                {
-                    image:"/img/branches/tacu3.jpeg",
-                },
+        //         {
+        //             image:"/img/branches/tacu1.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/tacu2.jpeg",
+        //         },
+        //         {
+        //             image:"/img/branches/tacu3.jpeg",
+        //         },
                 
-                {
-                    image:"/img/branches/tacu5.jpeg",
-                }
-            ]
-        },
+        //         {
+        //             image:"/img/branches/tacu5.jpeg",
+        //         }
+        //     ]
+        // },
         {
             image: "/img/img2.jpg",
             title: "Zamboanga",

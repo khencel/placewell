@@ -92,7 +92,7 @@ export default function ExcellenceSlide() {
         </div> */}
 
 
-        <div className={styles.logoStyle}>
+        {/* <div className={styles.logoStyle}>
           <div className={styles.logoDiv}>
             <img src="/triple.png" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
           </div>
@@ -105,7 +105,7 @@ export default function ExcellenceSlide() {
           <div className={styles.logoDiv}>
             <img src="/hashira.jpg" className={styles.logoSlide4} style={{objectFit:"contain"}} alt="" />
           </div>
-        </div>
+        </div> */}
 
       </div>
 

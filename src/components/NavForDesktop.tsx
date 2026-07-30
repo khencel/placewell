@@ -172,7 +172,13 @@ export default function NavForDesktop() {
                 </div>
             </li>
 
-            <li
+            <li className="d-none d-md-block">
+                <Link href="/testimonials/OFW-testimonials">
+                    {t("nav.ofw")}
+                </Link>
+            </li>
+
+            {/* <li
                 className="mega-wrapper d-none d-md-block"
                 onMouseEnter={() => setMegaOpen3(true)}
                 onMouseLeave={() => setMegaOpen3(false)}
@@ -183,7 +189,6 @@ export default function NavForDesktop() {
 
                 <div className={`mega-menu ${megaOpen3 ? "show" : ""}`}>
 
-                    {/* arrow */}
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
@@ -206,7 +211,7 @@ export default function NavForDesktop() {
 
                     </div>
                 </div>
-            </li>
+            </li> */}
 
             <li className="d-none d-md-block"><Link href="/gallery">{t("nav.gallery")}</Link></li>
             <li className="d-none d-md-block">

@@ -57,11 +57,11 @@ export default function EngageWithUs() {
                 <div className="row m-0 justify-content-center mt-5 mb-5">
                     <div className="col-md-5">
                         <div className={`row ${s.leftCont}`}>
-                            <div className="col-md-5 p-0">
+                            {/* <div className="col-md-5 p-0">
                                 <div style={{width:"100%"}}>
                                     <img src="/img/carl.jpg" className={s.imageStyle} alt="" />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-md-7">
                                 <div className="" style={{width:"100%"}}>
                                     <span className="title" style={{fontSize:"20px", fontWeight:"bold"}}>Kim Carl Diestro</span>

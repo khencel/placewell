@@ -21,18 +21,18 @@ const BRANCHES: Branch[] = [
   { id: 7,  name: "Bacolod",                              region: "Visayas",  lat: 10.67056, lng: 122.94933, address: "Centroplex Mall, Corner Gonzaga–Locsin Street, Bacolod City" },
   { id: 8,  name: "Kalibo",                               region: "Visayas",  lat: 11.6845344, lng: 122.2482259, address: "Refindor Building, 2nd Floor, Unit 3, Osmeña Avenue, Kalibo, Aklan" },
   { id: 9,  name: "Cebu",                                 region: "Visayas",  lat: 10.30068733143866, lng: 123.89935281771659, address: "Unit B, Cor. Sanciangko & Junquera Streets, Cebu City (beside Silogan ni Gian / across Clean Day)" },
-  { id: 10, name: "Dumaguete (Triple One)",                region: "Visayas",  lat:  9.30875573049183, lng: 123.30882164223914, address: "Quiamco Building, 2nd Floor, Noblefranca Street, Dumaguete City 6200, Philippines (In front of Holy Cross High School))" },
+  // { id: 10, name: "Dumaguete (Triple One)",                region: "Visayas",  lat:  9.30875573049183, lng: 123.30882164223914, address: "Quiamco Building, 2nd Floor, Noblefranca Street, Dumaguete City 6200, Philippines (In front of Holy Cross High School))" },
   { id: 11, name: "Cagayan de Oro",                       region: "Mindanao", lat:  8.4818634, lng: 124.6426148, address: "3rd Floor, Room 308 Knights of the Columbus Bldg. beside Main Graphics Store along Centrio Ayala Mall Brgy. 27, Captain Vicen                      te Roa St. Cagayan de Oro City, Mis. Or." },
   { id: 12, name: "Davao",                                region: "Mindanao", lat:  7.0707, lng: 125.6087, address: "Hermosa Bldg. Cor. Mitsui St. J. P. Laurel Ave. Bajada, Davao City (infront of Victoria Plaza Mall, near NBI office)" },                     
   { id: 13, name: "General Santos",                       region: "Mindanao", lat:  6.116616484561059, lng: 125.16901292452214, address: "J.P Laurel corner Recto Sts, Dadiangas North, GSC (sa itaas ng Ishmael Clinic)" },                      
 
   { id: 15, name: "Butuan",                               region: "Mindanao", lat:  8.9307698, lng: 125.4848411, address: "2nd Floor Empress Building Montilla Blvd., Butuan City Landmark: Above of Hi-Seas Pharmacy & Digi Life" },                     
   { id: 16, name: "Iloilo",                               region: "Visayas", lat:  10.722536704043904, lng: 122.56553444254877, address: "Jesena Building, 3rd Floor, Room 301, Jalandoni Street, Iloilo City" },
-  { id: 16, name: "Isabela (Triple One)",         region: "Luzon", lat:  16.94182924823973, lng: 121.76893635167006, address: "Majestic Bldg, Nisperos St., Cabaruan, Cauayan City, Isabela (beside Bank of Commerce near Addessa)" },
+  // { id: 16, name: "Isabela (Triple One)",         region: "Luzon", lat:  16.94182924823973, lng: 121.76893635167006, address: "Majestic Bldg, Nisperos St., Cabaruan, Cauayan City, Isabela (beside Bank of Commerce near Addessa)" },
   { id: 17,  name: "Koronadal ",     region: "Mindanao",    lat: 6.491168207122304, lng: 124.84491306326093, address: "Med Arcade Building, Stall 16, 2nd Floor, Along Arellano Street, Corner Mariano–Ponce Street, Koronadal City" },
   { id: 18,  name: "Pampanga",                               region: "Luzon",  lat: 15.039433995166709, lng: 120.68153060868316, address: "R5, 2F PARAS BLDG., COR. JOSE ABAD SANTOS AVE. DOLORES, SAN FERNANDO, PAMPANGA" },
   { id: 19,  name: "Tuguegarao",                               region: "Luzon",  lat: 17.613965096680353, lng: 121.70606572284926, address: "Stall No. C-1 3rd floor EM Torres Building Diversion Road Ugac Norte, Tuguegarao City" },
-  { id: 19,  name: "Tacurong (Triple One)",  region: "Mindanao",  lat: 6.683575079580638, lng: 124.66688197849201, address: "Mervic Commercial Building, Unit 2-C, 2nd Floor, National Highway, Tacurong City" },
+  // { id: 19,  name: "Tacurong (Triple One)",  region: "Mindanao",  lat: 6.683575079580638, lng: 124.66688197849201, address: "Mervic Commercial Building, Unit 2-C, 2nd Floor, National Highway, Tacurong City" },
   { id: 20,  name: "ZAMBOANGA",  region: "Mindanao",  lat: 6.9165948427794435, lng: 122.07584062854997, address: "FLK Building, 3rd Floor, Nuñez Extension, Camino Nuevo, Canelar, Zamboanga City (Landmark: In front of Remedios Crematory, beside EastWest Bank – Nuñez Extension Branch)" },
 ];
 
