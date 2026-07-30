@@ -302,7 +302,7 @@ export function getBranchData(){
         //         }
         //     ]
         // }
-        ,{
+        {
             image: "/img/img2.jpg",
             title: "General Santos",
             address: "J.P Laurel corner Recto Sts, Dadiangas North, GSC (sa itaas ng Ishmael Clinic)",
