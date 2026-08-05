@@ -68,7 +68,7 @@ export default function ClientTestimonial() {
                                     </video>
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>John Paul Cruz</span>
+                                    <span className="title" style={{fontSize:"18px"}}>Roland Ras</span>
                                     <p className="subtitle">
                                         Trailer Truck Driver
                                         <br />
