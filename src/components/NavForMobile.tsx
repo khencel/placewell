@@ -187,7 +187,7 @@ export default function NavForMobile({ onClose }: NavForMobileProps) {
             </li>
 
             {/* TESTIMONIALS */}
-            <li className="forMobile">
+            {/* <li className="forMobile">
                 <div className="accordion" id="mobileTestimonialsAccordion">
                     <span
                         className="accordion-button"
@@ -229,6 +229,12 @@ export default function NavForMobile({ onClose }: NavForMobileProps) {
                         </div>
                     </div>
                 </div>
+            </li> */}
+
+            <li className="forMobile">
+                <Link href="/testimonials/OFW-testimonials" className="ms-2" onClick={handleLinkClick}>
+                    {t("nav.ofw")}
+                </Link>
             </li>
 
             <li className="forMobile">
