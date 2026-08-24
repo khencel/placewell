@@ -145,25 +145,13 @@
         "viceDesc":"Elo took over Placewell International in 1993 and has since transformed the company into one of the country’s leading manpower agencies. She is a seasoned businesswoman with a big heart. Under her leadership, Placewell has expanded its services across Europe, Asia, Oceania, and North America. She obtained her degree in Psychology from Colegio de San Juan de Letran.",
         "consultant":"Consultant",
         "consultantDesc":"Joelo is a licensed attorney and a JLPT N1 passer. He obtained his degree in International Business from Pepperdine University and his Juris Doctor from Ateneo De Manila School of Law. He is also the President of Hashira Skills and Language Academy and Pro-Tech Skills Development Center Corporation. He has been with Placewell since 2018.",
-        "mission":"Mission & Vision",
+        "mission":"Our Core Values",
         "missionTitle":"Mission",
         "missionDesc":"To be the most trusted, most reliable Philippine manpower services company in the world, recognized for readily available efficient services to our clients; for loyalty to our employees; for fidelity to our stockholders; and for social responsibility to our community.",
         "visionTitle":"Vision",
         "visionDesc":"A Philippine manpower services company, born of excellence, nurtured by expertise, and committed to leading in meeting the needs of global employers for highly competent, professional, and skilled Filipino workers.",
         "corporate":"Corporate Philosophy",
-        "corporatePhilosophy": {
-            "line1": "We are a people company that builds lasting relationships.",
-            "line2": "We care for people because they are:",
-            "reasons": {
-            "1": "Filipino workers with dignity to be respected and rights to be protected.",
-            "2": "Clients who generate economic value.",
-            "3": "Employees who need to be treated and rewarded fairly."
-            },
-            "clientsTitle": "Clients count first.",
-            "clientsDesc": "We exist for our clients and, thus, work to provide them with on-time job-ready, and competent workers as required, by employing only ethical and modern recruitment practices and strategies that conform to international standards.",
-            "csrTitle": "We take our corporate social responsibility seriously.",
-            "csrDesc": "We share the rewards of business with the communities where we operate, believing that by giving freely, you shall receive tenfold."
-        },
+        "corporatePhilosophy":"We are a people-focused company committed to building lasting relationships.<br /> We respect and protect the dignity and rights of Filipino workers,create value for our clients, and treat our employees fairly.<br /> Our clients come first. We provide job-ready, competent workers ontime through ethical, modern recruitment practices aligned withinternational standards.<br />We also take our corporate social responsibility seriously.<br />We take pride in our work because we do it for the better of ourcountry and its beautiful people.",
         "companyHistory":"Company History"
     },
     "ourServices": {

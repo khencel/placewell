@@ -21,11 +21,9 @@ export default function MissionVision() {
                 </div>
                 <h3 className={s.cardTitle}>{card.title}</h3>
 
-                {card.isHtml ? (
+                
                 <div className={s.cardText} dangerouslySetInnerHTML={{ __html: card.text }} />
-                ) : (
-                <p className={s.cardText}>{card.text}</p>
-                )}
+               
             </div>
             ))}
       </div>

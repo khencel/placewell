@@ -4,20 +4,7 @@ import { useTranslations } from "next-intl";
 export default function getMissionVision() {
     const t = useTranslations();
 
-    const corporateText = `
-        <strong>${t("corporateIdentity.corporatePhilosophy.line1")}</strong>
-        <br>${t("corporateIdentity.corporatePhilosophy.line2")}
-        <ol style="text-align:left">
-            <li>${t("corporateIdentity.corporatePhilosophy.reasons.1")}</li>
-            <li>${t("corporateIdentity.corporatePhilosophy.reasons.2")}</li>
-            <li>${t("corporateIdentity.corporatePhilosophy.reasons.3")}</li>
-        </ol>
-        <strong>${t("corporateIdentity.corporatePhilosophy.clientsTitle")}</strong>
-        <br>${t("corporateIdentity.corporatePhilosophy.clientsDesc")}
-        <br>
-        <br><strong>${t("corporateIdentity.corporatePhilosophy.csrTitle")}</strong>
-        <br>${t("corporateIdentity.corporatePhilosophy.csrDesc")}
-    `;
+    
 
     return [
         {
@@ -55,8 +42,8 @@ export default function getMissionVision() {
                 <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="#448153" strokeWidth="1.5" strokeLinecap="round"/>
             </svg>
             ),
-            text: corporateText,
-            isHtml: true,
+            text: t("corporateIdentity.corporatePhilosophy"),
+            isHtml: false,
         }
     ]
 }
