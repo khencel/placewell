@@ -3,10 +3,10 @@ import { RiTeamFill } from "react-icons/ri";
 import { FaUser } from "react-icons/fa";
 import { GiInjustice } from "react-icons/gi";
 import { IoDocumentSharp, IoCalculator  } from "react-icons/io5";
-import { useTranslations } from "next-intl";
 
-export function getDepartmentList(){
-    const t = useTranslations('department');
+
+export function getDepartmentList(t:any){
+   
     return [
         {
             icon:<RiTeamFill style={{fontSize:"2rem"}} />,
@@ -53,8 +53,7 @@ export function getDepartmentList(){
 }
 
 
-export function getAccount(){
-    const t = useTranslations('department');
+export function getAccount(t:any){
     return {
             icon:<IoCalculator style={{fontSize:"2rem"}} />,
             title: t('accounting'),

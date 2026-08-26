@@ -5,9 +5,10 @@ import s from "../../department-facilities/department/department.module.css"
 import { useTranslations } from "next-intl";
 
 export default function DepartmentPage() {
-    const departments = getDepartmentList();
-    const account = getAccount();
     const t = useTranslations('department');
+    const departments = getDepartmentList(t);
+    const account = getAccount(t);
+    
     return (
         <>
             <Banner
