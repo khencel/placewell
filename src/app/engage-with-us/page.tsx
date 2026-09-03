@@ -246,11 +246,11 @@ export default function EngageWithUs() {
                                         </Dropdown.Toggle>
 
                                         <Dropdown.Menu>
-                                            <Dropdown.Item onClick={() => handleDownload("en", "Placewell International - Company Profile.pdf")}>
+                                            <Dropdown.Item onClick={() => handleDownload("en", "Placewell Company Profile.pdf")}>
                                                 English
                                             </Dropdown.Item>
 
-                                            <Dropdown.Item onClick={() => handleDownload("jp", "PISCO概要署.pdf")}>
+                                            <Dropdown.Item onClick={() => handleDownload("jp", "PISCO概要書.pdf")}>
                                                 Japanese
                                             </Dropdown.Item>
                                         </Dropdown.Menu>
@@ -291,7 +291,28 @@ export default function EngageWithUs() {
                                     <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('profileHashira')}</span>
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
-                                    <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "柱日本語学校パンフレット.pdf")} >{t('download')} <FaDownload className={s.downloadIcon} /></button>
+                                    {/* <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "柱日本語学校パンフレット.pdf")} >{t('download')} <FaDownload className={s.downloadIcon} /></button> */}
+
+                                    <Dropdown >
+                                        <Dropdown.Toggle
+                                            className="btnprimary no-caret"
+                                            style={{ fontSize: "12px", padding: "10px", border: "none" }}
+                                        >
+                                            {t("download")} 
+                                            <FaDownload className={s.downloadIcon} />
+                                        </Dropdown.Toggle>
+
+                                        <Dropdown.Menu>
+                                            <Dropdown.Item onClick={() => handleDownload("en", "Hashira Skills Company Profile.pdf")}>
+                                                English
+                                            </Dropdown.Item>
+
+                                            <Dropdown.Item onClick={() => handleDownload("jp", "Hashira Skills概要書.pdf")}>
+                                                Japanese
+                                            </Dropdown.Item>
+                                        </Dropdown.Menu>
+                                    </Dropdown>
+                                    
                                 </div>
                             </div>
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
