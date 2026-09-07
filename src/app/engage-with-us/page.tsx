@@ -258,7 +258,7 @@ export default function EngageWithUs() {
                                 </div>
                             </div>
 
-                            <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
+                            {/* <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
                                 <div style={{width:"10%"}}><SiGoogledocs className={s.docsIcon} style={{color:"#11A17D"}} /></div>
                                 <div style={{width:"60%"}} className="d-flex align-items-center pt-2">
                                     <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('profileProtech')}</span>
@@ -284,7 +284,8 @@ export default function EngageWithUs() {
                                         </Dropdown.Menu>
                                     </Dropdown>
                                 </div>
-                            </div>
+                            </div> */}
+                            
                             <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
                                 <div style={{width:"10%"}}><SiGoogledocs className={s.docsIcon} style={{color:"#D2A446"}} /></div>
                                 <div style={{width:"60%"}} className="d-flex align-items-center pt-2">
@@ -315,7 +316,7 @@ export default function EngageWithUs() {
                                     
                                 </div>
                             </div>
-                            <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
+                            {/* <div className={`${s.items} d-flex gap-2 border p-2 rounded-4`}>
                                 <div style={{width:"10%"}}><IoBookSharp className={s.docsIcon} style={{color:"#553184"}} /></div>
                                 <div style={{width:"60%"}} className="d-flex align-items-center pt-2">
                                     <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('guide')}</span>
@@ -329,7 +330,7 @@ export default function EngageWithUs() {
                                 <div style={{width:"60%"}} className=" pt-2">
                                     <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('accreditation')}</span>
                                     <br />
-                                    {/* <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>{t('important')}</small> */}
+                                    
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
                                     <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "Sample of Completed Accreditation Documents.pdf")}>{t('download')} <FaDownload className={s.downloadIcon} /></button>
@@ -341,12 +342,12 @@ export default function EngageWithUs() {
                                 <div style={{width:"60%"}} className=" pt-2">
                                     <span className="title" style={{fontSize:"14px",fontWeight:"bold"}}>{t('faq')}</span>
                                     <br />
-                                    {/* <FaLock /><small className="text-danger" style={{fontWeight:"bold"}}>{t('important')}</small> */}
+                                   
                                 </div>
                                 <div style={{width:"23%"}} className="d-flex justify-content-end align-items-center">
                                     <button className="btnprimary" style={{fontSize:"12px",padding:"10px"}} onClick={() => handleDownload("jp", "FAQ.docx")}>{t('download')} <FaDownload className={s.downloadIcon} /></button>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* <div className="d-flex">
                                 <div style={{width:"50%"}}>
                                     <img src="/img/envelopLock.png" className="img-fluid" alt="" />
