@@ -4,7 +4,13 @@ import { useState, useMemo, useEffect, useCallback, CSSProperties } from "react"
 import { getGallery } from "@/data/gallery";
 import { useTranslations } from "next-intl";
 
-type Category = "ourWorkers" | "interview" | "tradetest" | "facilities" | "others";
+type Category = "ourWorkers" 
+                //   |
+                //  "interview" | 
+                //  "tradetest" | 
+                //  "facilities" | 
+                //  "others"
+                 ;
 
 
 interface Project {
@@ -17,45 +23,50 @@ interface Project {
 
 const projects: Project[] = getGallery() as Project[];
 
-type FilterKey = "ourWorkers" | "interview" | "tradetest" |
-  "facilities" | "others";
+type FilterKey = "ourWorkers" 
+                // | "interview" 
+                // | "tradetest" 
+                // |"facilities" 
+                // | "others"
+                ;
 
 const FILTER_KEYS: FilterKey[] = [
-  "ourWorkers", "interview", "tradetest",
-  "facilities", "others"
+  "ourWorkers", 
+  // "interview", "tradetest",
+  // "facilities", "others"
 ];
 
 const categoryLabels: Record<Category, string> = {
     ourWorkers: "Our Workers",
-    interview: "Interview",
-    tradetest: "Trade Test",
-    facilities: "Facilities",
-    others: "Others",
+    // interview: "Interview",
+    // tradetest: "Trade Test",
+    // facilities: "Facilities",
+    // others: "Others",
 };
 
 
 const categoryIcons: Record<Category, string> = {
-  interview: "⚙️",
+  // interview: "⚙️",
   ourWorkers: "🏗️",
-  facilities: "🏢",
-  tradetest: "🧪",
-  others: "📦"
+  // facilities: "🏢",
+  // tradetest: "🧪",
+  // others: "📦"
 };
 
 const tagColors: Record<Category, string> = {
-  interview: "#E24B4A",
+  // interview: "#E24B4A",
   ourWorkers: "#378ADD",
-  facilities: "#F59E0B",
-  tradetest: "#E24B4A",
-  others: "#F59E0B"
+  // facilities: "#F59E0B",
+  // tradetest: "#E24B4A",
+  // others: "#F59E0B"
 };
 
 const placeholderBg: Record<Category, string> = {
-  interview: "#fff1f1",
+  // interview: "#fff1f1",
   ourWorkers: "#eff6ff",
-  facilities: "#fffbeb",
-  tradetest: "#fff1f1",
-  others: "#fffbeb" 
+  // facilities: "#fffbeb",
+  // tradetest: "#fff1f1",
+  // others: "#fffbeb" 
 };
 
 // ─── Style helpers ──────────────────────────────────────────────────────────
@@ -435,10 +446,10 @@ export default function ProjectsGallery({ data = projects }: ProjectsGalleryProp
   const filtered = useMemo<Project[]>(() => {
     const categoryMap: Record<FilterKey, Category> = {
       ourWorkers:         "ourWorkers",
-      interview:          "interview",
-      tradetest:          "tradetest",
-      facilities:         "facilities",
-      others:             "others",
+      // interview:          "interview",
+      // tradetest:          "tradetest",
+      // facilities:         "facilities",
+      // others:             "others",
     };
 
     const mapped = categoryMap[activeFilter];
