@@ -175,11 +175,9 @@ export default function WorldWideCareers() {
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>{t("cleaners")}</span>
                                             <p className="subtitle">
-                                                Our highest-volume job order is 
-                                                <br />
-                                                the deployment of on-call 
-                                                <br />
-                                                cleaners to Saudi Arabia.
+                                                {t.rich("cleardersDesc", {
+                                                    br: () => <br />
+                                                })}
                                             </p>
                                         </span>
                                     </div>
@@ -192,15 +190,9 @@ export default function WorldWideCareers() {
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>{t("domestic")}</span>
                                             <p className="subtitle">
-                                               Placewell is recognized as a leading 
-                                               <br />
-                                               Philippine manpower agency for deploying 
-                                               <br />
-                                               domestic helpers to Hong Kong. We also 
-                                               <br />
-                                               deploy domestic helpers in the Middle 
-                                               <br />
-                                               East, Singapore, Malaysia, Mongolia, and Italy.
+                                               {t.rich("domesticDesc", {
+                                                    br: () => <br />
+                                                })}
                                             </p>
                                         </span>
                                     </div>
@@ -212,10 +204,9 @@ export default function WorldWideCareers() {
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>{t("food")}</span>
                                             <p className="subtitle">
-                                                We take pride in training and deploying the highest <br /> 
-                                                quality of Filipino food service workers across the <br />
-                                                globe and setting standards for service and hospitality. 
-                                                
+                                                {t.rich("foodDesc", {
+                                                    br: () => <br />
+                                                })}
                                             </p>
                                         </span>
                                     </div>
@@ -224,11 +215,11 @@ export default function WorldWideCareers() {
                                         {iconFlightGroundHandling()}
                                         <span className={s.label}>{t("flight")}</span>
                                         <span className={s.tooltip}>
-                                            <span className="title" style={{fontSize:"20px"}}>Flight Attendants and <br />Ground Handling Staff</span>
+                                            <span className="title" style={{fontSize:"20px"}}>{t("food")}</span>
                                             <p className="subtitle">
-                                                 We are a provider of flight attendants 
-                                                 <br />
-                                                 and ground handling staff for Kuwait Airways.
+                                                 {t.rich("flightDesc", {
+                                                    br: () => <br />
+                                                })}
                                             </p>
                                         </span>
                                     </div>
@@ -291,17 +282,9 @@ export default function WorldWideCareers() {
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>{t("nurses")}</span>
                                             <p className="subtitle">
-                                                We have deployed numerous nurses to 
-                                                <br />
-                                                hospitals in Saudi Arabia, including 
-                                                <br />
-                                                the Ministry of National Guard Health 
-                                                <br />
-                                                Affairs and Saudi German Hospital. 
-                                                <br />
-                                                We have also placed hundreds of nurses 
-                                                <br />
-                                                in hospitals across the United States.
+                                                {t.rich("nursesDesc", {
+                                                    br: () => <br />
+                                                })}
                                             </p>
                                         </span>
                                     </div>
@@ -314,15 +297,9 @@ export default function WorldWideCareers() {
                                         <span className={s.tooltip}>
                                             <span className="title" style={{fontSize:"20px"}}>{t("caregivers")}</span>
                                             <p className="subtitle">
-                                                We were among the first manpower agencies 
-                                                <br />
-                                                to deploy caregivers to Japan under the 
-                                                <br />
-                                                Technical Intern Training Program. 
-                                                <br />
-                                                We also deploy caregivers to Taiwan and 
-                                                <br />
-                                                Saudi Arabia.
+                                                {t.rich("caregiversDesc", {
+                                                    br: () => <br />
+                                                })}
                                             </p>
                                         </span>
                                     </div>

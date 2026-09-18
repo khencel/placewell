@@ -476,5 +476,145 @@
     "EuropeDesc": "Raspolažemo bazom radnika koji su već prošli provjeru znanja engleskog jezika i aktivno prikupljaju potrebnu dokumentaciju, što omogućuje brži i učinkovitiji proces zapošljavanja i odlaska na rad.",
     "Hong": "Hong Kong",
     "HongDesc": "Naš sustav Myra sadrži profesionalno izrađene videozapise stotina visokokvalificiranih kućnih pomoćnika koji su dostupni za rezervaciju jednim klikom."
-},"viewAll": "Prikaži sve"
+},"viewAll": "Prikaži sve",
+
+"faq": {
+    "title": "Često postavljana pitanja",
+    "subtitle": "Često postavljana pitanja",
+    "Frequently": "Često postavljana pitanja",
+    "generalTab": "Opće informacije",
+    "Accreditation": "Postupak akreditacije",
+    "Recruitment": "Postupak zapošljavanja",
+    "Deployment": "Upućivanje radnika",
+    "cost": "Troškovi i naknade",
+
+    "hireFilipino": "Zašto zaposliti filipinske radnike?",
+    "Filipino": "Filipinski radnici poznati su diljem svijeta po svojoj profesionalnosti, snažnoj radnoj etici, prilagodljivosti, sposobnosti komunikacije na engleskom jeziku i predanosti radu. Cijenjeni su u različitim industrijama i stekli su povjerenje poslodavaca diljem svijeta.",
+
+    "whyChoose": "Zašto odabrati Placewell International?",
+    "With": "S više od 50 godina iskustva u zapošljavanju, Placewell International jedna je od najpouzdanijih licenciranih agencija za zapošljavanje na Filipinima. Imamo više od 15 podružnica i 5 partnerskih centara za osposobljavanje diljem Filipina. Naš iskusni tim pruža personaliziranu podršku od početka do kraja – od akreditacije poslodavca, preko zapošljavanja i osposobljavanja, do uspješnog upućivanja kvalificiranih filipinskih radnika.",
+
+    "whatPlacewell": "Koje usluge pruža Placewell International?",
+    "Placewell": "Placewell International pruža cjelovita rješenja za zapošljavanje od početka do kraja, uključujući:",
+    "Employer": "Akreditacija poslodavca",
+    "MWO": "Koordinacija s MWO-om",
+    "Job": "Obrada zahtjeva za radnike",
+    "Candidate": "Pronalaženje i selekcija kandidata",
+    "Interview": "Organizacija razgovora s poslodavcem (uključujući testove stručnih vještina)",
+    "Visa": "Koordinacija postupka izdavanja vize",
+    "Documentation": "Pomoć pri pripremi dokumentacije",
+    "Worker": "Upućivanje radnika",
+    "Post": "Praćenje nakon upućivanja",
+
+    "accreditation": "Što je akreditacija?",
+    "accreditationDesc": "Akreditacija je postupak kojim se stranom poslodavcu odobrava zapošljavanje filipinskih radnika putem licencirane filipinske agencije za zapošljavanje.",
+
+    "required": "Zašto je potrebna akreditacija?",
+    "requiredDesc": "Akreditacija je potrebna prije nego što strana tvrtka može legalno zaposliti filipinske radnike putem filipinske agencije za zapošljavanje. Ona osigurava usklađenost s filipinskim propisima o radu i štiti dobrobit filipinskih radnika.",
+
+    "requirements": "Koji su osnovni uvjeti za akreditaciju?",
+    "requirementsDesc": "Zahtjevi se mogu razlikovati ovisno o zemlji i nadležnom Uredu za radnike migrante (MWO). Općenito, potrebni dokumenti uključuju:",
+    "Registration": "Potvrda o registraciji tvrtke",
+    "License": "Poslovna dozvola (ako je primjenjivo)",
+    "Profile": "Profil tvrtke",
+    "Agreement": "Ugovor o zapošljavanju",
+    "Order": "Zahtjev za radnike",
+    "Master": "Glavni ugovor o radu",
+    "Undertaking": "Obvezujuća izjava ili izjava poslodavca",
+    "Proof": "Dokaz o osiguranom smještaju",
+    "Copy": "Kopija putovnice ili važeće osobne iskaznice ovlaštene osobe za potpisivanje",
+
+    "How": "Koliko traje postupak akreditacije?",
+    "Initial": "Početna akreditacija: približno 2–4 tjedna, ovisno o potpunosti dokumentacije i procjeni MWO-a.",
+    "Additional": "Dodatni zahtjevi za radnike: približno 2–3 tjedna.",
+
+    "Is": "Je li akreditaciju potrebno dobiti samo jednom?",
+    "Yes": "Da. Nakon što nadležni MWO akreditira vašu tvrtku, općenito nije potrebno ponovno prolaziti cijeli postupak akreditacije, osim ako akreditacija istekne ili dođe do značajnih promjena u tvrtki. Za dodatne potrebe za radnicima obično je potreban samo dodatni zahtjev za radnike.",
+
+    "Do": "Moraju li svi dokumenti biti potpisani i ovjereni pečatom?",
+    "Most": "Da. Većinu dokumenata za akreditaciju mora potpisati ovlašteni predstavnik tvrtke, a gdje je primjenjivo, moraju imati i pečat tvrtke ili službeni pečat.",
+
+    "Does": "Treba li tvrtka poslati originale dokumenata?",
+    "Scanned": "Da. U početku se za procjenu MWO-a dostavljaju skenirane kopije. Nakon odobrenja, originalni potpisani i ovjereni dokumenti moraju se poslati MWO-u radi provjere.",
+
+    "verification": "Je li potrebna provjera od strane MWO-a?",
+    "Philippine": "Da. Dokumente za akreditaciju mora pregledati i provjeriti filipinski Ured za radnike migrante (MWO) nadležan za lokaciju poslodavca.",
+
+    "compliance": "Što se događa ako MWO zatraži dodatnu dokumentaciju ili usklađivanje?",
+    "employer": "Poslodavac mora dostaviti izmijenjene ili dodatne dokumente koje zatraži MWO. Obrada će se nastaviti nakon ispunjenja svih traženih uvjeta.",
+
+    "signatory": "Što se događa ako naša tvrtka promijeni ovlaštenu osobu za potpisivanje?",
+    "informed": "MWO mora biti obaviješten o promjeni, a prije nastavka postupka može biti potrebno dostaviti ažurirane dokumente koji odražavaju podatke nove ovlaštene osobe za potpisivanje.",
+
+    "visit": "Moramo li posjetiti Filipine tijekom postupka zapošljavanja?",
+    "entire": "Ne. Cijeli postupak akreditacije i zapošljavanja može se provesti na daljinu. Razgovori se mogu održavati putem Microsoft Teamsa, Zooma, Google Meeta ili drugih platformi za videokonferencije.",
+
+    "International": "Kako Placewell International pronalazi filipinske radnike?",
+    "InternationalDesc": "Placewell International ima više od 15 podružnica strateški raspoređenih diljem Filipina, što nam omogućuje pronalaženje kvalificiranih kandidata iz cijele zemlje. Osim naše mreže podružnica, aktivno zapošljavamo radnike putem naše Facebook stranice koja ima više od 500.000 pratitelja, kao i putem događanja za zapošljavanje koje sponzorira filipinska vlada. Ova nacionalna strategija zapošljavanja omogućuje nam brzo pronalaženje i pružanje kvalificiranih, polukvalificiranih i stručnih radnika prema potrebama naših klijenata.",
+
+    "quality": "Kako Placewell International osigurava kvalitetu svojih radnika?",
+    "qualityDesc": "Prije nego što se kandidati preporuče poslodavcima, prolaze sveobuhvatan postupak provjere i odabira koji provode naši stručnjaci za zapošljavanje. To uključuje:",
+    "qualityDesc1": "Početni razgovor i provjeru dokumentacije",
+    "qualityDesc2": "Procjenu komunikacijskih vještina na engleskom jeziku",
+    "qualityDesc3": "Provjeru radnog iskustva i kvalifikacija",
+    "qualityDesc4": "Procjenu ispunjava li kandidat zahtjeve poslodavca za određeno radno mjesto",
+    "qualityDesc5": "Odabir kvalificiranih kandidata za razgovor s poslodavcem",
+    "qualityDesc6": "Kvalificirani kandidati dodaju se u našu bazu talenata, što nam omogućuje da brzo osiguramo unaprijed provjerene kandidate kada naši klijenti imaju hitne potrebe za radnicima. Time se osigurava da poslodavci razgovaraju samo s najprikladnijim i kvalificiranim kandidatima.",
+
+    "ourselves": "Možemo li sami odabrati radnike?",
+    "ourselvesDesc": "Da. Placewell International provodi prethodnu provjeru i odabire kvalificirane kandidate, ali konačnu odluku o zapošljavanju uvijek donosi poslodavac.",
+
+    "hire": "Koliko radnika možemo zaposliti?",
+    "hireDesc": "Ne postoji fiksno ograničenje. Broj radnika ovisi o odobrenom zahtjevu za radnike i potrebama vaše tvrtke za radnom snagom.",
+
+    "positions": "Može li naša tvrtka zapošljavati radnike za različita radna mjesta?",
+    "positionsDesc": "Da. Jedan zahtjev za radnike može uključivati više kategorija radnih mjesta. Ako se kasnije pojavi potreba za dodatnim radnicima, Placewell International može pomoći u obradi dodatnog zahtjeva za radnike.",
+
+    "industries": "Za koje industrije zapošljavate radnike?",
+    "industriesDesc": "Zapošljavamo kvalificirane radnike za širok raspon industrija, uključujući:",
+    "industriesDesc1": "Vozači kamiona",
+    "industriesDesc2": "Zavarivači",
+    "industriesDesc3": "Građevinarstvo",
+    "industriesDesc4": "Proizvodnja",
+    "industriesDesc5": "Skladištenje i logistika",
+    "industriesDesc6": "Ugostiteljstvo",
+    "industriesDesc7": "Zdravstvo",
+    "industriesDesc8": "Prerada hrane",
+    "industriesDesc9": "Inženjerstvo",
+    "industriesDesc10": "Poljoprivreda",
+    "industriesDesc11": "Automobilska industrija",
+    "industriesDesc12": "I mnoge druge industrije prema zahtjevu.",
+
+    "certifications": "Možete li zaposliti radnike s određenim kvalifikacijama ili certifikatima?",
+    "certificationsDesc": "Da. Kandidati se zapošljavaju na temelju vaših točno definiranih zahtjeva, uključujući radno iskustvo, obrazovanje, certifikate, znanje jezika i specijalizirane tehničke vještine.",
+
+    "Howlong": "Koliko je vremena potrebno za upućivanje filipinskih radnika s Filipina?",
+    "HowlongDesc": "Vrijeme potrebno za upućivanje ovisi o radnom mjestu, postupku izdavanja vize i zahtjevima poslodavca.",
+    "HowlongDesc1": "Uobičajeni vremenski okvir:",
+    "HowlongDesc2": "Zapošljavanje i odabir: 2–4 tjedna",
+    "HowlongDesc3": "Obrada vize: 2–8 tjedana",
+    "HowlongDesc4": "Postupci prije odlaska: 1–2 tjedna",
+    "HowlongDesc5": "Procijenjeno ukupno vrijeme upućivanja: 2–3 mjeseca od odabira kandidata do njegova dolaska u odredišnu zemlju.",
+
+    "processes": "Tko obrađuje dokumente radnika?",
+    "processesDesc": "Placewell International pomaže radnicima u obradi svih potrebnih dokumenata na Filipinima, dok poslodavac obrađuje radnu dozvolu i vizu u odredišnoj zemlji.",
+
+    "happens": "Što se događa ako odabrani radnik odustane prije upućivanja?",
+    "happensDesc": "Odmah pronalazimo i preporučujemo kvalificiranu zamjenu kako bismo smanjili kašnjenja u vašem rasporedu zapošljavanja.",
+
+    "urgent": "Možemo li zatražiti radnike po hitnom postupku?",
+    "urgentDesc": "Da. Zahvaljujući našoj mreži podružnica diljem zemlje i postojećoj bazi talenata, na zahtjev možemo dati prioritet hitnim zahtjevima za radnicima.",
+
+    "support": "Kakvu podršku Placewell International pruža nakon upućivanja radnika?",
+    "supportDesc": "Naša predanost nastavlja se i nakon upućivanja. Održavamo blisku koordinaciju s poslodavcima i radnicima, pružamo pomoć u rješavanju pitanja nakon upućivanja te podržavamo buduće potrebe za radnicima kako bismo izgradili dugoročna partnerstva u području zapošljavanja.",
+
+    "expect": "Koje troškove poslodavci trebaju očekivati?",
+    "expectDesc": "Poslodavci su općenito odgovorni za:",
+    "expectDesc1": "Naknade za provjeru MWO-a",
+    "expectDesc2": "Troškove kurirske službe",
+    "expectDesc3": "Obradu vize i radne dozvole",
+    "expectDesc4": "Troškove zrakoplovne karte (gdje je primjenjivo)",
+    "expectDesc5": "Osiguranje i druge zahtjeve prema zakonima o radu odredišne zemlje",
+    "expectDesc6": "Detaljan pregled troškova bit će dostavljen prije početka postupka."
+}
 }
