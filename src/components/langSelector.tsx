@@ -12,6 +12,8 @@ const LANGUAGES = [
   { value: "lt",  flag: "🇱🇹", label: "Lithuanian", native: "Lietuvių"  },
   { value: "hr",  flag: "🇭🇷", label: "Croatian",   native: "Hrvatski"  },
   { value: "pl",  flag: "🇵🇱", label: "Polish",     native: "Polski"    },
+  { value: "cs",  flag: "🇨🇿", label: "Czech",      native: "Čeština"   },
+  { value: "hu",  flag: "🇭🇺", label: "Hungarian",  native: "Magyar"    },
 ];
 
 export function LanguagePicker() {
